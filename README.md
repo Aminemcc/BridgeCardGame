@@ -2,6 +2,10 @@
 
 Pengaturan ini bisa digunakan untuk practice & bidding table
 <br>
+Practice Table : Bermain berempat (bisa dengan diri sendiri) atau robot jika punya
+<br>
+Bidding Table : Hanya Bidding tetapi harus berdua / sama partner
+<br>
 Setelah masuk table :
 1. Klik garis 3 di kiri atas
 2. Klik "Deal Source" atau ketiga dari bawah
