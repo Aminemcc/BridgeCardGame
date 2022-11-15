@@ -83,7 +83,7 @@ HCPW12Plus = hcp(west) >= 12
 //Cek apakah hcp north terdapat pada rentang [15,17]
 HCPN_15_17 = 15 <= hcp(north) && hcp(north) <= 17
 ```
-diakhir untuk membuat distribusi yang diberikan oleh BBO mengeluarkan logic yang kita telah simpan pada variabel jalankan perintah pada bagian berikutnya
+diakhir untuk membuat distribusi yang diberikan oleh BBO mengeluarkan logic yang kita telah simpan pada variabel jalankan perintah pada bagian berikutnya yaitu "condition"
 
 ### Condition
 Command "condition" digunakan untuk mengecek kartu yang telah digenerate apakah sesuai dengan logic yang diberikan, jika tidak akan di-skip, jika memenuhi akan diberikan kepada pemain
