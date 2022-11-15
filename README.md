@@ -13,18 +13,18 @@ setelah masuk table :
 9. Redeal
 
 ## Catatan
-1. Kartu yang diatur lewat codingan adalah South
-2. Bisa saja partner mendapatkan kartu opening lain, sehingga jika ingin selalu opening,
+- Kartu yang diatur lewat codingan adalah South
+- Bisa saja partner mendapatkan kartu opening lain, sehingga jika ingin selalu opening,
 	jangan centang pilihan pertama (rotate 180 degree) dan dealer selalu south
 <img src="images/random_180_off_south.jpg">
-3. Kartu musuh diatur supaya tidak bisa overcall, jika ingin bisa overcall, hapus bagian ini :
+- Kartu musuh diatur supaya tidak bisa overcall, jika ingin bisa overcall, hapus bagian ini :
 ```
 //Supaya kemungkinan musuh melakukan bid sangat kecil
 balancedOpps = shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333)
 balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
 conditionEW = balancedOpps && balancedHCP
 ```
-4. Jika ingin selalu Game / ++, edit bagian ini :
+- Jika ingin selalu Game / ++, edit bagian ini :
 ```
 //Jika ingin kartunya mengarah game terus, 
 //atur ini ke ">= 24 atau 25"
