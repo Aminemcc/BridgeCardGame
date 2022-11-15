@@ -34,6 +34,7 @@ Potongan script tersebut akan memberikan distribusi musuh yang balance tanpa 5 l
 //atur ini ke ">= 24 atau 25"
 totalHCP = (hcp(south) + hcp(north)) >= 21
 ```
+- Jika ingin dibuatkan script, menemukan error, dll, dapat menghubungi saya lewat email : aminemc236@gmail.com
 
 ## Cara menulis Script sendiri
 Berikut beberapa command / syntax agar bisa menulis sendiri
