@@ -14,6 +14,7 @@ setelah masuk table :
 
 ## Catatan
 - Kartu yang diatur lewat script agar melakukan opening adalah South
+- East & West diatur agar tidak bisa melakukan bidding
 - Bisa saja partner mendapatkan kartu opening lain, sehingga jika ingin selalu opening,
 	jangan centang pilihan pertama (rotate 180 degree) dan dealer selalu south
 <img src="images/random_180_off_south.jpg">
