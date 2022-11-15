@@ -16,6 +16,7 @@ setelah masuk table :
 1. Kartu yang diatur lewat codingan adalah South
 2. Bisa saja partner mendapatkan kartu opening lain, sehingga jika ingin selalu opening,
 	jangan centang pilihan pertama (rotate 180 degree) dan dealer selalu south
+<img src="random_180_off_south.jpg">
 3. Kartu musuh diatur supaya tidak bisa overcall, jika ingin bisa overcall, hapus bagian ini :
 ```
 //Supaya kemungkinan musuh melakukan bid sangat kecil
