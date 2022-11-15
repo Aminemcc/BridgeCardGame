@@ -123,9 +123,16 @@ shape(east, any 5332)
 ```
 
 #### x shape
-shape di bawah akan mengecek apakah south memegang 55 minor tanpa mempedulikan distribusi di suit lainnya
+shape di bawah akan mengecek apakah tangan south mempunyai lembaran sesuai shape tanpa mempedulikan distribusi di suit lainnya yang x
 ```
+//55 minor
 shape(south, xx55)
+//55 Major
+shape(south, 55xx)
+//55 any two suiter
+shape(south, any 55xx)
+//Weak 8 dengan void
+shape(south, any 80xx)
 ```
 
 #### + shape
