@@ -8,7 +8,7 @@ setelah masuk table :
 4. Wajib centang pilihan kedua
 5. Pilih Dealer
 6. Jika ingin gantian yang dapet kartu settingan, centang pilihan pertama
-7. Copy salah satu codingan / settingan dari file lain, misal "Open_1C.txt"
+7. Copy salah satu script, misal "Open_1C.txt"
 8. Paste di BBO-nya
 9. Redeal
 
@@ -27,7 +27,7 @@ conditionEW = balancedOpps && balancedHCP
 ```
 Potongan script tersebut akan memberikan distribusi musuh yang balance tanpa 5 lembar dan hcp yang rata, sehingga tidak bisa melakukan overcall
 
-- Jika ingin selalu Game / better, edit bagian ini :
+- Jika ingin selalu Game / better / worse, edit bagian ini :
 ```
 //Jika ingin kartunya mengarah game terus, 
 //atur ini ke ">= 24 atau 25"
