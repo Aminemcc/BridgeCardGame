@@ -1,7 +1,8 @@
 # BBO Script
 
 Pengaturan ini bisa digunakan untuk practice & bidding table
-setelah masuk table :
+<br>
+Setelah masuk table :
 1. Klik garis 3 di kiri atas
 2. Klik "Deal Source" atau ketiga dari bawah
 3. Klik "Advanced" atau yang paling kanan
