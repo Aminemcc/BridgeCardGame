@@ -172,7 +172,7 @@ Berikut contoh script untuk opening 1C presisi yaitu "16-17 HCP Unbalance / 18+ 
 southHCP = hcp(south) >= 16
 
 southHCP_16_17 = 16 <= hcp(south) && hcp(south) <= 17
-southHCP_18 = hcp(south) == 18
+southHCP_18 = hcp(south) >= 18
 
 //Distribusi South
 southBal = shape(south, any 4432 + any 4333 + any 5332)

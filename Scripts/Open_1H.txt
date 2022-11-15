@@ -13,14 +13,15 @@ balancedHCP = 1
 
 //Rentang HCP South
 southHCP = 12 <= hcp(south) && hcp(south) <= 15
+
+southHCP_12_14 = 12 <= hcp(south) && hcp(south) <= 14
 southHCP_15 = hcp(south) == 15
 
 //Distribusi South
 southH = hearts(south) >= 5
 southM = spades(south) < hearts(south)
 south5332 = shape(south, any 5332)
-southDist = (southH && southM && !south5332) || 
-	(!southHCP_15 && south5332 && southH)
+southDist = !( !south5332 || southHCP_12_14 ) || ( southH && southM && !south5332)
 
 //Jika ingin kartunya mengarah game terus, 
 //atur ini ke ">= 24 atau 25"
