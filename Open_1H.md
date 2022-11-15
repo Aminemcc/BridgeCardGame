@@ -1,0 +1,46 @@
+```
+//----- Open 1H -----//
+//1H = 12-15 5+H
+//Jika bisa open 1S, lbr S < H
+//No 15 HCP Bal 5H => Open 1NT
+
+//deklarasi variable yang bisa dihapus
+conditionEW = 1
+northDist = 1
+totalHCP = 1
+balancedOpps = 1
+balancedHCP = 1
+//---done---//
+
+//Rentang HCP South
+southHCP = 12 <= hcp(south) && hcp(south) <= 15
+southHCP_15 = hcp(south) == 15
+
+//Distribusi South
+southH = hearts(south) >= 5
+southM = spades(south) < hearts(south)
+south5332 = shape(south, any 5332)
+southDist = (southH && southM && !south5332) || 
+	(!southHCP_15 && south5332 && southH)
+
+//Jika ingin kartunya mengarah game terus, 
+//atur ini ke ">= 24 atau 25"
+totalHCP = (hcp(south) + hcp(north)) >= 21
+
+//Distribusi North, sementara set true saja
+northDist = 1
+
+//Supaya kemungkinan musuh melakukan bid sangat kecil
+balancedOpps = shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333)
+balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
+
+//Kondisi East - West
+conditionEW = balancedOpps && balancedHCP
+
+//Kondisi South - North
+conditionSN = southHCP && southDist && totalHCP && northDist
+
+condition conditionEW && conditionSN
+
+//----- ..... -----//
+```

@@ -1,0 +1,40 @@
+```
+//----- Open 1C -----//
+//1C = 16-17 Unbalance or 18+ any
+//Balance : 4333, 4432, 5332
+
+//deklarasi variable yang bisa dihapus
+conditionEW = 1
+northDist = 1
+totalHCP = 1
+balancedOpps = 1
+balancedHCP = 1
+//---done---//
+
+//Rentang HCP South
+southHCP = hcp(south) >= 16
+southHCP_16_17 = 16 <= hcp(south) && hcp(south) <= 17
+
+//Distribusi South
+southBal = shape(south, any 4432 + any 4333 + any 5332)
+southDist = (southHCP || (southHCP_16_17 && !southBal))
+
+//Jika ingin kartunya mengarah game terus, 
+//atur ini ke ">= 24 atau 25"
+totalHCP = (hcp(south) + hcp(north)) >= 21
+
+//Distribusi North, sementara set true saja
+northDist = 1
+
+//Supaya kemungkinan musuh melakukan bid sangat kecil
+balancedOpps = shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333)
+balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
+conditionEW = balancedOpps && balancedHCP
+
+//Kondisi South - North
+conditionSN = southHCP && southDist && totalHCP && northDist
+
+condition conditionEW && conditionSN
+
+//----- ..... -----//
+```
