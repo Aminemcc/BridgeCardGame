@@ -47,6 +47,11 @@ Berikut beberapa command / syntax agar bisa menulis sendiri
 ### Logic / Syntax
 Logic pada BBO script ada beberapa yaitu :
 ```
++	: tambah
+-	: kurang
+*	: kali
+/	: bagi
+%	: modulo
 1   : True
 0   : False
 &&  : dan
@@ -89,6 +94,12 @@ HCPW12Plus = hcp(west) >= 12
 //Cek apakah hcp north terdapat pada rentang [15,17]
 HCPN_15_17 = 15 <= hcp(north) && hcp(north) <= 17
 ```
+Kita juga bisa mengecek HCP pada salah satu suit
+```
+//Cek apakah south mempunyai 10 HCP pada suit Heart
+hcp(south, heart) == 10
+```
+
 diakhir untuk membuat distribusi yang diberikan oleh BBO mengeluarkan logic yang kita telah simpan pada variabel jalankan perintah pada bagian berikutnya yaitu "condition"
 
 ### Condition
