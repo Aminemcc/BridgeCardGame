@@ -104,15 +104,38 @@ diamonds(south) > 6
 
 ### Shape
 Shape merupakan salah satu tool terkuat yang dimiliki BBO untuk mengeluarkan distribusi, berikut beberapa beserta penjelasan
+#### simple shape
+shape di bawah akan mengecek tangan north, apakah distribusinya 5431 dengan 5 Spades, 4 Hearts, 3 Diamonds, 1 Clubs
 ```
 shape(north, 5431)
 ```
-shape di atas akan mengecek tangan north, apakah distribusinya 5431 dengan 5 Spades, 4 Hearts, 3 Diamonds, 1 Clubs
+
+#### any shape
+shape di bawah akan mengecek tangan east apakah 5332, akan tetapi bisa teracak tidak harus sesuai urutan spade, heart, diamond, club
 ```
 shape(east, any 5332)
 ```
-shape di atas akan mengecek tangan east apakah 5332, akan tetapi bisa teracak siapa yang 5
 
+#### x shape
+shape di bawah akan mengecek apakah south memegang 55 minor tanpa mempedulikan distribusi di suit lainnya
+```
+shape(south, xx55)
+```
 
+#### + shape
+shape di bawah akan mengecek tangan west apakah 4333 atau 4432 atau 5332 tidak harus seusai urutan SHDC karena ada "any"
+```
+shape(west, any 4333 + any 4432 + any 5332)
+```
+shape di atas sering digunakan untuk mendapatkan distribusi balance
+
+#### - shape
+shape di bawah akan mengecek apakah tangan south balance, tetapi tidak mempunyai 5 lembar Major
+```
+shape(south, any 4333 + any 4432 + any 5332 - 5xxx - x5xx)
+```
+"- 5xxx" membuat distribusi tidak boleh mempunyai 5 lembar spade dengan tidak mempedulikan suit lainnya, jika digabungkan dengan "+ any 5332", maka kita tidak akan mendapatkan 5332 dengan spade 5 lembar
+<br>
+begitu juga dengan heart "- x5xx"
 
 
