@@ -93,5 +93,26 @@ condition HCPW12Plus && HCPN_15_17
 taruh command tersebut di akhir script
 condition hanya boleh sekali, jika lebih dari sekali, hanya menerapkan condition yang terakhir kali dipanggil
 
+### Lembaran Trump
+Kita bisa mengecek lembaran masing masing suit yaitu dengan command ["namaSuit"+"s({player})"] atau langsung saja lihat contohnya
+```
+spades(north) > 5
+hearts(west) == 4
+clubs(east) < 2
+diamonds(south) > 6
+```
+
+### Shape
+Shape merupakan salah satu tool terkuat yang dimiliki BBO untuk mengeluarkan distribusi, berikut beberapa beserta penjelasan
+```
+shape(north, 5431)
+```
+shape di atas akan mengecek tangan north, apakah distribusinya 5431 dengan 5 Spades, 4 Hearts, 3 Diamonds, 1 Clubs
+```
+shape(east, any 5332)
+```
+shape di atas akan mengecek tangan east apakah 5332, akan tetapi bisa teracak siapa yang 5
+
+
 
 
