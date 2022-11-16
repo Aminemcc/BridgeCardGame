@@ -24,20 +24,17 @@ Setelah masuk table :
 	jangan centang pilihan pertama (rotate 180 degree) dan dealer selalu south
 <img src="images/random_180_off_south.jpg">
 
-- Kartu musuh diatur supaya tidak bisa overcall, jika ingin bisa overcall, hapus bagian ini :
+- Kartu musuh diatur supaya tidak bisa overcall, jika ingin bisa overcall, ubah nilai variabel can_bid_EW ke 1:
 ```
-//Supaya kemungkinan musuh melakukan bid sangat kecil
-balancedOpps = shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333)
-balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
-conditionEW = balancedOpps && balancedHCP
+can_bid_EW = 1
 ```
 Potongan script tersebut akan memberikan distribusi musuh yang balance tanpa 5 lembar dan hcp yang rata, sehingga tidak bisa melakukan overcall
 
-- Jika ingin selalu Game / better / worse, edit bagian ini :
+- Jika ingin mengganti rentang minimum maksimum HCP North + South ( default : [21,41] ), edit bagian ini :
 ```
-//Jika ingin kartunya mengarah game terus, 
-//atur ini ke ">= 24 atau 25"
-totalHCP = (hcp(south) + hcp(north)) >= 21
+//Minimum HCP North + South
+min_hcp_NS = 21
+max_hcp_NS = 40
 ```
 - Jika ingin dibuatkan script, menemukan error, dll, dapat menghubungi saya lewat email : aminemc236@gmail.com
 
@@ -65,6 +62,7 @@ Logic pada BBO script ada beberapa yaitu :
 !=  : tidak sama dengan
 ()  : tanda kurung
 //  : Comment
+?:	: (ekspresi) ? true : false
 ```
 
 ### Variable
@@ -74,9 +72,20 @@ nama_variabel = 1
 ```
 Pada contoh di atas, kita set nilai dari nama_variabel True
 <br>
-Nama variabel yang tidak diperbolehkan adalah diawali dengan angka, mengandung spesial karakter selain "_"
+Nama variabel hanya boleh diawali dengan huruf, tidak mengandung spesial karakter selain "_"
+<br>
+Berikut contoh penulisan variabel yang benar
+```
+nama_variabel
+south5332
+northHCP
+eastHCP_16_17
+```
+
+Berikut contoh penulisan variabel yang salah
 ```
 123_adf
+_nama
 nama variabel
 hcpw_12++
 ```
