@@ -31,7 +31,7 @@ balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
 conditionEW = (can_bid_EW) ? 1 : balancedOpps && balancedHCP
 
 //Kondisi South - North
-conditionSN = southHCP && southDist && totalHCP && northDist
+conditionSN = southHCP && southDist && totalHCP
 
 condition conditionEW && conditionSN
 
