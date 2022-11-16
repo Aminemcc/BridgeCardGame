@@ -28,9 +28,9 @@ Setelah masuk table :
 ```
 can_bid_EW = 1
 ```
-Potongan script tersebut akan memberikan distribusi musuh yang balance tanpa 5 lembar dan hcp yang rata, sehingga tidak bisa melakukan overcall
+EW akan diberikan distribusi yang balance tanpa 5 lembar dan hcp yang rata, sehingga kemungkinan melakukan overcall sangat kecil
 
-- Jika ingin mengganti rentang minimum maksimum HCP North + South ( default : [21,41] ), edit bagian ini :
+- Jika ingin mengganti rentang minimum maksimum HCP North + South ( default : [21,40] ), edit bagian ini :
 ```
 //Minimum HCP North + South
 min_hcp_NS = 21
