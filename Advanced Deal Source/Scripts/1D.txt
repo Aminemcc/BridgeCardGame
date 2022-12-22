@@ -20,12 +20,13 @@ southHCP_15 = hcp(south) == 15
 //Distribusi South
 southH = hearts(south) >= 5
 southS = spades(south) >= 5
-southC = clubs(south) >= 6
+southC = clubs(south)
+southD = diamonds(south)
+minors = (southC >= 4 && southD >= 4 && southC + southD >= 9)
 southBalance = shape(south, any 4333 + any 4432 + any 5332 - 5xxx - x5xx)
-southBannedDist = shape(south, 4405 + 4405 + 4x5x + x45x)
-southDist = (southHCP_12_14 && southBalance) || 
-	( ( (southHCP_15 && !southBalance) || southHCP_12_14) &&
-	!southH && !southS && !southC && !southBannedDist )
+southBannedDist = shape(south, 4414 + 4405 + 4xx5 + x4x5)
+southDist = (!southH && !southS && !southBannedDist) 
+	&& ( (southHCP_15 && !southBalance) || (southC < 6 || minors) )
 
 total = hcp(south) + hcp(north)
 totalHCP = min_hcp_NS <= total && total <= max_hcp_NS
