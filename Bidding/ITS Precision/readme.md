@@ -18,7 +18,7 @@
 ♣ ♦ ♥ ♠ 
 
 ## 1C
-[Go To Sequence](#1c)
+[Go To Sequence](#1c-) <br>
 1C = 16+ HCP any dist <br>
 Secara lebih detail arti opening 1C : <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
