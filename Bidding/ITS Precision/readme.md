@@ -18,6 +18,7 @@
 ♣ ♦ ♥ ♠ 
 
 ## 1C
+[Go To Sequence](#1c)
 1C = 16+ HCP any dist <br>
 Secara lebih detail arti opening 1C : <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
@@ -103,6 +104,7 @@ Setelah opening, berikut sequence biddingnya
 - 2D = 8+ HCP 5+D
 
 ## 1C-1D
+[Back](#1c) <br>
 1C - 1D = 0-7 HCP any dist <br>
 - 1H = 20+ HCP any dist
 - 1S = 16-19 HCP 5+S
