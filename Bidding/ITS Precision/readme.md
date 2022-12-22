@@ -1,4 +1,4 @@
-Markup : [***Bidding System ITS Precision Modified***](#opening)
+# Bidding System ITS Precision Modified #
 
 [c](#c)  
 [cd](#cd)
