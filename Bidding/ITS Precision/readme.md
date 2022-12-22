@@ -13,6 +13,7 @@
     - [3X](#3x)
     - [3NT](#3nt)
     - [4X](#4x)
+- [Sequence](#sequence)
 
 # Opening
 ♣ ♦ ♥ ♠ 
@@ -94,6 +95,10 @@ Note :
 
 # Sequence
 Setelah opening, berikut sequence biddingnya
+
+List Sequences : <br>
+- [1C](#1C-)
+    - [1C-1D](#1c-1d)
 ## 1C-
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
@@ -104,7 +109,7 @@ Setelah opening, berikut sequence biddingnya
 - 2D = 8+ HCP 5+D
 
 ## 1C-1D
-[Back](#1c) <br>
+[Back](#1c-) <br>
 1C - 1D = 0-7 HCP any dist <br>
 - 1H = 20+ HCP any dist
 - 1S = 16-19 HCP 5+S
