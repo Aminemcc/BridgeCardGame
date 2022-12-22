@@ -100,6 +100,7 @@ List Sequences : <br>
 - [1C](#1C-)
     - [1C-1D](#1c-1d)
 ## 1C-
+[Back](#sequence) <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
 - 1H = 8+ HCP 5+H
