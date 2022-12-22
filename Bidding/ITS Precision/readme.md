@@ -1,9 +1,10 @@
+Markup : [***Bidding System ITS Precision Modified***](#opening)
 
 [c](#c)  
 [cd](#cd)
-[cd](##cd)
 
-# aa
+# Opening
+1C
 
 
 
@@ -38,4 +39,4 @@
 # c
 
 
-## cd
+## opening
