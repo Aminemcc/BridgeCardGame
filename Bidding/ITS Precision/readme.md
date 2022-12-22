@@ -95,7 +95,7 @@ Note :
 Setelah opening, berikut sequence biddingnya
 ## 1C-
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
-- 1D = 0-7 HCP any dist
+- [1D = 0-7 HCP any dist](#1c-1d)
 - 1H = 8+ HCP 5+H
 - 1S = 8+ HCP 5+S
 - 1NT= 8+ HCP Balance
