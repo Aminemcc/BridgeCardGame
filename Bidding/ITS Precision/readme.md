@@ -94,6 +94,7 @@ Note :
 # Sequence
 Setelah opening, berikut sequence biddingnya
 ## 1C-
+1C <br>
 - 1D = 0-7 HCP any dist
 - 1H = 8+ HCP 5+H
 - 1S = 8+ HCP 5+S
@@ -102,12 +103,13 @@ Setelah opening, berikut sequence biddingnya
 - 2D = 8+ HCP 5+D
 
 ### 1C-1D
-1H = 20+ HCP any dist
-1S = 16-19 HCP 5+S
-1NT= 18-19 HCP Balance
-2C = 16-19 HCP 5+C
-2D = 16-19 HCP 5+D
-2H = 16-19 HCP 5+H
+- 1C - 1D
+- 1H = 20+ HCP any dist
+- 1S = 16-19 HCP 5+S
+- 1NT= 18-19 HCP Balance
+- 2C = 16-19 HCP 5+C
+- 2D = 16-19 HCP 5+D
+- 2H = 16-19 HCP 5+H
 
 
 
