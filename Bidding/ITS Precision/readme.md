@@ -104,11 +104,14 @@ Note :
 Setelah opening, berikut sequence biddingnya
 
 List Sequences : <br>
-- [1C](#Sequence-1C)
+- [1C = 16-17 HCP Unbalance / 18+ HCP any](#Sequence-1C)
     - [1C-1D](#1c-1d)
         - [1C-1D-1H](#1c-1d-1h)
-            - [1C-1D-1H-1S](%1c-1d-1h-1s)
-- [1D](#Sequence-1D)
+            - [1C-1D-1H-1S](#1c-1d-1h-1s)
+                - [1C-1D-1H-1S-2C](#1c-1d-1h-1s-2c)
+            - 1C-1D-1H-1NT
+                -[1C-1D-1H-1NT-2C](#1c-1d-1h-1nt-2c)
+- [1D = 12-15 HCP 2+D](#Sequence-1D)
     - [1D-1H](#1d-1h)
     - [1D-1S](#1d-1s)
     - [1D-1NT](#1d-1nt)
@@ -116,10 +119,10 @@ List Sequences : <br>
         - [1D-2C-2H](#1d-2c-2h)
     - [1D-2D](#1d-2d)
     - [1D-2H](#1d-2h)
-- [1H](#sequence-1h)
+- [1H = 12-15 HCP 5+H](#sequence-1h)
     - [1H-1S](#1h-1s)
-- [1S](#sequence-1s)
-- [1NT](#sequence-1nt)
+- [1S = 12-15 HCP 5+S](#sequence-1s)
+- [1NT= 15-17 HCP Balance](#sequence-1nt)
     - [1NT-2C](#1nt-2c)
         - [1NT-2C-2D](#1nt-2c-2d)
             - [1NT-2C-2D-3C](#1nt-2c-2d-3c)
@@ -145,6 +148,17 @@ List Sequences : <br>
         - [1NT-2NT-3C](#1nt-2nt-3c)
             - 1NT-2NT-3C-3D
                 - [1NT-2NT-3C - 3D - 3H](#1nt-2nt-3c-3d-3h)
+- [2C = 12-15 HCP 5C + 4M / 6+C](#sequence-2c)
+    - [2C-2D](#2c-2d)
+        - [2C-2D-2H](#2c-2d-2h)
+            - [2C-2D-2H-2S](#2c-2d-2h-2s)
+        - [2C-2D-2S](#2c-2d-2s)
+            - 2C-2D-2S-3D
+                - [2C-2D-2S-3D-3H](#2c-2d-2s-3d-3h)
+        - [2C-2D-2NT/3C](#2c-2d-2nt3c)
+- [2D = 12-15 HCP 4414 / 4405](#sequence-2d)
+- [2H = 8-10 HCP 6+H](#sequence-2H)
+- [2S = 8-10 HCP 6+S](#sequence-2s)
 ## Sequence 1C
 [Back](#sequence) <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any <br>
@@ -176,8 +190,8 @@ Note :
 
 ## 1C-1D-1H
 [Back](#1c-1d)<br>
-- 1S = 0-4 HCP any / 5-7 HCP Balance
-- 1NT= 5-7 HCP 5+M
+- [1S = 0-4 HCP any / 5-7 HCP Balance](#1c-1d-1h-1s)
+- [1NT= 5-7 HCP 5+M](#1c-1d-1h-1nt-2c)
 - 2C = 5-7 HCP 5+C
 - 2D = 5-7 HCP 5+D
 - 2H = 5-7 HCP 4441 any singleton
@@ -193,11 +207,32 @@ Note :
 ## 1C-1D-1H-1S
 [Back](#1c-1d-1h) <br>
 - 1NT= 20-23 HCP Balance
-- 2C = 24+ HCP any
+- [2C = 24+ HCP any](#1C-1D-1H-1S-2C)
 - 2D = 20-23 HCP 5+D
 - 2H = 20-23 HCP 5+H
 - 2S = 20-23 HCP 5+S
 - 2NT= 20-23 HCP 5+C
+
+## 1C-1D-1H-1S-2C
+[Back](#1c-1d-1h-1s)<br>
+- 2D = Default bid
+- 2H = ?
+- 2S = ?
+- 2NT= ?
+
+## 1C-1D-1H-1NT-2C
+[Back](#1c-1d-1h)<br>
+2C = Ask M
+- 2D = Transfer to H 5+H
+- 2H = Transfer to S 5+S
+
+Note :
+- ACC transfer berarti fit
+- Setelah di acc transfer, bid short, no short bid NT
+- bisa re-transfer jika gak diacc
+- bisa fast arrival langsung game = 5 HCP no short
+
+
 ## Sequence 1D
 [Back](#sequence) <br>
 1D = 12-15 HCP 2+D <br>
@@ -541,11 +576,141 @@ Note :
 - Tujuan bidding harus SI, sehingga harus ada short
 
 ## 1NT-2NT-3C-3D-3H
-[Back](1nt-2nt-3c)<br>
+[Back](#1nt-2nt-3c)<br>
 3H = ask short
 - 3S = Splinter S
 - 3NT= Splinter H
 
+## Sequence 2C
+[Back](#sequence)<br>
+2C = 12-15 HCP 5C + 4M / 6+C
+- [2D = Ask dist (Siap dijawab apapun)](#2c-2d)
+- 2H = 8+ HCP 5+H
+- 2S = 8+ HCP 5+S
+- 2NT= Puppet to 3C
+- 3C = 8-11 HCP 55M
+- 3D = ?
+- 3H = Splinter H 4+C SI
+- 3S = Splinter S 4+C SI
+- 3NT= T/P
+- 4C = Preemptive
+- 4D = Splinter D 4+C SI
+- 4H = ?
+- 4S = ?
+- 4NT= ?
+- 5C = T/P
+- 5D = Exclusion D 4+C
+
+## 2C-2D
+[Back](#sequence-2c)<br>
+- [2H = 4H](#2c-2d-2h)
+- [2S = 4S](#2c-2d-2s)
+- [2NT= 14-15 HCP 6+C](#2c-2d-2nt3c)
+- [3C = 12-13 HCP 6+C](#2c-2d-2nt3c)
+
+## 2C-2D-2H
+[Back](#2c-2d)<br>
+- [2S = GF Fit C/H](#2c-2d-2h-2s)
+- 2NT= Invite
+- 3C = NF (Lebih ke T/P)
+- [3D = GF 5/6+D no fit C/H](#2c-2d-2h-3d)
+- 3H = 10-11 HCP fit H (Invite)
+- 3S = Splinter S fit H SI
+- 3NT= T/P
+- 4C = Splinter C fit H SI
+- 4D = Splinter D fit H SI
+- 4H = T/P
+
+## 2C-2D-2H-2S
+[Back](#2c-2d-2h)<br>
+- 2NT= No Splinter
+- 3C = Splinter bawah (D)
+- 3D = Splinter atas (S)
+- 3H = Splinter both (D & S)
+
+## 2C-2D-2H-3D
+[Back](#2c-2d-2h)<br>
+- [3H = 1435](#2c-2d-2h-3d-3h)
+- 3S = No stopper S
+- 3NT= Stopper S
+
+## 2C-2D-2H-3D-3H
+[Back](#2c-2d-2h-3d)<br>
+- 3S = Show stopper S, no stopper D
+- 3NT= T/P
+- 4C = Fit D cue C
+- 4D = Fit D no cue C
+- 4H = Fit D cue H
+
+## 2C-2D-2S
+[Back](#2c-2d)<br>
+- 2NT= Invite
+- 3C = NF (Lebih ke T/P)
+- [3D = Puppet to 3H GF](#2c-2d-2s-3d-3h)
+- 3H = GF fit S
+- 3S = 10-11 HCP fit S (Invite)
+- 3NT= T/P
+- 4C = Splinter C fit S SI
+- 4D = Splinter D fit S SI
+- 4H = Splinter H fit S SI
+- 4S = T/P
+
+Note :
+- 3D :
+    - No fit S
+    - Bisa fit C
+    - Biasanya kartunya panjang D
+    - Tidak ada / kurang stopper H
+- 3NT :
+    - Stopper H aman (2x stopper)
+
+## 2C-2D-2S-3D-3H
+[Back](#2c-2d-2s)<br>
+- 3S = 5/6+D, no stopper H / short H SI-D
+- 3NT= 6+D, 1 stopper H
+- 4C = Set fit C
+
+Note :
+- 3S :
+    - Kalau mau set fit D lewat 3S
+- 3NT : 
+    - 3NT delay, ketahuan H cuma 1 stopper
+- 4C :
+    - Lanjutannya Cue
+
+## 2C-2D-2NT/3C
+[Back](#2C-2D)<br>
+2NT= 14-15 HCP 6+C <br>
+3C = 14-15 HCP 6+C <br>
+- P/3C= T/P
+- 3D = GF 5/6+D
+- 3H = GF stopper H / Cue H fit C SI
+- 3S = GF stopper S / Cue S fit C SI
+- 3NT= T/P
+- 4C = Set fit C
+- 4D = Ask keycards
+
+Note :
+- 3D :
+    - Lanjutan showing stopper
+- 3H/3S :
+    - Lanjutan showing stopper
+    - Jika partner malah set fit C / cue, maka bid 3H/S = Cue H/S
+- Masih belum paham juga bedanya 3M dulu dibandingkan 4C langsung
+
+## 2C-2H
+[Back](#sequence-2c)<br>
+- 2S = 4S
+- 2NT= 14-15 HCP 6+C
+- 3C = 12-13 HCP 6+C
+- 3D = ?
+- 3H = 12-13 HCP 3+H
+- 3S = Splinter S 4H
+- 3NT= ?
+- 4C = ?
+- 4D = Splinter D 4H
+- 4H = 14-15 HCP 2425
+- 4S = Double Splinter (S & D) 4H ask keycards  
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
