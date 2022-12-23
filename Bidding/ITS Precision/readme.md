@@ -19,8 +19,8 @@
 ♣ ♦ ♥ ♠ 
 
 ## 1C
-[Go To Sequence](#Seq:1C) <br>
 1C = 16+ HCP any dist <br>
+[Go To Sequence](#Sequence-1C) <br>
 Secara lebih detail arti opening 1C : <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
 Note :
@@ -28,6 +28,7 @@ Note :
 
 ## 1D
 1D = 12-15 HCP 2+D <br>
+[Go To Sequence](#sequence-1d)
 Note :
 1. Pastikan tidak bisa opening 1H/1S/1NT/2C
 2. Secara general bentuk tangannya :
@@ -46,6 +47,7 @@ Note :
 
 ## 1NT
 1NT = 15-17 HCP Balance <br>
+[Go To Sequence](#Sequence-1NT) <br>
 Note :
 1. Janjian apakah boleh punya 5M
 2. Lebih enak boleh punya 5M
@@ -117,6 +119,9 @@ List Sequences : <br>
                 - 1NT-2C-2D-3C-3D
                     - [1NT-2C-2D-3C-3D-3H](#1nt-2c-2d-3c-3d-3h)
         - [1NT-2C-2H](#1nt-2c-2h)
+            - [1NT-2C-2H-3C](#1nt-2c-2h-3c)
+        - [1NT-2C-2S](#1nt-2c-2s)
+            - [1NT-2C-2S-3C](#1nt-2c-2s-3c)
     - [1NT-2D](#1nt-2d)
 ## Sequence 1C
 [Back](#sequence) <br>
@@ -267,10 +272,10 @@ Note :
 - 4NT= Quantitative, ask keycards
 
 ## 1NT-2C
-[Back](#seq1nt) <br>
+[Back](#sequence-1nt) <br>
 - [2D = no 4M](#1nt-2c-2d)
-- 2H = 4H
-- 2S = 4S
+- [2H = 4H](#1nt-2c-2h)
+- [2S = 4S](#1nt-2c-2s)
 - 2NT= 15-16 HCP 44M
 - 3C = 17 HCP 44M 
 
@@ -302,7 +307,7 @@ Note :
 - 3NT= 5D
 
 ## 1NT-2C-2H
-[Back](#1nt-2c)
+[Back](#1nt-2c) <br>
 - 2S = 4S Invite
 - 2NT= Invite
 - 3C = re-stayman ask 5H GF
@@ -310,8 +315,30 @@ Note :
 - 3NT= T/P
 - 4H = T/P
 
+## 1NT-2C-2H-3C
+[Back](#1nt-2c-2h) <br>
+- 3D = 5H
+- 3H = 4C
+- 3S = 4D
+- 3NT= 3433
+
+## 1NT-2C-2S
+[Back](#1nt-2c)<br>
+- 2NT= Invite
+- 3C = re-stayman ask 5S GF
+- 3S = 4S Invite
+- 3NT= T/P
+- 4S = T/P
+
+## 1NT-2C-2S-3C
+[Back](#1nt-2c-2s)<br>
+- 3D = 5S
+- 3H = 4C
+- 3S = 4D
+- 3NT= 4333
+
 ## 1NT-2D
-[Back](#seq:1nt) <br>
+[Back](#sequence-1nt) <br>
 - 2H = Default bid
 - 2S = 
 
