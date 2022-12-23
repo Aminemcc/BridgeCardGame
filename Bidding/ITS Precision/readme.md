@@ -712,6 +712,46 @@ Note :
 - 4H = 14-15 HCP 2425
 - 4S = Double Splinter (S & D) 4H ask keycards  
 
+## Sequence 2D
+[Back](#sequence)<br>
+- 2H = T/P
+- 2S = T/P
+- 2NT= 10+ HCP Ask dist
+- 3C = T/P
+- 3H = 10-11 HCP Invite
+- 3S = 10-11 HCP Invite
+- 3NT= T/P with stopper D
+- 4C = 10-11 HCP Invite
+- 4D = ?
+- 4H = T/P
+- 4S = T/P
+- 4NT= ?
+- 5C = T/P
+
+## 2D-2NT
+[Back](#sequence-2d)<br>
+Versi 1 : <br>
+- 3C = 12-13 HCP 4414
+- 3D = 12-13 HCP 4405
+- 3H = 14-15 HCP 4414
+- 3S = 14-15 HCP 4405
+
+Note : 
+- Susah set fit M
+- Gampang kabur jika minimum
+
+Versi 2 : <br>
+- 3C = 14-15 HCP 4405
+- 3D = 12-13 HCP 4405
+- 3H = 14-15 HCP 4414
+- 3S = 12-13 HCP 4414
+
+Note :
+- Lupa ini ka urutannya D:
+- Gampang buat set fit
+- 2NT = SI
+
+
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
 List :
