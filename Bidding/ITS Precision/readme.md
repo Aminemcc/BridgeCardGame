@@ -94,33 +94,63 @@ Note :
 2. Lebih baik honor pada suit bagus (karena bakal main satu tangan di suit kontrak)
 
 # Sequence
+[Back to Opening](#opening)
 Setelah opening, berikut sequence biddingnya
 
 List Sequences : <br>
 - [1C](#1C-)
     - [1C-1D](#1c-1d)
+- [1D](#1D-)
 ## 1C-
 [Back](#sequence) <br>
-1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
-- [1H = 8+ HCP 5+H]
-- [1S = 8+ HCP 5+S]
-- [1NT= 8+ HCP Balance]
-- [2C = 8+ HCP 5+C]
-- [2D = 8+ HCP 5+D]
+- 1H = 8+ HCP 5+H
+- 1S = 8+ HCP 5+S
+- 1NT= 8+ HCP Balance
+- 2C = 8+ HCP 5+C
+- 2D = 8+ HCP 5+D
 Note :
 - Selain bid 1D, semuanya adalah Game Force (GF)
 - Tidak perlu cepat cepat game jika ada fit karena tidak ada HCP maksimalnya, bisa saja slam
 
 ## 1C-1D
 [Back](#1c-) <br>
-1C - 1D = 0-7 HCP any dist <br>
 - 1H = 20+ HCP any dist
 - 1S = 16-19 HCP 5+S
 - 1NT= 18-19 HCP Balance
 - 2C = 16-19 HCP 5+C
 - 2D = 16-19 HCP 5+D
 - 2H = 16-19 HCP 5+H
+
+## 1D-
+[Back](#sequence) <br>
+- 1H = any HCP 4+H
+- 1S = any HCP 4+S
+- 1NT= 6-9 HCP T/P
+- 2C = 10+ HCP 4+C
+- 2D = 10+ HCP 4+D
+- 2H = 6-9 HCP 4H + 5S
+
+## 1D-1H
+[Back](#1d-) <br>
+- 1S = 4+S
+- 1NT= 12-14 HCP Balance
+- 2C = (5+4+) mm
+- 2D = 6+D
+- 2H = 4H
+
+## 1D-1S
+[Back](#1d-) <br>
+- 1NT= 12-14 HCP Balance
+- 2C = (5+4+) mm
+- 2D = (5)/6+ D
+- 2H = 
+- 2S = 4S
+
+## 1D-1NT
+[Back](#1d-) <br>
+- 2C = (5+4+) mm
+- 2D = 6+D
 
 
 
