@@ -19,7 +19,7 @@
 ♣ ♦ ♥ ♠ 
 
 ## 1C
-[Go To Sequence](#1c-) <br>
+[Go To Sequence](#Seq:1C) <br>
 1C = 16+ HCP any dist <br>
 Secara lebih detail arti opening 1C : <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
@@ -98,15 +98,27 @@ Note :
 Setelah opening, berikut sequence biddingnya
 
 List Sequences : <br>
-- [1C](#1C-)
+- [1C](#Seq:1C)
     - [1C-1D](#1c-1d)
-- [1D](#1D-)
+        - [1C-1D-1H](#1c-1d-1h)
+            - [1C-1D-1H-1S](%1c-1d-1h-1s)
+- [1D](#Seq:1D)
     - [1D-1H](#1d-1h)
     - [1D-1S](#1d-1s)
     - [1D-1NT](#1d-1nt)
     - [1D-2C](#1d-2c)
+        - [1D-2C-2H](#1d-2c-2h)
     - [1D-2D](#1d-2d)
-## 1C-
+    - [1D-2H](#1d-2h)
+- [1NT](#seq:1nt)
+    - [1NT-2C](#1nt-2c)
+        - [1NT-2C-2D](#1nt-2c-2d)
+            - [1NT-2C-2D-3C](#1nt-2c-2d-3c)
+                - 1NT-2C-2D-3C-3D
+                    - [1NT-2C-2D-3C-3D-3H](#1nt-2c-2d-3c-3d-3h)
+        - [1NT-2C-2H](#1nt-2c-2h)
+    - [1NT-2D](#1nt-2d)
+## Seq:1C
 [Back](#sequence) <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
 - 1H = 8+ HCP 5+H
@@ -114,21 +126,51 @@ List Sequences : <br>
 - 1NT= 8+ HCP Balance
 - 2C = 8+ HCP 5+C
 - 2D = 8+ HCP 5+D
+- 2H = 8+ HCP 4441 any singleton
+- 2S = 8-11 HCP 6+any
+- 2NT= 8-11 HCP 5C + 5any
+- 3C = 8-11 HCP 5D + 5H
+- 3D = 8-11 HCP 5H + 5S
+- 3H = 8-11 HCP 5S + 5D
 
 Note :
 - Selain bid 1D, semuanya adalah Game Force (GF)
 - Tidak perlu cepat cepat game jika ada fit karena tidak ada HCP maksimalnya, bisa saja slam
 
 ## 1C-1D
-[Back](#1c-) <br>
-- 1H = 20+ HCP any dist
+[Back](#Seq:1C) <br>
+- [1H = 20+ HCP any dist](#1c-1d-1h)
 - 1S = 16-19 HCP 5+S
 - 1NT= 18-19 HCP Balance
 - 2C = 16-19 HCP 5+C
 - 2D = 16-19 HCP 5+D
 - 2H = 16-19 HCP 5+H
 
-## 1D-
+## 1C-1D-1H
+[Back](#1c-1d)<br>
+- 1S = 0-4 HCP any / 5-7 HCP Balance
+- 1NT= 5-7 HCP 5+M
+- 2C = 5-7 HCP 5+C
+- 2D = 5-7 HCP 5+D
+- 2H = 5-7 HCP 4441 any singleton
+- 2S = 5-7 HCP 6+any
+- 2NT= 5-7 HCP 5C + 5any
+- 3C = 5-7 HCP 5D + 5H
+- 3D = 5-7 HCP 5H + 5S
+- 3H = 5-7 HCP 5S + 5D
+
+Note :
+- 1S kenapa ada 2 kemungkinan agar opener ada ruang bid 1NT
+
+## 1C-1D-1H-1S
+[Back](#1c-1d-1h) <br>
+- 1NT= 20-23 HCP Balance
+- 2C = 24+ HCP any
+- 2D = 20-23 HCP 5+D
+- 2H = 20-23 HCP 5+H
+- 2S = 20-23 HCP 5+S
+- 2NT= 20-23 HCP 5+C
+## Seq:1D
 [Back](#sequence) <br>
 - [1H = any HCP 4+H](#1d-1h)
 - [1S = any HCP 4+S](#1d-1s)
@@ -147,7 +189,7 @@ Note :
 - Utamakan 1D-1M daripada 1D-2m. Major dulu baru minor
 
 ## 1D-1H
-[Back](#1d-) <br>
+[Back](#Seq:1D) <br>
 - 1S = 4+S
 - 1NT= 12-14 HCP Balance
 - 2C = (5+4+) mm
@@ -155,7 +197,7 @@ Note :
 - 2H = 4H
 
 ## 1D-1S
-[Back](#1d-) <br>
+[Back](#Seq:1D) <br>
 - 1NT= 12-14 HCP Balance
 - 2C = (5+4+) mm
 - 2D = (5)/6+ D
@@ -163,12 +205,12 @@ Note :
 - 2S = 4S
 
 ## 1D-1NT
-[Back](#1d-) <br>
+[Back](#Seq:1D) <br>
 - 2C = (5+4+) mm
 - 2D = 6+D
 
 ## 1D-2C
-[Back](#1d-) <br>
+[Back](#Seq:1D) <br>
 - 2D = 5+D
 - 2H = 12-14 HCP Balance 2C
 - 2S = 14-15 HCP 4+C
@@ -179,8 +221,19 @@ Note :
 - 3S = Splinter S, 5C + 4+D
 - 3NT= 14 HCP 3C
 
+## 1D-2C-2H
+[Back](#1D-2c) <br>
+- 2S = 10 HCP Forcing
+- 2NT= 11 HCP Invite
+- 3C = 10-11 HCP 6+C
+- 3D = ?
+- 3H = ?
+- 3S = ?
+- 3NT= T/P
+- 4C = 6+C SI
+
 ## 1D-2D
-[Back](#1d-)<br>
+[Back](Seq:1D)<br>
 - 2H = 12-14 HCP Balance 2D
 - 2S = 14-15 HCP 4+D
 - 2NT= 12-13 HCP 3D
@@ -191,17 +244,74 @@ Note :
 - 3NT= 14 HCP 3D
 
 ## 1D-2H
-[Back](#1d-)<br>
+[Back](#Seq:1d)<br>
 - 2S = T/P
 - 2NT= ?
 - 3C = (5+5+) mm
 
+## Seq:1NT
+[Back](#sequence)<br>
+- [2C = 7+ HCP ask 4M](#1nt-2c)
+- 2D = any HCP Transfer to H (5+H)
+- 2H = any HCP Transfer to S (5+S)
+- 2S = 55m NF / 55m GF / 6+m NF
+- 2NT= 6+m GF
+- 3C = 6C + 4any SI
+- 3D = 6D + 4any SI
+- 3H = 31(54) GF
+- 3S = 13(54) GF
+- 3NT= T/P
+- 4C = Gerber ask keycards
+- 4D = Texas transfer to H (6+H)
+- 4H = Texas transfer to S (6+S)
+- 4NT= Quantitative, ask keycards
 
+## 1NT-2C
+[Back](#seq:1nt) <br>
+- [2D = no 4M](#1nt-2c-2d)
+- 2H = 4H
+- 2S = 4S
+- 2NT= 15-16 HCP 44M
+- 3C = 17 HCP 44M 
 
+## 1NT-2C-2D
+[Back](#1nt-2c) <br>
+- 2H = 44M NF
+- 2S = 5S + 4H invite
+- 2NT= invite to 3NT
+- [3C = GF any](#1nt-2c-2d-3c)
+- 3D = 55M invite / SI
+- 3H = 4H + 5S GF (Smolen)
+- 3S = 4S + 5H GF (Smolen)
+- 3NT= T/P
+- 4C = Gerber ask keycards
+- 4D/4H/4S = ?
+- 4NT = Ask keycards
 
+## 1NT-2C-2D-3C
+[Back](#1nt-2c-2d) <br>
+- [3D = 5m](#1nt-2c-2d-3c-3d-3h)
+- 3H = 4C
+- 3S = 4D
+- 3NT= 44m
 
+## 1NT-2C-2D-3C-3D-3H
+[Back](#1nt-2c-2d-3c)<br>
+3H = ask 5m
+- 3S = 5C
+- 3NT= 5D
 
+## 1NT-2C-2H
+[Back](#1nt-2c)
+- 2S = 4S Invite
+- 2NT= Invite
+- 3C = re-stayman ask 5H GF
+- 3H = 4H Invite
+- 3NT= T/P
+- 4H = T/P
 
-
-
+## 1NT-2D
+[Back](#seq:1nt) <br>
+- 2H = Default bid
+- 2S = 
 
