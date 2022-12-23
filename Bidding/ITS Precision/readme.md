@@ -267,7 +267,7 @@ Note :
 - 4NT= Quantitative, ask keycards
 
 ## 1NT-2C
-[Back](#seq:1nt) <br>
+[Back](#seq1nt) <br>
 - [2D = no 4M](#1nt-2c-2d)
 - 2H = 4H
 - 2S = 4S
