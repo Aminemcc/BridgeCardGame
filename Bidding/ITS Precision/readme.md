@@ -101,6 +101,11 @@ List Sequences : <br>
 - [1C](#1C-)
     - [1C-1D](#1c-1d)
 - [1D](#1D-)
+    - [1D-1H](#1d-1h)
+    - [1D-1S](#1d-1s)
+    - [1D-1NT](#1d-1nt)
+    - [1D-2C](#1d-2c)
+    - [1D-2D](#1d-2d)
 ## 1C-
 [Back](#sequence) <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
@@ -124,12 +129,20 @@ Note :
 
 ## 1D-
 [Back](#sequence) <br>
-- 1H = any HCP 4+H
-- 1S = any HCP 4+S
-- 1NT= 6-9 HCP T/P
-- 2C = 10+ HCP 4+C
-- 2D = 10+ HCP 4+D
-- 2H = 6-9 HCP 4H + 5S
+- [1H = any HCP 4+H](#1d-1h)
+- [1S = any HCP 4+S](#1d-1s)
+- [1NT= 6-9 HCP T/P](#1d-1nt)
+- [2C = 10+ HCP 4+C](#1d-2c)
+- [2D = 10+ HCP 4+D](#1d-2d)
+- [2H = 6-9 HCP 4H + 5S](#1d-2h)
+- 2S = 10-11 HCP 5S + 5C
+- 2NT= 10-11 HCP 5H + 5C
+- 3C = 6-9 HCP (5+5+) mm
+- 3D = Preemptive 6+D
+Note :
+- 1D Boleh dipass, minimal 4/5 D (worst case fit 4-2 / 5-2)
+- 1D-1M ada versi any HCP, 6+ HCP, lanjutan tetap sama
+- Utamakan 1D-1M daripada 1D-2m. Major dulu baru minor
 
 ## 1D-1H
 [Back](#1d-) <br>
@@ -152,9 +165,34 @@ Note :
 - 2C = (5+4+) mm
 - 2D = 6+D
 
+## 1D-2C
+[Back](#1d-) <br>
+- 2D = 5+D
+- 2H = 12-14 HCP Balance 2C
+- 2S = 14-15 HCP 4+C
+- 2NT= 12-13 HCP 3C
+- 3C = 12-13 HCP 4+C
+- 3D = 14-15 HCP 6+D
+- 3H = Splinter H, 5C + 4+D
+- 3S = Splinter S, 5C + 4+D
+- 3NT= 14 HCP 3C
 
+## 1D-2D
+[Back](#1d-)<br>
+- 2H = 12-14 HCP Balance 2D
+- 2S = 14-15 HCP 4+D
+- 2NT= 12-13 HCP 3D
+- 3C = 12-13 HCP mm
+- 3D = 12-13 HCP 4+D
+- 3H = Splinter H, 5D + 4C
+- 3S = Splinter S, 5D + 4C
+- 3NT= 14 HCP 3D
 
-
+## 1D-2H
+[Back](#1d-)<br>
+- 2S = T/P
+- 2NT= ?
+- 3C = (5+5+) mm
 
 
 
