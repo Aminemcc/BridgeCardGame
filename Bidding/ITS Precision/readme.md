@@ -128,6 +128,16 @@ List Sequences : <br>
                 - [1NT-2D-2H-2S-2NT](#1nt-2d-2h-2s-2nt)
             - [1NT-2D-2H-3C](#1nt-2d-2h-3c)
             - [1NT-2D-2H-3D](#1nt-2d-2h-3d)
+    - [1NT-2H](#1nt-2h)
+        - [1NT-2H-2S](#1nt-2h-2s)
+            - [1NT-2H-2S-3C](#1nt-2h-2s-3c)
+            - [1NT-2H-2S-3D](#1nt-2h-2s-3d)
+    - [1NT-2S](#1nt-2s)
+        - [1NT-2S-2NT](#1nt-2s-2nt)
+    - 1NT-2NT
+        - [1NT-2NT-3C](#1nt-2nt-3c)
+            - 1NT-2NT-3C-3D
+                - [1NT-2NT-3C - 3D - 3H](#1nt-2nt-3c-3d-3h)
 ## Sequence 1C
 [Back](#sequence) <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
@@ -263,7 +273,7 @@ Note :
 - [2C = 7+ HCP ask 4M](#1nt-2c)
 - [2D = any HCP Transfer to H (5+H)](#1nt-2d)
 - 2H = any HCP Transfer to S (5+S)
-- 2S = 55m NF / 55m GF / 6+m NF
+- [2S = 55m NF / 55m GF / 6+m NF](#1nt-2s)
 - 2NT= 6+m GF
 - 3C = 6C + 4any SI
 - 3D = 6D + 4any SI
@@ -358,7 +368,7 @@ Note :
 - [3D = 5H + 4D GF (Second suit)](#1nt-2d-2h-3d)
 - 3H = 6+H Invite
 - 3S = Splinter S 6+H SI
-- 3NT= 5H Pass/Correct
+- 3NT= 5H Pass/Correct to 4H
 - 4C = Splinter C 6+H SI
 - 4D = Splinter D 6+H SI
 - 4H = Quantitative 6+H
@@ -368,7 +378,7 @@ Note :
 - 5D = Exclusion D 6+H
 
 ## 1NT-2D-2H-2S-2NT
-[Back](#1nt-2d-2h)
+[Back](#1nt-2d-2h) <br>
 2NT = ask singleton
 - 3C = Singleton C
 - 3D = Singleton D
@@ -392,6 +402,88 @@ Note :
 - 4C = Double Fit D & H cue C
 - 4D = Double Fit D & H no cue C
 
+## 1NT-2H
+[Back](#sequence-1nt)<br>
+- [2S = Default bid](#1nt-2h-2s)
+- 2NT= Max HCP 4S no doubleton
+- 3C = Max HCP 4+S doubleton C
+- 3D = Max HCP 4+S doubleton D
+- 3H = Max HCP 4+S doubleton H
+
+## 1NT-2H-2S
+[Back](#1nt-2h)<br>
+- P = T/P 5+S
+- 2NT= 5S Invite
+- [3C = 5S + 4C GF (Second suit)](#1nt-2h-2s-3c)
+- [3D = 5S + 4D GF (Second suit)](#1nt-2h-2s-3d)
+- 3H = ?
+- 3S = 6+S Invite
+- 3NT= 5S Pass/Corrct to 4S
+- 4C = Splinter C 7+S SI
+- 4D = Splinter D 7+S SI
+- 4H = Splinter H 7+S SI
+- 4S = Quantitative 6+S
+- 4NT= Quantitative 5S (Lanjutan dianggap fit S)
+- 5C = Exclusion C 6/7+S
+- 5D = Exclusion D 6/7+S
+
+## 1NT-2H-2S-3C
+[Back](#1nt-2h-2s)<br>
+- 3D = Fit C
+- 3H = 5H no fit
+- 3S = Fit S
+- 3NT= Default bid
+- 4C = Double fit C & S no cue D
+- 4D = Double fit C & S cue D
+
+Note :
+- Double fit punya cue H lewat 4C, karena jika kedua tangan tidak ada cue D, maka tidak mungkin slam
+
+## 1NT-2H-2S-3D
+- 3H = Fit D
+- 3S = Fit S
+- 3NT= Default bid
+- 4C = Double fit D & S cue C
+- 4D = Double fit D & S no cue
+- 4H = Double fit D & S cue H
+
+## 1NT-2S
+[Back](#sequence-1nt)<br>
+- [2NT= Better D / Same](#1nt-2s-2nt)
+- [3C = Better C](#1nt-2s-3c)
+
+Note :
+- Tidak boleh bid 3D karena ada kemungkinan one suiter C
+
+## 1NT-2S-2NT
+[Back](#1nt-2s)<br>
+- 3C = T/P
+- 3D = T/P
+- 3H = Splinter H 55m GF
+- 3S = Splinter S 55m GF
+
+## 1NT-2S-3C
+[Back](#1nt-2s)<br>
+- P = T/P
+- 3D = T/P
+- 3H = Splinter H 55m GF
+- 3S = Splinter S 55m GF
+
+## 1NT-2NT-3C
+[Back](#sequence-1nt)<br>
+3C = Default Bid
+- [3D = 6+D SI](#1nt-2nt-3c-3d-3h)
+- 3H = 6+C Splinter H
+- 3S = 6+C Splinter S
+
+## 1NT-2NT-3C-3D-3H
+[Back](1nt-2nt-3c)<br>
+3H = ask short
+- 3S = Splinter S
+- 3NT= Splinter H
+
+Note :
+- Tujuan bidding harus SI, sehingga harus ada short
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
