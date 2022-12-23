@@ -167,10 +167,10 @@ Note :
 
 ## 1D-2C
 [Back](#1d-) <br>
-- 2D = 5+D
-- 2H = 12-14 HCP Balance 2C
-- 2S = 14-15 HCP 4+C
-- 2NT= 12-13 HCP 3C
+- 2D    = 5+D
+- 2H    = 12-14 HCP Balance 2C
+- 2S    = 14-15 HCP 4+C
+- 2NT   = 12-13 HCP 3C
 - 3C = 12-13 HCP 4+C
 - 3D = 14-15 HCP 6+D
 - 3H = Splinter H, 5C + 4+D
