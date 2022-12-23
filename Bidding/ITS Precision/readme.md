@@ -123,6 +123,11 @@ List Sequences : <br>
         - [1NT-2C-2S](#1nt-2c-2s)
             - [1NT-2C-2S-3C](#1nt-2c-2s-3c)
     - [1NT-2D](#1nt-2d)
+        - [1NT-2D-2H](#1nt-2d-2h)
+            - 1NT-2D-2H-2S
+                - [1NT-2D-2H-2S-2NT](#1nt-2d-2h-2s-2nt)
+            - [1NT-2D-2H-3C](#1nt-2d-2h-3c)
+            - [1NT-2D-2H-3D](#1nt-2d-2h-3d)
 ## Sequence 1C
 [Back](#sequence) <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
@@ -191,6 +196,7 @@ Note :
 Note :
 - 1D Boleh dipass, minimal 4/5 D (worst case fit 4-2 / 5-2)
 - 1D-1M ada versi any HCP, 6+ HCP, lanjutan tetap sama
+- Jika di overcall, 1D - (ovc) - 1M = 
 - Utamakan 1D-1M daripada 1D-2m. Major dulu baru minor
 
 ## 1D-1H
@@ -231,9 +237,7 @@ Note :
 - 2S = 10 HCP Forcing
 - 2NT= 11 HCP Invite
 - 3C = 10-11 HCP 6+C
-- 3D = ?
-- 3H = ?
-- 3S = ?
+- 3D/H/S = ?
 - 3NT= T/P
 - 4C = 6+C SI
 
@@ -257,7 +261,7 @@ Note :
 ## Sequence 1NT
 [Back](#sequence)<br>
 - [2C = 7+ HCP ask 4M](#1nt-2c)
-- 2D = any HCP Transfer to H (5+H)
+- [2D = any HCP Transfer to H (5+H)](#1nt-2d)
 - 2H = any HCP Transfer to S (5+S)
 - 2S = 55m NF / 55m GF / 6+m NF
 - 2NT= 6+m GF
@@ -289,9 +293,9 @@ Note :
 - 3H = 4H + 5S GF (Smolen)
 - 3S = 4S + 5H GF (Smolen)
 - 3NT= T/P
-- 4C = Gerber ask keycards
+- [4C = Gerber ask keycards](#response-to-ask-keycards)
 - 4D/4H/4S = ?
-- 4NT = Ask keycards
+- [4NT = Quantitative ask keycards](#response-to-ask-keycards)
 
 ## 1NT-2C-2D-3C
 [Back](#1nt-2c-2d) <br>
@@ -339,6 +343,115 @@ Note :
 
 ## 1NT-2D
 [Back](#sequence-1nt) <br>
-- 2H = Default bid
-- 2S = 
+- [2H = Default bid](#1nt-2d-2h)
+- 2S = Max HCP 4+H doubleton S
+- 2NT= Max HCP 4+H
+- 3C = Max HCP 4+H doubleton C
+- 3D = Max HCP 4+H doubleton D
 
+## 1NT-2D-2H
+[Back](#1nt-2d)<br>
+- P = T/P 5+H
+- [2S = Reject transfer 4441 any singleton GF](#1nt-2d-2h-2s-2nt)
+- 2NT= 5H Invite
+- [3C = 5H + 4C GF (Second suit)](#1nt-2d-2h-3c)
+- [3D = 5H + 4D GF (Second suit)](#1nt-2d-2h-3d)
+- 3H = 6+H Invite
+- 3S = Splinter S 6+H SI
+- 3NT= 5H Pass/Correct
+- 4C = Splinter C 6+H SI
+- 4D = Splinter D 6+H SI
+- 4H = Quantitative 6+H
+- 4S = ?
+- 4NT= Quantitative 5H (lanjutan dianggap fit H)
+- 5C = Exclusion C 6+H
+- 5D = Exclusion D 6+H
+
+## 1NT-2D-2H-2S-2NT
+[Back](#1nt-2d-2h)
+2NT = ask singleton
+- 3C = Singleton C
+- 3D = Singleton D
+- 3H = Singleton H
+- 3S = Singleton S
+
+## 1NT-2D-2H-3C
+[Back](#1nt-2d-2h)
+- 3D = Fit C
+- 3H = Fit H
+- 3S = 5S no fit C/H
+- 3NT= Default bid
+- 4C = Double Fit C & H no cue D
+- 4D = Double Fit C & H cue D
+
+## 1NT-2D-2H-3D
+[Back](#1nt-2d-2h)
+- 3H = Fit H
+- 3S = Fit D
+- 3NT= No Fit
+- 4C = Double Fit D & H cue C
+- 4D = Double Fit D & H no cue C
+
+
+# Another Convention
+Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
+List :
+- [Cue Bid](#cue-bid)
+- [Response to ask keycards](#response-to-ask-keycards)
+- [Exclusion](#exclusion)
+- [Ask King](#ask-king)
+- [Ask Extra](#extra)
+
+# Cue Bid
+Cue bid dilakukan setelah setuju fit di suatu suit
+Cue bid = First / Second round control <br>
+atau dengan kata lain <br>
+Cue bid = A / Void / K / Singleton <br>
+
+Jika dua kali melakukan cue bid pada suit yang sama, maka : <br>
+= Void / AK <br>
+
+Jika melakukan 
+
+
+## Response to ask keycards
+Any ask keycards bid for example
+- [1NT-4C](#sequence-1nt)
+- [1NT-4NT](#sequence-1nt)
+
+Jika ada fit, K Suit dihitung sebagai keycard
+
+Response ada fit:
+- 1 Step : 1/4 keycards
+- 2 Step : 3/0 keycards
+- 3 Step : 2 keycards no Q
+- 4 Step : 2 keycards with Q
+
+Response tidak ada fit:
+- 1 Step : 1/4 keycards
+- 2 Step : 3/0 keycards
+- 3 Step : 2 keycards same Rank (C+D / H+S)
+- 4 Step : 2 keycards same Color (C+S / D+H)
+- 5 Step : 2 keycards Mixed (C+H / D+S)
+
+## Exclusion
+Exclusion merupakan tanya keycard, tapi tanpa menghitung keycard pada suit yang dilakukan exclusion <br>
+Exclusion dilakukan jika telah cue 2 kali pada suit tersebut / bid exclusion <br>
+Bid exclusion yang pasti adalah loncat melebihi game dari suit tersebut <br>
+Contoh : <br>
+- 1H-4NT= Exclusion S (Jika 4S = ask keycards fit C/H)
+- 1H-5C = Exclusion C
+
+## Ask King
+
+ask king dilakukan setelah ask keycards, dengan bid 1 step, 2 step jika 
+
+Response Direct King jika ada fit
+
+## Extra
+
+Setelah mendapatkan banyak keycard, bid warna selain tanya king dan T/P merupakan bidding extra <br>
+Berfungsi untuk bertanya apakah partner punya third round control <br>
+Third Round Control : Q or doubleton <br>
+Jika tidak punya hanya Slam <br>
+Jika punya, maka bisa Grand Slam <br>
