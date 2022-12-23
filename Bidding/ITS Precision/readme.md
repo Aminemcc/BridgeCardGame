@@ -118,7 +118,7 @@ List Sequences : <br>
                     - [1NT-2C-2D-3C-3D-3H](#1nt-2c-2d-3c-3d-3h)
         - [1NT-2C-2H](#1nt-2c-2h)
     - [1NT-2D](#1nt-2d)
-## Seq:1C
+## Sequence 1C
 [Back](#sequence) <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
 - 1H = 8+ HCP 5+H
@@ -138,7 +138,7 @@ Note :
 - Tidak perlu cepat cepat game jika ada fit karena tidak ada HCP maksimalnya, bisa saja slam
 
 ## 1C-1D
-[Back](#Seq:1C) <br>
+[Back](#Sequence-1C) <br>
 - [1H = 20+ HCP any dist](#1c-1d-1h)
 - 1S = 16-19 HCP 5+S
 - 1NT= 18-19 HCP Balance
@@ -170,7 +170,7 @@ Note :
 - 2H = 20-23 HCP 5+H
 - 2S = 20-23 HCP 5+S
 - 2NT= 20-23 HCP 5+C
-## Seq:1D
+## Sequence 1D
 [Back](#sequence) <br>
 - [1H = any HCP 4+H](#1d-1h)
 - [1S = any HCP 4+S](#1d-1s)
@@ -189,7 +189,7 @@ Note :
 - Utamakan 1D-1M daripada 1D-2m. Major dulu baru minor
 
 ## 1D-1H
-[Back](#Seq:1D) <br>
+[Back](#Sequence-1D) <br>
 - 1S = 4+S
 - 1NT= 12-14 HCP Balance
 - 2C = (5+4+) mm
@@ -197,7 +197,7 @@ Note :
 - 2H = 4H
 
 ## 1D-1S
-[Back](#Seq:1D) <br>
+[Back](#Sequence-1D) <br>
 - 1NT= 12-14 HCP Balance
 - 2C = (5+4+) mm
 - 2D = (5)/6+ D
@@ -205,12 +205,12 @@ Note :
 - 2S = 4S
 
 ## 1D-1NT
-[Back](#Seq:1D) <br>
+[Back](#Sequence-1D) <br>
 - 2C = (5+4+) mm
 - 2D = 6+D
 
 ## 1D-2C
-[Back](#Seq:1D) <br>
+[Back](#Sequence-1D) <br>
 - 2D = 5+D
 - 2H = 12-14 HCP Balance 2C
 - 2S = 14-15 HCP 4+C
@@ -233,7 +233,7 @@ Note :
 - 4C = 6+C SI
 
 ## 1D-2D
-[Back](Seq:1D)<br>
+[Back](#Sequence-1D)<br>
 - 2H = 12-14 HCP Balance 2D
 - 2S = 14-15 HCP 4+D
 - 2NT= 12-13 HCP 3D
@@ -244,12 +244,12 @@ Note :
 - 3NT= 14 HCP 3D
 
 ## 1D-2H
-[Back](#Seq:1d)<br>
+[Back](#Sequence-1d)<br>
 - 2S = T/P
 - 2NT= ?
 - 3C = (5+5+) mm
 
-## Seq:1NT
+## Sequence 1NT
 [Back](#sequence)<br>
 - [2C = 7+ HCP ask 4M](#1nt-2c)
 - 2D = any HCP Transfer to H (5+H)
