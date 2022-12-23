@@ -98,11 +98,11 @@ Note :
 Setelah opening, berikut sequence biddingnya
 
 List Sequences : <br>
-- [1C](#Seq:1C)
+- [1C](#Sequence-1C)
     - [1C-1D](#1c-1d)
         - [1C-1D-1H](#1c-1d-1h)
             - [1C-1D-1H-1S](%1c-1d-1h-1s)
-- [1D](#Seq:1D)
+- [1D](#Sequence-1D)
     - [1D-1H](#1d-1h)
     - [1D-1S](#1d-1s)
     - [1D-1NT](#1d-1nt)
@@ -110,7 +110,7 @@ List Sequences : <br>
         - [1D-2C-2H](#1d-2c-2h)
     - [1D-2D](#1d-2d)
     - [1D-2H](#1d-2h)
-- [1NT](#seq:1nt)
+- [1NT](#sequence-1nt)
     - [1NT-2C](#1nt-2c)
         - [1NT-2C-2D](#1nt-2c-2d)
             - [1NT-2C-2D-3C](#1nt-2c-2d-3c)
