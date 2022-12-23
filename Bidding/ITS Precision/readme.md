@@ -57,7 +57,7 @@ Note :
 2. Tidak menggunakan rule of 20
 
 ## 2D
-2D = 12-15 HCP 4414 / 4405
+2D = 12-15 HCP 4414 / 4405 <br>
 Note :
 1. short di D
 
@@ -70,25 +70,25 @@ Note :
 3. Tangan pertama/kedua lebih baik tidak punya 4 lbr other M
 
 ## 2NT
-2NT = 10- HCP mm
+2NT = 10- HCP mm <br>
 Note :
 1. Tidak ada spesifik HCP minimum
 2. jika 54 lebih baik saat NV dan ada short
 
 ## 3X
-3C/D/H/S = 7+ C/D/H/S
+3C/D/H/S = 7+ C/D/H/S <br>
 Note :
 1. Tujuan opening ini untuk menutup ruang bidding
 
 ## 3NT
-3NT = Solid minor
+3NT = Solid minor <br>
 Note :
 1. One Suiter minor & no loser di minor tersebut
 2. Jumlah trik pasti 7+ (jika berhasil dapat control)
 3. Ada stopper di suit lain (tidak semua suit tidak apa apa)
 
 ## 4X
-4C/D/H/S = 8+ C/D/H/S
+4C/D/H/S = 8+ C/D/H/S <br>
 Note :
 1. Tujuan opening ini untuk menutup ruang bidding
 2. Lebih baik honor pada suit bagus (karena bakal main satu tangan di suit kontrak)
@@ -114,6 +114,7 @@ List Sequences : <br>
 - 1NT= 8+ HCP Balance
 - 2C = 8+ HCP 5+C
 - 2D = 8+ HCP 5+D
+
 Note :
 - Selain bid 1D, semuanya adalah Game Force (GF)
 - Tidak perlu cepat cepat game jika ada fit karena tidak ada HCP maksimalnya, bisa saja slam
@@ -139,6 +140,7 @@ Note :
 - 2NT= 10-11 HCP 5H + 5C
 - 3C = 6-9 HCP (5+5+) mm
 - 3D = Preemptive 6+D
+
 Note :
 - 1D Boleh dipass, minimal 4/5 D (worst case fit 4-2 / 5-2)
 - 1D-1M ada versi any HCP, 6+ HCP, lanjutan tetap sama
@@ -167,10 +169,10 @@ Note :
 
 ## 1D-2C
 [Back](#1d-) <br>
-- 2D    = 5+D
-- 2H    = 12-14 HCP Balance 2C
-- 2S    = 14-15 HCP 4+C
-- 2NT   = 12-13 HCP 3C
+- 2D = 5+D
+- 2H = 12-14 HCP Balance 2C
+- 2S = 14-15 HCP 4+C
+- 2NT= 12-13 HCP 3C
 - 3C = 12-13 HCP 4+C
 - 3D = 14-15 HCP 6+D
 - 3H = Splinter H, 5C + 4+D
