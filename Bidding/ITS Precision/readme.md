@@ -25,10 +25,12 @@ Secara lebih detail arti opening 1C : <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
 Note :
 1. Pastikan tidak bisa opening 1NT
+2. Bidding keempat adalah one step artificial
+    - One Step Artificial = 12+ HCP any dist
 
 ## 1D
 1D = 12-15 HCP 2+D <br>
-[Go To Sequence](#sequence-1d)
+[Go To Sequence](#sequence-1d)<br>
 Note :
 1. Pastikan tidak bisa opening 1H/1S/1NT/2C
 2. Secara general bentuk tangannya :
@@ -41,7 +43,9 @@ Note :
 
 ## 1M
 1H = 12-15 HCP 5+H <br>
+[Go To Sequence](#sequence-1h)<br>
 1S = 12-15 HCP 5+S <br>
+[Go To Sequence](#sequence-1s)
 Note :
 1. Utamakan M daripada m, sehingga walau minor lebih panjang opening tetap 1M
 
@@ -112,6 +116,9 @@ List Sequences : <br>
         - [1D-2C-2H](#1d-2c-2h)
     - [1D-2D](#1d-2d)
     - [1D-2H](#1d-2h)
+- [1H](#sequence-1h)
+    - [1H-1S](#1h-1s)
+- [1S](#sequence-1s)
 - [1NT](#sequence-1nt)
     - [1NT-2C](#1nt-2c)
         - [1NT-2C-2D](#1nt-2c-2d)
@@ -140,6 +147,7 @@ List Sequences : <br>
                 - [1NT-2NT-3C - 3D - 3H](#1nt-2nt-3c-3d-3h)
 ## Sequence 1C
 [Back](#sequence) <br>
+1C = 16-17 HCP Unbalance / 18+ HCP any <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
 - 1H = 8+ HCP 5+H
 - 1S = 8+ HCP 5+S
@@ -192,6 +200,7 @@ Note :
 - 2NT= 20-23 HCP 5+C
 ## Sequence 1D
 [Back](#sequence) <br>
+1D = 12-15 HCP 2+D <br>
 - [1H = any HCP 4+H](#1d-1h)
 - [1S = any HCP 4+S](#1d-1s)
 - [1NT= 6-9 HCP T/P](#1d-1nt)
@@ -206,7 +215,7 @@ Note :
 Note :
 - 1D Boleh dipass, minimal 4/5 D (worst case fit 4-2 / 5-2)
 - 1D-1M ada versi any HCP, 6+ HCP, lanjutan tetap sama
-- Jika di overcall, 1D - (ovc) - 1M = 
+- Jika di overcall, 1D - (ovc) - 1M = 8+ HCP / ada tujuan
 - Utamakan 1D-1M daripada 1D-2m. Major dulu baru minor
 
 ## 1D-1H
@@ -264,26 +273,79 @@ Note :
 
 ## 1D-2H
 [Back](#Sequence-1d)<br>
-- 2S = T/P
+- P = T/P H
+- 2S = T/P S
 - 2NT= ?
 - 3C = (5+5+) mm
 
+## Sequence 1H
+[Back](#sequence)<br>
+1H = 12-15 HCP 5+H <br>
+- [1S = 4+S](#1h-1s)
+- 1NT= 11- HCP F1 (boleh dipass)
+- 2C = 12+ HCP 5+C / Balance
+- 2D = 12+ HCP 5+D
+- 2H = 6-9 HCP 3+H
+- 2S = 12+ HCP 6+S
+- 2NT= Bergen 12+ HCP 4+H
+- 3C = Bergen 6-9 HCP 4+H Unbalance
+- 3D = Bergen 10-11 HCP 4+H Balance
+- 3H = Blocking
+- 3S = Splinter S 4+H SI
+- 3NT= ?
+- 4C = Splinter C 4+H SI
+- 4D = Splinter D 4+H SI
+- 4H = T/P
+- 4S = ?
+- 4NT= ?
+
+## 1H-1S
+[Back](#sequence-1h)<br>
+- 1NT= 12-14 HCP Balance
+- 2C = 4+C
+- 2D = 4+D
+- 2H = 6+H
+- 2S = 4+S
+
+## Sequence 1S
+[Back](#sequence)<br>
+1S = 12-15 HCP 5+S <br>
+- 1NT= 11- HCP F1 (boleh dipass)
+- 2C = 12+ HCP 5+C
+- 2D = 12+ HCP 5+D
+- 2H = 12+ HCP 5+H
+- 2S = 6-9 HCP 3+S
+- 2NT= 12+ HCP Balance
+- 3C = Bergen 12+ HCP 4+S
+- 3D = Bergen 6-9 HCP 4+S Unbalance
+- 3H = Bergen 6-9 HCP 4+S Balance
+- 3S = Blocking
+- 3NT= ?
+- 4C = Splinter C 4+S SI
+- 4D = Splinter D 4+S SI
+- 4H = Splinter H 4+S SI
+- 4S = T/P
 ## Sequence 1NT
 [Back](#sequence)<br>
+1NT = 15-17 HCP Balance <br>
 - [2C = 7+ HCP ask 4M](#1nt-2c)
 - [2D = any HCP Transfer to H (5+H)](#1nt-2d)
-- 2H = any HCP Transfer to S (5+S)
+- [2H = any HCP Transfer to S (5+S)](#1nt-2h)
 - [2S = 55m NF / 55m GF / 6+m NF](#1nt-2s)
-- 2NT= 6+m GF
+- [2NT= 6+m GF + short M](#1nt-2nt-3c)
 - 3C = 6C + 4any SI
 - 3D = 6D + 4any SI
 - 3H = 31(54) GF
 - 3S = 13(54) GF
 - 3NT= T/P
-- 4C = Gerber ask keycards
+- 4C = [Gerber ask keycards](#response-to-ask-keycards)
 - 4D = Texas transfer to H (6+H)
 - 4H = Texas transfer to S (6+S)
-- 4NT= Quantitative, ask keycards
+- 4NT= [Quantitative, ask keycards](#response-to-ask-keycards
+)
+
+Note :
+1. Ada beberapa sequence lain yang hanya beda poin
 
 ## 1NT-2C
 [Back](#sequence-1nt) <br>
@@ -367,15 +429,15 @@ Note :
 - [3C = 5H + 4C GF (Second suit)](#1nt-2d-2h-3c)
 - [3D = 5H + 4D GF (Second suit)](#1nt-2d-2h-3d)
 - 3H = 6+H Invite
-- 3S = Splinter S 6+H SI
+- 3S = Splinter S 7+H SI
 - 3NT= 5H Pass/Correct to 4H
-- 4C = Splinter C 6+H SI
-- 4D = Splinter D 6+H SI
+- 4C = Splinter C 7+H SI
+- 4D = Splinter D 7+H SI
 - 4H = Quantitative 6+H
 - 4S = ?
 - 4NT= Quantitative 5H (lanjutan dianggap fit H)
-- 5C = Exclusion C 6+H
-- 5D = Exclusion D 6+H
+- 5C = Exclusion C 7+H
+- 5D = Exclusion D 7+H
 
 ## 1NT-2D-2H-2S-2NT
 [Back](#1nt-2d-2h) <br>
@@ -475,6 +537,8 @@ Note :
 - [3D = 6+D SI](#1nt-2nt-3c-3d-3h)
 - 3H = 6+C Splinter H
 - 3S = 6+C Splinter S
+Note :
+- Tujuan bidding harus SI, sehingga harus ada short
 
 ## 1NT-2NT-3C-3D-3H
 [Back](1nt-2nt-3c)<br>
@@ -482,8 +546,6 @@ Note :
 - 3S = Splinter S
 - 3NT= Splinter H
 
-Note :
-- Tujuan bidding harus SI, sehingga harus ada short
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
