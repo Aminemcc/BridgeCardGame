@@ -16,6 +16,7 @@
 - [Sequence](#sequence)
 
 # Opening
+Opening bid merupakan bidding pertama yang dilakukan di meja.
 ♣ ♦ ♥ ♠ 
 
 ## 1C
@@ -88,6 +89,7 @@ Note :
 3C/D/H/S = 7+ C/D/H/S <br>
 Note :
 1. Tujuan opening ini untuk menutup ruang bidding
+2. Biasa disebut Preemptive
 
 ## 3NT
 3NT = Solid minor <br>
@@ -101,6 +103,7 @@ Note :
 Note :
 1. Tujuan opening ini untuk menutup ruang bidding
 2. Lebih baik honor pada suit bagus (karena bakal main satu tangan di suit kontrak)
+3. Biasa disebut Preemptive
 
 # Sequence
 [Back to Opening](#opening)
