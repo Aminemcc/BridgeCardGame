@@ -45,7 +45,7 @@ Note :
 1H = 12-15 HCP 5+H <br>
 [Go To Sequence](#sequence-1h)<br>
 1S = 12-15 HCP 5+S <br>
-[Go To Sequence](#sequence-1s)
+[Go To Sequence](#sequence-1s)<br>
 Note :
 1. Utamakan M daripada m, sehingga walau minor lebih panjang opening tetap 1M
 
@@ -59,8 +59,9 @@ Note :
 ## 2C
 2C = 12-15 HCP 5C + 4M / 6+C <br>
 Note : 
-1. dist tidak mm
-2. Tidak menggunakan rule of 20
+1. dist tidak mm (lewat opening 1D jika mm)
+2. Tidak menggunakan rule of 20 (12 HCP + 5C + 4M >= 20)
+3. Prinsipnya: apabila 2C tidak dipass, maka stop bid hanya di 3C, sisanya forcing (kecuali bid to play)
 
 ## 2D
 2D = 12-15 HCP 4414 / 4405 <br>
@@ -156,7 +157,18 @@ List Sequences : <br>
             - 2C-2D-2S-3D
                 - [2C-2D-2S-3D-3H](#2c-2d-2s-3d-3h)
         - [2C-2D-2NT/3C](#2c-2d-2nt3c)
+    - [2C-2H](#2c-2h)
+    - [2C-2S](#2c-2s)
+        - [2C-2S-2NT](#2c-2s-2nt)
+            - 2C-2S-2NT-3D
+                - [2C-2S-2NT-3D-3H](#2c-2s-2nt-3d-3h)
+    - 2C-2NT
+        - [2C-2NT-3C](#2c-2nt-3c)
+    - [2C-3C](#2c-3c)
+        - 2C-3C-3D
+            - [2C-3C-3D-3H](#2c-3c-3d-3h)
 - [2D = 12-15 HCP 4414 / 4405](#sequence-2d)
+    - [2D-2NT](#2d-2nt)
 - [2H = 8-10 HCP 6+H](#sequence-2H)
 - [2S = 8-10 HCP 6+S](#sequence-2s)
 ## Sequence 1C
@@ -277,7 +289,7 @@ Note :
 ## 1D-2C
 [Back](#Sequence-1D) <br>
 - 2D = 5+D
-- 2H = 12-14 HCP Balance 2C
+- [2H = 12-14 HCP Balance 2C](#1d-2c-2h)
 - 2S = 14-15 HCP 4+C
 - 2NT= 12-13 HCP 3C
 - 3C = 12-13 HCP 4+C
@@ -285,6 +297,14 @@ Note :
 - 3H = Splinter H, 5C + 4+D
 - 3S = Splinter S, 5C + 4+D
 - 3NT= 14 HCP 3C
+
+## 1D-2C-2H
+[Back](#1d-2c)
+- 2S = 10+ HCP Forcing
+- 2NT= 11 HCP Invite
+- 3C = 10-11 HCP 6+C Invite
+- 3D/H/S = ?
+- 3NT= T/P
 
 ## 1D-2C-2H
 [Back](#1D-2c) <br>
@@ -585,10 +605,10 @@ Note :
 [Back](#sequence)<br>
 2C = 12-15 HCP 5C + 4M / 6+C
 - [2D = Ask dist (Siap dijawab apapun)](#2c-2d)
-- 2H = 8+ HCP 5+H
+- [2H = 8+ HCP 5+H](#2c-2h)
 - 2S = 8+ HCP 5+S
-- 2NT= Puppet to 3C
-- 3C = 8-11 HCP 55M
+- [2NT= Puppet to 3C (2 suiter GF)](#2c-2nt-3c)
+- [3C = 8-11 HCP 55M](#2c-3c)
 - 3D = ?
 - 3H = Splinter H 4+C SI
 - 3S = Splinter S 4+C SI
@@ -711,6 +731,68 @@ Note :
 - 4D = Splinter D 4H
 - 4H = 14-15 HCP 2425
 - 4S = Double Splinter (S & D) 4H ask keycards  
+
+## 2C-2S
+[Back](#sequence-2c)<br>
+- [2NT= 4H](#2c-2s-2nt)
+- 3C = 6+C
+- 3D = ?
+- 3H = ?
+- 3S = 12-13 HCP 3+S
+- 3NT= ?
+- 4C = ?
+- 4D = Splinter D 4S
+- 4H = Splinter H 4S
+- 4S = 14-15 HCP T/P No Splinter
+
+## 2C-2S-2NT
+[Back](#2c-2s)<br>
+- 3C = NF (Lebih ke T/P)
+- [3D = GF Puppet to 3H](#2c-2s-2nt-3d-3h)
+- 3H = 4H Invite
+- 3S = 6+S Invite
+- 3NT= T/P with stopper D (delay 3NT lewat 3D)
+- 4C = Fit C Invite
+- 4D = ?
+- 4H = T/P
+- 4S = T/P
+- 4NT= ?
+- 5C = T/P
+## 2C-2S-2NT-3D-3H
+[Back](#2c-2s-2nt)<br>
+3H = Forced <br>
+- P = T/P H
+- 3S = SI Good 6+S
+- 3NT= Delay 3NT T/P (stopper D meragukan)
+- 4C = Set fit C SI
+- 4D = ?
+- 4H = Delay 4H (Quantitative)
+
+## 2C-2NT-3C
+[Back](#sequence-2c)<br>
+3C = Forced <br>
+- P = T/P
+- 3D = 55M
+- 3H = 5H + 5D
+- 3S = 5S + 5D
+
+## 2C-3C
+[Back](#sequence-2c)<br>
+- P = T/P 6+C no fit M
+- [3D = Puppet to 3H (Bad fit T/P M)](#2c-3c-3d-3h)
+- 3H = Set fit H SI
+- 3S = Set fit S SI
+- 3NT= T/P with stopper D
+- 4C = ?
+- 4D = ?
+- 4H = T/P
+- 4S = T/P
+
+## 2C-3C-3D-3H
+[Back](#2c-3c)<br>
+3H = Forced <br>
+- P = T/P H
+- 3S = T/P S
 
 ## Sequence 2D
 [Back](#sequence)<br>
