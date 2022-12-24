@@ -58,13 +58,15 @@ Note :
 
 ## 2C
 2C = 12-15 HCP 5C + 4M / 6+C <br>
+[Go To Sequence](#sequence-2c)<br>
 Note : 
 1. dist tidak mm (lewat opening 1D jika mm)
 2. Tidak menggunakan rule of 20 (12 HCP + 5C + 4M >= 20)
-3. Prinsipnya: apabila 2C tidak dipass, maka stop bid hanya di 3C, sisanya forcing (kecuali bid to play)
+3. Prinsipnya adalah apabila 2C tidak dipass, maka stop bid hanya di 3C, sisanya forcing (kecuali bid to play)
 
 ## 2D
 2D = 12-15 HCP 4414 / 4405 <br>
+[Go To Sequence](#sequence-2d)<br>
 Note :
 1. short di D
 
@@ -288,15 +290,15 @@ Note :
 
 ## 1D-2C
 [Back](#Sequence-1D) <br>
-- 2D = 5+D
+- 2D = 5+D / 4441 1C 
 - [2H = 12-14 HCP Balance 2C](#1d-2c-2h)
 - 2S = 14-15 HCP 4+C
-- 2NT= 12-13 HCP 3C
+- 2NT= 12-13 HCP Balance 3C
 - 3C = 12-13 HCP 4+C
 - 3D = 14-15 HCP 6+D
 - 3H = Splinter H, 5C + 4+D
 - 3S = Splinter S, 5C + 4+D
-- 3NT= 14 HCP 3C
+- 3NT= 14 HCP Balance 3C
 
 ## 1D-2C-2H
 [Back](#1d-2c)
@@ -632,7 +634,7 @@ Note :
 [Back](#2c-2d)<br>
 - [2S = GF Fit C/H](#2c-2d-2h-2s)
 - 2NT= Invite
-- 3C = NF (Lebih ke T/P)
+- 3C = NF (Bisa dilanjut jika Max Good opener)
 - [3D = GF 5/6+D no fit C/H](#2c-2d-2h-3d)
 - 3H = 10-11 HCP fit H (Invite)
 - 3S = Splinter S fit H SI
@@ -665,7 +667,7 @@ Note :
 ## 2C-2D-2S
 [Back](#2c-2d)<br>
 - 2NT= Invite
-- 3C = NF (Lebih ke T/P)
+- 3C = NF (Bisa dilanjut jika Max Good opener)
 - [3D = Puppet to 3H GF](#2c-2d-2s-3d-3h)
 - 3H = GF fit S
 - 3S = 10-11 HCP fit S (Invite)
@@ -720,7 +722,7 @@ Note :
 
 ## 2C-2H
 [Back](#sequence-2c)<br>
-- 2S = 4S
+- [2S = 4S](#2c-2h-2s)
 - 2NT= 14-15 HCP 6+C
 - 3C = 12-13 HCP 6+C
 - 3D = ?
@@ -731,6 +733,38 @@ Note :
 - 4D = Splinter D 4H
 - 4H = 14-15 HCP 2425
 - 4S = Double Splinter (S & D) 4H ask keycards  
+
+Note :
+- Respons rebid 2S/2NT/3C selalu sama pada bid :
+    - 3D
+    - 3H
+
+## 2C-2H-2S
+[Back](#2c-2h)<br>
+- 2NT= Invite to 3NT
+- 3C = 8-9 HCP fit C NF
+- [3D = Puppet to 3H](#2c-2h-2s-3d-3h)
+- 3H = 6+H Invite
+- 3S = 4+S Invite
+- 3NT= T/P stopper D
+- 4C = 4+C Invite (Tidak disarankan)
+- 4D = Splinter D fit S SI (Logic bid)
+- 4H = T/P
+- 4S = T/P
+
+Note :
+- Respons 3D & 3H berlaku untuk semua rebid 2S/2NT/3C
+
+## 2C-2H-2S-3D-3H
+[Back](#2c-2h-2s)<br>
+3H = Forced <br>
+- P = T/P 6+H
+- 3S = 4+S SI
+- 3NT= T/P Delay 3NT (kurang stopper D)
+- 4C = 4+C SI
+- 4D = Splinter D fit C SI (??)
+- 4H = 7+H Quantitative (Delay 4H)
+- 4S = Quantitative fit S 
 
 ## 2C-2S
 [Back](#sequence-2c)<br>
