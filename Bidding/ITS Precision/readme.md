@@ -871,8 +871,26 @@ Note :
 - 2NT = SI
 
 # Overcall
+Secara garis besar overcall seperti berikut :
 
-# 1NT Strong
+- Tingkat 1 : 8+ HCP 5+ lembar
+    - (1C = 12-21 HCP 2+C)
+        - 1D = 8-17 HCP 5+D
+        - 1H = 8-17 HCP 5+H
+        - 1S = 8-17 HCP 5+S
+        - 1NT= 15-17 HCP Balance
+        - 2C = 12+ HCP 5+C / MM (Janjian)
+        - 2D = 6+D weak
+        - 2H = 6+H weak
+        - 2S = 6+S weak
+        - 2NT= mm
+        - 3C/D/H/S = 7+ C/D/H/S
+- Tingkat 2 : 12+ HCP 5+ lembar
+- Tingkat 3 : Siap di 3NT
+- Loncat : weak
+- X (double) = 12-17 HCP 3+ semua suit selain warna musuh / 18+ any
+
+## 1NT Strong
 [Back](#content)<br>
 - X = 16+ HCP
 - 2C = MM
