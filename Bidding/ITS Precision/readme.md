@@ -870,6 +870,17 @@ Note :
 - Gampang buat set fit
 - 2NT = SI
 
+# Overcall
+
+# 1NT Strong
+[Back](#content)<br>
+- X = 16+ HCP
+- 2C = MM
+- 2D = One Suiter M
+- 2H = H + m
+- 2S = S + m
+- 2NT = mm
+- 3C/D/H/S = Preemptive C/D/H/S
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
