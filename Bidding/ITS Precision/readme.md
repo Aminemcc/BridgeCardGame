@@ -962,3 +962,48 @@ Berfungsi untuk bertanya apakah partner punya third round control <br>
 Third Round Control : Q or doubleton <br>
 Jika tidak punya hanya Slam <br>
 Jika punya, maka bisa Grand Slam <br>
+
+## Signal
+
+**Lavinthal**<br>
+Lavinthal merupakan sebuah cara discard kartu untuk memberi tahu partner kita ingin dia main suit apa agar defense semakin mudah dan sempurna.<br>
+Contoh : <br>
+Kontrak : NT <br>
+trik sekarang : H <br>
+kita dalam posisi tidak punya H, jadi harus melakukan discard : <br>
+- Low C : Prefer Suit Rendah (D)
+- High C : Prefer Suit Tinggi (S)
+- Low D : Prefer Suit Rendah (C)
+- High D : Prefer Suit Tinggi (S)
+- Low S : Prefer Suit Rendah (C)
+- High S : Prefer Suit Tinggi (D)
+
+jika kita tidak prefer suit manapun, kita tetap harus memberikan signal lavinthal, sehingga ada 2 pilihan : <br>
+- Kasih signal pada suit di dummy yang terkuat, sehingga itu bisa dibaca tidak ada preferensi. (Pilihan teraman)
+- Berbohong saja prefer suit terserah yang dirasa aman jika partner memainkannya. (Pilihan kurang aman)
+
+
+**Roman-lavinthal**<br>
+Roman Lavinthal dilakukan dengan meng-discard kartu ganjil seperti 3/5/7/9 untuk memberi tahu partner bahwa kita ingin dibalikin suit yang kita discard, semisal discard 5D, artinya kita ingin partner memainkan suit D.<br>
+
+Jika menggunakan roman, lebih hati hati saat discard yaa!
+
+**Interest & Counting**<br>
+Interest dilakukan saat lead A / Q.<br>
+Hampir semua atlet bridge ITS menggunakan angka kecil sebagai tanda interest. <br>
+Contoh : <br>
+Partner Lead AH, ternyata kita punya KH, berarti kita interest. sehingga kita harus memainkan kartu terkecil kita.
+
+Partner Lead QS, ternyata kita tidak punya honor apa apa, berarti tidak interest. sehingga kita harus memainkan kartu besar, tidak harus terbesar.
+
+
+Counting dilakukan saat lead K / J / other. <br>
+ada 2 versi yang digunakan atlet bridge ITS :
+
+Versi 1 : (Mayoritas) <br>
+Saat lead, Besar - Kecil genap.<br>
+Saat Response Lead, Besar- Kecil ganjil. <br>
+
+Versi 2 : (Versi takut lupa) <br>
+Besar - Kecil selalu genap. <br>
+
