@@ -14,6 +14,7 @@
     - [3NT](#3nt)
     - [4X](#4x)
 - [Sequence](#sequence)
+- [Signal](#signal)
 
 # Opening
 Opening bid merupakan bidding pertama yang dilakukan di meja.
