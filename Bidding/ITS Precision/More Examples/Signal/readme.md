@@ -10,5 +10,5 @@
 
 ## Interest
 
-<img src="./Assets/no interest-001.jpg" width="200" height="200">
+<img src="./Assets/no interest-001.jpg" width="300" height="200">
 
