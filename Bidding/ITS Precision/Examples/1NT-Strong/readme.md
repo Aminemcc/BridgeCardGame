@@ -53,6 +53,7 @@ Untuk part score di Major, hanya perlu lakukan transfer lalu pass.<br>
 
 **Contoh 1**<br>
 7 HCP, kalau invite bisa di gas game opener 7 + (16-17) = (23-24) HCP. sehingga part score-an saja lebih aman.<br>
+Jika ingin 1NT-P juga tidak apa-apa karena HCP jika dijumlahkan minimum opener lebih dari 20 HCP.<br>
 
 <p align="center">
 <img 
@@ -60,6 +61,14 @@ src="./Assets/part-score-003.jpg"
 width="150" height="300">
 </p>
 
+**Contoh 2**<br>
+Ada singleton, lebih disarankan main part score 2 Major.<br>
+
+<p align="center">
+<img 
+src="./Assets/part-score-005.jpg" 
+width="150" height="300">
+</p>
 
 ## Invite
 
@@ -91,6 +100,6 @@ width="150" height="300">
 
 <p align="center">
 <img 
-src="./Assets/part-score-005.jpg" 
+src="./Assets/part-score-006.jpg" 
 width="150" height="300">
 </p>
