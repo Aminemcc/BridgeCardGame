@@ -5,9 +5,14 @@
 ## Table of Contents
 
 - [Part Score](#part-score)
-- Invite
-- Game
-- Quantitative
+    - [1NT-P](#part-score--1nt)
+    - [1NT-2D/2H-P](#part-score-1nt-2d2h)
+- [Invite](#invite)
+    - [1NT-2C](#invite-1nt-2c)
+- [Game](#game)
+    - [1NT-2C](#game-1nt-2c)
+- [Quantitative](#quantitative)
+    - [1NT-4NT](#quantitative-1nt-4nt)
 - Slam
 
 
