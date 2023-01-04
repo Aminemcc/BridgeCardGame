@@ -156,7 +156,7 @@ src="./Assets/game-003.jpg"
 width="150" height="300">
 </p>
 
-
+**Contoh 4**<br>
 
 <p align="center">
 <img 
@@ -164,7 +164,23 @@ src="./Assets/game-004.jpg"
 width="150" height="300">
 </p>
 
+## Quantitative
 
+Quantitative merupakan invite to slam.<br>
+Jika opener maximum => cari slam <br>
+Jika opener minimum => tidak slam <br>
+
+## Quantitative: 1NT-4NT
+
+**Contoh 1**<br>
+HCP 12, agak nyuri poin sebenarnya, tapi karena ada running suit Diamond 6 lembar jadi memungkinkan untuk mencari slam.<br>
+Akan tetapi, karena HCP opener minimum (15-16 HCP) jadinya dipass.<br>
+
+<p align="center">
+<img 
+src="./Assets/quantitative-001.jpg" 
+width="150" height="300">
+</p>
 
 
 
