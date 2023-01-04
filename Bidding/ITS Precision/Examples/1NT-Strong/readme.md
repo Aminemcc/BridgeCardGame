@@ -33,13 +33,23 @@ src="./Assets/part-score-002.jpg"
 width="150" height="300">
 </p>
 
-**Contoh 3**<br>
+## 1NT-2D/2H
+7 HCP, kalau invite bisa di gas game opener 7 + (16-17) = (23-24) HCP.<br>
+sehingga part score-an saja lebih aman, untuk part score di Major, hanya perlu lakukan transfer lalu pass.<br>
+
+**Contoh 1**<br>
 <p align="center">
 <img 
 src="./Assets/part-score-003.jpg" 
 width="150" height="300">
 </p>
 
+**Contoh 2**<br>
+<p align="center">
+<img 
+src="./Assets/part-score-001.jpg" 
+width="150" height="300">
+</p>
 
 
 
