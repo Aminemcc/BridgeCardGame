@@ -36,7 +36,7 @@ width="150" height="300">
 **Contoh 3**<br>
 <p align="center">
 <img 
-src="./Assets/part-score-002.jpg" 
+src="./Assets/part-score-003.jpg" 
 width="150" height="300">
 </p>
 
