@@ -17,13 +17,13 @@
 
 
 ## Part Score
-
+[Back](#table-of-contents)<br>
 Tujuan bidding part score berarti ingin bermain serendah rendahnya. <br>
 HCP 0-6 <br>
 HCP 7 saat distribusi jelek<br>
 
 ## Part Score : 1NT
-
+[Back](#table-of-contents)<br>
 **Contoh 1**<br>
 Pilih Pass karena hanya 7 HCP, kalau coba bid 2C, dijawab apapun bingung karena kurang HCP. worst case malah invite ketemu 16 HCP di-gas game oleh opener sehingga main game dengan 23 HCP tanpa ada 5 lembar untuk running. Sangat susah untuk bikin kontraknya<Br>
 <p align="center">
@@ -61,7 +61,7 @@ width="150" height="300">
 
 
 ## Part Score: 1NT-2D/2H
-
+[Back](#table-of-contents)<br>
 Untuk part score di Major, hanya perlu lakukan transfer lalu pass.<br>
 
 **Contoh 1**<br>
@@ -84,7 +84,7 @@ width="150" height="300">
 </p>
 
 ## Invite
-
+[Back](#table-of-contents)<br>
 HCP Invite = 8 <br>
 7 HCP jika distribusi bagus (siap bermain game 23 HCP) <br>
 Jika HCP Opener :
@@ -92,7 +92,7 @@ Jika HCP Opener :
 - Maximum / 16-17 : Game
 
 ## Invite: 1NT-2C
-
+[Back](#table-of-contents)<br>
 **Contoh 1**<br>
 HCP 7 cukup untuk melakukan stayman, serta siap dengan segala bid yang mungkin di bid oleh opener.<br>
 Jika :
@@ -112,11 +112,11 @@ width="150" height="300">
 
 
 ## Game
-
+[Back](#table-of-contents)<br>
 HCP minimal 9 untuk tujuan bidding pasti game. <br>
 
 ## Game: 1NT-2C
-
+[Back](#table-of-contents)<br>
 Tujuannya mencari fit Major, jika ketemu bid 4M game, jika tidak bid 3NT. Jika dijawab 44M, dilanjut dengan bid transfer 4D/4H. <br>
 
 **Contoh 1**<br>
@@ -170,13 +170,13 @@ width="150" height="300">
 </p>
 
 ## Quantitative
-
+[Back](#table-of-contents)<br>
 Quantitative merupakan invite to slam.<br>
 Jika opener maximum => cari slam <br>
 Jika opener minimum => tidak slam <br>
 
 ## Quantitative: 1NT-4NT
-
+[Back](#table-of-contents)<br>
 **Contoh 1**<br>
 HCP 12, agak nyuri poin sebenarnya, tapi karena ada running suit Diamond 6 lembar jadi memungkinkan untuk mencari slam.<br>
 Akan tetapi, karena HCP opener minimum (15-16 HCP) jadinya dipass.<br>
