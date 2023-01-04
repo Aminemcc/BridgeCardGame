@@ -46,6 +46,14 @@ src="./Assets/part-score-004.jpg"
 width="150" height="300">
 </p>
 
+**Contoh 4**<br>
+Cuma 5 HCP, gabisa nyari fit, pass saja. <br>
+<p align="center">
+<img 
+src="./Assets/part-score-006.jpg" 
+width="150" height="300">
+</p>
+
 
 ## Part Score: 1NT-2D/2H
 
@@ -78,7 +86,7 @@ Jika HCP Opener :
 - Minimum / 15 : Tidak game
 - Maximum / 16-17 : Game
 
-## invite: 1NT-2C
+## Invite: 1NT-2C
 
 **Contoh 1**<br>
 HCP 7 cukup untuk melakukan stayman, serta siap dengan segala bid yang mungkin di bid oleh opener.<br>
@@ -98,8 +106,12 @@ width="150" height="300">
 </p>
 
 
+## Game
+
+HCP minimal 9 untuk tujuan bidding pasti game. <br>
+
 <p align="center">
 <img 
-src="./Assets/part-score-006.jpg" 
+src="./Assets/game-001.jpg" 
 width="150" height="300">
 </p>
