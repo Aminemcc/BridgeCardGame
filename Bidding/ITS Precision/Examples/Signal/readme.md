@@ -13,7 +13,7 @@
 <p align="center">
 <img 
 src="./Assets/no interest-001.jpg" 
-width="300" height="200">
+width="450" height="300">
 </p>
 
 ## Counting
