@@ -398,7 +398,9 @@ Note :
 ## Sequence 1NT
 [Back](#sequence)<br>
 1NT = 15-17 HCP Balance <br>
-- [2C = 7+ HCP ask 4M / Invite to 3NT](#1nt-2c)
+- [2C = 7+ HCP ask 4M](#1nt-2c)
+    - 7 HCP invite boleh tapi bagus (ada kartu panjang)
+    - Intive to 3NT lewat sini
 - [2D = any HCP Transfer to H (5+H)](#1nt-2d)
 - [2H = any HCP Transfer to S (5+S)](#1nt-2h)
 - [2S = 55m NF / 55m GF / 6+m NF](#1nt-2s)
