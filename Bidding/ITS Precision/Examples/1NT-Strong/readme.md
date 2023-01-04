@@ -117,8 +117,7 @@ Jika :
 - 2D => bid 3NT = T/P
 - 2H => bid 4H = T/P
 - 2S => bid 4S = T/P
-- 2NT => bid 4D/4H = Transfer to 4H/4S
-- 3C => bid 4D/4H = Transfer to 4H/4S
+- 2NT/3C => bid 4D/4H = Transfer to 4H/4S
 
 <p align="center">
 <img 
@@ -126,8 +125,23 @@ src="./Assets/game-001.jpg"
 width="150" height="300">
 </p>
 
+**Contoh 2**<br>
+HCP 9, psti game, terdapat 4 lembar H, bisa cari fit Heart dengan bid 2C. <br>
+Jika :
+- 2D => bid 3NT = T/P
+- 2H => bid 4H = T/P
+- 2S => bid 3NT = T/P
+- 2NT/3C => bid 4D/4H = Transfer to 4H/4S
+
 <p align="center">
 <img 
 src="./Assets/game-002.jpg" 
+width="150" height="300">
+</p>
+
+
+<p align="center">
+<img 
+src="./Assets/game-003.jpg" 
 width="150" height="300">
 </p>
