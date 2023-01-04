@@ -1012,6 +1012,8 @@ Jika tidak punya hanya Slam <br>
 Jika punya, maka bisa Grand Slam <br>
 
 ## Signal
+[Back to content](#content)<br>
+Contoh-contoh signal : [Click here](./Examples/Signal/readme.md)<br>
 
 **Lavinthal**<br>
 Lavinthal merupakan sebuah cara discard kartu untuk memberi tahu partner kita ingin dia main suit apa agar defense semakin mudah dan sempurna.<br>
