@@ -111,6 +111,9 @@ width="150" height="300">
 HCP minimal 9 untuk tujuan bidding pasti game. <br>
 
 ## Game: 1NT-2C
+
+Tujuannya mencari fit Major, jika ketemu bid 4M game, jika tidak bid 3NT. Jika dijawab 44M, dilanjut dengan bid transfer 4D/4H. <br>
+
 **Contoh 1**<br>
 HCP 11, pasti game, terdapat 4H dan 4S, bisa cari fit Major dengan bid 2C. <br>
 Jika :
@@ -126,12 +129,12 @@ width="150" height="300">
 </p>
 
 **Contoh 2**<br>
-HCP 9, psti game, terdapat 4 lembar H, bisa cari fit Heart dengan bid 2C. <br>
+HCP 9, pasti game, terdapat 4 lembar H, bisa cari fit Heart dengan bid 2C. <br>
 Jika :
 - 2D => bid 3NT = T/P
 - 2H => bid 4H = T/P
 - 2S => bid 3NT = T/P
-- 2NT/3C => bid 4D/4H = Transfer to 4H/4S
+- 2NT/3C => bid 4D = Transfer to 4H
 
 <p align="center">
 <img 
@@ -139,9 +142,29 @@ src="./Assets/game-002.jpg"
 width="150" height="300">
 </p>
 
+**Contoh 3**<br>
+HCP 12, pasti game, terdapat 4 lembar Spade, bisa cari fit Spade dengan bid 2C. <br>
+Jika :
+- 2D => bid 3NT = T/P
+- 2H => bid 3NT = T/P
+- 2S => bid 4S = T/P
+- 2NT/3C => bid 4H = Transfer to 4S
 
 <p align="center">
 <img 
 src="./Assets/game-003.jpg" 
 width="150" height="300">
 </p>
+
+
+
+<p align="center">
+<img 
+src="./Assets/game-004.jpg" 
+width="150" height="300">
+</p>
+
+
+
+
+
