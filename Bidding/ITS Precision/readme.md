@@ -14,6 +14,9 @@
     - [3NT](#3nt)
     - [4X](#4x)
 - [Sequence](#sequence)
+- [Overcall](#Overcall)
+- [Competitive](#Competitive)
+    - [1NT](#1nt-competitive)
 - Tambahan Konvensi Bidding :
     - [Response to ask keycards](#response-to-ask-keycards)
     - [Exclusion](#exclusion)
@@ -59,6 +62,7 @@ Note :
 ## 1NT
 1NT = 15-17 HCP Balance <br>
 [Go To Sequence](#Sequence-1NT) <br>
+[Go To Competitive bidding](#1nt-competitive)<br>
 Note :
 1. Janjian apakah boleh punya 5M
 2. Lebih enak boleh punya 5M
@@ -418,8 +422,8 @@ Note :
 - [2D = no 4M](#1nt-2c-2d)
 - [2H = 4H](#1nt-2c-2h)
 - [2S = 4S](#1nt-2c-2s)
-- 2NT= 15-16 HCP 44M
-- 3C = 17 HCP 44M 
+- 2NT= Min HCP 44M
+- 3C = Max HCP 44M 
 
 ## 1NT-2C-2D
 [Back](#1nt-2c) <br>
@@ -905,6 +909,42 @@ Secara garis besar overcall seperti berikut :
 - 2S = S + m
 - 2NT = mm
 - 3C/D/H/S = Preemptive C/D/H/S
+
+# Competitive
+
+## 1NT Competitive
+[Back to 1NT](#1nt)<br>
+
+Competitive pada 1NT sering juga disebut lebensohl yaitu pada bid 2NT-nya yang membedakan<br>
+Adanya prinsip FADS : Fast Arrival Deny Stopper<br>
+Prinsip Lebensohl adalah (ovc 2D-2NT): <br>
+- Bidding tingkat 2 T/P
+- Bidding 2NT puppet to 3C
+    - Setelah 3C, bidding suit yang <= suit musuh T/P
+    - EXP : 1NT - (2D) - 2NT - 3C - 3D = T/P
+- Bidding tingkat 3 GF
+- Bidding tingkat 4 system on
+- Udah tidak ada ruang untuk invite
+- Ada stopper delay 3NT
+    - 1NT - (any) - 2NT - 3C - 3NT = T/P with stopper
+- Jika gak ada stopper di kedua tangan bisa lari bid 4 lembar terendah
+
+Contoh : 
+
+1NT <br>
+    - (2C)
+        - X = Stayman
+        - system on
+    - (2D)
+        - 2H/S = T/P
+        - 2NT = Puppet to 3C
+        - 3C = 
+        - 3D = 
+        - 3H = 5+H GF
+        - 3S = 5+H GF
+        - 3NT = T/P no stopper
+        - 4C++ system on
+
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
