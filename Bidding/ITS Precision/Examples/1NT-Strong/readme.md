@@ -14,8 +14,10 @@
 ## Part Score
 
 Tujuan bidding part score berarti ingin bermain serendah rendahnya. <br>
+HCP 0-6 <br>
+HCP 7 saat distribusi jelek<br>
 
-## 1NT-P
+## Part Score : 1NT
 
 **Contoh 1**<br>
 Pilih Pass karena hanya 7 HCP, kalau coba bid 2C, dijawab apapun bingung karena kurang HCP. worst case malah invite ketemu 16 HCP di-gas game oleh opener sehingga main game dengan 23 HCP tanpa ada 5 lembar untuk running. Sangat susah untuk bikin kontraknya<Br>
@@ -45,21 +47,50 @@ width="150" height="300">
 </p>
 
 
-## 1NT-2D/2H
-7 HCP, kalau invite bisa di gas game opener 7 + (16-17) = (23-24) HCP.<br>
-sehingga part score-an saja lebih aman, untuk part score di Major, hanya perlu lakukan transfer lalu pass.<br>
+## Part Score: 1NT-2D/2H
+
+Untuk part score di Major, hanya perlu lakukan transfer lalu pass.<br>
 
 **Contoh 1**<br>
+7 HCP, kalau invite bisa di gas game opener 7 + (16-17) = (23-24) HCP. sehingga part score-an saja lebih aman.<br>
+
 <p align="center">
 <img 
 src="./Assets/part-score-003.jpg" 
 width="150" height="300">
 </p>
 
+
+## Invite
+
+HCP Invite = 8 <br>
+7 HCP jika distribusi bagus (siap bermain game 23 HCP) <br>
+Jika HCP Opener :
+- Minimum / 15 : Tidak game
+- Maximum / 16-17 : Game
+
+## invite: 1NT-2C
+
+**Contoh 1**<br>
+HCP 7 cukup untuk melakukan stayman, serta siap dengan segala bid yang mungkin di bid oleh opener.<br>
+Jika :
+- 2D => di pass main 2D
+- 2H => di pass main 2H gpp fit 7 lembar ada singleton membantu
+- 2S => karena ada singleton dan fit Spade, bisa invite
+- 2NT => HCP opener minimum, gak game, bid 3H transfer to 3S
+- 3C => HCP opener maximum, gas game, bid 4H transfer to 4S
+
+Note : singleton saat bermain kontrak suit sangat membantu karena seperti punya king atau second round control.<br>
+
+<p align="center">
+<img 
+src="./Assets/invite-001.jpg" 
+width="150" height="300">
+</p>
+
+
 <p align="center">
 <img 
 src="./Assets/part-score-005.jpg" 
 width="150" height="300">
 </p>
-
-
