@@ -26,7 +26,14 @@ width="150" height="300">
 </p>
 
 **Contoh 2**<Br>
-<br>
+Cuma 6 HCP, tujuan bidding adalah part score, tidak ada kartu panjang (5+ lembar), pass merupakan bid yang terbaik.<br>
+<p align="center">
+<img 
+src="./Assets/part-score-002.jpg" 
+width="150" height="300">
+</p>
+
+**Contoh 3**<br>
 <p align="center">
 <img 
 src="./Assets/part-score-002.jpg" 
