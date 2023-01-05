@@ -11,8 +11,8 @@
     - [1NT-2C](#invite-1nt-2c)
 - [Game](#game)
     - [1NT-2C](#game-1nt-2c)
-- [Quantitative](#quantitative)
-    - [1NT-4NT](#quantitative-1nt-4nt)
+- [Slam Interest](#slam-interest)
+    - [1NT-4NT](#slam-interest-1nt-4nt)
 - Slam
 
 
@@ -169,21 +169,23 @@ src="./Assets/game-004.jpg"
 width="150" height="300">
 </p>
 
-## Quantitative
+## Slam Interest
 [Back](#table-of-contents)<br>
 Quantitative merupakan invite to slam.<br>
 Jika opener maximum => cari slam <br>
 Jika opener minimum => tidak slam <br>
 
-## Quantitative: 1NT-4NT
+## Slam Interest: 1NT-4NT
 [Back](#table-of-contents)<br>
 **Contoh 1**<br>
 HCP 12, agak nyuri poin sebenarnya, tapi karena ada running suit Diamond 6 lembar jadi memungkinkan untuk mencari slam.<br>
 Akan tetapi, karena HCP opener minimum (15-16 HCP) jadinya dipass.<br>
+Quantitative ketemu minimum => tidak slam <br>
+Quantitative ketemu maximum => mungkin slam <br>
 
 <p align="center">
 <img 
-src="./Assets/quantitative-001.jpg" 
+src="./Assets/si-001.jpg" 
 width="150" height="300">
 </p>
 
