@@ -215,6 +215,17 @@ src="./Assets/game-004.jpg"
 width="150" height="300">
 </p>
 
+## Game: 1NT-3NT
+
+**Contoh 1**<br>
+
+| Original Version | Sike Version |
+| --- | --- |
+| <img src="./Assets/game-1nt-3nt-001-a.jpg" width="150" height="300"> | <img src="./Assets/game-1nt-3nt-001-b.jpg" width="150" height="300"> |
+
+Normalnya, dengan HCP cukup, utara akan gas game. Biasanya opener mempunyai Stopper Major. akan tetapi kartu bidding seperti ini biasanya akan di lead Major, sehingga jika ingin sedikit menipu lawan, dapat melakukan stayman untuk bertanya Major, dijawab apapun bid 3NT. Dengan begini lawan akan mengira utara mempunyai kartu Major.
+
+
 ## Slam Interest
 [Back](#table-of-contents)<br>
 Slam interest kartunya ada kemungkinan slam, jadi bisa coba bidding untuk mencari slam. <br>
