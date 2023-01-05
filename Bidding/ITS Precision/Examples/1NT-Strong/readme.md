@@ -7,12 +7,15 @@
 - [Part Score](#part-score)
     - [1NT-P](#part-score--1nt)
     - [1NT-2D/2H-P](#part-score-1nt-2d2h)
+    - [1NT-2S](#part-score-1nt-2s)
 - [Invite](#invite)
     - [1NT-2C](#invite-1nt-2c)
     - [1NT-2D/2H](#invite-1nt-2d2h)
 - [Game](#game)
     - [1NT-2C](#game-1nt-2c)
 - [Slam Interest](#slam-interest)
+    - [1NT-2H](#slam-interest-1nt-2h)
+    - [1NT-2S](#slam-interest-1nt-2s)
     - [1NT-4NT](#slam-interest-1nt-4nt)
 
 
@@ -82,6 +85,17 @@ Ada singleton, lebih disarankan main part score 2 Major.<br>
 src="./Assets/part-score-005.jpg" 
 width="150" height="300">
 </p>
+
+## Part Score: 1NT-2S
+
+**Contoh 1**<br>
+Kartu seperti ini jika ingin 1NT-P juga tidak masalah.<br>
+<p align="center">
+<img 
+src="./Assets/part-score-1nt-2s-001.jpg" 
+width="150" height="300">
+</p>
+
 
 ## Invite
 [Back](#table-of-contents)<br>
