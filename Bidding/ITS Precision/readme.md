@@ -580,7 +580,7 @@ Note :
 - 2NT= 5S Invite
 - [3C = 5S + 4C GF (Second suit)](#1nt-2h-2s-3c)
 - [3D = 5S + 4D GF (Second suit)](#1nt-2h-2s-3d)
-- 3H = ?
+- 3H = Splinter H 7+S SI
 - 3S = 6+S Invite
 - 3NT= 5S Pass/Corrct to 4S
 - 4C = Splinter C 7+S SI
@@ -625,6 +625,10 @@ Note :
 - 3D = T/P
 - 3H = Splinter H 55m GF
 - 3S = Splinter S 55m GF
+- 3NT= 55m HCP Invite
+    - Experimental, tambahan oleh Aminemc-Floren_B
+    - Jika opener kurang poin, opener bid 4m
+    - Jika tidak ada stopper, opener lari ke minor
 
 ## 1NT-2S-3C
 [Back](#1nt-2s)<br>
@@ -632,6 +636,10 @@ Note :
 - 3D = T/P
 - 3H = Splinter H 55m GF
 - 3S = Splinter S 55m GF
+- 3NT= 55m HCP Invite
+    - Experimental, tambahan oleh Aminemc-Floren_B
+    - Jika opener kurang poin bid 4m
+    - Jika tidak ada stopper lari ke minor
 
 ## 1NT-2NT-3C
 [Back](#sequence-1nt)<br>

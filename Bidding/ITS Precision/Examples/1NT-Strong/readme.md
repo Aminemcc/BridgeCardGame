@@ -219,6 +219,21 @@ width="150" height="300">
 [Back](#table-of-contents)<br>
 Slam interest kartunya ada kemungkinan slam, jadi bisa coba bidding untuk mencari slam. <br>
 
+## Slam Interest: 1NT-2S
+
+[Back](#table-of-contents)<br>
+**Contoh 1**<br>
+<p align="center">
+<img 
+src="./Assets/si-001.jpg" 
+width="150" height="300">
+</p>
+<p align="center">
+<img 
+src="./Assets/si-001.jpg" 
+width="150" height="300">
+</p> 
+
 ## Slam Interest: 1NT-4NT
 [Back](#table-of-contents)<br>
 **Contoh 1**<br>
