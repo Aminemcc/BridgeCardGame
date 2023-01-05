@@ -1,5 +1,8 @@
 # Bidding System ITS Precision Modified #
 
+You can contact me to ask / suggest additional material to be added to this repo. <Br>
+Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
+
 # Content
 - [Opening](#opening)
     - [1C](#1c)

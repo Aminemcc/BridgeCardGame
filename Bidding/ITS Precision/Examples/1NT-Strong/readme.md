@@ -13,7 +13,6 @@
     - [1NT-2C](#game-1nt-2c)
 - [Slam Interest](#slam-interest)
     - [1NT-4NT](#slam-interest-1nt-4nt)
-- Slam
 
 
 ## Part Score
@@ -110,6 +109,17 @@ src="./Assets/invite-001.jpg"
 width="150" height="300">
 </p>
 
+## Invite: 1NT-2D/2H
+
+**Contoh 1-6**<br>
+HCP Utara 8, 5 Lembar S
+
+<p align="center">
+<img 
+src="./Assets/invite-002.jpg" 
+width="150" height="300">
+</p>
+
 
 ## Game
 [Back](#table-of-contents)<br>
@@ -171,9 +181,7 @@ width="150" height="300">
 
 ## Slam Interest
 [Back](#table-of-contents)<br>
-Quantitative merupakan invite to slam.<br>
-Jika opener maximum => cari slam <br>
-Jika opener minimum => tidak slam <br>
+Slam interest kartunya ada kemungkinan slam, jadi bisa coba bidding untuk mencari slam. <br>
 
 ## Slam Interest: 1NT-4NT
 [Back](#table-of-contents)<br>
