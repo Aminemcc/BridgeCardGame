@@ -233,6 +233,24 @@ width="500" height="150">
 src="./Assets/si-1nt-2s-001-b.jpg" 
 width="500" height="150">
 </p> 
+Arti lengkap bid :
+
+- 1NT= 15-17 HCP Balance
+- 2S = 55m NF / 55m GF / 6+m NF
+- 3C = Better C (Fit C)
+- 3S = Splinter S GF
+- 3NT= T/P with stopper H & S
+- 4D = Cue D SI
+    - Janjian harus kuat, mau aman bid 4C 
+- 4H = Cue H
+- 4NT= Exclusion S
+    - Jika 4S = ask keycards fit C, maka 4NT bisa janjian exclusion S / void S
+- 5C = 1 / 4 keycards
+    - Jawaban dari ask keycards
+- 6C = T/P
+    - keycards totalnya 3 dari 4 yang dibutuhkan (Spade tidak perlu)
+
+
 Dengan tangan barat, barat harusnya kepikiran untuk bermain slam dengan poin yang concentrate pada Diamond Club sehingga setelah bid 2S,
 jawaban apapun akan dilanjutkan dengan splinter S (bid 3S).<br>
 setelah itu, walaupun opener nutup 3NT, barat akan tetap melanjutkannya dengan set fit / langsugn cue.<br>
