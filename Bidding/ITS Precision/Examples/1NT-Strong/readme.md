@@ -175,7 +175,7 @@ Jika :
 
 <p align="center">
 <img 
-src="./Assets/game-001.jpg" 
+src="./Assets/game-1nt-2c-001.jpg" 
 width="150" height="300">
 </p>
 
@@ -189,7 +189,7 @@ Jika :
 
 <p align="center">
 <img 
-src="./Assets/game-002.jpg" 
+src="./Assets/game-1nt-2c-002.jpg" 
 width="150" height="300">
 </p>
 
@@ -203,7 +203,7 @@ Jika :
 
 <p align="center">
 <img 
-src="./Assets/game-003.jpg" 
+src="./Assets/game-1nt-2c-003.jpg" 
 width="150" height="300">
 </p>
 
@@ -211,7 +211,23 @@ width="150" height="300">
 
 <p align="center">
 <img 
-src="./Assets/game-004.jpg" 
+src="./Assets/game-1nt-2c-004.jpg" 
+width="150" height="300">
+</p>
+
+**Contoh 5**<br>
+<p align="center">
+<img 
+src="./Assets/game-1nt-2c-005.jpg" 
+width="150" height="300">
+</p>
+
+**Contoh 6**<br>
+Tujuan bidding 1NT-2C = Smolen, tapi ternyata opener punya 4M, yaudah game.
+
+<p align="center">
+<img 
+src="./Assets/game-1nt-2c-006.jpg" 
 width="150" height="300">
 </p>
 
