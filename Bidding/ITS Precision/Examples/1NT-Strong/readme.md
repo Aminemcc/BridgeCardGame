@@ -226,12 +226,12 @@ Slam interest kartunya ada kemungkinan slam, jadi bisa coba bidding untuk mencar
 <p align="center">
 <img 
 src="./Assets/si-1nt-2s-001-a.jpg" 
-width="3000" height="150">
+width="500" height="150">
 </p>
 <p align="center">
 <img 
 src="./Assets/si-1nt-2s-001-b.jpg" 
-width="300" height="150">
+width="500" height="150">
 </p> 
 Dengan tangan barat, barat harusnya kepikiran untuk bermain slam dengan poin yang concentrate pada Diamond Club sehingga setelah bid 2S,
 jawaban apapun akan dilanjutkan dengan splinter S (bid 3S).<br>
