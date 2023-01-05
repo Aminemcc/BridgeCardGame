@@ -225,14 +225,32 @@ Slam interest kartunya ada kemungkinan slam, jadi bisa coba bidding untuk mencar
 **Contoh 1**<br>
 <p align="center">
 <img 
-src="./Assets/si-001.jpg" 
-width="150" height="300">
+src="./Assets/si-1nt-2s-001-a.jpg" 
+width="3000" height="150">
 </p>
 <p align="center">
 <img 
-src="./Assets/si-001.jpg" 
-width="150" height="300">
+src="./Assets/si-1nt-2s-001-b.jpg" 
+width="300" height="150">
 </p> 
+Dengan tangan barat, barat harusnya kepikiran untuk bermain slam dengan poin yang concentrate pada Diamond Club sehingga setelah bid 2S,
+jawaban apapun akan dilanjutkan dengan splinter S (bid 3S).<br>
+setelah itu, walaupun opener nutup 3NT, barat akan tetap melanjutkannya dengan set fit / langsugn cue.<br>
+
+- 4C = Set fit Club (bidding paling aman)
+- 4D = Cue D (Harus partnership kuat)
+- 4H = Cue H (No Cue D)
+
+Setelah itu opener tidak boleh nutup bid 5C (kecuali tidak ada cue H & splinter yang ketemu HCP besar).<br>
+opener paling aman tanya keycard dengan bid 4S/4NT (Sesuai janjiannya) jika tidak ada cue H.<br>
+
+Setelah mendapatkan cue H. barat tentunya ingin menanyakan keycard selain keycard Spade (Exclusion). untuk melakukan ini ada 2 cara yang sesuaji janjiannya, yaitu :<br>
+- Jika janjian 4S = tanya keycard fit C, maka 4NT = Exclusion S
+- Jika janjian 4NT= tanya keycard fit C, maka 4S = Void S
+    - Jika melakukan cue di 4S, maka opener tinggal bertanya keycard.
+    - Perlu diperhatikan keycard west tidak mungkin 0 sehingga tidak mungkin overbid
+
+Setelah keycard totalnya 3 selain Spade, maka tutup 6C.<br>
 
 ## Slam Interest: 1NT-4NT
 [Back](#table-of-contents)<br>
