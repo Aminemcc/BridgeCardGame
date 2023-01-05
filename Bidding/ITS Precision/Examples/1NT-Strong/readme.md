@@ -189,7 +189,7 @@ Setelah 2NT :
 <p align="center">
 <img 
 src="./Assets/invite-1nt-2h-001.jpg" 
-width="150" height="300">
+width="500" height="150">
 </p>
 
 
