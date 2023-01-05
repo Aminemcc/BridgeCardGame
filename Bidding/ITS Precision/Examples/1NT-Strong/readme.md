@@ -9,6 +9,7 @@
     - [1NT-2D/2H-P](#part-score-1nt-2d2h)
 - [Invite](#invite)
     - [1NT-2C](#invite-1nt-2c)
+    - [1NT-2D/2H](#invite-1nt-2d2h)
 - [Game](#game)
     - [1NT-2C](#game-1nt-2c)
 - [Slam Interest](#slam-interest)
@@ -119,6 +120,7 @@ width="150" height="300">
 </p>
 
 ## Invite: 1NT-2D/2H
+[Back](#table-of-contents)<br>
 
 **Contoh 1**<br>
 HCP Utara 8, 5 Lembar S, ingin invite dengan menunjukkan 5S-nya.<br>
@@ -127,6 +129,8 @@ Berikut arti-arti biddingnya : <br>
 - 2H = Transfer to S (5+S)
 - 2S = Accept transfer (2+S)
 - 2NT = 5S invite to 3NT or 4S
+Tambahan : <br>
+- 3S = 6+S invite to 4S
 
 <p align="center">
 <img 
@@ -146,6 +150,7 @@ width="150" height="300">
 </p>
 
 (Opener 17 HCP)<br>
+Untuk 16 HCP biasanya dianggap maximum dan digas game.<br>
 <p align="center">
 <img 
 src="./Assets/invite-005.jpg" 
