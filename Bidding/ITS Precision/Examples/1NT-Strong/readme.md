@@ -228,7 +228,7 @@ Tujuan bidding 1NT-2C = Smolen, tapi ternyata opener punya 4M, yaudah game.
 <p align="center">
 <img 
 src="./Assets/game-1nt-2c-006.jpg" 
-width="150" height="300">
+width="500" height="150">
 </p>
 
 ## Game: 1NT-3NT
