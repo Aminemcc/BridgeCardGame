@@ -220,7 +220,6 @@ width="150" height="300">
 Slam interest kartunya ada kemungkinan slam, jadi bisa coba bidding untuk mencari slam. <br>
 
 ## Slam Interest: 1NT-2S
-
 [Back](#table-of-contents)<br>
 **Contoh 1**<br>
 <p align="center">
@@ -270,6 +269,38 @@ Setelah mendapatkan cue H. barat tentunya ingin menanyakan keycard selain keycar
 
 Setelah keycard totalnya 3 selain Spade, maka tutup 6C.<br>
 
+## Slam Interest: 1NT-2H
+**Contoh 1**<br>
+[Back](#table-of-contents)<br>
+<p align="center">
+<img 
+src="./Assets/si-1nt-2h-001-a.jpg" 
+width="500" height="150">
+</p>
+<p align="center">
+<img 
+src="./Assets/si-1nt-2h-001-b.jpg" 
+width="500" height="150">
+</p> 
+arti lengkap bid :
+
+- 1NT= 15-17 HCP Balance
+- 2H = Transfer to S (5+S)
+- 2S = Default bid
+- 3H = Splinter H 7+S SI
+- 3NT= Double Cue C & D
+    - Harus dengan partnership kuat karena bisa saja terbaca waiting cue
+    - Akan tetapi, waiting cue disini tidak berguna karena yang lebih butuh cue east
+- 4H = Void H
+- 4NT= ask keycards
+- 5D = 3/0 keycards
+- 7S = T/P
+
+setelah splinter, dari west dengan kartu Jxx di H, cocok dengan splinter east, sehingga bisa coba cari slam, yaitu dengan cue.
+value utama dari kartu east adalah void H, sehingga daripada cue C, cue H juga merupakan sebuah pilihan. Jika memilih cue C, maka nanti east akan bid 5H untuk menunjukkan voidnya.
+
+keycard lengkap 4/4 (Heart tidak dibutuhkan karena telah bid void H / exclusion H), maka tutup 7S.
+
 ## Slam Interest: 1NT-4NT
 [Back](#table-of-contents)<br>
 **Contoh 1**<br>
@@ -280,7 +311,7 @@ Quantitative ketemu maximum => mungkin slam <br>
 
 <p align="center">
 <img 
-src="./Assets/si-001.jpg" 
+src="./Assets/si-1nt-4nt-001.jpg" 
 width="150" height="300">
 </p>
 
