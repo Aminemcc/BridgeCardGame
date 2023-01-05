@@ -63,7 +63,7 @@ Note :
 1NT = 15-17 HCP Balance <br>
 [Go To Sequence](#Sequence-1NT) <br>
 [Go To Competitive bidding](#1nt-competitive)<br>
-[Go To Examples](./Examples/1NT-Strong/readme.md)<br>
+[Go To Examples](./Examples/1NT-Strong)<br>
 Note :
 1. Janjian apakah boleh punya 5M
 2. Lebih enak boleh punya 5M
@@ -398,7 +398,7 @@ Note :
 - 4S = T/P
 ## Sequence 1NT
 [Back](#sequence)<br>
-[Go To Examples](./Examples/1NT-Strong/readme.md)<br>
+[Go To Examples](./Examples/1NT-Strong)<br>
 1NT = 15-17 HCP Balance <br>
 - [2C = 7+ HCP ask 4M](#1nt-2c)
     - 7 HCP invite boleh tapi bagus (ada kartu panjang)
