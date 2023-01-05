@@ -109,10 +109,8 @@ src="./Assets/invite-001.jpg"
 width="150" height="300">
 </p>
 
-## Invite: 1NT-2D/2H
-
-**Contoh 1-6**<br>
-HCP Utara 8, 5 Lembar S
+**Contoh 2**<br>
+HCP 8 dan ingin invite to 3NT, maka biddingnya lewat 2C stayman.<br>
 
 <p align="center">
 <img 
@@ -120,6 +118,39 @@ src="./Assets/invite-002.jpg"
 width="150" height="300">
 </p>
 
+## Invite: 1NT-2D/2H
+
+**Contoh 1**<br>
+HCP Utara 8, 5 Lembar S, ingin invite dengan menunjukkan 5S-nya.<br>
+Berikut arti-arti biddingnya : <br>
+- 1NT = 15-17 HCP Balance
+- 2H = Transfer to S (5+S)
+- 2S = Accept transfer (2+S)
+- 2NT = 5S invite to 3NT or 4S
+
+<p align="center">
+<img 
+src="./Assets/invite-003.jpg" 
+width="150" height="300">
+</p>
+
+**Contoh 2-3**<br>
+HCP Utara 8, **6 Lembar S**, ingin invite dengan menunjukkan 6S-nya.<br>
+Setelah transfer bid 3S = invite to 4S.<br>
+
+(Opener 15 HCP)<br>
+<p align="center">
+<img 
+src="./Assets/invite-004.jpg" 
+width="150" height="300">
+</p>
+
+(Opener 17 HCP)<br>
+<p align="center">
+<img 
+src="./Assets/invite-004.jpg" 
+width="150" height="300">
+</p>
 
 ## Game
 [Back](#table-of-contents)<br>

@@ -31,7 +31,21 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
 Opening bid merupakan bidding pertama yang dilakukan di meja.
 ♣ ♦ ♥ ♠ 
 
+List opening : <br>
+- [1C](#1c)
+- [1D](#1d)
+- [1M](#1m)
+- [1NT](#1nt)
+- [2C](#2c)
+- [2D](#2d)
+- [2M](#2m)
+- [2NT](#2nt)
+- [3X](#3x)
+- [3NT](#3nt)
+- [4X](#4x)
+
 ## 1C
+[Back](#content)<br>
 1C = 16+ HCP any dist <br>
 [Go To Sequence](#Sequence-1C) <br>
 Secara lebih detail arti opening 1C : <br>
@@ -42,6 +56,7 @@ Note :
     - One Step Artificial = 12+ HCP any dist
 
 ## 1D
+[Back](#content)<br>
 1D = 12-15 HCP 2+D <br>
 [Go To Sequence](#sequence-1d)<br>
 Note :
@@ -55,6 +70,7 @@ Note :
         2. 4M + 5D
 
 ## 1M
+[Back](#content)<br>
 1H = 12-15 HCP 5+H <br>
 [Go To Sequence](#sequence-1h)<br>
 1S = 12-15 HCP 5+S <br>
@@ -63,6 +79,7 @@ Note :
 1. Utamakan M daripada m, sehingga walau minor lebih panjang opening tetap 1M
 
 ## 1NT
+[Back](#content)<br>
 1NT = 15-17 HCP Balance <br>
 [Go To Sequence](#Sequence-1NT) <br>
 [Go To Competitive bidding](#1nt-competitive)<br>
@@ -72,6 +89,7 @@ Note :
 2. Lebih enak boleh punya 5M
 
 ## 2C
+[Back](#content)<br>
 2C = 12-15 HCP 5C + 4M / 6+C <br>
 [Go To Sequence](#sequence-2c)<br>
 Note : 
@@ -80,12 +98,14 @@ Note :
 3. Prinsipnya adalah apabila 2C tidak dipass, maka stop bid hanya di 3C, sisanya forcing (kecuali bid to play)
 
 ## 2D
+[Back](#content)<br>
 2D = 12-15 HCP 4414 / 4405 <br>
 [Go To Sequence](#sequence-2d)<br>
 Note :
 1. short di D
 
 ## 2M
+[Back](#content)<br>
 2H = 8-10 HCP 6+H <br>
 2S = 8-10 HCP 6+S <br>
 Note :
@@ -94,18 +114,21 @@ Note :
 3. Tangan pertama/kedua lebih baik tidak punya 4 lbr other M
 
 ## 2NT
+[Back](#content)<br>
 2NT = 10- HCP mm <br>
 Note :
 1. Tidak ada spesifik HCP minimum
 2. jika 54 lebih baik saat NV dan ada short
 
 ## 3X
+[Back](#content)<br>
 3C/D/H/S = 7+ C/D/H/S <br>
 Note :
 1. Tujuan opening ini untuk menutup ruang bidding
 2. Biasa disebut Preemptive
 
 ## 3NT
+[Back](#content)<br>
 3NT = Solid minor <br>
 Note :
 1. One Suiter minor & no loser di minor tersebut
@@ -113,6 +136,7 @@ Note :
 3. Ada stopper di suit lain (tidak semua suit tidak apa apa)
 
 ## 4X
+[Back](#content)<br>
 4C/D/H/S = 8+ C/D/H/S <br>
 Note :
 1. Tujuan opening ini untuk menutup ruang bidding
@@ -406,6 +430,7 @@ Note :
 - [2C = 7+ HCP ask 4M](#1nt-2c)
     - 7 HCP invite boleh tapi bagus (ada kartu panjang)
     - Intive to 3NT lewat sini
+    - (54)M GF lewat sini
 - [2D = any HCP Transfer to H (5+H)](#1nt-2d)
 - [2H = any HCP Transfer to S (5+S)](#1nt-2h)
 - [2S = 55m NF / 55m GF / 6+m NF](#1nt-2s)
