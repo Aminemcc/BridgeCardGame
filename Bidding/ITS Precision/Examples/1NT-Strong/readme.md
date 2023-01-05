@@ -171,6 +171,28 @@ src="./Assets/invite-005.jpg"
 width="150" height="300">
 </p>
 
+**Contoh 4**<br>
+Kalau mainnya suka agresif / gambling, maka kartu seperti ini :
+
+- HCP 7
+- 5 Lembar S
+- Terdapat singleton
+
+masih bisa invite dengan resiko bermain 3NT total HCP 23 dengan bid 2NT.
+
+Setelah 2NT :
+- Jika dipass => yaudah main 2NT
+- Jika di correct 3S => bisa game 4S karena ada singleton H
+- Jika di gas 3NT => ini resikonya
+- Jika di gas 4S => best casenya ini
+
+<p align="center">
+<img 
+src="./Assets/invite-1nt-2h-001.jpg" 
+width="150" height="300">
+</p>
+
+
 ## Game
 [Back](#table-of-contents)<br>
 HCP minimal 9 untuk tujuan bidding pasti game. <br>
