@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [Part Score](#part-score)
-    [1H-1NT](#part-score-1h-1nt)
+    - [1H-1NT](#part-score-1h-1nt)
 - [Invite](#invite)
 - [Game](#Game)
     - [1H-1S](#game-1h-1s)
@@ -20,7 +20,9 @@
 
 
 ## Part Score: 1H-1NT
+[Back](#table-of-contents)<br>
 
+**Contoh 1**<br>
 <p align="center">
 <img 
 src="./Assets/part-score-1h-1nt-001.jpg" 
@@ -41,13 +43,15 @@ width="150" height="300">
     - bakal pass main 2S
 
 ## Invite
-
+[Back](#table-of-contents)<br>
 
 
 
 ## Game
+[Back](#table-of-contents)<br>
 
 ## Game: 1H-1S
+[Back](#table-of-contents)<br>
 Banyak sekali tujuan dari bidding 1S, tetapi untuk game biasanya :
 
 - Cari 6 lembar H opener
@@ -72,6 +76,7 @@ Arti lengkap bid :
     - Partner bid 3C udah siap untuk kita bid 3NT
 
 ## Game: 1H-2C
+[Back](#table-of-contents)<br>
 Tujuan bid 2C biasanya adalah :
 
 - Mencari fit H 6-2 / Balanced card
@@ -93,6 +98,7 @@ Arti lengkap bid :
     - Tidak ada fit untuk dicari, main 3NT aja
 
 ## Game: 1H-4H
+[Back](#table-of-contents)<br>
 Game langsung tutup 4H biasanya kartunya :
 
 - HCP 11- Unbalanced fit H
@@ -114,3 +120,4 @@ width="150" height="300">
 
 
 ## Slam Interest
+[Back](#table-of-contents)<br>
