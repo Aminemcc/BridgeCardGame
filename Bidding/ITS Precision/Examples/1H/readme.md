@@ -5,8 +5,12 @@
 ## Table of Contents
 
 - [Part Score](#part-score)
+    [1H-1NT](#part-score-1h-1nt)
 - [Invite](#invite)
 - [Game](#Game)
+    - [1H-1S](#game-1h-1s)
+    - [1H-2C](#game-1h-2c)
+    - [1H-4H](#game-1h-4h)
 - [Slam Interest](#slam-interest)
 
 
@@ -15,7 +19,26 @@
 ## Part Score
 
 
+## Part Score: 1H-1NT
 
+<p align="center">
+<img 
+src="./Assets/part-score-1h-1nt-001.jpg" 
+width="150" height="300">
+</p>
+
+1NT disini tujuannya adalah dipass atau jika dibid apapun balik 2D / 2H.
+
+- Jika dipass
+    - yaudah main 1NT, kalau musuh masuk, bid Diamond
+- Jika dibid 2C
+    - bid 2D T/P
+- Jika dibid 2D
+    - bakal pass main 2D
+- Jika dibid 2H
+    - bakal pass main 2H
+- Jika dibid 2S
+    - bakal pass main 2S
 
 ## Invite
 
