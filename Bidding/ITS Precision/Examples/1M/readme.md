@@ -1,6 +1,8 @@
-# Contoh-contoh 1H
+# Contoh-contoh 1H/1S
 
-1NT = 12-15 HCP 5+H <br>
+Arti opening : <br>
+1H = 12-15 HCP 5+H <br>
+1S = 12-15 HCP 5+S <br>
 
 ## Table of Contents
 
