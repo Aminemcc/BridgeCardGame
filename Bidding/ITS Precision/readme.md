@@ -384,8 +384,13 @@ Note :
 - 2C = 12+ HCP 5+C / Balance
 - 2D = 12+ HCP 5+D
 - 2H = 6-9 HCP 3+H
-- 2S = 12+ HCP 6+S
+- 2S = 12+ HCP 5+S
+    - Bisa versi harus 6+S, jika 5 lewat 1S
+    - Bisa versi Bergen 12+, maka:
+        - 2C = 12+ HCP 5+C
+        - 2NT= GF Balance
 - 2NT= Bergen 12+ HCP 4+H
+    - Janjian dulu apakah bergen max lewat 2S / 2NT
 - 3C = Bergen 6-9 HCP 4+H Unbalance
 - 3D = Bergen 10-11 HCP 4+H Balance
 - 3H = Blocking
