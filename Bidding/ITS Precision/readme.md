@@ -421,7 +421,7 @@ Note :
 - 2NT= 12+ HCP Balance
 - 3C = Bergen 12+ HCP 4+S
 - 3D = Bergen 6-9 HCP 4+S Unbalance
-- 3H = Bergen 6-9 HCP 4+S Balance
+- 3H = Bergen 10-11 HCP 4+S Balance
 - 3S = Blocking
 - 3NT= ?
 - 4C = Splinter C 4+S SI
