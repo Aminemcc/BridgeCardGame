@@ -290,8 +290,8 @@ Note :
 [Back](#1c-1d-1h-1s)<br>
 - 2D = Default bid
     - 2C gak boleh di-pass, sehingga one step merupakan default bid
-- 2H = ?
-- 2S = ?
+- 2H = 3-4 HCP
+- 2S = 5-7 Balance
 - 2NT= ?
 
 ## 1C-1D-1H-1NT-2C
