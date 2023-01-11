@@ -155,6 +155,12 @@ List Sequences : <br>
                 - [1C-1D-1H-1S-2C](#1c-1d-1h-1s-2c)
             - 1C-1D-1H-1NT
                 -[1C-1D-1H-1NT-2C](#1c-1d-1h-1nt-2c)
+    - [1C-1NT](#1c-1nt)
+        - [1C-1NT-2C](#1c-1nt-2c)
+    - 1C-2H
+        - [1C-2H-2S](#1c-2h-2s)
+            - 1C-2H-2S-2NT
+                - [1C-2H-2S-2NT-3C](#1c-2h-2s-2nt-3c)
 - [1D = 12-15 HCP 2+D](#Sequence-1D)
     - [1D-1H](#1d-1h)
     - [1D-1S](#1d-1s)
@@ -251,6 +257,7 @@ Note :
 - 2C = 5-7 HCP 5+C
 - 2D = 5-7 HCP 5+D
 - 2H = 5-7 HCP 4441 any singleton
+    - Lanjutan sama persis sama [1C-2H](#1c-2h-2s)
 - 2S = 5-7 HCP 6+any
 - 2NT= 5-7 HCP 5C + 5any
 - 3C = 5-7 HCP 5D + 5H
@@ -259,6 +266,7 @@ Note :
 
 Note :
 - 1S kenapa ada 2 kemungkinan agar opener ada ruang bid 1NT
+- Bidding 2H++ sama persis artinya cuma beda HCP
 
 ## 1C-1D-1H-1S
 [Back](#1c-1d-1h) <br>
