@@ -220,10 +220,10 @@ List Sequences : <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
 - 1H = 8+ HCP 5+H
 - 1S = 8+ HCP 5+S
-- 1NT= 8+ HCP Balance
+- [1NT= 8+ HCP Balance](#1c-1nt)
 - 2C = 8+ HCP 5+C
 - 2D = 8+ HCP 5+D
-- 2H = 8+ HCP 4441 any singleton
+- [2H = 8+ HCP 4441 any singleton](#1c-2h-2s)
 - 2S = 8-11 HCP 6+any
 - 2NT= 8-11 HCP 5C + 5any
 - 3C = 8-11 HCP 5D + 5H
@@ -239,7 +239,7 @@ Note :
 - [1H = 20+ HCP any dist](#1c-1d-1h)
 - 1S = 16-19 HCP 5+S
 - 1NT= 18-19 HCP Balance
-    - Lanjuta seperti opening 1NT, tapi cuma beda HCP
+    - Lanjutan seperti opening 1NT, tapi cuma beda HCP
 - 2C = 16-19 HCP 5+C
 - 2D = 16-19 HCP 5+D
 - 2H = 16-19 HCP 5+H
@@ -272,6 +272,7 @@ Note :
 ## 1C-1D-1H-1S-2C
 [Back](#1c-1d-1h-1s)<br>
 - 2D = Default bid
+    - 2C gak boleh di-pass, sehingga one step merupakan default bid
 - 2H = ?
 - 2S = ?
 - 2NT= ?
@@ -307,6 +308,18 @@ Note :
 - Lanjutan setelah bid 2D/H/S/NT adalah :
     - Step jika sudah belajar slam
     - tutup game boleh jika belum belajar slam
+
+## 1C-2H-2S
+[Back](#sequence-1c)<br>
+2S = ask singleton <br>
+- [2NT= 12+ HCP](#1c-2h-2s-2nt-3c)
+- 3C/D/H/S = singleton C/D/H/S
+
+## 1C-2H-2S-2NT-3C
+[Back](#1c-2h-2s)<br>
+3C = ask singleton <br>
+- 3D/H/S/NT = Singleton D/H/S/C
+    - NT adalah singleton C
 
 ## Sequence 1D
 [Back](#sequence) <br>
