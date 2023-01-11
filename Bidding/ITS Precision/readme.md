@@ -274,11 +274,16 @@ Note :
 ## 1C-1D-1H-1S
 [Back](#1c-1d-1h) <br>
 - 1NT= 20-21 HCP Balance
+    - Lanjutan sama seperti opening 1NT, beda HCP saja
 - [2C = 24+ HCP any](#1C-1D-1H-1S-2C)
 - 2D = 20-23 HCP 5+D
 - 2H = 20-23 HCP 5+H
 - 2S = 20-23 HCP 5+S
 - 2NT= 22-23 HCP Balance
+    - Lanjutan juga sama beberapa :
+        - 3C = ask 4M
+        - 3D/H = transfer to H/S
+        - 4D/H = Transfer to H/S
 - 3C = 20-23 HCP 5+C
 
 ## 1C-1D-1H-1S-2C
