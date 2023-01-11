@@ -253,6 +253,7 @@ Note :
 ## 1C-1D-1H
 [Back](#1c-1d)<br>
 - [1S = 0-4 HCP any / 5-7 HCP Balance](#1c-1d-1h-1s)
+    - Tujuannya biar opener aja yang bid 1NT jika dia balance
 - [1NT= 5-7 HCP 5+M](#1c-1d-1h-1nt-2c)
 - 2C = 5-7 HCP 5+C
 - 2D = 5-7 HCP 5+D
