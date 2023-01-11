@@ -273,12 +273,13 @@ Note :
 
 ## 1C-1D-1H-1S
 [Back](#1c-1d-1h) <br>
-- 1NT= 20-23 HCP Balance
+- 1NT= 20-21 HCP Balance
 - [2C = 24+ HCP any](#1C-1D-1H-1S-2C)
 - 2D = 20-23 HCP 5+D
 - 2H = 20-23 HCP 5+H
 - 2S = 20-23 HCP 5+S
-- 2NT= 20-23 HCP 5+C
+- 2NT= 22-23 HCP Balance
+- 3C = 20-23 HCP 5+C
 
 ## 1C-1D-1H-1S-2C
 [Back](#1c-1d-1h-1s)<br>
