@@ -321,17 +321,19 @@ Note :
 - 2S = 5+S
 - 2NT= 5+C
 
+Note : 
+- Lanjutan setelah bid 2C adalah transfer
+- Lanjutan setelah bid 2D/H/S/NT adalah :
+    - Step jika sudah belajar slam
+    - tutup game boleh jika belum belajar slam
+
 ## 1C-1NT-2C
 [Back](#1c-1nt)<br>
 - 2D = 4H
 - 2H = 4S
 - 2S = No 4M
 
-Note : 
-- Lanjutan setelah bid 2C adalah transfer
-- Lanjutan setelah bid 2D/H/S/NT adalah :
-    - Step jika sudah belajar slam
-    - tutup game boleh jika belum belajar slam
+
 
 ## 1C-2H-2S
 [Back](#sequence-1c)<br>
