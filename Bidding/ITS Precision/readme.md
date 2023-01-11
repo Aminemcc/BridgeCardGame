@@ -258,6 +258,7 @@ Note :
 - 2D = 5-7 HCP 5+D
 - 2H = 5-7 HCP 4441 any singleton
     - Lanjutan sama persis sama [1C-2H](#1c-2h-2s)
+    - Tapi gak ada one step artificial sehingga nanti bid 2NT = singleton C
 - 2S = 5-7 HCP 6+any
 - 2NT= 5-7 HCP 5C + 5any
 - 3C = 5-7 HCP 5D + 5H
