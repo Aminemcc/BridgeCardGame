@@ -227,6 +227,7 @@ List Sequences : <br>
 - 1H = 8+ HCP 5+H
 - 1S = 8+ HCP 5+S
 - [1NT= 8+ HCP Balance](#1c-1nt)
+    - 5332 bid natural-nya
 - 2C = 8+ HCP 5+C
 - 2D = 8+ HCP 5+D
 - [2H = 8+ HCP 4441 any singleton](#1c-2h-2s)
