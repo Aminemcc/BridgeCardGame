@@ -230,7 +230,7 @@ List Sequences : <br>
 - 2C = 8+ HCP 5+C
 - 2D = 8+ HCP 5+D
 - [2H = 8+ HCP 4441 any singleton](#1c-2h-2s)
-- 2S = 8-11 HCP 6+any
+- [2S = 8-11 HCP 6+any](#1c-2s-2nt)
 - 2NT= 8-11 HCP 5C + 5any
 - 3C = 8-11 HCP 5D + 5H
 - 3D = 8-11 HCP 5H + 5S
@@ -260,6 +260,7 @@ Note :
     - Lanjutan sama persis sama [1C-2H](#1c-2h-2s)
     - Tapi gak ada one step artificial sehingga nanti bid 2NT = singleton C
 - 2S = 5-7 HCP 6+any
+    - Lanjutan sama persis sama [1C-2S](#1c-2s-2nt)
 - 2NT= 5-7 HCP 5C + 5any
 - 3C = 5-7 HCP 5D + 5H
 - 3D = 5-7 HCP 5H + 5S
@@ -329,6 +330,11 @@ Note :
 3C = ask singleton <br>
 - 3D/H/S/NT = Singleton D/H/S/C
     - NT adalah singleton C
+
+## 1C-2S-2NT
+[Back](#sequence-1c)<br>
+2NT = ask 6+ cards <br>
+- 3C/D/H/S = 6+ C/D/H/S
 
 ## Sequence 1D
 [Back](#sequence) <br>
