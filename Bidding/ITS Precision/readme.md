@@ -287,6 +287,19 @@ Note :
 - bisa re-transfer jika gak diacc
 - bisa fast arrival langsung game = 5 HCP no short
 
+## 1C-1NT
+[Back](#sequence-1c)<br>
+- 2C = Ask 4M
+- 2D = 5+D
+- 2H = 5+H
+- 2S = 5+S
+- 2NT= 5+C
+
+Note : 
+- Lanjutan setelah bid 2C adalah transfer
+- Lanjutan setelah bid 2D/H/S/NT adalah :
+    - Step jika sudah belajar slam
+    - tutup game boleh jika belum belajar slam
 
 ## Sequence 1D
 [Back](#sequence) <br>
@@ -962,7 +975,7 @@ Secara garis besar overcall seperti berikut :
 
 Competitive pada 1NT sering juga disebut lebensohl yaitu pada bid 2NT-nya yang membedakan<br>
 Adanya prinsip FADS : Fast Arrival Deny Stopper<br>
-Prinsip Lebensohl adalah (ovc 2D-2NT): <br>
+Prinsip Lebensohl adalah (ovc 2D-2S): <br>
 - Bidding tingkat 2 T/P
 - Bidding 2NT puppet to 3C
     - Setelah 3C, bidding suit yang <= suit musuh T/P
@@ -974,22 +987,79 @@ Prinsip Lebensohl adalah (ovc 2D-2NT): <br>
     - 1NT - (any) - 2NT - 3C - 3NT = T/P with stopper
 - Jika gak ada stopper di kedua tangan bisa lari bid 4 lembar terendah
 
-Contoh : 
+Ini hanya paparan lengkap, mohon untuk dihapal dengan memahami rule di atas dan pola bid di bawah!!!
 
-1NT <br>
-    - (2C)
-        - X = Stayman
-        - system on
-    - (2D)
-        - 2H/S = T/P
-        - 2NT = Puppet to 3C
-        - 3C = 
-        - 3D = 
-        - 3H = 5+H GF
-        - 3S = 5+H GF
-        - 3NT = T/P no stopper
-        - 4C++ system on
+## 1NT-(2C)
+- X = Stayman
+- system on
 
+## 1NT-(2D)
+- 2H/S = T/P
+- 2NT = Puppet to 3C
+- 3C = 5+C GF
+- 3D = MM no stopper D
+    - Jika musuh 2D natural
+- 3D = 5+D GF
+    - Jika musuh 2D artificial
+- 3H = 5+H GF no stopper
+- 3S = 5+H GF no stopper
+- 3NT = T/P no stopper
+- 4C++ system on
+    - 6+M lewat 4D/4H transfer to 4H/4S
+
+## 1NT-(2D)-2NT-3C
+- P = T/P
+- 3D = MM with stopper D
+    - Jika musuh 2D natural
+- 3D = T/P
+    - Jika musuh 2D artificial
+- 3H = 5+H GF with stopper
+- 3S = 5+S GF with stopper
+- 3NT= T/P with stopper
+
+## 1NT-(2H)
+- 2S = T/P
+- 2NT= Puppet to 3C
+- 3C = 5+C GF
+- 3D = 5+D GF
+- 3H = 4S no stopper
+    - Jika musuh suit H
+- 3H = 5+H GF
+    - Jika musuh bukan suit H
+- 3S = 5+S no stopper
+- 3NT= T/P no stopper
+- 4C++ system on
+    - 6+S lewat 4H transfer to 4S
+
+## 1NT-(2H)-2NT-3C
+- P = T/P
+- 3D = T/P
+- 3H = 4S GF with stopper H
+    - Jika musuh suit H
+- 3H = T/P
+    - Jika musuh bukan suit H
+- 3S = 5+S GF with stopper
+- 3NT= T/P with stopper
+
+## 1NT-(2S)
+- 2NT= Puppet to 3C
+- 3C = 5+C GF
+- 3D = 5+D GF
+- 3H = 5+H GF
+- 3S = 4H no stopper
+    - Jika musuh suit S
+- 3S = 5+S GF
+    - Jika musuh bukan suit S
+- 3NT= T/P no stopper
+- 4C++ system on
+
+## 1NT-(2S)-2NT-3C
+- P/3D/3H = T/P
+- 3S = 4H no stopper
+    - Jika musuh suit S
+- 3S = T/P
+    - Jika musuh bukan suit S
+- 3NT= T/P with stopper
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
