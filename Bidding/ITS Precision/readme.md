@@ -293,6 +293,12 @@ Note :
 2C = Ask M
 - 2D = Transfer to H 5+H
 - 2H = Transfer to S 5+S
+- Boleh bid 3D/3H/4D/4H logika nya :
+    - Semakin cepat bid semakin kecil HCP
+    - lembaran juga semakin banyak ya...
+- Tambahan (Sangat tidak disarankan):
+    - 3D = 6+H 5 HCP
+    - 3H = 6+S 5 HCP
 
 Note :
 - ACC transfer berarti fit
