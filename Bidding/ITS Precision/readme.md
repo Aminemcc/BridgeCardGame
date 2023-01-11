@@ -54,6 +54,10 @@ Note :
 1. Pastikan tidak bisa opening 1NT
 2. Bidding keempat adalah one step artificial
     - One Step Artificial = 12+ HCP any dist
+    - Belum pernah pass
+        - karena udah ketahuan HCP < 12
+    - Tidak di overcall musuh
+        - karena udah beda juga ntar sequence-nya
 
 ## 1D
 [Back](#content)<br>
@@ -988,6 +992,28 @@ Note :
 - Lupa ini ka urutannya D:
 - Gampang buat set fit
 - 2NT = SI
+
+## Sequence 2H
+[Back to sequence](#sequence)<br>
+- 2S = 5+S Forcing
+- 2NT= Ougust
+    - ask distribution
+- 3C/D = 5+C/D Forcing
+- 3H = Blocking
+- 3S = Splinter S fit H
+- 3NT= T/P
+- 4C/D = Splinter C/D fit H
+- 4H = T/P
+
+## Sequence 2S
+[Back to sequence](#sequence)<br>
+- 2NT = Ougust
+    - ask distribution
+- 3C/D/H = 5+ C/D/H Forcing
+- 3S = Blocking
+- 3NT= T/P
+- 4C/D/H = Splinter C/D/H fit S
+- 4S = T/P
 
 # Overcall
 Secara garis besar overcall seperti berikut :
