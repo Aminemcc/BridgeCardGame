@@ -239,6 +239,7 @@ Note :
 - [1H = 20+ HCP any dist](#1c-1d-1h)
 - 1S = 16-19 HCP 5+S
 - 1NT= 18-19 HCP Balance
+    - Lanjuta seperti opening 1NT, tapi cuma beda HCP
 - 2C = 16-19 HCP 5+C
 - 2D = 16-19 HCP 5+D
 - 2H = 16-19 HCP 5+H
@@ -289,11 +290,17 @@ Note :
 
 ## 1C-1NT
 [Back](#sequence-1c)<br>
-- 2C = Ask 4M
+- [2C = Ask 4M](#1c-1nt-2c)
 - 2D = 5+D
 - 2H = 5+H
 - 2S = 5+S
 - 2NT= 5+C
+
+## 1C-1NT-2C
+[Back](#1c-1nt)<br>
+- 2D = 4H
+- 2H = 4S
+- 2S = No 4M
 
 Note : 
 - Lanjutan setelah bid 2C adalah transfer
