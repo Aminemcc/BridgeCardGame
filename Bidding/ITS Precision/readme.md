@@ -736,7 +736,10 @@ Note :
 2C = 12-15 HCP 5C + 4M / 6+C
 - [2D = Ask dist (Siap dijawab apapun)](#2c-2d)
 - [2H = 8+ HCP 5+H](#2c-2h)
+    - 10+ HCP lebih gampang
 - [2S = 8+ HCP 5+S](#2C-2S)
+    - 8+ HCP Hati hati karena invite susah
+    - 10+ HCP lebih gampang
 - [2NT= Puppet to 3C (2 suiter GF)](#2c-2nt-3c)
 - [3C = 8-11 HCP 55M](#2c-3c)
 - 3D = ?
