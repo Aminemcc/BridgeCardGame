@@ -867,8 +867,8 @@ Note :
 
 Note :
 - Respons rebid 2S/2NT/3C selalu sama pada bid :
-    - 3D
-    - 3H
+    - 2D
+    - 2H
 
 ## 2C-2H-2S
 [Back](#2c-2h)<br>
