@@ -834,7 +834,7 @@ Note :
 ## 2C-2D-2NT/3C
 [Back](#2C-2D)<br>
 2NT= 14-15 HCP 6+C <br>
-3C = 14-15 HCP 6+C <br>
+3C = 12-13 HCP 6+C <br>
 - P/3C= T/P
 - 3D = GF 5/6+D
 - 3H = GF stopper H / Cue H fit C SI
