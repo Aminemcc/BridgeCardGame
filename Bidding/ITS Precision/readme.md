@@ -740,7 +740,8 @@ Note :
 - [2S = 8+ HCP 5+S](#2C-2S)
     - 8+ HCP Hati hati karena invite susah
     - 10+ HCP lebih gampang
-- [2NT= Puppet to 3C (2 suiter GF)](#2c-2nt-3c)
+- [2NT= Puppet to 3C](#2c-2nt-3c)
+    - T/P 3C / 2 Suiter GF
 - [3C = 8-11 HCP 55M](#2c-3c)
 - 3D = ?
 - 3H = Splinter H 4+C SI
@@ -937,9 +938,9 @@ Note :
 [Back](#sequence-2c)<br>
 3C = Forced <br>
 - P = T/P
-- 3D = 55M
-- 3H = 5H + 5D
-- 3S = 5S + 5D
+- 3D = 55M GF
+- 3H = 5H + 5D GF
+- 3S = 5S + 5D GF
 
 ## 2C-3C
 [Back](#sequence-2c)<br>
