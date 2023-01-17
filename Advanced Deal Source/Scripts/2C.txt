@@ -16,8 +16,9 @@ southHCP = 12 <= hcp(south) && hcp(south) <= 15
 //Distribusi South
 southH = hearts(south) == 4
 southS = spades(south) == 4
-southDist = clubs(south) >= 6 || ( ( (southH || southS) && 
-	(southH != southS) ) && clubs(south) >= 5 )
+southD = diamonds(south) <= 4
+southDist = ( clubs(south) >= 6 || ( ( (southH || southS) && 
+	(southH != southS) ) && clubs(south) >= 5 ) ) && southD
 
 total = hcp(south) + hcp(north)
 totalHCP = min_hcp_NS <= total && total <= max_hcp_NS
