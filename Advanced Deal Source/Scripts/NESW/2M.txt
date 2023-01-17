@@ -61,7 +61,7 @@ cSouth = minQuality <= cccc(south) && cccc(south) <= maxQuality
 cWest = minQuality <= cccc(west) && cccc(west) <= maxQuality
 
 //Wrap everything up
-conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && ( !quality_set || (cNorth && cSouth) || (cEast && cWest) )
+conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && ( !quality_set || (cNorth || cSouth) || (cEast || cWest) )
 
 conditionOpener = ( (northDist || southDist) && hcpNS ) || ( (eastDist || westDist) && hcpEW )
 

@@ -99,7 +99,15 @@ Note :
 Note : 
 1. dist tidak mm (lewat opening 1D jika mm)
 2. Tidak menggunakan rule of 20 (12 HCP + 5C + 4M >= 20)
-3. Prinsipnya adalah apabila 2C tidak dipass, maka stop bid hanya di 3C, sisanya forcing (kecuali bid to play)
+3. Prinsipnya adalah apabila 2C tidak dipass :
+    - Part Score :
+        - Stop bid hanya di 3C
+        - Atau lewat 3D = puppet to 3H, berikut list tujuan
+            - 2C-3C-3D = bad fit M (2 lembar)
+            - 2C-2H-2S-3D = T/P 3H
+            - 2C-2S-2NT-3D = T/P 3H
+                - Gak ada cara buat T/P Spades
+    - sisanya forcing (kecuali bid to play)
 
 ## 2D
 [Back](#content)<br>
@@ -107,22 +115,26 @@ Note :
 [Go To Sequence](#sequence-2d)<br>
 Note :
 1. short di D
+2. 5 cards di C
 
 ## 2M
 [Back](#content)<br>
 2H = 8-10 HCP 6+H <br>
+[Go To Sequence 2H](#sequence-2h) <br>
 2S = 8-10 HCP 6+S <br>
+[Go To Sequence 2H](#sequence-2h)<br>
 Note :
 1. Biasa disebut weak
 2. Sangat boleh HCP < 8 jika dist bagus
 3. Tangan pertama/kedua lebih baik tidak punya 4 lbr other M
+    - tangan ketiga keempat bebas, normalnya juga gaboleh
 
 ## 2NT
 [Back](#content)<br>
 2NT = 10- HCP mm <br>
 Note :
 1. Tidak ada spesifik HCP minimum
-2. jika 54 lebih baik saat NV dan ada short
+2. jika 54 mm lebih baik saat NV dan ada short
 
 ## 3X
 [Back](#content)<br>
@@ -905,7 +917,7 @@ Note :
 - 3D = ?
 - 3H = ?
 - 3S = 12-13 HCP 3+S
-- 3NT= ?
+- 3NT= Max 6+C T/P
 - 4C = ?
 - 4D = Splinter D 4S
 - 4H = Splinter H 4S
