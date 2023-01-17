@@ -28,7 +28,7 @@ southOpen = 1
 quality_set = 1
 //interval is : [0-3000] quality of normal opening around 1200
 minQuality = 0
-maxQuality = 800
+maxQuality = 1100
 //balanced opponents card (0 : off, 1 : on)
 balancedOpps = 1
 
