@@ -22,11 +22,11 @@ southH = hearts(south) >= 5
 southS = spades(south) >= 5
 southC = clubs(south)
 southD = diamonds(south)
-minors = (southC >= 4 && southD >= 4 && southC + southD >= 9)
-southBalance = shape(south, any 4333 + any 4432 + any 5332 - 5xxx - x5xx)
+minors = ( southC >= 4 && southD >= 4 && (southC + southD) >= 9 && ( (southC >= 6 && southD >= 5) || southC <= 5 ) )
+southBalance = shape(south, any 4333 + any 4432 + any 5332)
 southBannedDist = shape(south, 4414 + 4405 + 4xx5 + x4x5)
 southDist = (!southH && !southS && !southBannedDist) 
-	&& ( (southHCP_15 && !southBalance) || (southC < 6 || minors) )
+	&& ( (southHCP_15 && !southBalance) || (  ( southD >= 5 && !southBalance ) || minors) )
 
 total = hcp(south) + hcp(north)
 totalHCP = min_hcp_NS <= total && total <= max_hcp_NS
