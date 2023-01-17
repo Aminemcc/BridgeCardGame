@@ -40,25 +40,25 @@ northH = hearts(north) == 4
 northS = spades(north) == 4
 northD = diamonds(north) <= 4
 northDist = ( clubs(north) >= 6 || ( ( (northH || northS) && 
-	(northH != northS) ) && clubs(north) >= 5 ) ) && northD && northHCP
+	(northH != northS) ) && clubs(north) >= 5 ) ) && northD && northHCP && northOpen
 
 eastH = hearts(east) == 4
 eastS = spades(east) == 4
 eastD = diamonds(east) <= 4
 eastDist = ( clubs(east) >= 6 || ( ( (eastH || eastS) && 
-	(eastH != eastS) ) && clubs(east) >= 5 ) ) && eastD && eastHCP
+	(eastH != eastS) ) && clubs(east) >= 5 ) ) && eastD && eastHCP && eastOpen
 
 southH = hearts(south) == 4
 southS = spades(south) == 4
 southD = diamonds(south) <= 4
 southDist = ( clubs(south) >= 6 || ( ( (southH || southS) && 
-	(southH != southS) ) && clubs(south) >= 5 ) ) && southD && southHCP
+	(southH != southS) ) && clubs(south) >= 5 ) ) && southD && southHCP && southOpen
 
 westH = hearts(west) == 4
 westS = spades(west) == 4
 westD = diamonds(west) <= 4
 westDist = ( clubs(west) >= 6 || ( ( (westH || westS) && 
-	(westH != westS) ) && clubs(west) >= 5 ) ) && westD && westHCP
+	(westH != westS) ) && clubs(west) >= 5 ) ) && westD && westHCP && westOpen
 
 
 //Balanced opponents
@@ -67,10 +67,10 @@ balancedOpps_on = ( shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4
 balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
 
 //Quality opponents
-cNorth = minQuality <= cccc(north) && cccc(north) <= maxQuality
-cEast = minQuality <= cccc(east) && cccc(east) <= maxQuality
-cSouth = minQuality <= cccc(south) && cccc(south) <= maxQuality
-cWest = minQuality <= cccc(west) && cccc(west) <= maxQuality
+cNorth = minQuality <= cccc(north) && cccc(north) <= maxQuality && !northDist
+cEast = minQuality <= cccc(east) && cccc(east) <= maxQuality && !eastDist
+cSouth = minQuality <= cccc(south) && cccc(south) <= maxQuality && !southDist
+cWest = minQuality <= cccc(west) && cccc(west) <= maxQuality && !westDist
 
 //Wrap everything up
 conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && ( !quality_set || (cNorth && cSouth) || (cEast && cWest) )
