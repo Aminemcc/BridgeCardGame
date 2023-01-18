@@ -3,6 +3,11 @@
 //Gak bisa open 1H, 1S, 2C, 1NT
 
 //---Setting---//
+
+//0 : off, 1 : on
+//Balanced card on / off ?
+Balanced_set = 0
+
 //Minimum HCP North + South
 min_hcp_NS = 21
 max_hcp_NS = 40
@@ -18,15 +23,17 @@ southHCP_12_14 = 12 <= hcp(south) && hcp(south) <= 14
 southHCP_15 = hcp(south) == 15
 
 //Distribusi South
-southH = hearts(south) >= 5
-southS = spades(south) >= 5
+southH = hearts(south)
+southS = spades(south)
 southC = clubs(south)
 southD = diamonds(south)
-minors = ( southC >= 4 && southD >= 4 && (southC + southD) >= 9 && ( (southC >= 6 && southD >= 5) || southC <= 5 ) )
+minors = ( southC >= 4 && southD >= 4 && (southC + southD) >= 9 && 
+	( (southC >= 6 && southD >= 5) || southC <= 5 ) )
 southBalance = shape(south, any 4333 + any 4432 + any 5332)
 southBannedDist = shape(south, 4414 + 4405 + 4xx5 + x4x5)
-southDist = (!southH && !southS && !southBannedDist) 
-	&& ( (southHCP_15 && !southBalance) || (  ( southD >= 5 && !southBalance ) || minors) )
+southDist = (southH <= 4 && southS <= 4 && !southBannedDist) && 
+	( ( (southHCP_15 && !southBalance || ( southHCP_12_14 && southBalance ) && Balanced_set ) ) || 
+	( ( southD > 1 && !southBalance && southC < 6 ) || minors) )
 
 total = hcp(south) + hcp(north)
 totalHCP = min_hcp_NS <= total && total <= max_hcp_NS
