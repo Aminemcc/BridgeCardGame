@@ -1,4 +1,4 @@
-//----- Open 2M -----//
+//----- Open 1NT -----//
 //1NT = 15-17 HCP balance
 //bisa diatur sendiri jika ingin beda hcp
 
@@ -20,16 +20,16 @@ max_hcp = 40
 //Player who can receive opening card
 northOpen = 1
 eastOpen = 1
-westOpen = 1
 southOpen = 1
+westOpen = 1
 
 
-//quality of opponents card (0 : off, 1 : on)
+//quality one of opponents card (0 : off, 1 : on)
 quality_set = 1
 //interval is : [0-3000] quality of normal opening around 1200
 minQuality = 0
 maxQuality = 1100
-//balanced opponents card (0 : off, 1 : on)
+//balanced card and HCP between opps (0 : off, 1 : on)
 balancedOpps = 1
 
 
@@ -38,10 +38,10 @@ balancedOpps = 1
 
 
 //HCP
-northHCP = lowerBoundHCP <= hcp(north) && hcp(north) <= upperBoundHCP
-eastHCP = lowerBoundHCP <= hcp(east) && hcp(east) <= upperBoundHCP
-southHCP = lowerBoundHCP <= hcp(south) && hcp(south) <= upperBoundHCP
-westHCP = lowerBoundHCP <= hcp(west) && hcp(west) <= upperBoundHCP
+northHCP = lowerBoundHCP <= hcp(north) && hcp(north) <= upperBoundHCP && northOpen
+eastHCP = lowerBoundHCP <= hcp(east) && hcp(east) <= upperBoundHCP && eastOpen
+southHCP = lowerBoundHCP <= hcp(south) && hcp(south) <= upperBoundHCP && southOPen
+westHCP = lowerBoundHCP <= hcp(west) && hcp(west) <= upperBoundHCP && westOpen
 
 //Total HCP NS & EW
 hcpNS = min_hcp <= ( hcp(north) + hcp(south) ) && ( hcp(north) + hcp(south) ) <= max_hcp
@@ -66,7 +66,8 @@ cSouth = minQuality <= cccc(south) && cccc(south) <= maxQuality && !southDist
 cWest = minQuality <= cccc(west) && cccc(west) <= maxQuality && !westDist
 
 //Wrap everything up
-conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && ( !quality_set || (cNorth && cSouth) || (cEast && cWest) )
+conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && 
+	( !quality_set || (cNorth || cSouth) || (cEast || cWest) )
 
 conditionOpener = ( (northDist || southDist) && hcpNS ) || ( (eastDist || westDist) && hcpEW )
 

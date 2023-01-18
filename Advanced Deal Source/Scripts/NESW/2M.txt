@@ -16,12 +16,12 @@ southOpen = 1
 westOpen = 1
 
 
-//quality one of the opponents card (0 : off, 1 : on)
+//quality one of opponents card (0 : off, 1 : on)
 quality_set = 1
 //interval is : [0-3000] quality of normal opening around 1200
 minQuality = 0
 maxQuality = 1100
-//balanced card and HCP between two opps (0 : off, 1 : on)
+//balanced card and HCP between opps (0 : off, 1 : on)
 balancedOpps = 1
 
 
