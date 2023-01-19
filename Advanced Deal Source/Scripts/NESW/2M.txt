@@ -43,10 +43,10 @@ hcpNS = min_hcp <= ( hcp(north) + hcp(south) ) && ( hcp(north) + hcp(south) ) <=
 hcpEW = min_hcp <= ( hcp(east) + hcp(west) ) && ( hcp(east) + hcp(west) ) <= max_hcp
 
 //Distribusi
-northDist = shape(north, 6xxx + x6xx - 64xx - 46xx) && northHCP && northOpen
-eastDist = shape(east, 6xxx + x6xx - 64xx - 46xx) && eastHCP && eastOpen
-southDist = shape(south, 6xxx + x6xx - 64xx - 46xx) && southHCP && southOpen
-westDist = shape(west, 6xxx + x6xx - 64xx - 46xx) && westHCP && westOpen
+northDist = shape(north, 6xxx + x6xx - 64xx - 46xx - 65xx - 56xx - 66xx - any 7xxx) && northHCP && northOpen
+eastDist = shape(east, 6xxx + x6xx - 64xx - 46xx - 65xx - 56xx - 66xx - any 7xxx) && eastHCP && eastOpen
+southDist = shape(south, 6xxx + x6xx - 64xx - 46xx - 65xx - 56xx - 66xx - any 7xxx) && southHCP && southOpen
+westDist = shape(west, 6xxx + x6xx - 64xx - 46xx - 65xx - 56xx - 66xx - any 7xxx) && westHCP && westOpen
 
 
 //Balanced opponents
