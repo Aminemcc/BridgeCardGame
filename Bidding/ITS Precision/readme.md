@@ -178,6 +178,8 @@ List Sequences : <br>
         - [1C-2H-2S](#1c-2h-2s)
             - 1C-2H-2S-2NT
                 - [1C-2H-2S-2NT-3C](#1c-2h-2s-2nt-3c)
+    - 1C-2S
+        - [1C-2S-2NT](#1c-2s-2nt)
 - [1D = 12-15 HCP 2+D](#Sequence-1D)
     - [1D-1H](#1d-1h)
     - [1D-1S](#1d-1s)
@@ -251,6 +253,12 @@ List Sequences : <br>
 - 2D = 8+ HCP 5+D
 - [2H = 8+ HCP 4441 any singleton](#1c-2h-2s)
 - [2S = 8-11 HCP 6+any](#1c-2s-2nt)
+    - Karena ada ini maka contoh bid:
+        - 1C-1H-1S-2H = 6+H 12+HCP
+        - 1C-1S-2C-2S = 6+S 12+HCP
+        - dst yang natural 2x otomatis 12+ HCP
+        - maka jika natural -> one step -> natural suit sama
+            - maka kartunya biasanya yang super bagus
 - 2NT= 8-11 HCP 5C + 5any
 - 3C = 8-11 HCP 5D + 5H
 - 3D = 8-11 HCP 5H + 5S
