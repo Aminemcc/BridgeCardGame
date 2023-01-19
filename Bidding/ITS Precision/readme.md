@@ -17,10 +17,10 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
     - [3NT](#3nt)
     - [4X](#4x)
 - [Sequence](#sequence)
-- [Overcall](#Overcall)
 - [Competitive](#Competitive)
     - [1H](#competitive-1h)
     - [1NT](#competitive-1nt)
+- [Overcall](#overcall)
 - Tambahan Konvensi Bidding :
     - [Response to ask keycards](#response-to-ask-keycards)
     - [Exclusion](#exclusion)
@@ -1425,36 +1425,6 @@ Normalnya, pasangan ITS 2M-2NT selalu Ougust, jika ada lainnya tidak dimasukkan 
 - 3H = Maximum Bad
 - 3S = Maximum Good
 
-# Overcall
-Secara garis besar overcall seperti berikut :
-
-- Tingkat 1 : 8+ HCP 5+ lembar
-    - (1C = 12-21 HCP 2+C)
-        - 1D = 8-17 HCP 5+D
-        - 1H = 8-17 HCP 5+H
-        - 1S = 8-17 HCP 5+S
-        - 1NT= 15-17 HCP Balance
-        - 2C = 12+ HCP 5+C / MM (Janjian)
-        - 2D = 6+D weak
-        - 2H = 6+H weak
-        - 2S = 6+S weak
-        - 2NT= mm
-        - 3C/D/H/S = 7+ C/D/H/S
-- Tingkat 2 : 12+ HCP 5+ lembar
-- Tingkat 3 : Siap di 3NT
-- Loncat : weak
-- X (double) = 12-17 HCP 3+ semua suit selain warna musuh / 18+ any
-
-## 1NT Strong
-[Back](#content)<br>
-- X = 16+ HCP
-- 2C = MM
-- 2D = One Suiter M
-- 2H = H + m
-- 2S = S + m
-- 2NT = mm
-- 3C/D/H/S = Preemptive C/D/H/S
-
 # Competitive
 [Back to Content](#content)<br>
 - [1H](#competitive-1h)
@@ -1781,6 +1751,93 @@ XX = Forced<br>
 - 3H = 4 lbr H GF
 - 3S = 4 lbr S GF
 - 3NT= T/P + ???
+
+# Overcall
+Secara garis besar overcall seperti berikut :
+
+- Tingkat 1 : 8+ HCP 5+ lembar
+    - (1C = 12-21 HCP 2/3+C)
+        - 1D = 8-17 HCP 5+D
+        - 1H = 8-17 HCP 5+H
+        - 1S = 8-17 HCP 5+S
+        - 1NT= 15-17 HCP Balance
+        - 2C = 12+ HCP 5+C / MM (Janjian)
+        - 2D = 6+D weak
+        - 2H = 6+H weak
+        - 2S = 6+S weak
+        - 2NT= mm
+        - 3C/D/H/S = 7+ C/D/H/S
+- Tingkat 2 : 12+ HCP 5+ lembar
+- Tingkat 3 : Siap di 3NT
+- Loncat : weak
+- X (double) = 12-17 HCP 3+ semua suit selain warna musuh / 18+ any
+    - Tujuan bisa part score saja
+    - Responses :
+        - Partner bisa terpaksa jawab : 0-7 HCP 4+cards
+        - Jika partner tidak terpaksa jawab : 8+ HCP 4+Cards
+        - Bid 1NT : 8-11 HCP stopper
+        - Bid 2NT : 10-11 HCP stopper
+        - Bid 3NT : 12+ HCP stopper
+    - Setelah dbl bid new suit : 18+ HCP 5+cards
+    - Setelah dbl bid NT : 18+ HCP stopper
+    - Raise partner bid : Invite
+
+## Overcall: 1C Precision
+Versi Natural :<br>
+- (1C)-X = 5+5+ MM
+    - Karena sama sekali tidak menganggu, maka good card
+- (1C)-1D/H/S = 5+ D/H/S
+- (1C)-1NT = (5+4+) mm
+    - good card / (54) bad
+- (1C)-2C = 5+C good
+    - Karena main tingkat 2 takutnya susah jadi good hand
+- (1C)-2D = 6+D Weak
+- (1C)-2H/S = 6+H/S weak
+    - Same as opening for responses
+- (1C)-2NT= (5+5+) mm
+    - Boleh (54) jika NV dan ada short dan good
+- (1C)-3C/D/H/S = 7+ C/D/H/S Preemptive
+
+## Overcall: 1C Standard
+1C = 12-21 HCP 2/3+C<br>
+- [(1C)-X = take-out dbl](#overcall-1cstandard-x)
+- (1C)-1D/H/S = 8+ HCP 5+ D/H/S
+- (1C)-1NT= 15-17 HCP with stopper C
+    - same as opening
+- (1C)-2C = 12+ HCP 5+C / MM
+    - Janjian dulu
+- (1C)-2D = 6+D Weak
+- (1C)-2H/S = 6+H/S weak
+    - Same as opening for responses
+- (1C)-2NT= (5+5+) mm
+    - Boleh (54) jika NV dan ada short
+- (1C)-3C/D/H/S = 7+ C/D/H/S Preemptive
+
+## Overcall: (1C=Standard)-X
+[Back](#overcall-1cstandard-x)<br>
+- 1D/H/S = 0-7 HCP 4+D/H/S
+    - Terpaksa bid, maka ada 0 poin
+- 1NT = 8-11 HCP stopper C
+- 2C = GF
+- 2D/H/S = 8+ HCP 4+D/H/S
+- 2NT= ?
+- 3C/D/H/S = ?
+- 3NT= 12+ HCP stopper C
+
+
+
+
+
+## 1NT Strong
+[Back](#content)<br>
+- X = 16+ HCP
+- 2C = MM
+- 2D = One Suiter M
+- 2H = H + m
+- 2S = S + m
+- 2NT = mm
+- 3C/D/H/S = Preemptive C/D/H/S
+
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
