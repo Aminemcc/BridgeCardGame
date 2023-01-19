@@ -22,8 +22,6 @@ min_hcp = 21
 max_hcp = 40
 
 //--responder--//
-
-//General settings
 respMinHCP = 0
 respMaxHCP = 20
 
@@ -67,7 +65,7 @@ southHCP = minOpenHCP <= hcp(south) && hcp(south) <= maxOpenHCP
 southHCP_16_17 = 16 <= hcp(south) && hcp(south) <= 17
 southHCP_18 = hcp(south) >= 18
 
-westHCP = minOpenHCP <= hcp(weset) && hcp(weset) <= maxOpenHCP
+westHCP = minOpenHCP <= hcp(west) && hcp(west) <= maxOpenHCP
 westHCP_16_17 = 16 <= hcp(west) && hcp(west) <= 17
 westHCP_18 = hcp(west) >= 18
 
