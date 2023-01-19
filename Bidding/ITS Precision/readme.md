@@ -27,6 +27,7 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
     - [Ask King](#ask-king)
     - [Extra](#Extra)
 - [Signal](#signal)
+- [List Janjian](#list-janjian)
 
 # Opening
 ♣ ♦ ♥ ♠<br>
@@ -502,11 +503,18 @@ Note :
 [Back](#sequence)<br>
 1H = 12-15 HCP 5+H <br>
 - [1S = 4+S](#1h-1s)
-- 1NT= 11- HCP F1 (boleh dipass)
+- [1NT= 11- HCP F1](#1h-1nt)
+    - Siap dipass 1NT
+    - Siap direspon apapun : 
+        - any - P/2D/2H = T/P
+    - Mau Invite
 - 2C = 12+ HCP 5+C / Balance
+    - Jika sudah pernah pass
+    - 2C = Drury 10-11 HCP 3 lbr H
 - 2D = 12+ HCP 5+D
-- 2H = 6-9 HCP 3+H
-- 2S = 12+ HCP 5+S
+    - 2D = Drury 10-11 HCP 4 lbr H Balance
+- 2H = [6-9 HCP 3+H](#1h-2h)
+- 2S = 12+ HCP 5/6+S
     - Bisa versi harus 6+S, jika 5 lewat 1S
     - Bisa versi Bergen 12+, maka:
         - 2C = 12+ HCP 5+C
@@ -526,11 +534,70 @@ Note :
 
 ## 1H-1S
 [Back](#sequence-1h)<br>
-- 1NT= 12-14 HCP Balance
+- 1NT= 12-14 HCP 5332
 - 2C = 4+C
 - 2D = 4+D
 - 2H = 6+H
 - 2S = 4+S
+
+## 1H-1NT
+[Back](#sequence-1h)<br>
+- P = Min HCP Default bid
+- [2C = Max HCP 2+C](#1h-1nt-2c)
+- 2D = 4+D (Second suit)
+- 2H = 6+H / max HCP 5 lbr H
+    - 4S 5H 3D 1C max HCP
+- 2S = Max HCP 6H + 5S
+- 2NT= Max HCP 6+H with splinter
+- 3C = Max HCP 5+C
+- 3D = Max HCP 5+D
+- 3H = Max HCP 6332
+
+Setelah direspon 1NT-nya :
+- 2NT= Invite to 3NT
+- 3C = 6+C Invite
+- 3D = 6+D Invite
+- 3H = 3H Invite
+
+
+## 1H-1NT-2C
+[Back](#1h-1nt)<br>
+- P = 5+C T/P
+- 2D = 5/6+D T/P
+- 2H = T/P 2H 6-9 / 3H 0-5
+- 2NT= T/P
+    - Karena udah max HCP bid 2C, maka 2NT T/P
+- 3C = 6+C invite to 5C
+    - Ragu untuk bid 3NT
+- 3D = 6+D GF
+- 3NT = T/P
+
+## 1H-2H
+[Back](#sequence-1h)<br>
+- 2S = SST Game try Max HCP / good hand
+    - SST : Short suit trial
+- 2NT= 14 HCP 5332
+- 3C = 4+C Max HCP Invite to 4H
+- 3D = 4+D Max HCP Invite to 4H
+- 3H = 6+H Max HCP Invite to 4H 6322
+
+Note :
+- Semua bid setelah 2H Game try / invite to 4H
+
+## 1H-2H-2S-2NT
+[Back](#1h-2h)
+2NT = ask short<br>
+- 3C = Short C
+- 3D = Short D
+- 3H = Short S
+
+Note :
+- Jika short cocok :   
+    - Ketemu xx.. no honor terbaik GAS GAME
+    - Ketemu Jx.. urutan kedua masih gas game
+    - Lastly Ax.. terjelek cocok, boleh gas boleh gak (liat HCP lagi)
+- Sisanya gak cocok :
+    - Ketemu Kx.. / Qx.. / KJx.. / dll Jelek gak game
 
 ## Sequence 1S
 [Back](#sequence)<br>
@@ -1054,9 +1121,12 @@ Note :
 
 ## Sequence 2H
 [Back to sequence](#sequence)<br>
+Normalnya, pasangan ITS 2M-2NT selalu Ougust, jika ada lainnya tidak dimasukkan di github ini.<br>
+
 - 2S = 5+S Forcing
-- 2NT= Ougust
+- [2NT= Ougust](#2h-2nt)
     - ask distribution
+    - Siap game jika dijawab Max good
 - 3C/D = 5+C/D Forcing
 - 3H = Blocking
 - 3S = Splinter S fit H
@@ -1064,15 +1134,31 @@ Note :
 - 4C/D = Splinter C/D fit H
 - 4H = T/P
 
+## 2H-2NT
+[Back](#sequence-2h)<br>
+- 3C = Minimum Bad
+- 3D = Minimum Good
+- 3H = Maximum Bad
+- 3S = Maximum Good
+
 ## Sequence 2S
 [Back to sequence](#sequence)<br>
-- 2NT = Ougust
+Normalnya, pasangan ITS 2M-2NT selalu Ougust, jika ada lainnya tidak dimasukkan di github ini.<br>
+
+- [2NT = Ougust](#2s-2nt)
     - ask distribution
 - 3C/D/H = 5+ C/D/H Forcing
 - 3S = Blocking
 - 3NT= T/P
 - 4C/D/H = Splinter C/D/H fit S
 - 4S = T/P
+
+## 2S-2NT
+[Back](#sequence-2s)<br>
+- 3C = Minimum Bad
+- 3D = Minimum Good
+- 3H = Maximum Bad
+- 3S = Maximum Good
 
 # Overcall
 Secara garis besar overcall seperti berikut :
@@ -1110,6 +1196,10 @@ Secara garis besar overcall seperti berikut :
     - [1H-(1S)](#competitive-1h-1s)
         - [1H-(1S)-X](#competitive-1h-1s-x)
     - [1H-(1NT)](#competitive-1h-1nt)
+    - [1H-(2C)](#competitive-1h-2C)
+    - [1H-(2D)](#competitive-1h-2D)
+    - [1H-(2H)](#competitive-1h-2H)
+    - [1H-(2S)](#competitive-1h-2S)
 - [1NT](#competitive-1nt)
     - [1NT-(X)](#competitive-1nt-x)
         - 1NT-(X)-P
@@ -1238,10 +1328,11 @@ Secara garis besar overcall seperti berikut :
 [Back](#competitive-1H)<br>
 2S = weak S
 - P = Default bid
-- X = 10+HCP Responsive dbl
+- X = 10+ HCP Responsive dbl
     - T/P 2NT / 3m / 3H
     - ask stopper
     - Lainnya
+    - Opener bid maksimal balik 3H
 - 2NT = 10-11 HCP invite to 3NT with stopper S
 - 3C = 5+C GF
 - 3D = 5+D GF
@@ -1541,3 +1632,62 @@ Saat Response Lead, Besar- Kecil ganjil. <br>
 Versi 2 : (Versi takut lupa) <br>
 Besar - Kecil selalu genap. <br>
 
+
+
+# List Janjian
+Sebelum kalian partner-an dengan anak-anak ITS lainnya, diskusikan hal-hal ini :
+
+- System : ITS Precision
+- Signal :
+    - Lead Besar-Kecil : Genap / Ganjil
+    - Response lead Besar-Kecil : Genap / Ganjil
+    - Response to interest : Low = Interest / no interest 
+    - Lavinthal On / Off
+    - Roman-Lavinthal On / Off
+- Opening 2NT :
+    - 2NT = mm weak / strong atau weak only
+    - 2NT = 22-23 Balance
+- Keycards
+    - response 1/4, 3/0 atau kebalik
+    - keycards fit C/H di 4S/4NT belum pasti
+    - keycards fit D/S di 4NT pasti
+- Bid over game : 
+    - Bid over game : Cue / Exclusion ?
+    - ask king : direct king / count king with step ?
+- Overcall 1C = strong :
+    - Natural / Suction / any other overcall
+- (1NT lawan):
+    - (1NT)-X-(lari)-X lagi = Penalty / take-out
+- Sequence 1C :
+    - 1C-1NT :
+        - Menggunakan 23344 / 24,24,3,3 / 2233
+- Sequence 1D :
+    - 1D-1H-1S :
+        - Two way checkback on / off?
+        - Jika off maka menggunakan 4th suit GF
+- Sequence 1H :
+    - 1H-1NT= Boleh di-pass / tidak?
+        - Versi (2-4):
+            - 2C = max HCP 2+C
+            - 2D = 4+D second suit
+        - Versi (3-3):
+            - 2C/D = 3+C/D
+    - 1H-2C = Natural C GF Only / may balance card
+    - 1H-2S = Natural S GF / Bergen max
+    - 1H-2NT= GF Bal / Bergen max
+- Sequence 1S :
+    - 1S-1NT= Boleh di-pass / tidak?
+        - Versi (2-4):
+                - 2C = max HCP 2+C
+                - 2D = 4+D second suit
+            - Versi (3-3):
+                - 2C/D = 3+C/D
+- Sequence 2M :
+    - Minimum HCP & apakah fix 6 lbr M / 6+M ?
+    - Response step / not:
+        - one step : ask singleton
+        - second step : Ougust
+    - Response tidak step :
+        - 2H-2S
+            - Janjian apakah natural S forcing
+            - atau Ougust
