@@ -1082,13 +1082,14 @@ Note :
 
 ## 2C-2S
 [Back](#sequence-2c)<br>
-- [2NT= 4H](#2c-2s-2nt)
-- 3C = 6+C
-- 3D = ?
-- 3H = ?
+- [2NT= 4H min HCP](#2c-2s-2nt)
+- 3C = 6+C min HCP
+- 3D = 6+C + 4D max HCP
+- 3H = 4H max HCP
 - 3S = 12-13 HCP 3+S
-- 3NT= Max 6+C T/P
-- 4C = ?
+- 3NT= 6+C max T/P
+- 4C = 6+C + 3S no splinter
+    - Gak usah dipake gpp
 - 4D = Splinter D 4S
 - 4H = Splinter H 4S
 - 4S = 14-15 HCP T/P No Splinter
