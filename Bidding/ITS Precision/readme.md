@@ -19,7 +19,7 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
 - [Sequence](#sequence)
 - [Overcall](#Overcall)
 - [Competitive](#Competitive)
-    - [1NT](#1nt-competitive)
+    - [1NT](#competitive-1nt)
 - Tambahan Konvensi Bidding :
     - [Response to ask keycards](#response-to-ask-keycards)
     - [Exclusion](#exclusion)
@@ -49,6 +49,7 @@ List opening : <br>
 [Back](#content)<br>
 1C = 16+ HCP any dist <br>
 [Go To Sequence](#Sequence-1C) <br>
+[Go To Competitive](#competitive-1nt)
 Secara lebih detail arti opening 1C : <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any dist <br>
 Note :
@@ -87,7 +88,7 @@ Note :
 [Back](#content)<br>
 1NT = 15-17 HCP Balance <br>
 [Go To Sequence](#Sequence-1NT) <br>
-[Go To Competitive bidding](#1nt-competitive)<br>
+[Go To Competitive bidding](#competitive-1nt)<br>
 [Go To Examples](./Examples/1NT-Strong)<br>
 Note :
 1. Janjian apakah boleh punya 5M
@@ -548,7 +549,8 @@ Note :
 - 4H = Splinter H 4+S SI
 - 4S = T/P
 ## Sequence 1NT
-[Back](#sequence)<br>
+[Back](#1nt)<br>
+[Go To Competitive bidding](#competitive-1nt)<br>
 [Go To Examples](./Examples/1NT-Strong)<br>
 1NT = 15-17 HCP Balance <br>
 - [2C = 7+ HCP ask 4M](#1nt-2c)
@@ -1101,9 +1103,34 @@ Secara garis besar overcall seperti berikut :
 - 3C/D/H/S = Preemptive C/D/H/S
 
 # Competitive
+[Back to Content](#content)<br>
 
-## 1NT Competitive
+- [1NT](#competitive-1nt)
+    - 1NT-(X)-P
+        - [1NT-(X)-P-XX](#competitive-1nt-x-p-xx)
+    - 1NT-(X)-XX
+        - [1NT-(X)-XX-2C](#competitive-1nt-x-xx-2c)
+    - [1NT-(2C)](#competitive-1nt-2c)
+    - [1NT-(2D)](#competitive-1nt-2d)
+        - 1NT-(2D)-2NT
+            - [1NT-(2D)-2NT-3C](#competitive-1nt-2d-2nt-3c)
+    - [1NT-(2H)](#competitive-1nt-2H)
+        - 1NT-(2H)-2NT
+            - [1NT-(2H)-2NT-3C](#competitive-1nt-2H-2nt-3c)
+    - [1NT-(2S)](#competitive-1nt-2S)
+        - 1NT-(2S)-2NT
+            - [1NT-(2S)-2NT-3C](#competitive-1nt-2S-2nt-3c)
+    - [1NT-(2NT)](#competitive-1nt-2nt)
+        - [1NT-(2NT)-P-(3m)](#competitive-1nt-2nt-3m)
+
+## Competitive: 1NT
 [Back to 1NT](#1nt)<br>
+- [1NT-(X)](#competitive-1nt-x)
+- [1NT-(2C)](#competitive-1nt-2c)
+- [1NT-(2D)](#competitive-1nt-2d)
+- [1NT-(2H)](#competitive-1nt-2h)
+- [1NT-(2S)](#competitive-1nt-2s)
+- [1NT-(2NT)](#competitive-1nt-2nt)
 
 Competitive pada 1NT sering juga disebut lebensohl yaitu pada bid 2NT-nya yang membedakan<br>
 Adanya prinsip FADS : Fast Arrival Deny Stopper<br>
@@ -1121,13 +1148,49 @@ Prinsip Lebensohl adalah (ovc 2D-2S): <br>
 
 Ini hanya paparan lengkap, mohon untuk dihapal dengan memahami rule di atas dan pola bid di bawah!!!
 
-## 1NT-(2C)
-- X = Stayman
-- system on
+## Competitive: 1NT-(X)
+[Back](#competitive-1nt)<br>
+Sering disebut escaping 1NT.<br>
+Karena kurang poin main 1NT, kabur mencari fit 7
 
-## 1NT-(2D)
+- [P = Force to XX](#competitive-1nt-x-p-xx)
+    - 1NTXX / 4333 any / 44 Better S
+- [XX = Force to 2C](#competitive-1nt-x-xx-2c)
+    - 5+ any T/P
+- 2C = 4 + any
+- 2D = D + H
+- 2H = H + S (Better H)
+- 2S = 
+- 2NT = 2 suiter GF
+    - opener bid 3 lembar suit terendah
+    - pass / correct
+- 3x = 6/7+ preemptive
+- 4D/H = Transfer to H/S
+
+## Competitive: 1NT-(X)-P-XX
+[Back](#competitive-1nt-x)<br>
+XX = Forced<br>
+- P = T/P
+    - main 1NTXX. HCP >= 20
+- 2C = 4333
+- 2D = D + S
+- 2H = H + S (Better S)
+
+## Competitive: 1NT-(X)-XX-2C
+[Back](#competitive-1nt-x)<br>
+2C = Forced<br>
+- P = 5+C T/P
+- 2D/H/S = 5+D/H/S T/P
+
+## Competitive: 1NT-(2C)
+[Back](#competitive-1nt)<br>
+- X = Stayman
+- 2D++ = system on
+
+## Competitive: 1NT-(2D)
+[Back](#competitive-1nt)<br>
 - 2H/S = T/P
-- 2NT = Puppet to 3C
+- [2NT = Puppet to 3C](#competitive-1nt-2d-2nt-3c)
 - 3C = 5+C GF
 - 3D = MM no stopper D
     - Jika musuh 2D natural
@@ -1139,7 +1202,8 @@ Ini hanya paparan lengkap, mohon untuk dihapal dengan memahami rule di atas dan 
 - 4C++ system on
     - 6+M lewat 4D/4H transfer to 4H/4S
 
-## 1NT-(2D)-2NT-3C
+## Competitive: 1NT-(2D)-2NT-3C
+[Back](#competitive-1nt-2D)<br>
 - P = T/P
 - 3D = MM with stopper D
     - Jika musuh 2D natural
@@ -1149,9 +1213,10 @@ Ini hanya paparan lengkap, mohon untuk dihapal dengan memahami rule di atas dan 
 - 3S = 5+S GF with stopper
 - 3NT= T/P with stopper
 
-## 1NT-(2H)
+## Competitive: 1NT-(2H)
+[Back](#competitive-1nt)<br>
 - 2S = T/P
-- 2NT= Puppet to 3C
+- [2NT= Puppet to 3C](#competitive-1nt-2h-2nt-3c)
 - 3C = 5+C GF
 - 3D = 5+D GF
 - 3H = 4S no stopper
@@ -1163,7 +1228,8 @@ Ini hanya paparan lengkap, mohon untuk dihapal dengan memahami rule di atas dan 
 - 4C++ system on
     - 6+S lewat 4H transfer to 4S
 
-## 1NT-(2H)-2NT-3C
+## Competitive: 1NT-(2H)-2NT-3C
+[Back](#competitive-1nt-2h)<br>
 - P = T/P
 - 3D = T/P
 - 3H = 4S GF with stopper H
@@ -1173,8 +1239,9 @@ Ini hanya paparan lengkap, mohon untuk dihapal dengan memahami rule di atas dan 
 - 3S = 5+S GF with stopper
 - 3NT= T/P with stopper
 
-## 1NT-(2S)
-- 2NT= Puppet to 3C
+## Competitive: 1NT-(2S)
+[Back](#competitive-1nt)<br>
+- [2NT= Puppet to 3C](#competitive-1nt-2s-2nt-3c)
 - 3C = 5+C GF
 - 3D = 5+D GF
 - 3H = 5+H GF
@@ -1185,13 +1252,48 @@ Ini hanya paparan lengkap, mohon untuk dihapal dengan memahami rule di atas dan 
 - 3NT= T/P no stopper
 - 4C++ system on
 
-## 1NT-(2S)-2NT-3C
+## Competitive: 1NT-(2S)-2NT-3C
+[Back](#competitive-1nt-2s)
 - P/3D/3H = T/P
 - 3S = 4H no stopper
     - Jika musuh suit S
 - 3S = T/P
     - Jika musuh bukan suit S
 - 3NT= T/P with stopper
+
+## Competitive: 1NT-(2NT)
+[Back](#competitive-1nt)<br>
+2NT = minors<br>
+- [P = Default bid](#competitive-1NT-2NT-3m)
+    - 44M lewat take-out setelah musuh bid
+- X = Penalty 1 minors / both
+    - 4+ minor
+    - Nunggu lebih untung 3mX atau main
+    - saat bid 3M = 5M GF
+- 3C = MM Better H GF (5+H + 4+S)
+    - Response :
+        - 3H = 2 H no stopper (Default bid)
+        - 3S = 3 S no stopper
+        - 3NT= 2 lbr H + 3 lbr S stopper
+        - 4H/S = T/P
+    - Pola-nya sama untuk response 3D
+- 3D = MM Better S GF (5+S + 4+H)
+- 3H = 5 lbr GF
+- 3S = 5 lbr GF
+- 3NT= T/P
+- 4++ = system on
+
+## Competitive: 1NT-(2NT)-(3m)
+[Back](#competitive-1nt-2nt)<br>
+- X = Take-out 4+4+ Majors
+    - Karena jika ingin penalty langsung di-dbl dulu
+    - Harus dijawab:
+        - 3M = 3 lembar no stopper
+        - 3NT= T/P stopper
+        - 4M = 4 lembar
+- 3H = 4 lbr H GF
+- 3S = 4 lbr S GF
+- 3NT= T/P + ???
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
