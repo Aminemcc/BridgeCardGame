@@ -5,6 +5,11 @@
 //Sangat boleh curi HCP
 
 //---Setting---//
+
+lowerBoundHCP = 8
+upperBoundHCP = 10
+minQualityOpener = 800
+
 //Minimum HCP 2M Opener & Partner
 min_hcp = 21
 max_hcp = 40
@@ -30,9 +35,6 @@ balancedOpps = 1
 
 
 //HCP
-lowerBoundHCP = 8
-upperBoundHCP = 10
-minQualityOpener = 800
 northHCP = ( minQualityOpener <= cccc(north) || lowerBoundHCP <= hcp(north) ) && hcp(north) <= upperBoundHCP
 eastHCP = ( minQualityOpener <= cccc(east) || lowerBoundHCP <= hcp(east) ) && hcp(east) <= upperBoundHCP
 southHCP = ( minQualityOpener <= cccc(south) || lowerBoundHCP <= hcp(south) ) && hcp(south) <= upperBoundHCP
