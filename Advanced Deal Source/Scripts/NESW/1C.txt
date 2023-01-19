@@ -12,7 +12,8 @@ westOpen = 1
 //Opener settings {0 : off, 1 : on}
 minOpenHCP = 16
 maxOpenHCP = 40
-balOpener = 1 //5332 5M considered unbalance
+//5332 5M considered unbalance
+balOpener = 1
 unbalOpener = 1
 
 
