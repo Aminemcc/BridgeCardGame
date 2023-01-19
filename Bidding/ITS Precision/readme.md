@@ -485,7 +485,7 @@ Note :
 - 2H = 5+H T/P
 - 2S = 6+H + any second suit
     - Kartu jarang & sering dilupakan bidnya
-- 2NT= Puppet to 3C
+- [2NT= Puppet to 3C](#1d-1h-1nt-2nt-3c)
     - T/P 3C atau 6+m GF
 - 3C/D/H = ?
 - 3S = Splinter S 7+H SI
@@ -530,6 +530,22 @@ Note :
 - 4C/D = Cue C/D fit H SI
 - 4H = T/P
 
+## 1D-1H-1NT-2NT-3C
+[Back](#1d-1h-1nt)<br>
+3C = Forced<br>
+- 3D = 6+D + 4H GF
+- 3H = 6+C + 4H GF Splinter D
+- 3S = 6+C + 4H GF Splinter S
+
+## 1D-1H-1NT-2NT-3C-3D-3H
+[Back](#1d-1h-1nt-2nt-3c)<br>
+3H = ask short<br>
+- 3S = 6+D + 4H Splinter S
+- 3NT= 6+D + 4H Splinter C no SI
+    - can be passed
+- 4C = 6+D + 4H Splinter C SI
+
+
 ## 1D-1S
 [Back](#Sequence-1D) <br>
 - 1NT= 12-14 HCP Balance
@@ -545,7 +561,7 @@ Note :
 - 2D = GF
 - 2H = ?
 - 2S = 5+S T/P
-- 2NT= Puppet to 3C
+- [2NT= Puppet to 3C](#1d-1s-1nt-2nt-3c)
     - T/P 3C atau 6+m GF
 - 3C/D/H/S = ?
 - 3NT = T/P
@@ -599,6 +615,20 @@ Note :
 - 4H = Splinter H fit S SI
 - 4S = T/P
 
+## 1D-1S-1NT-2NT-3C
+[Back](#1d-1s-1nt)<br>
+3C = Forced<br>
+- 3D = 6+D + 4S GF
+- 3H = 6+C + 4S GF Splinter H
+- 3S = 6+C + 4S GF Splinter D
+
+## 1D-1S-1NT-2NT-3C-3D-3H
+[Back](#1d-1s-1nt-2nt-3c)<br>
+3H = ask short<br>
+- 3S = 6+D + 4S Splinter H
+- 3NT= 6+D + 4S Splinter C no SI
+    - can be passed
+- 4C = 6+D + 4S Splinter C SI
 
 ## 1D-1NT
 [Back](#Sequence-1D) <br>
@@ -710,12 +740,56 @@ Note :
 - 2H = 6+H
 - 2S = 4+S
 
+## 1H-1S-1NT
+[Back](#1h-1s)<br>
+- P = T/P
+- [2C = Puppet to 2D](#1h-1s-1nt-2c-2d)
+    - Invite lewat sini
+- [2D = GF](#1h-1s-1nt-2d)
+- 2H = 2+H T/P
+- 2S = 5+S T/P
+- [2NT= Puppet to 3C](#1h-1s-1nt-2nt-3c)
+    - 6m GF
+
+## 1H-1S-1NT-2C-2D
+[Back](#1h-1s-1nt)<br>
+2D = Forced<br>
+- P = 5+D T/P
+- 2H = 3 lbr H Invite
+- 2S = 5+S Invite
+- 2NT= Invite to 3NT
+- 3C = 5+C Invite
+- 3D = 5+D Invite
+
+## 1H-1S-1NT-2D
+[Back](#1h-1s-1nt)<br>
+- 2H = 6+H
+- 2S = 3 lbr S (Secondary support)
+- 2NT= 2533
+- 3C/D = 4 lbr C/D (Second suit)
+
+## 1H-1S-1NT-2NT-3C
+[Back](#1h-1s-1nt)<br>
+3C = Forced<br>
+- [3D = 6+D + 4S GF](#1h-1s-1nt-2nt-3c-3d-3h)
+- 3H = 6+C + 4S Splinter H GF
+- 3S = 6+C + 4S Splinter D GF
+
+## 1H-1S-1NT-2NT-3C-3D-3H
+[Back](#1h-1s-1nt-2nt-3c)<br>
+3H = ask short<br>
+- 3S = 6+D + 4S GF Splinter H
+- 3NT= 6+D + 4S GF Splinter C
+    - Could be passed
+- 4C = 6+D + 4S GF Splinter C SI
+
+
 ## 1H-1NT
 [Back](#sequence-1h)<br>
 - P = Min HCP Default bid
 - [2C = Max HCP 2+C](#1h-1nt-2c)
-- 2D = 4+D (Second suit)
-- 2H = 6+H / max HCP 5 lbr H
+- [2D = 4+D (Second suit)](#1h-1nt-2d)
+- [2H = 6+H / max HCP 5 lbr H](#1h-1nt-2h)
     - 4S 5H 3D 1C max HCP
 - 2S = Max HCP 6H + 5S
 - 2NT= Max HCP 6+H with splinter
@@ -747,7 +821,21 @@ Setelah direspon 1NT-nya :
 [Back](#1h-1nt)<br>
 - P = T/P
 - 2H = T/P 2H 6-9 / 3H 0-5
-- 2S = 
+- 2S = ?
+- 2NT= Invite to 3NT
+- 3C = 6+C Invite
+- 3D = 4+D Invite
+- 3H = 3 lbr H Invite
+
+## 1H-1NT-2H
+[Back](#1h-1nt)<br>
+- P = T/P
+- 2S = ?
+- 2NT= Invite
+- 3C = 6+C Invite
+- 3D = 6+D Invite
+- 3H = 2+H Invite
+    - Opener bid 3NT jika ternyata 5 lbr H max HCP
 
 ## 1H-2H
 [Back](#sequence-1h)<br>
