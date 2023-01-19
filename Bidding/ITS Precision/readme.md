@@ -295,6 +295,9 @@ How to remember :<br>
 - 2D = 16-19 HCP 5+D
 - 2H = 16-19 HCP 5+H
 
+Note : <br>
+- Dist (4441) any singleton tidak ada responsenya sehingga biasanya dianggap balance
+
 ## 1C-1D-1H
 [Back](#1c-1d)<br>
 - [1S = 0-4 HCP any / 5-7 HCP Balance](#1c-1d-1h-1s)
