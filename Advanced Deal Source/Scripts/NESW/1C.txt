@@ -1,5 +1,5 @@
-//----- Open 2C -----//
-//2C = 12-15 6+C or 5C + 4M
+//----- Open 1C -----//
+//1C = 16-17 HCP Unbalance / 18+ any dist
 
 //---Setting---//
 
@@ -10,6 +10,8 @@ southOpen = 1
 westOpen = 1
 
 //Opener settings {0 : off, 1 : on}
+minOpenHCP = 16
+maxOpenHCP = 40
 balOpener = 1 //5332 5M considered unbalance
 unbalOpener = 1
 
@@ -52,19 +54,19 @@ balancedOpps = 1
 
 
 //HCP
-northHCP = hcp(north) >= 16
+northHCP = minOpenHCP <= hcp(north) && hcp(north) <= maxOpenHCP
 northHCP_16_17 = 16 <= hcp(north) && hcp(north) <= 17
 northHCP_18 = hcp(north) >= 18
 
-eastHCP = hcp(east) >= 16
+eastHCP = minOpenHCP <= hcp(east) && hcp(east) <= maxOpenHCP
 eastHCP_16_17 = 16 <= hcp(east) && hcp(east) <= 17
 eastHCP_18 = hcp(east) >= 18
 
-southHCP = hcp(south) >= 16
+southHCP = minOpenHCP <= hcp(south) && hcp(south) <= maxOpenHCP
 southHCP_16_17 = 16 <= hcp(south) && hcp(south) <= 17
 southHCP_18 = hcp(south) >= 18
 
-westHCP = hcp(west) >= 16
+westHCP = minOpenHCP <= hcp(weset) && hcp(weset) <= maxOpenHCP
 westHCP_16_17 = 16 <= hcp(west) && hcp(west) <= 17
 westHCP_18 = hcp(west) >= 18
 
