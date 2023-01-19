@@ -918,10 +918,8 @@ Note :
 2C = 12-15 HCP 5C + 4M / 6+C
 - [2D = Ask dist (Siap dijawab apapun)](#2c-2d)
 - [2H = 8+ HCP 5+H](#2c-2h)
-    - 10+ HCP lebih gampang
-- [2S = 8+ HCP 5+S](#2C-2S)
-    - 8+ HCP Hati hati karena invite susah
-    - 10+ HCP lebih gampang
+    - 10+ Lebih gampang
+- [2S = 10+ HCP 5+S](#2C-2S)
 - [2NT= Puppet to 3C](#2c-2nt-3c)
     - T/P 3C / 2 Suiter GF
 - [3C = 8-11 HCP 55M](#2c-3c)
@@ -1039,14 +1037,15 @@ Note :
 - [2S = 4S](#2c-2h-2s)
 - 2NT= 14-15 HCP 6+C
 - 3C = 12-13 HCP 6+C
-- 3D = ?
+- 3D = 6+C + 4D max HCP
 - 3H = 12-13 HCP 3+H
 - 3S = Splinter S 4H
 - 3NT= ?
 - 4C = ?
 - 4D = Splinter D 4H
 - 4H = 14-15 HCP 2425
-- 4S = Double Splinter (S & D) 4H ask keycards  
+- 4S = Double Splinter (S & D) 4H ask keycards
+    - Terlalu sus & jarang
 
 Note :
 - Respons rebid 2S/2NT/3C selalu sama pada bid :
