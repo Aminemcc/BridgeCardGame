@@ -28,8 +28,9 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
 - [Signal](#signal)
 
 # Opening
-Opening bid merupakan bidding pertama yang dilakukan di meja.
-♣ ♦ ♥ ♠ 
+♣ ♦ ♥ ♠<br>
+Opening bid merupakan bidding pertama yang dilakukan di meja.<br>
+[Go To All Sequences](#sequence)
 
 List opening : <br>
 - [1C](#1c)
@@ -39,7 +40,7 @@ List opening : <br>
 - [2C](#2c)
 - [2D](#2d)
 - [2M](#2m)
-- [2NT](#2nt)
+- [2NT!](#2nt)
 - [3X](#3x)
 - [3NT](#3nt)
 - [4X](#4x)
@@ -237,7 +238,7 @@ List Sequences : <br>
 - [2H = 8-10 HCP 6+H](#sequence-2H)
 - [2S = 8-10 HCP 6+S](#sequence-2s)
 ## Sequence 1C
-[Back](#sequence) <br>
+[Back](#1c) <br>
 1C = 16-17 HCP Unbalance / 18+ HCP any <br>
 - [1D = 0-7 HCP any dist](#1c-1d)
 - 1H = 8+ HCP 5+H
@@ -255,9 +256,34 @@ List Sequences : <br>
 - 3D = 8-11 HCP 5H + 5S
 - 3H = 8-11 HCP 5S + 5D
 
-Note :
+Note :<br>
 - Selain bid 1D, semuanya adalah Game Force (GF)
 - Tidak perlu cepat cepat game jika ada fit karena tidak ada HCP maksimalnya, bisa saja slam
+
+How to remember :<br>
+- 1C-1D
+    - 1C merupakan opening hanya HCP, sehingga pasti ada default bid-nya untuk kartu belum GF
+- 1C-1H/1S/1NT/2C/2D
+    - Disebut Natural : 5+ atau Balance
+    - Response selain 1D sudah Game Forcing
+    - response setelahnya juga natural (bidding ketiga dst)
+- 1C-2H
+    - karena ada satu dist yang tidak bisa natural yaitu (4441)
+    - Maka bidding terendah setelah natural untuk dist tersebut
+    - response defaultnya tentu saja bertanya singleton-nya (2S)
+- 1C-2S
+    - Bidding 2S keatasnya, karena bid loncat, maka poin terbatas(8-11)
+    - Ini sering dilupakan, tetapi kalau diingat, ini sangat powerful karena :
+    - Jika tau bidding ini, maka jika setelah bidding natural 5+ bid lagi jadi 6+
+    - otomatis HCP 12+ tanpa perlu one step artificial!!!!
+    - Versi jika ingat 1C-2S
+        - 1C - 1H - 2D - 2H = 6+H 12+HCP
+        - Sangat powerful kan (^_^)
+    - Versi jika lupa 1C-2S
+        - 1C - 1H - 2D - 2H = 12+HCP
+    - response defaultnya tentu saja bertanya one suiter-nya apa (2NT)
+- 1C-2NT/3C/3D/3H
+    - Sisanya kartu yang sangat jarang + sering dilupakan, sehingga tidak perlu dihapal biasanya aman-aman saja
 
 ## 1C-1D
 [Back](#Sequence-1C) <br>
