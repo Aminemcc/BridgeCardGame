@@ -277,10 +277,10 @@ How to remember :<br>
     - Jika tau bidding ini, maka jika setelah bidding natural 5+ bid lagi jadi 6+
     - otomatis HCP 12+ tanpa perlu one step artificial!!!!
     - Versi jika ingat 1C-2S
-        - 1C - 1H - 2D - 2H = 6+H 12+HCP
+        - 1C - 2C - 2H - 3C = 6+C 12+HCP
         - Sangat powerful kan (^_^)
     - Versi jika lupa 1C-2S
-        - 1C - 1H - 2D - 2H = 12+HCP
+        - 1C - 2C - 2H - 3C = 6+C 8-11 HCP (padahal ini harusnya lewat 2S)
     - response defaultnya tentu saja bertanya one suiter-nya apa (2NT)
 - 1C-2NT/3C/3D/3H
     - Sisanya kartu yang sangat jarang + sering dilupakan, sehingga tidak perlu dihapal biasanya aman-aman saja
