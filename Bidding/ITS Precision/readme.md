@@ -446,7 +446,7 @@ Note :
 ## 1D-1H
 [Back](#Sequence-1D) <br>
 - [1S = 4+S](#1d-1h-1s)
-- 1NT= 12-14 HCP Balance
+- [1NT= 12-14 HCP Balance](#1d-1h-1nt)
 - 2C = (5+4+) mm
 - 2D = 6+D
 - 2H = 4H
@@ -478,9 +478,9 @@ Note :
 
 ## 1D-1H-1NT
 [Back](#1d-1h)<br>
-- 2C = Puppet to 2D
+- [2C = Puppet to 2D](#1d-1h-1nt-2c-2d)
     - T/P D atau Invite any
-- 2D = GF
+- [2D = GF](#1d-1h-1nt-2d)
     - Mencari fit 5-3 lewat sini
 - 2H = 5+H T/P
 - 2S = 6+H + any second suit
@@ -501,47 +501,138 @@ Note :
 - 2S = 4H + 4S Invite
 - 2NT= Invite to 3NT
 
+## 1D-1H-1NT-2D
+[Back](#1d-1h-1nt)<br>
+- [2H = 3 lbr H (Secondary support)](#1d-1h-1nt-2d-2h)
+- 2S = ?
+    - Bisa diisi Balance min, 2NT => balance max
+- 2NT= Default bid
+- 3C = 5 lbr C good
+    - 3235 => 3S 2H 3D 5C
+- 3D = 5 lbr D good
+    - 3253 => 3S 2H 5D 3C
+
+## 1D-1H-1NT-2D-2H
+[Back](#1d-1h-1nt-2d)<br>
+- 2S = 4+S
+    - Lanjutan natural
+    - Selama ada tujuan delay dulu gpp
+    - Very advance bid
+- 2NT= Relay
+    - Lanjutan natural
+- 3C = 5C + 4H
+- 3D = 5D + 4H
+- 3H = Set H SI
+- 3S = Cue S fit H SI
+- 3NT= Double Cue C & D fit H SI
+    - Ini bisa dilupakan jadi hati-hati
+    - Logika bid-nya bener, tapi tetep hati hati
+- 4C/D = Cue C/D fit H SI
+- 4H = T/P
+
 ## 1D-1S
 [Back](#Sequence-1D) <br>
 - 1NT= 12-14 HCP Balance
 - 2C = (5+4+) mm
 - 2D = (5)/6+ D
-- 2H = 
+- 2H = ?
 - 2S = 4S
+
+## 1D-1S-1NT
+[Back](#1d-1s)<br>
+- P = T/P
+- [2C = Puppet to 2D](#1d-1s-1nt-2c-2d)
+- 2D = GF
+- 2H = ?
+- 2S = 5+S T/P
+- 2NT= Puppet to 3C
+    - T/P 3C atau 6+m GF
+- 3C/D/H/S = ?
+- 3NT = T/P
+- 4C/D/H = Splinter C/D/H 7+S SI
+- 4S = T/P
+- 4NT= ask keycard no fit
+
+## 1D-1S-1NT-2C-2D
+[Back](#1d-1s-1nt)<br>
+2D = Forced <br>
+- P = T/P 2D
+- 2H = 4H + 5S Invite
+    - 4H + 4S Invite lewat bid 1H
+- 2S = 5+S Invite
+- 2NT= Invite to 3NT
+- 3C = 5+C + 4S Invite
+- 3D = 5+D + 4S Invite
+
+## 1D-1S-1NT-2D
+[Back](#1d-1s-1nt)<br>
+- [2H = 4H](#1d-1s-1nt-2d-2h)
+- [2S = 3 lbr S (Secondary support priority)](#1d-1s-1nt-2d-2s)
+- 2NT= 2344
+    - Tidak bisa 2H/2S/3C/3D
+- 3C = 5 lbr C => 2335
+- 3D = 5 lbr D => 2353
+
+## 1D-1S-1NT-2D-2H
+[Back](#1d-1s-1nt-2d)<br>
+- 2S = 6+S SI (fit S)
+- 2NT= Relay
+    - Search 4 lbr minor fit
+- 3C = 5C + 4S
+- 3D = 5D + 4S
+- 3H = fit H SI
+- 3NT= T/P
+- 4H = T/P
+
+## 1D-1S-1NT-2D-2S
+[Back](#1D-1s-1nt-2d)<br>
+- 2NT= Relay
+- 3C = 5C + 4S
+- 3D = 5D + 4S
+- 3H = Cue H fit S SI
+- 3S = Fit S SI
+- 3NT= Double Cue C & D fit S SI
+    - Logika bidding-nya bener, tapi takut disalah artikan T/P
+    - Jika memang ingin T/P, kenapa gak langsung 3NT saja
+- 4C = Cue C fit S SI
+- 4D = Cue D fit S SI
+- 4H = Splinter H fit S SI
+- 4S = T/P
+
 
 ## 1D-1NT
 [Back](#Sequence-1D) <br>
 - 2C = (5+4+) mm
 - 2D = 6+D
+- 3C = 5+5+ mm max HCP good hand
+- 3D = 6/7+D max HCP good hand
 
 ## 1D-2C
 [Back](#Sequence-1D) <br>
-- 2D = 5+D / 4441 1C 
+- 2D = 5+D / 4441 singleton C 
 - [2H = 12-14 HCP Balance 2C](#1d-2c-2h)
-- 2S = 14-15 HCP 4+C
-- 2NT= 12-13 HCP Balance 3C
-- 3C = 12-13 HCP 4+C
-- 3D = 14-15 HCP 6+D
+- 2S = 14-15 HCP 4+C (max HCP)
+- 2NT= 12-13 HCP Balance 3C (min HCP)
+- 3C = 12-13 HCP 4+C (min HCP)
+- 3D = 14-15 HCP 6+D (max HCP)
 - 3H = Splinter H, 5C + 4+D
 - 3S = Splinter S, 5C + 4+D
 - 3NT= 14 HCP Balance 3C
 
 ## 1D-2C-2H
 [Back](#1d-2c)
-- 2S = 10+ HCP Forcing
+- [2S = 10+ HCP Forcing](#1d-2c-2h-2s)
 - 2NT= 11 HCP Invite
 - 3C = 10-11 HCP 6+C Invite
 - 3D/H/S = ?
 - 3NT= T/P
-
-## 1D-2C-2H
-[Back](#1D-2c) <br>
-- 2S = 10 HCP Forcing
-- 2NT= 11 HCP Invite
-- 3C = 10-11 HCP 6+C
-- 3D/H/S = ?
-- 3NT= T/P
 - 4C = 6+C SI
+
+## 1D-2C-2H-2S
+[Back](#1d-2c-2h)<br>
+- 2NT = Default Bid
+- 3C/D/H/S = ?
+- 3NT = 14 HCP T/P
 
 ## 1D-2D
 [Back](#Sequence-1D)<br>
@@ -553,6 +644,23 @@ Note :
 - 3H = Splinter H, 5D + 4C
 - 3S = Splinter S, 5D + 4C
 - 3NT= 14 HCP 3D
+
+## 1D-2D-2H
+[Back](#1d-2d)
+- [2S = 10+ HCP Forcing](#1d-2d-2h-2s)
+- 2NT= 11 HCP Invite
+- 3C = 10-11 HCP 5D + 4C Invite
+- 3D = 10-11 HCP 6+D Invite
+- 3H/S = ?
+- 3NT= T/P
+- 4C = ?
+- 4D = 6+D SI
+
+## 1D-2D-2H-2S
+[Back](#1d-2d-2h)<br>
+- 2NT = Default Bid
+- 3C/D/H/S = ?
+- 3NT = 14 HCP T/P
 
 ## 1D-2H
 [Back](#Sequence-1d)<br>
@@ -611,6 +719,7 @@ Note :
     - 4S 5H 3D 1C max HCP
 - 2S = Max HCP 6H + 5S
 - 2NT= Max HCP 6+H with splinter
+    - Sering dilupakan, hati-hati
 - 3C = Max HCP 5+C
 - 3D = Max HCP 5+D
 - 3H = Max HCP 6332
@@ -633,6 +742,12 @@ Setelah direspon 1NT-nya :
     - Ragu untuk bid 3NT
 - 3D = 6+D GF
 - 3NT = T/P
+
+## 1H-1NT-2D
+[Back](#1h-1nt)<br>
+- P = T/P
+- 2H = T/P 2H 6-9 / 3H 0-5
+- 2S = 
 
 ## 1H-2H
 [Back](#sequence-1h)<br>
