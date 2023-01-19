@@ -19,6 +19,7 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
 - [Sequence](#sequence)
 - [Overcall](#Overcall)
 - [Competitive](#Competitive)
+    - [1H](#competitive-1h)
     - [1NT](#competitive-1nt)
 - Tambahan Konvensi Bidding :
     - [Response to ask keycards](#response-to-ask-keycards)
@@ -79,6 +80,7 @@ Note :
 [Back](#content)<br>
 1H = 12-15 HCP 5+H <br>
 [Go To Sequence](#sequence-1h)<br>
+[Go To Competitive](#competitive-1h)<br>
 1S = 12-15 HCP 5+S <br>
 [Go To Sequence](#sequence-1s)<br>
 Note :
@@ -1104,12 +1106,16 @@ Secara garis besar overcall seperti berikut :
 
 # Competitive
 [Back to Content](#content)<br>
-
+- [1H](#competitive-1h)
+    - [1H-(1S)](#competitive-1h-1s)
+        - [1H-(1S)-X](#competitive-1h-1s-x)
+    - [1H-(1NT)](#competitive-1h-1nt)
 - [1NT](#competitive-1nt)
-    - 1NT-(X)-P
-        - [1NT-(X)-P-XX](#competitive-1nt-x-p-xx)
-    - 1NT-(X)-XX
-        - [1NT-(X)-XX-2C](#competitive-1nt-x-xx-2c)
+    - [1NT-(X)](#competitive-1nt-x)
+        - 1NT-(X)-P
+            - [1NT-(X)-P-XX](#competitive-1nt-x-p-xx)
+        - 1NT-(X)-XX
+            - [1NT-(X)-XX-2C](#competitive-1nt-x-xx-2c)
     - [1NT-(2C)](#competitive-1nt-2c)
     - [1NT-(2D)](#competitive-1nt-2d)
         - 1NT-(2D)-2NT
@@ -1122,6 +1128,131 @@ Secara garis besar overcall seperti berikut :
             - [1NT-(2S)-2NT-3C](#competitive-1nt-2S-2nt-3c)
     - [1NT-(2NT)](#competitive-1nt-2nt)
         - [1NT-(2NT)-P-(3m)](#competitive-1nt-2nt-3m)
+
+## Competitive: 1H
+[Back to 1H](#1M)<br>
+[Back to Competitive](#competitive)<br>
+- [1H-(1S)](#competitive-1h-1s)
+- [1H-(1NT)](#competitive-1h-1nt)
+- [1H-(2C)](#competitive-1h-2C)
+- [1H-(2D)](#competitive-1h-2D)
+- [1H-(2H)](#competitive-1h-2H)
+- [1H-(2S)](#competitive-1h-2S)
+
+
+## Competitive: 1H-(1S)
+[Back](#competitive-1h)<br>
+1H-(1S) = 5+S <br>
+- P = Default bid
+- [X = 8+ HCP Responsive dbl](#competitive-1h-1s-x)
+    - Balance no stopper S
+    - ???
+- 1NT = 8-11 HCP Balance stopper S
+- 2C/D = 10+ HCP 5+C/D
+- 2H = NF fit H
+    - Rebutan kontrak part score
+- 2S = Limit / Better fit H
+- 2NT/3C/3D = ?
+- 3H = 4+H Blocking
+    - Musuh-nya bisa game berdasarkan pengamatan responder
+- 3S = Splinter S SI fit H
+- 3NT = T/P stopper S
+- 4C/4D = Splinter S/C/D SI fit H
+- 4H = T/P
+
+## Competitive: 1H-(1S)-X
+[Back](#competitive-1h-1s)<br>
+- P = 5+S trapping
+- 1NT = 12-13 HCP with stopper S
+- 2C/D = 4+ C/D
+- 2H = 5/6+ H default bid
+- 2S = ?
+- 3C/D = 5+C/D max HCP
+- 2NT = 14-15 HCP with stopper S
+
+
+## Competitive: 1H-(1NT)
+[Back](#competitive-1h)<br>
+1H-(1NT) = 15-17/18 HCP Balance stopper H
+- P = Default bid
+- X = Penalty dbl 8/9+ HCP
+    - Siap musuh main 1NTX / 1NTXX
+    - Tetep bisa competitive part score
+- 2C/D = 10+ HCP 5+C/D
+- 2H = NF fit H
+- 2S = 10+ HCP 5+S
+- 3H = 4+H Blocking
+- 4C/D = Splinter fit H SI
+- 4H = T/P
+
+## Competitive: 1H-(2C)
+[Back](#competitive-1H)<br>
+- P = Default bid
+- X = 8+ HCP Responsive dbl
+    - intinya siap dijawab apapun
+- 2D = 10+ HCP 5+D
+- 2H = NF fit H
+- 2S = 10+ HCP 5+S
+- 2NT = 10-11 HCP invite to 3NT with stopper C
+- 3C = Limit / better
+- 3D = ?
+- 3H = Blocking
+- 3S = Splinter S SI fit H
+- 3NT = T/P with stopper C
+- 4C/D = Splinter C/D SI fit H
+- 4H = T/P
+
+## Competitive: 1H-(2D)
+[Back](#competitive-1H)<br>
+- P = Default bid
+- X = 8+ HCP Responsive dbl
+    - intinya siap dijawab apapun
+- 2H = NF fit H
+- 2S = 10+ HCP 5+S
+- 2NT = 10-11 HCP invite to 3NT with stopper D
+- 3C = 5+C GF
+- 3D = Limit / better
+- 3H = Blocking
+- 3S = Splinter S SI fit H
+- 3NT = T/P with stopper D
+- 4C/D = Splinter C/D SI fit H
+- 4H = T/P
+
+## Competitive: 1H-(2H)
+[Back](#competitive-1H)<br>
+2H = S + m
+- P = Default bid
+- X = Penalty dbl
+    - Ingin penalty S / m
+- 2S = Limit / better
+- 2NT = 10-11 HCP invite to 3NT with stopper S
+- 3C = 5+C GF
+- 3D = 5+D GF
+- 3H = NF fit H
+- 3S = Splinter S SI fit H
+- 3NT = T/P with stopper S
+- 4C/D = Splinter C/D SI fit H
+- 4H = T/P
+
+## Competitive: 1H-(2S)
+[Back](#competitive-1H)<br>
+2S = weak S
+- P = Default bid
+- X = 10+HCP Responsive dbl
+    - T/P 2NT / 3m / 3H
+    - ask stopper
+    - Lainnya
+- 2NT = 10-11 HCP invite to 3NT with stopper S
+- 3C = 5+C GF
+- 3D = 5+D GF
+- 3H = Invite to 4H
+    - T/P 3H lewat X
+    - karena tidak ada ruang limit/better
+- 3S = Splinter S SI fit H
+- 3NT = T/P with stopper S
+- 4C/D = Splinter C/D SI fit H
+- 4H = T/P
+
 
 ## Competitive: 1NT
 [Back to 1NT](#1nt)<br>
@@ -1304,7 +1435,13 @@ List :
 - [Ask King](#ask-king)
 - [Ask Extra](#extra)
 
-# Cue Bid
+## Responsive dbl
+Responsive dbl adalah dbl yang forcing, boleh dipass jika opener 5+ di suit musuh tersebut (trapping).
+
+Example:
+- [1H-(1S)](#competitive-1h-1s)
+
+## Cue Bid
 Cue bid dilakukan setelah setuju fit di suatu suit
 Cue bid = First / Second round control <br>
 atau dengan kata lain <br>
