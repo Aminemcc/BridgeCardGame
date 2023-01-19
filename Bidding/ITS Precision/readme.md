@@ -426,18 +426,80 @@ Note :
 - 3D = Preemptive 6+D
 
 Note :
-- 1D Boleh dipass, minimal 4/5 D (worst case fit 4-2 / 5-2)
-- 1D-1M ada versi any HCP, 6+ HCP, lanjutan tetap sama
-- Jika di overcall, 1D - (ovc) - 1M = 8+ HCP / ada tujuan
 - Utamakan 1D-1M daripada 1D-2m. Major dulu baru minor
+- 1D-1M ada versi any HCP, 6+ HCP, lanjutan tetap sama
+- Responder has 4+S + 4+H  :
+    - 4H+4S = 1H
+    - 4H+5S:
+        - Part score : 2H (HCP cukup)
+        - Invite : 1S
+        - Game : 1S
+    - 5H+4S = 1H
+    - 5H+5S:
+        - Part Score : 1H / 2H (HCP Cukup & dibaca 4 lbr H)
+        - Invite : 1S
+        - Game : 1S
+- 1D Boleh dipass, minimal 4/5 D (worst case fit 4-2 / 5-2)
+- Jika di overcall, 1D - (ovc) - 1M = 8+ HCP / ada tujuan
+
 
 ## 1D-1H
 [Back](#Sequence-1D) <br>
-- 1S = 4+S
+- [1S = 4+S](#1d-1h-1s)
 - 1NT= 12-14 HCP Balance
 - 2C = (5+4+) mm
 - 2D = 6+D
 - 2H = 4H
+
+## 1D-1H-1S
+[Back](#1d-1h)<br>
+- 1NT= NF
+- [2C = Puppet to 2D](#1d-1h-1s-2c-2d)
+- [2D = GF](#1d-1h-1s-2d)
+- 2H = 6+H T/P
+- 2S = 4+S Invite
+
+## 1D-1H-1S-2C-2D
+[Back](#1d-1h-1s)<br>
+2D = Forced<br>
+- P = T/P
+- 2H = 5+H Invite
+- 2S = ?
+- 2NT= Invite to 3NT
+
+## 1D-1H-1S-2D
+[Back](#1d-1h-1s)<br>
+- 2H = 3 lbr H (Secondary support)
+- 2S = 12-13 HCP Balance
+    - Karena max punya 4 lenbar S, maka diisi balanced card
+- 2NT= 14 HCP Balance
+- 3C = 4+4+ minors
+- 3D = 5+D
+
+## 1D-1H-1NT
+[Back](#1d-1h)<br>
+- 2C = Puppet to 2D
+    - T/P D atau Invite any
+- 2D = GF
+    - Mencari fit 5-3 lewat sini
+- 2H = 5+H T/P
+- 2S = 6+H + any second suit
+    - Kartu jarang & sering dilupakan bidnya
+- 2NT= Puppet to 3C
+    - T/P 3C atau 6+m GF
+- 3C/D/H = ?
+- 3S = Splinter S 7+H SI
+- 3NT= T/P
+- 4C/D = Splinter C/D 7+H SI
+- 4H = T/P
+
+## 1D-1H-1NT-2C-2D
+[Back](#1d-1h-1nt)<br>
+2D = Forced<br>
+- P = T/P
+- 2H = 5+H Invite
+- 2S = 4H + 4S Invite
+- 2NT= Invite to 3NT
 
 ## 1D-1S
 [Back](#Sequence-1D) <br>
@@ -1635,6 +1697,8 @@ Besar - Kecil selalu genap. <br>
 
 
 # List Janjian
+[Back](#content)<br>
+
 Sebelum kalian partner-an dengan anak-anak ITS lainnya, diskusikan hal-hal ini :
 
 - System : ITS Precision
