@@ -645,6 +645,7 @@ Note :
 - [2H = 12-14 HCP Balance 2C](#1d-2c-2h)
     - Default bid untuk balance
 - 2S = 14-15 HCP 4+C (max HCP)
+    - Max HCP / Unbalance
 - 2NT= 12-13 HCP Balance 3C (min HCP)
 - 3C = 12-13 HCP 4+C (min HCP)
 - 3D = 14-15 HCP 6+D (max HCP)
@@ -672,6 +673,7 @@ Note :
 - 2H = 12-14 HCP Balance 2D
     - Default bid untuk balance
 - 2S = 14-15 HCP 4+D
+    - Max HCP / Unbalance
 - 2NT= 12-13 HCP 3D
 - 3C = 12-13 HCP mm
 - 3D = 12-13 HCP 4+D
