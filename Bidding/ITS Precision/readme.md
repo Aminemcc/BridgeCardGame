@@ -1454,6 +1454,152 @@ Normalnya, pasangan ITS 2M-2NT selalu Ougust, jika ada lainnya tidak dimasukkan 
     - [1NT-(2NT)](#competitive-1nt-2nt)
         - [1NT-(2NT)-P-(3m)](#competitive-1nt-2nt-3m)
 
+## Competitive: 1D
+[Back to 1D](#1D)<br>
+[Back to Competitive](#competitive)<br>
+
+## Competitive: 1D-(X)
+[Back](#competitive-1d)<br>
+- P = Default bid
+- XX = 8+ HCP
+    - Default bid jika tidak bisa bid 8+ HCP
+- 1H/S = 8+ HCP 4+H/S
+- 1NT = 8-11 HCP
+- 2C/D = 12+ HCP 5+C/D
+- 2H/S = weak H/S ??
+- 2NT= ?
+- 3C = ?
+- 3D = 6+D Blocking
+
+## Competitive: 1D-(1H)
+[Back](#competitive-1d)<br>
+(1H) = 8+ HCP 5+H
+- P = Default bid
+- X = 8+ HCP Responsive dbl
+    - Default bid untuk 8+ HCP tidak bisa bid lain
+- 1S = 8+ HCP 4+S
+- 1NT= 8-11 HCP stopper H
+- 2C/D = 12+ HCP 5+C/D
+- 2H = ?
+- 2S = weak S ???
+- 2NT= ?
+- 3C = ?
+- 3D = 6+D Blocking
+- 3H/S = ?
+- 3NT = T/P
+
+## Competitive: 1D-(1S)
+[Back](#competitive-1D)<br>
+(1S) = 8+ HCP 5+S<br>
+- P = Default bid
+- X = 8+ HCP 4+H Negative dbl
+- 1NT= 8-11 HCP stopper S
+- 2C/D = 10+ HCP 5+ C/D
+    - Karena ruang X digunakan untuk H, maka 2C/D minimal invite
+- 2H = 12+ HCP 5+H
+
+## Competitive: 1D-(1NT)
+[Back](#competitive-1d)<br>
+1NT = Balance<br>
+
+- P = Default bid
+- X = 9+ HCP Penalty
+    - Tetep bisa part score-an / lainnya
+- 2C = 12+ HCP 5+C
+- 2D = 12+ HCP 5+D
+- 2H = 12+ HCP 5+H
+- 2S = 12+ HCP 5+S
+- 2NT= ?
+- 3C = ?
+- 3D = 6+D Blocking
+
+## Competitive: 1D-(2C)
+[Back](#competitive-1d)<br>
+(2C) = 12+ HCP 5+C<br>
+- P = Default bid
+- X = 10+ HCP Responsive dbl
+    - Mencari fit 4-4 M
+    - ask stopper
+- 2D/H/S = 12+ HCP 5+D/H/S
+- 2NT= 10-11 HCP Invite to 3NT stopper C
+- 3C = 44M GF
+- 3D = 6+D Blocking
+- 3H/S = ?
+- 3NT= T/P stopper C
+
+## Competitive 1D-(2D)
+[Back](#competitive-1d)<br>
+(2D) = 12+ HCP 5+D<br>
+(2D) = MM<br>
+
+- P = Default bid
+- X = 10+ HCP Responsive dbl
+    - Mencari fit 4-4 M
+    - ask stopper / dist opener
+- 2H :
+    - 2H = 12+ HCP 5+H
+        - Jika musuh natural
+    - 2H = 12+ HCP mm Better C
+        - Jika musuh artificial MM
+- 2S :
+    - 2S = 12+ HCP 5+S
+        - Jika musuh natural
+    - 2S = 12+ HCP mm Better D
+        - Jika musuh artificial MM
+- 2NT = 10-11 HCP Invite to 3NT stopper
+- 3C = 12+ HCP 5+C
+- 3D:
+    - 3D = 44M GF
+        - Musuh natural
+    - 3D = 12+HCP 5+D 
+        - Musuh artificial
+        - Berarti bid lain ada yang berubah artinya
+
+## Competitive: 1D-(2H)
+[Back](#competitive-1d)<br>
+(2H) = weak H<br>
+- P = Default bid
+- X = 10+ HCP Responsive dbl
+    - Mencari fit 4-4 S
+    - ask stopper / dist opener
+- 2S = 12+ HCP 5+S
+- 2NT= 10-11 HCP Invite to 3NT stopper H
+- 3C/D = 12+ HCP 5+C/D
+
+## Competitive: 1D-(2S)
+[Back](#competitive-1D)<br>
+(2S) = weak S <br>
+- P = Default bid
+- X = 10+ HCP Responsive dbl
+    - Mencari fit 4-4 H
+    - ask stopper / dist opener
+- 2NT= 10-11 HCP Invite to 3NT stopper S
+- 3C/D/H = 12+ HCP 5+C/D/H
+- 3S = ?
+- 3NT = T/P stopper S
+
+## Competitive: 1D-(2NT)
+[Back](#competitive-1d)<br>
+(2NT) = mm weak<br>
+2NT = minors<br>
+- P = Default bid
+    - 44M lewat take-out setelah musuh bid
+- X = Penalty 1 minors / both
+    - 4/5+ minor
+    - Nunggu lebih untung 3mX atau main
+    - saat bid 3M = 5M GF
+- 3C = MM Better H GF (5+H + 4+S)
+    - Response :
+        - 3H = 2 H no stopper (Default bid)
+        - 3S = 3 S no stopper
+        - 3NT= 2 lbr H + 3 lbr S stopper
+        - 4H/S = T/P
+    - Pola-nya sama untuk response 3D
+- 3D = MM Better S GF (5+S + 4+H)
+- 3H = 5 lbr GF
+- 3S = 5 lbr GF
+- 3NT= T/P
+
 ## Competitive: 1H
 [Back to 1H](#1M)<br>
 [Back to Competitive](#competitive)<br>
@@ -1753,6 +1899,7 @@ XX = Forced<br>
 - 3NT= T/P + ???
 
 # Overcall
+[Back to Content](#content)<br>
 Secara garis besar overcall seperti berikut :
 
 - Tingkat 1 : 8+ HCP 5+ lembar
@@ -1801,10 +1948,12 @@ Versi Natural :<br>
 ## Overcall: 1C Standard
 1C = 12-21 HCP 2/3+C<br>
 - [(1C)-X = take-out dbl](#overcall-1cstandard-x)
-- (1C)-1D/H/S = 8+ HCP 5+ D/H/S
+    - X = 12-17 HCP 3+cards except C
+    - X = 18+ any dist
+- (1C)-1D/H/S = 8-17 HCP 5+ D/H/S
 - (1C)-1NT= 15-17 HCP with stopper C
     - same as opening
-- (1C)-2C = 12+ HCP 5+C / MM
+- (1C)-2C = 12-17 HCP 5+C / MM
     - Janjian dulu
 - (1C)-2D = 6+D Weak
 - (1C)-2H/S = 6+H/S weak
@@ -1814,7 +1963,7 @@ Versi Natural :<br>
 - (1C)-3C/D/H/S = 7+ C/D/H/S Preemptive
 
 ## Overcall: (1C=Standard)-X
-[Back](#overcall-1cstandard-x)<br>
+[Back](#overcall)<br>
 - 1D/H/S = 0-7 HCP 4+D/H/S
     - Terpaksa bid, maka ada 0 poin
 - 1NT = 8-11 HCP stopper C
@@ -1824,18 +1973,23 @@ Versi Natural :<br>
 - 3C/D/H/S = ?
 - 3NT= 12+ HCP stopper C
 
-
-
+Note :
+- Setelah ini, jika bidder take-out dbl bid new suit
+    - 18+ HCP 5+cards
+- Jika bid NT = 18+ HCP Bal with stopper
+- Jika support = 15-17 HCP 4+Cards
 
 
 ## 1NT Strong
 [Back](#content)<br>
 - X = 16+ HCP
 - 2C = MM
+    - Karena tidak menganggu, maka 55MM good hand
 - 2D = One Suiter M
 - 2H = H + m
 - 2S = S + m
 - 2NT = mm
+    - Sangat menganggu, maka bisa weak / bad hand
 - 3C/D/H/S = Preemptive C/D/H/S
 
 
