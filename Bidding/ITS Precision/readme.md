@@ -450,6 +450,7 @@ Note :
 - 2C = (5+4+) mm
 - 2D = 6+D
 - 2H = 4H
+    - Prioritas support 4 lembar H
 
 ## 1D-1H-1S
 [Back](#1d-1h)<br>
@@ -553,7 +554,8 @@ Note :
 - 2D = (5)/6+ D
 - 2H = ?
 - 2S = 4S
-
+    - Prioritas support 4 lembar Spades
+    
 ## 1D-1S-1NT
 [Back](#1d-1s)<br>
 - P = T/P
@@ -1453,6 +1455,16 @@ Normalnya, pasangan ITS 2M-2NT selalu Ougust, jika ada lainnya tidak dimasukkan 
             - [1NT-(2S)-2NT-3C](#competitive-1nt-2S-2nt-3c)
     - [1NT-(2NT)](#competitive-1nt-2nt)
         - [1NT-(2NT)-P-(3m)](#competitive-1nt-2nt-3m)
+
+
+## Competitive: 1C
+[Back to 1C](#1C)<br>
+[Back to Competitive](#competitive)<br>
+Sederhananya :<br>
+- Pass = 0-4 HCP
+- X = 5-7 HCP
+- any bid = 8+ HCP GF natural
+- Janjian apakah bid 1NT harus punya stopper atau tidak
 
 ## Competitive: 1D
 [Back to 1D](#1D)<br>
