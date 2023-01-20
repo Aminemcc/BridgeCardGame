@@ -560,7 +560,7 @@ Note :
 [Back](#1d-1s)<br>
 - P = T/P
 - [2C = Puppet to 2D](#1d-1s-1nt-2c-2d)
-- 2D = GF
+- [2D = GF](#1d-1s-1nt-2d)
 - 2H = ?
 - 2S = 5+S T/P
 - [2NT= Puppet to 3C](#1d-1s-1nt-2nt-3c)
