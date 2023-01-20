@@ -549,13 +549,13 @@ Note :
 
 ## 1D-1S
 [Back](#Sequence-1D) <br>
-- 1NT= 12-14 HCP Balance
+- [1NT= 12-14 HCP Balance](#1d-1s-1nt)
 - 2C = (5+4+) mm
 - 2D = (5)/6+ D
 - 2H = ?
 - 2S = 4S
     - Prioritas support 4 lembar Spades
-    
+
 ## 1D-1S-1NT
 [Back](#1d-1s)<br>
 - P = T/P
