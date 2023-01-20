@@ -643,6 +643,7 @@ Note :
 [Back](#Sequence-1D) <br>
 - 2D = 5+D / 4441 singleton C 
 - [2H = 12-14 HCP Balance 2C](#1d-2c-2h)
+    - Default bid untuk balance
 - 2S = 14-15 HCP 4+C (max HCP)
 - 2NT= 12-13 HCP Balance 3C (min HCP)
 - 3C = 12-13 HCP 4+C (min HCP)
@@ -669,6 +670,7 @@ Note :
 ## 1D-2D
 [Back](#Sequence-1D)<br>
 - 2H = 12-14 HCP Balance 2D
+    - Default bid untuk balance
 - 2S = 14-15 HCP 4+D
 - 2NT= 12-13 HCP 3D
 - 3C = 12-13 HCP mm
