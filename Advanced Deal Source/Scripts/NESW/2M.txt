@@ -6,9 +6,13 @@
 
 //---Setting---//
 
+//0 : Off, 1 : On
+open2H = 1
+open2S = 1
+
 lowerBoundHCP = 8
 upperBoundHCP = 10
-minQualityOpener = 800
+minQualityOpener = 950
 
 //Minimum HCP 2M Opener & Partner
 min_hcp = 21
@@ -21,13 +25,18 @@ southOpen = 1
 westOpen = 1
 
 
-//quality one of opponents card (0 : off, 1 : on)
-quality_set = 1
-//interval is : [0-3000] quality of normal opening around 1200
-minQuality = 0
-maxQuality = 1100
-//balanced card and HCP between opps (0 : off, 1 : on)
-balancedOpps = 1
+//Overcall / No Overcall {0 : Off, 1 : On}
+overcall = 0
+
+//on / off
+ovcX = 1
+ovc2S = 1
+ovc2NT = 1
+ovc3C = 1
+ovc3D = 1
+ovc3H = 1
+ovcMm = 1
+ovcmm = 1
 
 
 //---Setting Done---//
@@ -35,36 +44,107 @@ balancedOpps = 1
 
 
 //HCP
-northHCP = ( minQualityOpener <= cccc(north) || lowerBoundHCP <= hcp(north) ) && hcp(north) <= upperBoundHCP
-eastHCP = ( minQualityOpener <= cccc(east) || lowerBoundHCP <= hcp(east) ) && hcp(east) <= upperBoundHCP
-southHCP = ( minQualityOpener <= cccc(south) || lowerBoundHCP <= hcp(south) ) && hcp(south) <= upperBoundHCP
-westHCP = ( minQualityOpener <= cccc(west) || lowerBoundHCP <= hcp(west) ) && hcp(west) <= upperBoundHCP
+northHCP = ( minQualityOpener <= cccc(north) && lowerBoundHCP <= hcp(north) ) && hcp(north) <= upperBoundHCP
+eastHCP = ( minQualityOpener <= cccc(east) && lowerBoundHCP <= hcp(east) ) && hcp(east) <= upperBoundHCP
+southHCP = ( minQualityOpener <= cccc(south) && lowerBoundHCP <= hcp(south) ) && hcp(south) <= upperBoundHCP
+westHCP = ( minQualityOpener <= cccc(west) && lowerBoundHCP <= hcp(west) ) && hcp(west) <= upperBoundHCP
 
 //Total HCP NS & EW
 hcpNS = min_hcp <= ( hcp(north) + hcp(south) ) && ( hcp(north) + hcp(south) ) <= max_hcp
 hcpEW = min_hcp <= ( hcp(east) + hcp(west) ) && ( hcp(east) + hcp(west) ) <= max_hcp
 
 //Distribusi
-northDist = shape(north, 6xxx + x6xx - 64xx - 46xx - 65xx - 56xx - 66xx - any 7xxx) && northHCP && northOpen
-eastDist = shape(east, 6xxx + x6xx - 64xx - 46xx - 65xx - 56xx - 66xx - any 7xxx) && eastHCP && eastOpen
-southDist = shape(south, 6xxx + x6xx - 64xx - 46xx - 65xx - 56xx - 66xx - any 7xxx) && southHCP && southOpen
-westDist = shape(west, 6xxx + x6xx - 64xx - 46xx - 65xx - 56xx - 66xx - any 7xxx) && westHCP && westOpen
+
+northDist = shape(north, 6xxx + x6xx - 64xx - 46xx - any 65xx - any 6610 - any 7600) &&
+	northHCP && northOpen && ( (hearts(north) == 6 && open2H) || (spades(north) == 6 && open2S) )
+eastDist = shape(east, 6xxx + x6xx - 64xx - 46xx - any 65xx - any 66xx - any 7600) && 
+	eastHCP && eastOpen && ( (hearts(east) == 6 && open2H) || (spades(east) == 6 && open2S) )
+southDist = shape(south, 6xxx + x6xx - 64xx - 46xx - any 65xx - any 66xx - any 7600) && 
+	southHCP && southOpen && ( (hearts(south) == 6 && open2H) || (spades(south) == 6 && open2S) )
+westDist = shape(west, 6xxx + x6xx - 64xx - 46xx - any 65xx - any 66xx - any 7600) && 
+	westHCP && westOpen && ( (hearts(west) == 6 && open2H) || (spades(west) == 6 && open2S) )
+
+
+//Overcalls
+//North overcalls from west opening
+northOvcHCP = 13 <= hcp(north) && hcp(north) <= 16
+northOvcXShape = shape(north, any 4333 + any 4432 + any 54xx - any 5422) && ( (hearts(north) < 5 || spades(north) == 0) && (spades(north) < 5 || hearts(north) == 0)) && 
+	( ( hearts(west) == 6 && spades(north) >= hearts(north) && diamonds(north) >= hearts(north) && clubs(north) >= hearts(north) ) || 
+	( spades(west) == 6 && hearts(north) >= spades(north) && diamonds(north) >= spades(north) && clubs(north) >= spades(north) ) )
+northOvcX = ovcX && ( northOvcHCP && northOvcXShape && 
+	( (hearts(west) == 6 && hcp(north, heart) <= 1) || (spades(west) == 6 && hcp(north, spade) <= 1) ) || hcp(north) >= 18)
+northOvc2S = ovc2S && northOvcHCP && spades(north) >= 5 && hearts(north) < 5 && diamonds(north) < 5 && clubs(north) < 5
+northOvc2NT = ovc2NT && 16 <= hcp(north) && hcp(north) <= 17 && ( ( hcp(north, spade) >= 5 && spades(west) >= 6 ) || ( hcp(north, heart) >= 5&& hearts(west) >= 6 ) ) && shape(north, any 4432 + any 4333)
+northOvc3C = ovc3C && northOvcHCP && hcp(north, club) >= 5 && clubs(north) >= 5 && spades(north) < 4 && hearts(north) < 4 && diamonds(north) < 5 && !northOvcXShape
+northOvc3D = ovc3D && northOvcHCP && hcp(north, diamond) >= 5 && diamonds(north) >= 5 && spades(north) < 4 && hearts(north) < 4 && clubs(north) < 5 && !northOvcXShape
+northOvc3H = ovc3H && northOvcHCP && hearts(north) >= 5 && spades(north) < 5 && clubs(north) < 5 && diamonds(north) < 5 && !northOvcXShape
+northOvcMm = ovcMm && northOvcHCP && ( ( hearts(north) >= 5 && spades(west) == 6 ) || ( spades(north) >= 5 && hearts(west) == 6 ) ) && ( diamonds(north) >= 5 || clubs(north) >= 5 )
+northOvcmm = ovcmm && 18 <= hcp(north) && diamonds(north) >= 5 && clubs(north) >= 5
+northOvc = overcall && (northOvcX || northOvc2S || northOvc2NT || northOvc3C || northOvc3D || northOvc3H || northOvcMm || northOvcmm) && westDist
+
+
+//east overcalls from north opening
+eastOvcHCP = 13 <= hcp(east) && hcp(east) <= 16
+eastOvcXShape = shape(east, any 4333 + any 4432 + any 54xx - any 5422) && ( (hearts(east) < 5 || spades(east) == 0) && (spades(east) < 5 || hearts(east) == 0)) && 
+	( ( hearts(north) == 6 && spades(east) >= hearts(east) && diamonds(east) >= hearts(east) && clubs(east) >= hearts(east) ) || 
+	( spades(north) == 6 && hearts(east) >= spades(east) && diamonds(east) >= spades(east) && clubs(east) >= spades(east) ) )
+eastOvcX = ovcX && ( eastOvcHCP && eastOvcXShape && 
+	( (hearts(north) == 6 && hcp(east, heart) <= 1) || (spades(north) == 6 && hcp(east, spade) <= 1) ) || hcp(east) >= 18)
+eastOvc2S = ovc2S && eastOvcHCP && spades(east) >= 5 && hearts(east) < 5 && diamonds(east) < 5 && clubs(east) < 5
+eastOvc2NT = ovc2NT && 16 <= hcp(east) && hcp(east) <= 17 && ( ( hcp(east, spade) >= 5 && spades(north) >= 6 ) || ( hcp(east, heart) >= 5&& hearts(north) >= 6 ) ) && shape(east, any 4432 + any 4333)
+eastOvc3C = ovc3C && eastOvcHCP && hcp(east, club) >= 5 && clubs(east) >= 5 && spades(east) < 4 && hearts(east) < 4 && diamonds(east) < 5 && !eastOvcXShape
+eastOvc3D = ovc3D && eastOvcHCP && hcp(east, diamond) >= 5 && diamonds(east) >= 5 && spades(east) < 4 && hearts(east) < 4 && clubs(east) < 5 && !eastOvcXShape
+eastOvc3H = ovc3H && eastOvcHCP && hearts(east) >= 5 && spades(east) < 5 && clubs(east) < 5 && diamonds(east) < 5 && !eastOvcXShape
+eastOvcMm = ovcMm && eastOvcHCP && ( ( hearts(east) >= 5 && spades(north) == 6 ) || ( spades(east) >= 5 && hearts(north) == 6 ) ) && ( diamonds(east) >= 5 || clubs(east) >= 5 )
+eastOvcmm = ovcmm && 18 <= hcp(east) && diamonds(east) >= 5 && clubs(east) >= 5
+eastOvc = overcall && (eastOvcX || eastOvc2S || eastOvc2NT || eastOvc3C || eastOvc3D || eastOvc3H || eastOvcMm || eastOvcmm) && northDist
+
+
+//south overcalls from east opening
+southOvcHCP = 13 <= hcp(south) && hcp(south) <= 16
+southOvcXShape = shape(south, any 4333 + any 4432 + any 54xx - any 5422) && ( (hearts(south) < 5 || spades(south) == 0) && (spades(south) < 5 || hearts(south) == 0)) && 
+	( ( hearts(east) == 6 && spades(south) >= hearts(south) && diamonds(south) >= hearts(south) && clubs(south) >= hearts(south) ) || 
+	( spades(east) == 6 && hearts(south) >= spades(south) && diamonds(south) >= spades(south) && clubs(south) >= spades(south) ) )
+southOvcX = ovcX && ( southOvcHCP && southOvcXShape && 
+	( (hearts(east) == 6 && hcp(south, heart) <= 1) || (spades(east) == 6 && hcp(south, spade) <= 1) ) || hcp(south) >= 18)
+southOvc2S = ovc2S && southOvcHCP && spades(south) >= 5 && hearts(south) < 5 && diamonds(south) < 5 && clubs(south) < 5
+southOvc2NT = ovc2NT && 16 <= hcp(south) && hcp(south) <= 17 && ( ( hcp(south, spade) >= 5 && spades(east) >= 6 ) || ( hcp(south, heart) >= 5&& hearts(east) >= 6 ) ) && shape(south, any 4432 + any 4333)
+southOvc3C = ovc3C && southOvcHCP && hcp(south, club) >= 5 && clubs(south) >= 5 && spades(south) < 4 && hearts(south) < 4 && diamonds(south) < 5 && !southOvcXShape
+southOvc3D = ovc3D && southOvcHCP && hcp(south, diamond) >= 5 && diamonds(south) >= 5 && spades(south) < 4 && hearts(south) < 4 && clubs(south) < 5 && !southOvcXShape
+southOvc3H = ovc3H && southOvcHCP && hearts(south) >= 5 && spades(south) < 5 && clubs(south) < 5 && diamonds(south) < 5 && !southOvcXShape
+southOvcMm = ovcMm && southOvcHCP && ( ( hearts(south) >= 5 && spades(east) == 6 ) || ( spades(south) >= 5 && hearts(east) == 6 ) ) && ( diamonds(south) >= 5 || clubs(south) >= 5 )
+southOvcmm = ovcmm && 18 <= hcp(south) && diamonds(south) >= 5 && clubs(south) >= 5
+southOvc = overcall && (southOvcX || southOvc2S || southOvc2NT || southOvc3C || southOvc3D || southOvc3H || southOvcMm || southOvcmm) && eastDist
+
+
+//west overcalls from south opening
+westOvcHCP = 13 <= hcp(west) && hcp(west) <= 16
+westOvcXShape = shape(west, any 4333 + any 4432 + any 54xx - any 5422) && ( (hearts(west) < 5 || spades(west) == 0) && (spades(west) < 5 || hearts(west) == 0)) && 
+	( ( hearts(south) == 6 && spades(west) >= hearts(west) && diamonds(west) >= hearts(west) && clubs(west) >= hearts(west) ) || 
+	( spades(south) == 6 && hearts(west) >= spades(west) && diamonds(west) >= spades(west) && clubs(west) >= spades(west) ) )
+westOvcX = ovcX && ( westOvcHCP && westOvcXShape && 
+	( (hearts(south) == 6 && hcp(west, heart) <= 1) || (spades(south) == 6 && hcp(west, spade) <= 1) ) || hcp(west) >= 18)
+westOvc2S = ovc2S && westOvcHCP && spades(west) >= 5 && hearts(west) < 5 && diamonds(west) < 5 && clubs(west) < 5
+westOvc2NT = ovc2NT && 16 <= hcp(west) && hcp(west) <= 17 && ( ( hcp(west, spade) >= 5 && spades(south) >= 6 ) || ( hcp(west, heart) >= 5&& hearts(south) >= 6 ) ) && shape(west, any 4432 + any 4333)
+westOvc3C = ovc3C && westOvcHCP && hcp(west, club) >= 5 && clubs(west) >= 5 && spades(west) < 4 && hearts(west) < 4 && diamonds(west) < 5 && !westOvcXShape
+westOvc3D = ovc3D && westOvcHCP && hcp(west, diamond) >= 5 && diamonds(west) >= 5 && spades(west) < 4 && hearts(west) < 4 && clubs(west) < 5 && !westOvcXShape
+westOvc3H = ovc3H && westOvcHCP && hearts(west) >= 5 && spades(west) < 5 && clubs(west) < 5 && diamonds(west) < 5 && !westOvcXShape
+westOvcMm = ovcMm && westOvcHCP && ( ( hearts(west) >= 5 && spades(south) == 6 ) || ( spades(west) >= 5 && hearts(south) == 6 ) ) && ( diamonds(west) >= 5 || clubs(west) >= 5 )
+westOvcmm = ovcmm && 18 <= hcp(west) && diamonds(west) >= 5 && clubs(west) >= 5
+westOvc = overcall && (westOvcX || westOvc2S || westOvc2NT || westOvc3C || westOvc3D || westOvc3H || westOvcMm || westOvcmm) && southDist
+
 
 
 //Balanced opponents
-balancedOpps_on = ( shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333) ) || 
-	( shape(north, any 4432 + any 4333) && shape(south, any 4432 + 4333) )
-balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
+balancedOpps = ( shape(east, any 44xx + any 4333 + any 54xx) && shape(west, any 44xx + any 4333 + any 54xx) && (northDist || southDist) ) || 
+	( shape(north, any 44xx + any 4333 + any 54xx) && shape(south, any 44xx + any 4333 + any 54xx) && (eastDist || westDist) )
+balancedHCP = ( -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1 && (northDist || southDist) ) ||
+	( -1 <= (hcp(north) - hcp(south)) && (hcp(north) - hcp(south)) <= 1 && (eastDist || westDist) )
 
-//Quality opponents
-cNorth = minQuality <= cccc(north) && cccc(north) <= maxQuality && !northDist
-cEast = minQuality <= cccc(east) && cccc(east) <= maxQuality && !eastDist
-cSouth = minQuality <= cccc(south) && cccc(south) <= maxQuality && !southDist
-cWest = minQuality <= cccc(west) && cccc(west) <= maxQuality && !westDist
+
 
 //Wrap everything up
-conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && 
-	( !quality_set || (cNorth || cSouth) || (cEast || cWest) )
+conditionOpps = ( !overcall && balancedOpps && balancedHCP ) || (overcall && (northOvc || eastOvc || southOvc || westOvc) )
 
 conditionOpener = ( (northDist || southDist) && hcpNS ) || ( (eastDist || westDist) && hcpEW )
 
