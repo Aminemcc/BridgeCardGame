@@ -18,6 +18,8 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
     - [4X](#4x)
 - [Sequence](#sequence)
 - [Competitive](#Competitive)
+    - [1C](#competitive-1c)
+    - [1D](#competitive-1d)
     - [1H](#competitive-1h)
     - [1NT](#competitive-1nt)
 - [Overcall](#overcall)
@@ -67,6 +69,7 @@ Note :
 [Back](#content)<br>
 1D = 12-15 HCP 2+D <br>
 [Go To Sequence](#sequence-1d)<br>
+[Go To Competitive](#competitive-1d)<br>
 Note :
 1. Pastikan tidak bisa opening 1H/1S/1NT/2C
 2. Secara general bentuk tangannya :
@@ -1659,9 +1662,10 @@ Examples :
 - P = Default bid
 - [X = 8+ HCP Responsive dbl](#competitive-1h-1s-x)
     - Balance no stopper S
-    - ???
+    - 10-11 HCP 5+m
+    - Part Score 1NT/2C/2D/2H
 - 1NT = 8-11 HCP Balance stopper S
-- 2C/D = 10+ HCP 5+C/D
+- 2C/D = 12+ HCP 5+C/D GF
 - 2H = NF fit H
     - Rebutan kontrak part score
 - 2S = Limit / Better fit H
