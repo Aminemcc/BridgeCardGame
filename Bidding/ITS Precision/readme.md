@@ -140,7 +140,7 @@ Note :
 
 ## 2NT
 [Back](#content)<br>
-2NT = 10- HCP mm <br>
+2NT = 6-10 HCP mm <br>
 Note :
 1. Tidak ada spesifik HCP minimum
 2. jika 54 mm lebih baik saat NV dan ada short
@@ -1812,7 +1812,7 @@ Examples :
 - X = 8+ HCP Responsive dbl
     - Ingin part score 2D/H/S
     - Cari fit D/H/S
-    - Balance no stopper C
+    - Balance no stopper
 - 2D/H = 12+ HCP 5+D/H
 - 2S = NF Fit S
 - 2NT = 10-11 HCP invite to 3NT with stopper C
