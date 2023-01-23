@@ -1469,6 +1469,32 @@ Sederhananya :<br>
 - X = 5-7 HCP
 - any bid = 8+ HCP GF natural
 - Janjian apakah bid 1NT harus punya stopper atau tidak
+    - Lebih gampang gak perlu stopper
+- Kartu dist 4441 GF sangat tricky!!!
+    - Kadang bid 1NT, kadang bid suit musuh
+
+Examples :
+- 1C - (1D) - 
+    - P = 0-4 HCP
+    - X = 5-7 HCP
+    - 1H/1S/2C = 8+ HCP
+    - 1NT = 8+ HCP Balance
+    - 2D = 12+ HCP
+        - Saat tidak ada bid, biasanya ini dibid
+- 1C - (1H) - 
+    - P = 0-4 HCP
+    - X = 5-7 HCP
+    - 1S/2C/2D = 8+ HCP
+    - 1NT = 8+ HCP Balance
+    - 2H = 12+ HCP
+        - Saat tidak ada bid, biasanya ini dibid
+- 1C - (2D) - 
+    - P = 0-4 HCP
+    - X = 5-7 HCP
+    - 2H/2S/3C = 8+ HCP
+    - 2NT = 8+ HCP Balance
+    - 3D = 12+ HCP
+        - Saat tidak ada bid, biasanya ini dibid
 
 ## Competitive: 1D
 [Back to 1D](#1D)<br>
