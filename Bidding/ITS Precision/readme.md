@@ -1681,23 +1681,24 @@ Examples :
 [Back](#competitive-1h-1s)<br>
 - P = 5+S trapping
 - 1NT = 12-13 HCP with stopper S
-- 2C/D = 4+ C/D
+- 2C/D = 4+ C/D (Second suit)
 - 2H = 5/6+ H default bid
 - 2S = ?
-- 3C/D = 5+C/D max HCP
 - 2NT = 14-15 HCP with stopper S
+- 3C/D = 5+C/D max HCP
 
 
 ## Competitive: 1H-(1NT)
 [Back](#competitive-1h)<br>
 1H-(1NT) = 15-17/18 HCP Balance stopper H
 - P = Default bid
-- X = Penalty dbl 8/9+ HCP
+- X = Penalty dbl 9+ HCP
     - Siap musuh main 1NTX / 1NTXX
-    - Tetep bisa competitive part score
+    - Tetap bisa competitive part score
+    - Tetap bisa Game
 - 2C/D = 10+ HCP 5+C/D
 - 2H = NF fit H
-- 2S = 10+ HCP 5+S
+- 2S = 12+ HCP 5+S
 - 3H = 4+H Blocking
 - 4C/D = Splinter fit H SI
 - 4H = T/P
@@ -1737,7 +1738,7 @@ Examples :
 
 ## Competitive: 1H-(2H)
 [Back](#competitive-1H)<br>
-2H = S + m
+2H = S + m<br>
 - P = Default bid
 - X = Penalty dbl
     - Ingin penalty S / m
@@ -1753,20 +1754,19 @@ Examples :
 
 ## Competitive: 1H-(2S)
 [Back](#competitive-1H)<br>
-2S = weak S
+2S = weak S<br>
 - P = Default bid
 - X = 10+ HCP Responsive dbl
     - T/P 2NT / 3m / 3H
     - ask stopper
     - Lainnya
-    - Opener bid maksimal balik 3H
 - 2NT = 10-11 HCP invite to 3NT with stopper S
 - 3C = 5+C GF
 - 3D = 5+D GF
 - 3H = Invite to 4H
     - T/P 3H lewat X
     - karena tidak ada ruang limit/better
-- 3S = Splinter S SI fit H
+- 3S = Cue S SI fit H
 - 3NT = T/P with stopper S
 - 4C/D = Splinter C/D SI fit H
 - 4H = T/P
