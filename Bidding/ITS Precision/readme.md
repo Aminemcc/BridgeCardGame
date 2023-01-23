@@ -87,6 +87,7 @@ Note :
 [Go To Competitive](#competitive-1h)<br>
 1S = 12-15 HCP 5+S <br>
 [Go To Sequence](#sequence-1s)<br>
+[Go To Competitive](#competitive-1s)<br>
 Note :
 1. Utamakan M daripada m, sehingga walau minor lebih panjang opening tetap 1M
 
@@ -1771,6 +1772,56 @@ Examples :
 - 4C/D = Splinter C/D SI fit H
 - 4H = T/P
 
+## Competitive: 1S
+[Back](#1M)<br>
+
+## Competitive: 1S-(X)
+[Back](#competitive-1s)<br>
+- P = Default Bid
+- XX = 8+HCP Responsive rdbl
+    - Ready to play 1SXX
+    - 5+m non-GF
+    - Part score 1NT/2m/2H/2S
+- 1NT = 8-11 HCP Balance
+- 2C/D = 12+ HCP 5+C/D
+- 2S = Fit S
+    - Tujuannya menyusahkan musuh untuk part score
+- 2NT/3C/3D/3H = ?
+- 3S = 4+S Blocking
+    - Musuh bisa game dari pengamatan responder
+
+## Competitive: 1S-(1NT)
+[Back](#competitive-1s)<br>
+1s-(1NT) = 15-17/18 HCP Balance stopper S
+- P = Default bid
+- X = Penalty dbl 9+ HCP
+    - Siap musuh main 1NTX / 1NTXX
+    - Tetap bisa competitive part score
+    - Tetap bisa Game
+- 2C/D/H = 10+ HCP 5+C/D/H
+- 2S = T/P Fit S
+- 3S = 4+S Blocking
+- 3NT= T/P
+    - Lebih baik coba Penalty dulu
+- 4C/D/H = Splinter C/D/H fit H SI
+- 4S = T/P
+
+## Competitive: 1S-(2C)
+[Back](#competitive-1s)<br>
+- P = Default bid
+- X = 8+ HCP Responsive dbl
+    - Ingin part score 2D/H/S
+    - Cari fit D/H/S
+    - Balance no stopper C
+- 2D/H = 12+ HCP 5+D/H
+- 2S = NF Fit S
+- 2NT = 10-11 HCP invite to 3NT with stopper C
+- 3C = Limit/Better
+- 3D/H = ?
+- 3S = 4+S Blocking
+- 3NT = T/P with stopper C
+- 4C/D/H = Splinter C/D/H fit S SI
+- 4S = T/P
 
 ## Competitive: 1NT
 [Back to 1NT](#1nt)<br>
