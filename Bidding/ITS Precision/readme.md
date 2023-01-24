@@ -1549,12 +1549,15 @@ Examples :
 1NT = Balance<br>
 
 - P = Default bid
+    - Bisa part score minor dari opener
 - X = 9+ HCP Penalty
-    - Tetep bisa part score-an / lainnya
-- 2C = 12+ HCP 5+C
-- 2D = 12+ HCP 5+D
-- 2H = 12+ HCP 5+H
-- 2S = 12+ HCP 5+S
+    - Tetep bisa part score-an
+    - Tetep bisa Game
+- 2C/D = 5+C/D T/P
+    - Karena partner harusnya minimal 2+C/D
+    - Kalau partner 6+D, partner bid 2D
+- 2H/S = 6+H/S T/P
+    - 6+ karena siap ketemu 2/1/0 partner
 - 2NT= ?
 - 3C = ?
 - 3D = 6+D Blocking
