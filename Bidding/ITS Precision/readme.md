@@ -1709,9 +1709,9 @@ Examples :
 - P = Default bid
 - X = 8+ HCP Responsive dbl
     - intinya siap dijawab apapun
-- 2D = 10+ HCP 5+D
+- 2D = 12+ HCP 5+D
 - 2H = NF fit H
-- 2S = 10+ HCP 5+S
+- 2S = 12 HCP 5+S
 - 2NT = 10-11 HCP invite to 3NT with stopper C
 - 3C = Limit / better
 - 3D = ?

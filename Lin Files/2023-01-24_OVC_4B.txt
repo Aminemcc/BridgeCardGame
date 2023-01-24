@@ -1,0 +1,13 @@
+%Lin Overcall by Aminemc
+%Time : 24-01-2023 12:51 GMT+7
+
+st||pn|Aminemc,ITS 69,69420_,Aminemcc|md|3SJ432H74DT32CJ862,SA986HAQTD76CA754,SK75HKJ986DQ54CK3,SQTH532DAKJ98CQT9|sv|o|rh||ah|Board 1|mb|1H|mb|2D|mb|P|mb|3N|mb|P|mb|P|mb|P|
+st||pn|Aminemc,ITS 69,69420_,Aminemcc|md|4SQJ8HKQ7DKQ5CKJ97,S9765H53DJ732CT54,SA432HAJ94D984C32,SKTHT862DAT6CAQ86|sv|n|rh||ah|Board%202|mb|1D|mb|1N|mb|P|mb|2C|mb|P|mb|2D|mb|P|mb|3N|mb|P|mb|P|mb|P|
+st||pn|Aminemc,ITS 69,69420_,Aminemcc|md|1S54HAKT63DAQ5C642,SAKT96H7DKJ76CA73,SJ732H542D432C985,SQ8HQJ98DT98CKQJT|sv|e|rh||ah|Board%2011|mb|1H|mb|1S|mb|P|mb|1N|mb|P|mb|2D|mb|P|mb|2N|mb|P|mb|3N|mb|P|mb|P|mb|P|
+st||pn|Aminemc,ITS 69,69420_,Aminemcc|md|2SJT76HQJ87D65CQ42,S953H962DAKQTCA75,SAKQ42HAKTD432CKT,S8H543DJ987CJ9863|sv|b|rh||ah|Board%204|mb|1D|mb|D|mb|P|mb|1H|mb|P|mb|1S|mb|P|mb|4S|mb|P|mb|P|mb|P|
+
+
+
+
+
+
