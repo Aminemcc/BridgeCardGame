@@ -23,9 +23,11 @@
 - Finesse
     - Memainkan Low to honor yang ingin dijadikan trik tambahan
     - AQ (Finesse K musuh)
+- Gambit Play
+    - Memilih -2/= daripada pasti -1
 - Lead
     - Memperhatikan lead musuh
-    - Duck / no duck
+    - Menentukan apakah perlu Duck / no duck
 - Maximum Lose
     - Maksimal kalah berapa di suatu suit (kontrak NT biasanya)
     - Maksimal kalah secara keseluruhan
@@ -61,7 +63,10 @@
 - A-14 = Maximum Lose + Ducking Play
 - A-15 = Lead + Maximum Lose
 - A-16 = Safety Play
-- A-17 = 
+- A-17 = Lead + Finesse + Ducking Play
+- A-18 = Finesse + Careful Play
+- A-19 = Safety Play
+- A-20 = Play Choice
 ## Level 3
 - A-1 = 
 
