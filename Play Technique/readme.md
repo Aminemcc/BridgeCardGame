@@ -100,7 +100,16 @@
 ## Level 3
 - A-1  : 6S  = Trump Management + Play Choice + Safety Play + Ducking Play
 - A-2  : 6NT = Safety Play
-- A-3  : 
+- A-3  : 6H  = Safety Play + Entry Management - Ducking Play
+- A-4  : 4S  = Trump Management
+- A-5  : 4H  = Play Choice + Careful PLay
+- A-6  : 6S  = Endplay
+- A-7  : 3S  = Endplay
+- A-8  : 3NT = Careful Play + Entry Management
+- A-9  : 6S  = Endplay
+- A-10 : 6S  = Safety Play
+- A-11 : 6NT = Careful Play + Avoidance Play
+
 
 ## Level 4
 - A-1 = Endplay
