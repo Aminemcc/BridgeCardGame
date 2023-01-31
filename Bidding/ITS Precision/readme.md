@@ -877,13 +877,13 @@ Note :
 ## Sequence 1S
 [Back](#sequence)<br>
 1S = 12-15 HCP 5+S <br>
-- 1NT= 11- HCP F1 (boleh dipass)
+- [1NT= 11- HCP F1 (boleh dipass)](#1s-1nt)
 - 2C = 12+ HCP 5+C
 - 2D = 12+ HCP 5+D
 - 2H = 12+ HCP 5+H
-- 2S = 6-9 HCP 3+S
-- 2NT= 12+ HCP Balance
-- 3C = Bergen 12+ HCP 4+S
+- [2S = 6-9 HCP 3+S](#1s-2s)
+- [2NT= 12+ HCP Balance](#1s-2nt)
+- [3C = Bergen 12+ HCP 4+S](#1S-3C)
 - 3D = Bergen 6-9 HCP 4+S Unbalance
 - 3H = Bergen 10-11 HCP 4+S Balance
 - 3S = Blocking
@@ -892,6 +892,106 @@ Note :
 - 4D = Splinter D 4+S SI
 - 4H = Splinter H 4+S SI
 - 4S = T/P
+
+## 1S-1NT
+[Back](#sequence-1s)<br>
+Min HCP : 12-13<br>
+Max HCP : 14-15<br>
+- P = Min HCP 5332
+- [2C = Max HCP 2+C](#1s-1nt-2c)
+- [2D = 4+D (Second Suit)](#1s-1nt-2d)
+- [2H = 4+H (Second Suit)](#1s-1nt-2h)
+- [2S = 6+S](#1s-1nt-2s)
+- 2NT = ?
+- 3C/D/H = Max HCP 5+C/D/H
+- 3S = Max HCP 6/7+S Good
+
+Notes :<br>
+- Prinsip ngerespon 1NT yang dijawab :
+    - Preference Bid :
+        - P/2D/2H/2S = T/P
+    - Invite :
+        - 2NT/3C/3D/3H/3S
+
+
+## 1S-1NT-2C
+[Back](#1s-1nt)<br>
+- P = 5+C T/P
+- 2D/H = 5+D/H T/P
+- 2S = 2+S T/P
+
+Notes :<br>
+- Udah max HCP, hcp invite bisa tembak game, kalau nyari fit bisa bid 2NT keatas
+
+## 1S-1NT-2D
+[Back](#1s-1nt)<br>
+- P = 3+D T/P
+- 2H = 5+H T/P
+- 2S = 2+S T/P
+- 2NT = Invite to 3NT
+- 3C = 6+C Invite
+- 3D = 4+D Invite
+- 3H = 6+H Invite
+- 3S = 3+S Invite
+
+## 1S-1NT-2H
+[Back](#1s-1nt)<Br>
+- P = 3+H T/P
+- 2S = 2+S T/P
+- 2NT = Invite to 3NT
+- 3C/D = 6+C/D Invite
+- 3H = 4+H Invite
+- 3S = 3+S Invite
+
+## 1S-1NT-2S
+[Back](#1s-1nt)<Br>
+- P = 0+ T/P
+- 2NT = Invite to 3NT
+- 3C/D/H = 6+C/D/H Invite
+- 3S = 2+S Invite
+
+## 1S-2S
+[Back](#sequence-1s)<br>
+- P = T/P
+- [2NT = SST Game Try](#1S-2S-2NT-3C)
+    - Has short
+- 3C/D/H = Max HCP LST Game Try
+    - Need honor support in that suit
+- 3S = Max HCP Good
+- 4S = T/P
+
+## 1S-2S-2NT-3C
+[Back](#1s-2s)<br>
+3C = ask short<br>
+- 3D/H = Short D/H
+- 3S = Short C
+
+Note :
+- Jika short cocok :   
+    - Ketemu xx.. no honor terbaik GAS GAME
+    - Ketemu Jx.. urutan kedua masih gas game
+    - Lastly Ax.. terjelek cocok, boleh gas boleh gak (liat HCP lagi)
+- Sisanya gak cocok :
+    - Ketemu Kx.. / Qx.. / KJx.. / dll Jelek gak game
+
+
+## 1S-2NT
+[Back](#sequence-1s)<br>
+- 3C/D/H = 4+C/D/H (Second suit)
+- 3S = 6+S (Second suit)
+- 3NT= 5332
+
+## 1S-3C
+[Back](#sequence-1s)<br>
+- 3D/H = Short D/H
+- 3S = No Short
+- 3NT = ?
+- 4C = Short C
+
+Notes :<br>
+- Prioritas bidding terendah
+
+
 ## Sequence 1NT
 [Back](#1nt)<br>
 [Go To Competitive bidding](#competitive-1nt)<br>
