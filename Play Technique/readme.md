@@ -26,8 +26,10 @@
 - Gambit Play
     - Memilih -2/= daripada pasti -1
 - Lead
-    - Memperhatikan lead musuh
+    - Memperhatikan / Memanfaatkan lead musuh
     - Menentukan apakah perlu Duck / no duck
+- Loser on Loser
+    - Membuang loser dengan loser lainnya
 - Maximum Lose
     - Maksimal kalah berapa di suatu suit (kontrak NT biasanya)
     - Maksimal kalah secara keseluruhan
@@ -36,15 +38,16 @@
     - Mencari play dengan probabilitas terbesar
 - Safety Play
     - Membiarkan kalah agar kontrak aman, padahal bisa lebih triknya
+    - = lebih baik dari +1/-1
     - AQT fit 9, ...
 - Trump Management
-    - Membuat rencana yang tepat untuk memainkan, menyimipan, atau mengkontrol trump
+    - Membuat rencana yang tepat untuk memainkan, menyimpan, atau mengkontrol trump
 
 
 
 ## Level 1
-- A-1 = Lead
-
+- A-1  : 3NT = Lead
+- A-2  : = 
 
 ## Level 2
 - A-1  : 3NT = Maximum Lose
@@ -109,6 +112,40 @@
 - A-9  : 6S  = Endplay
 - A-10 : 6S  = Safety Play
 - A-11 : 6NT = Careful Play + Avoidance Play
+- A-12 : 5S  = Lead
+- A-13 : 4H  = Loser on Loser
+- A-14 : 3NT = Maximum Lose + Finesse + Careful Play + Entry Management
+- A-15 : 6D  = Entry Management + Finesse
+- A-16 : 3NT = Entry Management
+- A-17 : 3NT = Careful Play + Entry Management
+- A-18 : 3NT = Lead + Ducking Play
+- A-19 : 3NT = Safety Play + Entry Management
+- A-20 : 4H  = Entry Management + Careful Play
+- A-21 : 4H  = Careful Play
+- A-22 : 3NT = Lead + Ducking Play
+- A-23 : 6S  = Safety Play + Cross Ruff
+- A-24 : 4H  = Lead + Ducking Play + Avoidance Play
+- A-25 : 6S  = Cross Ruff
+- A-26 : 5C  = Lead
+- A-27 : 6S  = Avoidance Play + Endplay
+- A-28 : 3S  = Bidding + Finesse
+- A-29 : 6NT = Safety Play
+- A-30 : 4H  = Careful Play + Entry Management
+- A-31 : 6D  = Entry Management + Gambit Play
+- A-32 : 6H  = Play Choice
+- A-33 : 3NT = Lead + Checking Play + Entry Management
+- A-34 : 3NT = Checking Play
+- A-35 : 6NT = Play Choice
+- A-36 : 6NT = Avoidance Play + Checking Play + Entry Management
+- B-1  : 2S  = Endplay
+- B-2  : 4H  = Safety Play + Careful Play
+- B-3  : 6H  = Careful Play + Entry Management
+- B-4  : 6H  = Entry Management + Checking Play
+- B-5  : 4H  = Checking Play + Play Choice
+    - [The Principle of Restricted Choice](https://en.wikipedia.org/wiki/Principle_of_restricted_choice)
+- B-6  : 5H  = Avoidance Play
+- B-7  : 4S  = Bidding + Lead + Ducking Play + Careful Play
+
 
 
 ## Level 4
