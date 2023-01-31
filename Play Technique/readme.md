@@ -47,29 +47,60 @@
 
 
 ## Level 2
-- A-1 = Maximum Lose
-- A-2 = Double Finesse
-- A-3 = Finesse
-- A-4 = Drop
-- A-5 = Entry Management
-- A-6 = Trump Management
-- A-7 = Maximum Lose + Finesse
-- A-8 = Play Choice + Checking Play + Finesse
-- A-9 = Entry Management
-- A-10 = Finesse + Entry Management
-- A-11 = Avoidance Play
-- A-12 = Maximum Lose + Checking Play + Finesse
-- A-13 = Double Finesse + Careful Play
-- A-14 = Maximum Lose + Ducking Play
-- A-15 = Lead + Maximum Lose
-- A-16 = Safety Play
-- A-17 = Lead + Finesse + Ducking Play
-- A-18 = Finesse + Careful Play
-- A-19 = Safety Play
-- A-20 = Play Choice
+- A-1  : 3NT = Maximum Lose
+- A-2  : 6NT = Double Finesse
+- A-3  : 4S  = Finesse
+- A-4  : 4H  = Drop
+- A-5  : 3NT = Entry Management
+- A-6  : 4H  = Trump Management
+- A-7  : 5D  = Maximum Lose + Finesse
+- A-8  : 7NT = Play Choice + Checking Play + Finesse
+- A-9  : 3NT = Entry Management
+- A-10 : 3NT = Finesse + Entry Management
+- A-11 : 3NT = Avoidance Play
+- A-12 : 7C  = Maximum Lose + Checking Play + Finesse
+- A-13 : 6S  = Double Finesse + Careful Play
+- A-14 : 3NT = Maximum Lose + Ducking Play
+- A-15 : 3NT = Lead + Maximum Lose
+- A-16 : 6S  = Safety Play
+- A-17 : 3NT = Lead + Finesse + Ducking Play
+- A-18 : 4H  = Finesse + Careful Play
+- A-19 : 6NT = Safety Play
+- A-20 : 6H  = Play Choice
+- A-21 : 6S  = Bidding
+- A-22 : 3NT = Checking Play + Finesse
+- A-23 : 6S  = Careful Play + Finesse
+- A-24 : 4H  = Safety Play
+- A-25 : 6H  = Finesse + Play Choice
+- A-26 : 7NT = Checking Play
+- A-27 : 3NT = Finesse + Play Choice
+- A-28 : 3NT = Ducking Play + Avoidance Play + Safety Play
+- A-29 : 6S  = Careful Play
+- A-30 : 6NT = Finesse + Play Choice
+- A-31 : 3NT = Ducking Play + Entry Management
+- A-32 : 4S  = Careful Play
+- A-33 : 6S  = Ducking Play + Trump Management + Entry Management
+- A-34 : 3NT = Lead + Finesse
+- A-35 : 3NT = Careful Play + Finesse
+- A-36 : 3NT = Careful Play + Play Choice + Finesse
+- B-1  : 6S  = Careful Play + Finesse
+- B-2  : 7NT = Play Choice
+- B-3  : 3NT = Play Choice + Double Finesse / Drop
+- B-4  : 6S  = Trump Management
+- B-5  : 6NT = Safety Play
+- B-6  : 3NT = Careful Play + Finesse
+- B-7  : 6S  = Trump Management + Entry Management + Careful Play
+- B-8  : 4S  = Maximum Lose
+- B-9  : 3NT = Play Choice + Finesse
+- B-10 : 4S  = Maximum Lose
+- B-11 : 6S  = Double Finesse
+- B-12 : 6S  = Safety Play
+- B-13 : 3NT = Entry Management
+- B-14 : 
 ## Level 3
-- A-1 = 
-
+- A-1  : 6S  = Trump Management + Play Choice + Safety Play + Ducking Play
+- A-2  : 6NT = Safety Play
+- A-3  : 
 
 ## Level 4
 - A-1 = Endplay
