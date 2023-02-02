@@ -340,15 +340,11 @@ Note :
 - 1NT= 20-21 HCP Balance
     - Lanjutan sama seperti opening 1NT, beda HCP saja
 - [2C = 24+ HCP any](#1C-1D-1H-1S-2C)
-- 2D = 20-23 HCP 5+D
-- 2H = 20-23 HCP 5+H
-- 2S = 20-23 HCP 5+S
-- 2NT= 22-23 HCP Balance
-    - Lanjutan juga sama beberapa :
-        - 3C = ask 4M
-        - 3D/H = transfer to H/S
-        - 4D/H = Transfer to H/S
-- 3C = 20-23 HCP 5+C
+- [2D = 20-23 HCP 5+D](#1c-1d-1h-1s-2d)
+- [2H = 20-23 HCP 5+H](#1c-1d-1h-1s-2h)
+- [2S = 20-23 HCP 5+S](#1c-1d-1h-1s-2s)
+- [2NT= 22-23 HCP Balance](#1c-1d-1h-1s-2nt)
+- [3C = 20-23 HCP 5+C](#1c-1d-1h-1s-3c)
 
 ## 1C-1D-1H-1S-2C
 [Back](#1c-1d-1h-1s)<br>
@@ -357,6 +353,66 @@ Note :
 - 2H = 3-4 HCP
 - 2S = 5-7 Balance
 - 2NT= ?
+
+## 1C-1D-1H-1S-2D
+[Back](#1c-1d-1h-1s)<br>
+- P = 0-2 HCP
+- 2H/S = 3-4 HCP 5+H/S
+    - Karena kalau 5-7 HCP bid 1NT bukan 1S
+- 2NT = 3-4 HCP Balance 2 lbr D
+- 3C = 5-7 HCP Balance 4 lbr C
+- 3D = 3-4 HCP 3+D
+- 3H/S = 5-7 HCP Balance 4 lbr H/S
+- 3NT = T/P
+- 4D = Set fit D GF
+- 5D = T/P
+
+Notes :<br>
+- Response 3C/H/S merupakan logic bidding, sehingga kalau partner tidak terbiasa bisa salah baca berakhir di 3NT harusnya
+
+## 1C-1D-1H-1S-2H
+[Back](#1c-1d-1h-1s)<br>
+- P = 0-2 HCP
+- 2S = 3-4 HCP 5+S
+- 2NT = 3-4 HCP Balance 2 lbr H
+- 3C/D = 5-7 HCP 4 lbr C/D, 2 lbr H
+- 3H = 3-4 HCP 3+H
+- 3S = 5-7 HCP Balance 4 lbr S, 2 lbr H
+- 3NT = T/P
+- 4H = T/P
+
+## 1C-1D-1H-1S-2S
+[Back](#1c-1d-1h-1s)<br>
+- P = 0-2 HCP
+- 2NT = 3-4 HCP Balance 2 lbr S
+- 3C/D/H = 5-7 HCP Balance 4 lbr C/D/H, 2 lbr S
+- 3S = 3-4 HCP 3+S Invite
+- 3NT = T/P
+- 4C/D/H = 3-4 HCP Splinter C/D/H 4+S
+- 4S = T/P
+
+## 1C-1D-1H-1S-2NT
+[Back](#1c-1d-1h-1s)<br>
+- P = T/P
+- [3C = ask 4M GF](#1c-1d-1h-1s-2nt-3c)
+- 3D/H = Transfer to H/S 5+H/S
+    - Wajib acc transfer
+- 3S = ?
+- 3NT = T/P
+- 4D/H = Transfer to H/S 6+ H/S
+
+## 1C-1D-1H-1S-2NT-3C
+[Back](#1c-1d-1h-1s-2nt)<br>
+- 3D = no 4M
+- 3H/S = 4 lbr H/S
+- 3NT = 44 M
+    - Lanjutan 4D/H => transfer
+
+## 1C-1D-1H-1S-3C
+[Back](#1c-1d-1h-1s)<br>
+- P = Part Score T/P
+- 3D/H/S = 5-7 HCP 4 lbr D/H/S
+- 3NT = T/P
 
 ## 1C-1D-1H-1NT-2C
 [Back](#1c-1d-1h)<br>

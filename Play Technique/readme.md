@@ -149,16 +149,17 @@
 
 
 ## Level 4
-- A-1 = Endplay
-- A-2 = Checking Play + Entry Management
-- A-3 = Checking Play + Safety Play + Entry Management
-- A-4 = Endplay
-- A-5 = Careful Play
-- A-6 = Safety Play + Ducking Play + Play Choice
-- A-7 = Dummy Reversal + Play Choice
-- A-8 = Finesse + Play Choice + Drop
-- A-9 = 
-- A-10 = 
+- A-1  : 6S  = Endplay
+- A-2  : 6S  = Checking Play + Entry Management
+- A-3  : 3NT = Checking Play + Safety Play + Entry Management
+- A-4  : 6S  = Endplay
+- A-5  : 5C  = Careful Play
+- A-6  : 4S  = Safety Play + Ducking Play + Play Choice
+- A-7  : 4S  = Dummy Reversal + Play Choice
+- A-8  : 3NT = Finesse + Play Choice + Drop
+- A-9  : 3NT = 
+- A-10 : 6D  = 
+- A-11 : 7C  = Trump Coup
 
 ## Best Play for given condition
 
