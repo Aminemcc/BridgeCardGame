@@ -2385,6 +2385,8 @@ Sebelum kalian partner-an dengan anak-anak ITS lainnya, diskusikan hal-hal ini :
     - response 1/4, 3/0 atau kebalik
     - keycards fit C/H di 4S/4NT belum pasti
     - keycards fit D/S di 4NT pasti
+- After fit m under 3NT :
+    - ask stopper / show stopper?
 - Bid over game : 
     - Bid over game : Cue / Exclusion ?
     - ask king : direct king / count king with step ?
