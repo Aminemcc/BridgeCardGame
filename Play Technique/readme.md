@@ -45,8 +45,18 @@
         - Rectify the count :
             - Sengaja kalah hingga maksimalnya, misal 6NT, maka sengaja ngalah sekali dulu
             - Agar bisa menghitung secara tepat loser untuk melakukan squeeze
+        - Without Rectifying the count :
+            - Karena musuh bisa menghilangkan entry sehingga squeeze tidak mungkin dilakukan
     - Tipe Squeeze :
         - Simple Squeeze
+            - Squeeze dengan terdapat low card di tangan yang menang & ada entry ke tangan satunya
+        - Criss-Cross Squeeze
+            - Squeeze dengan terdapat entry pada kedua tangan
+        - Double Squeeze
+            - Kedua defender di-squeeze di common suit dan suit lain yang berbeda
+        - Strip Squeeze
+            - Satu defender guards two suits, di akhir antara endplay atau drop
+            - Tidak boleh melakukan "Rectify the count"
         - Three suit Squeeze
 - Trump Management
     - Membuat rencana yang tepat untuk memainkan, menyimpan, atau mengkontrol trump
@@ -176,6 +186,36 @@
 - A-16 : 4H  = Loser on Loser
 - A-17 : 6NT = Simple Squeeze
 - A-18 : 4S  = Ducking Play + Avoidance Play
+- A-19 : 6H  = Loser on Loser
+    - 1H-2D-3H-4H-6H
+- A-20 : 7NT = Simple Squeeze
+    - 1NT-5NT-7NT
+- A-21 : 4H  = Trump Management
+    - 1H-1S-3H-4H
+- A-22 : 6NT = Entry Management + Safety Play
+    - 2C-2D-2NT-4NT-6NT
+- A-23 : 3NT = Criss-Cross Squeeze
+    - (3C)-3NT
+- A-24 : 6S = Trump Management + Entry Management
+    - 2C-2D-(2H)-2S-(4H)-4S-6S
+- A-25 : 4H = Trump Management + Maximum Lose
+    - 1H-2D-2H-2NT-4H
+- A-26 : 6NT = Double Squeeze
+    - (3H)-3NT-4C-4D-(X)-4H-4S-6NT
+- A-27 : 6NT = Endplay
+    - 2C-2D-2NT-6NT
+- A-28 : 6S  = Bidding + Strip Squeeze
+    - 1S-(2D)-3D-4C-4H-6S
+- A-29 : 6NT = Entry Management + Simple Squeeze
+    - 1S-2C-2S-3H-4C-6NT
+- A-30 : 6NT = Strip Squeeze
+    - 2C-2D-2NT-6NT
+- A-31 : 4S  = Trump Management
+    - 2S-4S
+- A-32 : 4S  = Endplay
+    - 1S-3S-4S
+- A-33 : 6H  = Trump Management + Play Choice + Careful Play 
+    - 1H-2C-3H-4H-6H
 
 ## Best Play for given condition
 
