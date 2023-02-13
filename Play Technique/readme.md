@@ -40,8 +40,17 @@
     - Membiarkan kalah agar kontrak aman, padahal bisa lebih triknya
     - = lebih baik dari +1/-1
     - AQT fit 9, ...
+- Squeeze
+    - Langkah yang harus dilakukan :
+        - Rectify the count :
+            - Sengaja kalah hingga maksimalnya, misal 6NT, maka sengaja ngalah sekali dulu
+            - Agar bisa menghitung secara tepat loser untuk melakukan squeeze
+    - Tipe Squeeze :
+        - Simple Squeeze
+        - Three suit Squeeze
 - Trump Management
     - Membuat rencana yang tepat untuk memainkan, menyimpan, atau mengkontrol trump
+    - Trump Coup
 
 
 
@@ -157,9 +166,16 @@
 - A-6  : 4S  = Safety Play + Ducking Play + Play Choice
 - A-7  : 4S  = Dummy Reversal + Play Choice
 - A-8  : 3NT = Finesse + Play Choice + Drop
-- A-9  : 3NT = 
-- A-10 : 6D  = 
+- A-9  : 3NT = Lead
+- A-10 : 6D  = Endplay
 - A-11 : 7C  = Trump Coup
+- A-12 : 4S  = Bidding
+- A-13 : 6NT = Counting
+- A-14 : 6NT = Simple Squeeze
+- A-15 : 4S  = Ducking Play
+- A-16 : 4H  = Loser on Loser
+- A-17 : 6NT = Simple Squeeze
+- A-18 : 4S  = Ducking Play + Avoidance Play
 
 ## Best Play for given condition
 
