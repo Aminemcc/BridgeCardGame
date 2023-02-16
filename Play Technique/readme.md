@@ -57,6 +57,8 @@
         - Strip Squeeze
             - Satu defender guards two suits, di akhir antara endplay atau drop
             - Tidak boleh melakukan "Rectify the count"
+        - Show Up Squeeze
+            - Bertujuan untuk melihat distribusi musuh dan menentukan Teknik Play
         - Three suit Squeeze
 - Trump Management
     - Membuat rencana yang tepat untuk memainkan, menyimpan, atau mengkontrol trump
@@ -239,6 +241,39 @@
     - 1S-2D-3S-4H-6S
 - B-8  : 6NT = Play Choice
     - 2NT-4C-4S-6NT
+    - [The Principle of Restricted Choice](https://en.wikipedia.org/wiki/Principle_of_restricted_choice)
+- B-9  : 3NT = Bidding + Simple Squeeze
+    - 1NT-3NT
+- B-10 : 4H  = Avoidance Play
+    - 1H-3C-3H-3S-4H
+- B-11 : 4S  = Bidding + Avoidance Play
+    - (P)-P-(P)-1S-3S-4S
+- B-12 : 5S  = Defense
+    - 1S-(2NT)-(4D)-4S-5D-5S
+- B-13 : 4S  = Maximum Lose
+    - 1S-2S-4S
+- B-14 : 4S  = Lead + Safety Play
+    - 2C-2D-2S-2NT-4S
+- B-15 : 4S  = Avoidance Play
+    - 1S-2C-2S-3S-4S
+- B-16 : 4H  = Bidding + Endplay
+    - 1H-(X)-XX-(2C)-3H-4H
+- B-17 : 3NT = Avoidance Play + Careful Play
+    - (2S)-(P)-2NT-3NT
+- B-18 : 4S  = Avoidance Play
+    - 2S-4S
+- B-19 : 4S  = Entry Management
+    - (1NT)-2H-2S-3S-4S
+- B-20 : 4S  = Show Up Squeeze
+    - 1S-(X)-XX-(2D)-2H-2S-4S
+- B-21 : 5C  = Bidding + Entry Management
+    - (1H)-X-(2H)-4C-5C
+- B-22 : 6H  = Bidding + Endplay
+    - 2C-(2NT)-3S-4H-5H-6H
+- B-23 : 3NT = Entry Management
+    - 2NT-3NT
+
+
 ## Best Play for given condition
 
 - Missing K fit 11 :
@@ -311,3 +346,11 @@
             - 0 Lose :
             - 1 Lose :
             - 2 Lose :
+- Missing AJ fit 8
+    - Possible Play:
+        - Finesse K => Finesse Q
+            - 1 Lose : 50 %
+        - Finesse K => Finesse T
+            - 1 Lose : 50 %
+        - Finesse T
+            - 1 Lose : 46.88 %
