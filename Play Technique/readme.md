@@ -216,7 +216,29 @@
     - 1S-3S-4S
 - A-33 : 6H  = Trump Management + Play Choice + Careful Play 
     - 1H-2C-3H-4H-6H
-
+- A-34 : 5D  = Careful Play + Lead + Endplay
+    - 1D-3D-5D
+- A-35 : 6H  = Endplay
+    - 2NT-3C-3H-6H
+- A-36 : 6S  = Careful Play + Double Squeeze
+    - 2C-3D-3S-4S-4NT-5D-6S
+- B-1  : 7NT = Entry Management
+    - 3C-4NT-5D-5NT-6D-7NT
+- B-2  : 4H  = Trump Coup
+    - 2H-4H
+- B-3  : 3NT = Entry Management
+    - 2NT-3NT
+- B-4  : 4H  = Careful Play ?
+    - 3H-4H
+- B-5  : 4S  = Endplay
+    - 1S-2C-2D-4S
+- B-6  : 7NT = Entry Management + Simple Squeeze
+    - 1NT-5NT-7NT
+    - Vienna Coup
+- B-7  : 6S  = Entry Management + Finesse
+    - 1S-2D-3S-4H-6S
+- B-8  : 6NT = Play Choice
+    - 2NT-4C-4S-6NT
 ## Best Play for given condition
 
 - Missing K fit 11 :
