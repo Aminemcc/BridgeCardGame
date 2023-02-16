@@ -272,6 +272,10 @@
     - 2C-(2NT)-3S-4H-5H-6H
 - B-23 : 3NT = Entry Management
     - 2NT-3NT
+- B-24 : 3NT = Ducking Play
+    - (2S)-(P)-2NT-3NT
+- B-25 : 7S  = Three Suit Squeeze
+    - 2C-3C-4S-4NT-5S-7S
 
 
 ## Best Play for given condition
