@@ -18,6 +18,7 @@
     - Melakukan ruff dengan tangan yang lebih panjang trump
 - Endplay
     - Biarkan musuh yang memainkan suit tersebut
+    - Smother Play
 - Entry Management
     - Memastikan terdapat cara untuk meraih tangan lainnya
 - Finesse
@@ -59,6 +60,8 @@
             - Tidak boleh melakukan "Rectify the count"
         - Show Up Squeeze
             - Bertujuan untuk melihat distribusi musuh dan menentukan Teknik Play
+        - Trump Squeeze
+            - Mirip Criss-Cross Squeeze, hanya saja Entry menggunakan trump
         - Three suit Squeeze
 - Trump Management
     - Membuat rencana yang tepat untuk memainkan, menyimpan, atau mengkontrol trump
@@ -277,6 +280,48 @@
 - B-25 : 7S  = Three Suit Squeeze
     - 2C-3C-4S-4NT-5S-7S
 
+## Level 5
+- A-1  : 3NT = Careful Play
+    - 1D-1NT-2NT-3NT
+- A-2  : 5C  = Entry Management
+    - (2S)-(3S)-5C
+- A-3  : 6H  = Strip Squeeze
+    - 1H-(2NT)-3C-3S-4C-4NT-5H-6H
+- A-4  : 4H  = Ducking Play
+    - 1H-2H-4H
+- A-5  : 3DX = Bidding + Avoidance Play + Cross Ruff
+    - (1NT)-2H-(X)-2S-(X)-3D-(P)-(X)]
+- A-6  : 4H  = Trump Management + Careful Play
+    - 1C-(1S)-2H-(2S)-3H-4H
+- A-7  : 6C  = Careful Play
+    - (3S)-5C-6C
+    - Morton's Fork Coup
+- A-8  : 3NT = Entry Management
+    - 1C-1S-2C-2D-3D-3NT
+- A-9  : 5H  = Smother Play
+    - (4S)-X-5H
+- A-10 : 6NT = Checking Play + Simple Squeeze
+    - 1C-1H-2NT-6NT
+- A-11 : 4S  = Double Finesse + Careful Play + Cross Ruff
+    - (1NT)-X-(2C)-X-(P)-(2H)-(P)-2S-3S-4S
+- A-12 : 6S  = Endplay
+    - (3H)-6S
+- A-13 : 4S  = Avoidance Play + Strip Squeeze
+    - (1NT)-(2H)-X-(3H)-(4H)-4S
+- A-14 : 6S  = Play Choice
+    - (P)-1C-(3D)-X-4D-5D-6S
+- A-15 : 4S  = Trump Management + Entry Management
+    - 2C-2D-2S-3S-4H-4S
+- A-16 : 6D  = Trump Management + Entry Management + Trump Coup
+    - 1D-1H-3D-6D
+- A-17 : 6S  = Simple Squeeze
+    - 1H-(2C)-3S-3NT-4C-4H-6S
+- A-18 : 6H  = Play Choice + Endplay
+    - 1H-3H-3S-4D-6H
+- A-19 : 5C  = Trump Squeeze
+    - (4H)-X-5C
+- A-20 : 6H  = Careful Play + Endplay
+    - (1S)-X-1NT-3H-4H-6H
 
 ## Best Play for given condition
 
