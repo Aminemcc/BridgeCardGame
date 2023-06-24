@@ -297,6 +297,26 @@
     - 1NT-2C-2D-6NT
 - B-30 : 4H  = Trump Squeeze
     - (2S)-3H-4H
+- C-1  : 3NT = Play Choice
+    - 2C-2D-2NT-3C-3D-3NT
+- C-2  : 3NT = Entry Management + Maximum Lose ?
+    - 1C-1D-3C-3NT
+- C-3  : 3NT = Ducking Play + Safety Play
+    - 1NT-2C-2H-3NT
+- C-4  : 6H  = Entry Management + Trump Mmanagement
+    - 1H-1S-3C-3NT-4H-5H-6H
+- C-5  : 3NT = Ducking Play + Entry Management
+    - (3S)-3NT
+- C-6  : 6H  = Endplay
+    - 1H-1S-3H-4D-6H
+- C-7  : 5H  = Entry Management
+    - 1H-(X)-XX-(4S)-5C-5H
+- C-8  : 3NT = Entry Management
+    - 1D-1H-1NT-3D-3NT
+- C-9  : 6C  = Endplay
+    - 2C-2D-3C-4C-4D-4S-6C
+- C-10 : 6NT = Double Squeeze
+    - (2S)-3NT-6NT
 
 
 ## Level 5
