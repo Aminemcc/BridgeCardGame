@@ -56,16 +56,24 @@
         - Double Squeeze
             - Kedua defender di-squeeze di common suit dan suit lain yang berbeda
         - Strip Squeeze
-            - Satu defender guards two suits, di akhir antara endplay atau drop
+            - Satu defender guards 2+ suits, di akhir antara endplay atau drop
             - Tidak boleh melakukan "Rectify the count"
         - Show Up Squeeze
             - Bertujuan untuk melihat distribusi musuh dan menentukan Teknik Play
         - Trump Squeeze
             - Mirip Criss-Cross Squeeze, hanya saja Entry menggunakan trump
         - Three suit Squeeze
+            - Salah satu defender menjaga 3 suit
+        - Stepping Stone Squeeze
+            - Satu defender guards 2+ suits, Membuat entry dari kartu defender
+            - Tidak boleh melakukan "Rectify the count"
+        - Vise Squeeze
+            - Satu defender menjaga 2+ suits, diakhir antara honor nabrak atau running
+            - Tidak bisa / boleh melakukan "Rectify the count"
 - Trump Management
     - Membuat rencana yang tepat untuk memainkan, menyimpan, atau mengkontrol trump
     - Trump Coup
+        - Melakukan Finesse dengan Ruffing Finesse di akhir
 
 
 
@@ -279,6 +287,17 @@
     - (2S)-(P)-2NT-3NT
 - B-25 : 7S  = Three Suit Squeeze
     - 2C-3C-4S-4NT-5S-7S
+- B-26 : 6S  = Trump Coup
+    - 1S-2C-3S-4H-4NT-5H-6S
+- B-27 : 6H  = Trump Management + Entry Management
+    - 1S-2D-2H-4H-5H-6H
+- B-28 : 6NT = Stepping Stone Squeeze
+    - (3D)-X-3H-4NT-5D-6NT
+- B-29 : 6NT = Vise Squeeze
+    - 1NT-2C-2D-6NT
+- B-30 : 4H  = Trump Squeeze
+    - (2S)-3H-4H
+
 
 ## Level 5
 - A-1  : 3NT = Careful Play
@@ -322,6 +341,7 @@
     - (4H)-X-5C
 - A-20 : 6H  = Careful Play + Endplay
     - (1S)-X-1NT-3H-4H-6H
+- A-21 : 6S  = Strip Squeeze
 
 ## Best Play for given condition
 
