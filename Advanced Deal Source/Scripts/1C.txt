@@ -9,10 +9,11 @@ eastOpen = 1
 southOpen = 1
 westOpen = 1
 
-//Opener settings {0 : off, 1 : on}
+//Opener settings
 minOpenHCP = 16
-maxOpenHCP = 40
-//5332 5M considered unbalance
+maxOpenHCP = 36
+
+//5332 5M considered unbalance  {0 : off, 1 : on}
 balOpener = 1
 unbalOpener = 1
 
