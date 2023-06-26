@@ -4,7 +4,7 @@ Copy and paste the script from the file / full script to use the script!<br>
 
 ## List Available Scripts
 - [1C Precision](#1c-precision)
-- [1D Precision]
+- [1D Precision](#1d-precision)
 - [1NT]
 - [2C Precision]
 - [2M (2H/S)]
