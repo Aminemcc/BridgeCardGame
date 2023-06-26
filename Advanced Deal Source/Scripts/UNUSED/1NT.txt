@@ -1,0 +1,33 @@
+//----- Open 1NT -----//
+//1NT = 15-17 Balance
+//Balance : 4333, 4432, 5332
+
+//---Setting---//
+//Minimum HCP North + South
+min_hcp_NS = 21
+max_hcp_NS = 40
+
+//set ke 0 jika ingin kemungkinan musuh bid kecil
+can_bid_EW = 0
+//---Setting---//
+
+//Rentang HCP South
+southHCP = 15 <= hcp(south) && hcp(south) <= 17
+
+//Distribusi South
+southDist = shape(south, any 4432 + any 4333 + any 5332)
+
+total = hcp(south) + hcp(north)
+totalHCP = min_hcp_NS <= total && total <= max_hcp_NS
+
+//Supaya kemungkinan musuh melakukan bid sangat kecil
+balancedOpps = shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333)
+balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
+conditionEW = (can_bid_EW) ? 1 : balancedOpps && balancedHCP
+
+//Kondisi South - North
+conditionSN = southHCP && southDist && totalHCP
+
+condition conditionEW && conditionSN
+
+//----- ..... -----//

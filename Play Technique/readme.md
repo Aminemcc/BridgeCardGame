@@ -317,7 +317,8 @@
     - 2C-2D-3C-4C-4D-4S-6C
 - C-10 : 6NT = Double Squeeze
     - (2S)-3NT-6NT
-
+- C-11 : 6S  = Safety Play
+    - 2H-2S-3S-6S
 
 ## Level 5
 - A-1  : 3NT = Careful Play

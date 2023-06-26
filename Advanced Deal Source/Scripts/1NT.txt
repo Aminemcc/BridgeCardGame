@@ -1,33 +1,160 @@
 //----- Open 1NT -----//
-//1NT = 15-17 Balance
-//Balance : 4333, 4432, 5332
+//1NT = 15-17 HCP balance
+//bisa diatur sendiri jika ingin beda hcp
 
 //---Setting---//
-//Minimum HCP North + South
-min_hcp_NS = 21
-max_hcp_NS = 40
 
-//set ke 0 jika ingin kemungkinan musuh bid kecil
-can_bid_EW = 0
-//---Setting---//
+//--Opening setting--//
+lowerBoundHCP = 15
+upperBoundHCP = 17
 
-//Rentang HCP South
-southHCP = 15 <= hcp(south) && hcp(south) <= 17
+//0 : may not have, 1 : may have
+has5M = 1
 
-//Distribusi South
-southDist = shape(south, any 4432 + any 4333 + any 5332)
+//--Opening setting done--//
 
-total = hcp(south) + hcp(north)
-totalHCP = min_hcp_NS <= total && total <= max_hcp_NS
+//Minimum HCP 2M Opener & Partner
+min_hcp = 21
+max_hcp = 40
 
-//Supaya kemungkinan musuh melakukan bid sangat kecil
-balancedOpps = shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333)
-balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
-conditionEW = (can_bid_EW) ? 1 : balancedOpps && balancedHCP
+//Player who can receive opening card
+northOpen = 1
+eastOpen = 1
+southOpen = 1
+westOpen = 1
 
-//Kondisi South - North
-conditionSN = southHCP && southDist && totalHCP
+//Responses
+minResHCP = 0
+maxResHCP = 20
+resBal = 1
+resM = 1
+resm = 1
+resMM = 1
+resmm = 1
 
-condition conditionEW && conditionSN
+
+overcall = 0
+//Overcalls
+ovcX = 1
+ovcMM = 1
+ovcM = 1
+ovcHm = 1
+ovcSm = 1
+ovcmm = 1
+ovc3C = 1
+ovc3D = 1
+ovc3H = 1
+ovc3S = 1
+
+//---Setting Done---//
+
+
+
+//HCP
+northHCP = lowerBoundHCP <= hcp(north) && hcp(north) <= upperBoundHCP && northOpen
+eastHCP = lowerBoundHCP <= hcp(east) && hcp(east) <= upperBoundHCP && eastOpen
+southHCP = lowerBoundHCP <= hcp(south) && hcp(south) <= upperBoundHCP && southOpen
+westHCP = lowerBoundHCP <= hcp(west) && hcp(west) <= upperBoundHCP && westOpen
+
+//Total HCP NS & EW
+hcpNS = min_hcp <= ( hcp(north) + hcp(south) ) && ( hcp(north) + hcp(south) ) <= max_hcp
+hcpEW = min_hcp <= ( hcp(east) + hcp(west) ) && ( hcp(east) + hcp(west) ) <= max_hcp
+
+//Distribusi
+northDist = shape(north, any 4432 + any 4333 + any 5332) && ( has5M || shape(north, xxxx - 5xxx - x5xx) ) && northHCP
+eastDist = shape(east, any 4432 + any 4333 + any 5332) && ( has5M || shape(east, xxxx - 5xxx - x5xx) ) && eastHCP
+southDist = shape(south, any 4432 + any 4333 + any 5332) && ( has5M || shape(south, xxxx - 5xxx - x5xx) ) && southHCP
+westDist = shape(west, any 4432 + any 4333 + any 5332) && ( has5M || shape(west, xxxx - 5xxx - x5xx) ) && westHCP
+
+//Responses
+northResHCP = minResHCP <= hcp(north) && hcp(north) <= maxResHCP
+northResBalShape = shape(north, any 4432 + any 4333 + any 4441 + any 5332 - 5xxx - x5xx)
+northResBal = resBal && northResBalShape
+northResMMShape = (spades(north) >= 4 && hearts(north) >= 4) && !northResBalShape
+northResMM = resMM && northResMMShape
+northResM = resM && ( spades(north) >= 5 || hearts(north) >= 5 ) && !northResMMShape
+northResmmShape = shape(north, xx55 + xx65 + xx56 + xx66 + 0076 + 0067)
+northResmm = resmm && northResmmShape
+northResm = resm && !northResmmShape && (diamonds(north) >= 6 || clubs(north) >= 6)
+northRes = northResHCP && ( northResBal || northResMM || northResM || northResmm || northResm )
+
+
+
+//Overcalls
+minOvcHCP = 9
+maxOvcHCP = 15
+minOvcQuality = 1400
+
+//north overcall from west opening
+northOvcHCP = minOvcQuality <= cccc(north) && minOvcHCP <= hcp(north) && hcp(north) <= maxOvcHCP
+northOvcX = ovcX && maxOvcHCP < hcp(north)
+northOvcMM = ovcMM && (hearts(north) + spades(north)) >= 9 && shape(north, any 54xx + any 55xx + any 65xx + any 6610 + any 7600)
+northOvcM = ovcM && (spades(north) == 6 || hearts(north) == 6) && shape(north, any 6331 + 6322)
+northOvcHm = ovcHm && hearts(north) >= 5 && (diamonds(north) >= 4 || clubs(north) >= 4)
+northOvcSm = ovcSm && spades(north) >= 5 && (diamonds(north) >= 4 || clubs(north) >= 4)
+northOvcmm = ovcmm && diamonds(north) >= 5 && clubs(north) >= 5
+northOvc3C = ovc3C && clubs(north) >= 7
+northOvc3D = ovc3D && diamonds(north) >= 7
+northOvc3H = ovc3H && hearts(north) >= 7
+northOvc3S = ovc3S && spades(north) >= 7
+northOvc = ( northOvcX || ( northOvcHCP && ( northOvcX || northOvcMM || northOvcM || northOvcHm || northOvcSm || northOvcmm || northOvc3C || northOvc3D || northOvc3H || northOvc3S ) ) )
+
+//east overcall from west opening
+eastOvcHCP = minOvcQuality <= cccc(east) && minOvcHCP <= hcp(east) && hcp(east) <= maxOvcHCP
+eastOvcX = ovcX && maxOvcHCP < hcp(east)
+eastOvcMM = ovcMM && (hearts(east) + spades(east)) >= 9 && shape(east, any 54xx + any 55xx + any 65xx + any 6610 + any 7600)
+eastOvcM = ovcM && (spades(east) == 6 || hearts(east) == 6) && shape(east, any 6331 + 6322)
+eastOvcHm = ovcHm && hearts(east) >= 5 && (diamonds(east) >= 4 || clubs(east) >= 4)
+eastOvcSm = ovcSm && spades(east) >= 5 && (diamonds(east) >= 4 || clubs(east) >= 4)
+eastOvcmm = ovcmm && diamonds(east) >= 5 && clubs(east) >= 5
+eastOvc3C = ovc3C && clubs(east) >= 7
+eastOvc3D = ovc3D && diamonds(east) >= 7
+eastOvc3H = ovc3H && hearts(east) >= 7
+eastOvc3S = ovc3S && spades(east) >= 7
+eastOvc = ( eastOvcX || ( eastOvcHCP && ( eastOvcX || eastOvcMM || eastOvcM || eastOvcHm || eastOvcSm || eastOvcmm || eastOvc3C || eastOvc3D || eastOvc3H || eastOvc3S ) ) )
+
+//south overcall from east opening
+southOvcHCP = minOvcQuality <= cccc(south) && minOvcHCP <= hcp(south) && hcp(south) <= maxOvcHCP
+southOvcX = ovcX && maxOvcHCP < hcp(south)
+southOvcMM = ovcMM && (hearts(south) + spades(south)) >= 9 && shape(south, any 54xx + any 55xx + any 65xx + any 6610 + any 7600)
+southOvcM = ovcM && (spades(south) == 6 || hearts(south) == 6) && shape(south, any 6331 + 6322)
+southOvcHm = ovcHm && hearts(south) >= 5 && (diamonds(south) >= 4 || clubs(south) >= 4)
+southOvcSm = ovcSm && spades(south) >= 5 && (diamonds(south) >= 4 || clubs(south) >= 4)
+southOvcmm = ovcmm && diamonds(south) >= 5 && clubs(south) >= 5
+southOvc3C = ovc3C && clubs(south) >= 7
+southOvc3D = ovc3D && diamonds(south) >= 7
+southOvc3H = ovc3H && hearts(south) >= 7
+southOvc3S = ovc3S && spades(south) >= 7
+southOvc = ( southOvcX || ( southOvcHCP && ( southOvcX || southOvcMM || southOvcM || southOvcHm || southOvcSm || southOvcmm || southOvc3C || southOvc3D || southOvc3H || southOvc3S ) ) )
+
+//west overcall from south opening
+westOvcHCP = minOvcQuality <= cccc(west) && minOvcHCP <= hcp(west) && hcp(west) <= maxOvcHCP
+westOvcX = ovcX && maxOvcHCP < hcp(west)
+westOvcMM = ovcMM && (hearts(west) + spades(west)) >= 9 && shape(west, any 54xx + any 55xx + any 65xx + any 6610 + any 7600)
+westOvcM = ovcM && (spades(west) == 6 || hearts(west) == 6) && shape(west, any 6331 + 6322)
+westOvcHm = ovcHm && hearts(west) >= 5 && (diamonds(west) >= 4 || clubs(west) >= 4)
+westOvcSm = ovcSm && spades(west) >= 5 && (diamonds(west) >= 4 || clubs(west) >= 4)
+westOvcmm = ovcmm && diamonds(west) >= 5 && clubs(west) >= 5
+westOvc3C = ovc3C && clubs(west) >= 7
+westOvc3D = ovc3D && diamonds(west) >= 7
+westOvc3H = ovc3H && hearts(west) >= 7
+westOvc3S = ovc3S && spades(west) >= 7
+westOvc = ( westOvcX || ( westOvcHCP && ( westOvcX || westOvcMM || westOvcM || westOvcHm || westOvcSm || westOvcmm || westOvc3C || westOvc3D || westOvc3H || westOvc3S ) ) )
+
+
+//Balanced opponents
+balancedOpps = ( shape(east, any 44xx + any 4333 + any 54xx) && shape(west, any 44xx + any 4333 + any 54xx) && (northDist || southDist) ) || 
+	( shape(north, any 44xx + any 4333 + any 54xx) && shape(south, any 44xx + any 4333 + any 54xx) && (eastDist || westDist) )
+balancedHCP = ( -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1 && (northDist || southDist) ) ||
+	( -1 <= (hcp(north) - hcp(south)) && (hcp(north) - hcp(south)) <= 1 && (eastDist || westDist) )
+
+//Wrap everything up
+conditionOpps = ( !overcall && balancedOpps && balancedHCP ) || (overcall && (northOvc && westDist || eastOvc && northDist || southOvc && eastDist || westOvc && southDist) )
+
+conditionOpener = ( (northDist || southDist) && hcpNS ) || ( (eastDist || westDist) && hcpEW )
+
+conditionResponder = northRes && southDist
+
+condition conditionOpener && conditionOpps && conditionResponder
 
 //----- ..... -----//

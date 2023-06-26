@@ -1,0 +1,36 @@
+//----- Open 2C -----//
+//2C = 12-15 6+C or 5C + 4M
+
+//---Setting---//
+//Minimum HCP North + South
+min_hcp_NS = 21
+max_hcp_NS = 40
+
+//set ke 0 jika ingin kemungkinan musuh bid kecil
+can_bid_EW = 0
+//---Setting---//
+
+//Rentang HCP South
+southHCP = 12 <= hcp(south) && hcp(south) <= 15
+
+//Distribusi South
+southH = hearts(south) == 4
+southS = spades(south) == 4
+southD = diamonds(south) <= 4
+southDist = ( clubs(south) >= 6 || ( ( (southH || southS) && 
+	(southH != southS) ) && clubs(south) >= 5 ) ) && southD
+
+total = hcp(south) + hcp(north)
+totalHCP = min_hcp_NS <= total && total <= max_hcp_NS
+
+//Supaya kemungkinan musuh melakukan bid sangat kecil
+balancedOpps = shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333)
+balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
+conditionEW = (can_bid_EW) ? 1 : balancedOpps && balancedHCP
+
+//Kondisi South - North
+conditionSN = southHCP && southDist && totalHCP
+
+condition conditionEW && conditionSN
+
+//----- ..... -----//
