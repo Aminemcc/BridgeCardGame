@@ -22,13 +22,15 @@ maxFit = 13
 minSecondaryFit = 8
 maxSecondaryFit = 13
 
+//Minimum cards that fit each hand
+minCards = 3
+//Ex : If 3 : 5-3, 6-3 is possible. 6-2, 7-2 is not possible
+
 //Total HCP of both hands
 minTotalHCP = 25
 maxTotalHCP = 40
 
-//Minimum cards that fit each hand
-minCards = 3
-//Ex : If 3 : 5-3, 6-3 is possible. 6-2, 7-2 is not possible
+
 
 //STOPPERS SETUP
 min_hcp_other_suit = 0
