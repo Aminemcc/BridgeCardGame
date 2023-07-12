@@ -77,6 +77,7 @@ conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && ( !qual
 
 conditionOpener = ( (northDist || southDist) && hcpNS ) || ( (eastDist || westDist) && hcpEW )
 
+generate 100
 condition conditionOpener && conditionOpps
 
 //----- ..... -----//

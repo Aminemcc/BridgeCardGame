@@ -30,14 +30,11 @@ minCards = 3
 minTotalHCP = 25
 maxTotalHCP = 40
 
-
-
-//STOPPERS SETUP
-min_hcp_other_suit = 0
-max_hcp_other_suit = 5
-//to make it no stopper, set max to 0, 
-//to make always has stopper, set min to something
-
+//Stopper
+suit_no_stopper = -1
+//-1 : random, 0 : all stopper, 1 : 1 suit no stopper, 2 : 2 suit no stopper
+//stopper : A, Kx, Qxx, Jxxx
+//no stop : K, Qx, Jxx, xxxx
 
 //quality one of opponents card (0 : off, 1 : on)
 quality_set = 0
@@ -54,8 +51,10 @@ balancedOpps = 0
 NS_HCP = minTotalHCP <= ( hcp(north) + hcp(south) ) && ( hcp(north) + hcp(south) ) <= maxTotalHCP
 EW_HCP = minTotalHCP <= ( hcp(east) + hcp(west) ) && ( hcp(east) + hcp(west) ) <= maxTotalHCP
 
+//Stoppers or Controls
+
+
 //Distribusi
-NS_majors_HCP_heart = min_hcp_other_suit <= (hcp(north, heart) + hcp(south, heart))
 NS_majors = ((heart(north) + heart(south)) <= maxMajors) && ((spade(north) + spade(south)) <= maxMajors)
 EW_majors = ((heart(east) + heart(west)) <= maxMajors) && ((spade(east) + spade(west)) <= maxMajors)
 
@@ -97,6 +96,7 @@ conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && ( !qual
 
 conditionBidder = (NS_dist || EW_dist)
 
+generate 100
 condition conditionBidder && conditionOpps
 
 //----- ..... -----//

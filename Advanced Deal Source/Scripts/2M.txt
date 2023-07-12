@@ -148,6 +148,7 @@ conditionOpps = ( !overcall && balancedOpps && balancedHCP ) || (overcall && (no
 
 conditionOpener = ( (northDist || southDist) && hcpNS ) || ( (eastDist || westDist) && hcpEW )
 
+generate 100
 condition conditionOpener && conditionOpps
 
 //----- ..... -----//

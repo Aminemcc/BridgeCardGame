@@ -1,0 +1,223 @@
+//----- Open 1H/S -----//
+//1H/S = 12-15 HCP 5+ Cards H/S, No 5332 5M 15 HCP
+
+//---Setting---//
+
+//Player who can receive opening card
+northOpen = 1
+eastOpen = 1
+southOpen = 1
+westOpen = 1
+
+//Minimum HCP 1M Opener + Partner
+min_hcp = 21
+max_hcp = 40
+
+
+//--opener--//
+minOpenHCP = 12
+maxOpenHCP = 15
+
+openerBal = 1
+
+opener5M = 1
+opener6M = 1
+opener7MUp = 1
+
+openerOther4M = 1
+openerAny4m = 1
+
+openerMM = 1
+openerMm = 1
+//--opener done--//
+
+//--responder--//
+respMinHCP = 0
+respMaxHCP = 20
+
+respBal = 1
+
+respSupport0 = 1
+respSupport1 = 1
+respSupport2 = 1
+respSupport3 = 1
+respSupport4 = 1
+respSupport5Up = 1
+
+respOther4M = 1
+respOther5M = 1
+respOther6M = 1
+respOther7MUp = 1
+
+respAny4m = 1
+respAny5m = 1
+respAny6m = 1
+respAny7mUp = 1
+
+//-1 : random, 0 : no, 1 : yes
+hasAnyVoid = -1
+hasAnySingleton = -1
+
+//--responder done--//
+
+
+//--Opponents--//
+
+//quality one of opponents card (0 : off, 1 : on)
+quality_set = 1
+//interval is : [0-3000] quality of normal opening around 1200
+minQuality = 0
+maxQuality = 1200
+//balanced card and HCP between opps (0 : off, 1 : on)
+balancedOpps = 0
+
+//---Setting Done---//
+
+
+//HCP
+northHCP = minOpenHCP <= hcp(north) && hcp(north) <= maxOpenHCP
+northHCP_15 = hcp(north) == 15
+
+eastHCP = minOpenHCP <= hcp(east) && hcp(east) <= maxOpenHCP
+eastHCP_15 = hcp(east) == 15
+
+southHCP = minOpenHCP <= hcp(south) && hcp(south) <= maxOpenHCP
+southHCP_15 = hcp(south) == 15
+
+westHCP = minOpenHCP <= hcp(west) && hcp(west) <= maxOpenHCP
+westHCP_15 = hcp(west) == 15
+
+//Total HCP NS & EW
+hcpNS = min_hcp <= ( hcp(north) + hcp(south) ) && ( hcp(north) + hcp(south) ) <= max_hcp
+hcpEW = min_hcp <= ( hcp(east) + hcp(west) ) && ( hcp(east) + hcp(west) ) <= max_hcp
+
+//Distribusi
+northH = (heart(north) == 5 && opener5M) || (heart(north) == 6 && opener6M) || (heart(north) >= 7 && opener7MUp)
+northS = (spade(north) == 5 && opener5M) || (spade(north) == 6 && opener6M) || (spade(north) >= 7 && opener7MUp)
+northM = northH || northS
+northOther4M = (northH && spade(north) == 4) || (northS && heart(north) == 4) && openerOther4M
+northAny4m = shape(north, xx4x + xxx4) && northM && openerAny4m
+northBal = shape(north, 5xxx + x5xx + any 5332) && opener5M && openerBal && !northHCP_15
+northMM = shape(north, 55xx + any 65xx + 66xx + any 76xx) && northH && northS && openerMM 
+northMm = northM && (club(north) >= 5 || diamond(north) >= 5) && openerMm
+northDist = northOpen && northHCP && (northM || northBal || northOther4M || northAny4m || northMM || northMm)
+
+eastH = (heart(east) == 5 && opener5M) || (heart(east) == 6 && opener6M) || (heart(east) >= 7 && opener7MUp)
+eastS = (spade(east) == 5 && opener5M) || (spade(east) == 6 && opener6M) || (spade(east) >= 7 && opener7MUp)
+eastM = eastH || eastS
+eastOther4M = (eastH && spade(east) == 4) || (eastS && heart(east) == 4) && openerOther4M
+eastAny4m = shape(east, xx4x + xxx4) && eastM && openerAny4m
+eastBal = shape(east, 5xxx + x5xx + any 5332) && opener5M && openerBal && !eastHCP_15
+eastMM = shape(east, 55xx + any 65xx + 66xx + any 76xx) && eastH && eastS && openerMM 
+eastMm = eastM && (club(east) >= 5 || diamond(east) >= 5) && openerMm
+eastDist = eastOpen && eastHCP && (eastM || eastBal || eastOther4M || eastAny4m || eastMM || eastMm)
+
+southH = (heart(south) == 5 && opener5M) || (heart(south) == 6 && opener6M) || (heart(south) >= 7 && opener7MUp)
+southS = (spade(south) == 5 && opener5M) || (spade(south) == 6 && opener6M) || (spade(south) >= 7 && opener7MUp)
+southM = southH || southS
+southOther4M = (southH && spade(south) == 4) || (southS && heart(south) == 4) && openerOther4M
+southAny4m = shape(south, xx4x + xxx4) && southM && openerAny4m
+southBal = shape(south, 5xxx + x5xx + any 5332) && opener5M && openerBal && !southHCP_15
+southMM = shape(south, 55xx + any 65xx + 66xx + any 76xx) && southH && southS && openerMM 
+southMm = southM && (club(south) >= 5 || diamond(south) >= 5) && openerMm
+southDist = southOpen && southHCP && (southM || southBal || southOther4M || southAny4m || southMM || southMm)
+
+westH = (heart(west) == 5 && opener5M) || (heart(west) == 6 && opener6M) || (heart(west) >= 7 && opener7MUp)
+westS = (spade(west) == 5 && opener5M) || (spade(west) == 6 && opener6M) || (spade(west) >= 7 && opener7MUp)
+westM = westH || westS
+westOther4M = (westH && spade(west) == 4) || (westS && heart(west) == 4) && openerOther4M
+westAny4m = shape(west, xx4x + xxx4) && westM && openerAny4m
+westBal = shape(west, 5xxx + x5xx + any 5332) && opener5M && openerBal && !westHCP_15
+westMM = shape(west, 55xx + any 65xx + 66xx + any 76xx) && westH && westS && openerMM 
+westMm = westM && (club(west) >= 5 || diamond(west) >= 5) && openerMm
+westDist = westOpen && westHCP && (westM || westBal || westOther4M || westAny4m || westMM || westMm)
+
+
+
+//responder
+northResHCP = respMinHCP <= hcp(north) && hcp(north) <= respMaxHCP
+eastResHCP = respMinHCP <= hcp(east) && hcp(east) <= respMaxHCP
+southResHCP = respMinHCP <= hcp(south) && hcp(south) <= respMaxHCP
+westResHCP = respMinHCP <= hcp(west) && hcp(west) <= respMaxHCP
+
+
+northResSupportH = southH && ( (heart(north) == 0 && respSupport0) || (heart(north) == 1 && respSupport1) || (heart(north) == 2 && respSupport2) || (heart(north) == 3 && respSupport3) || (heart(north) == 4 && respSupport4) || (heart(north) >= 5 && respSupport5Up)) 
+northResSupportS = southS && ( (spade(north) == 0 && respSupport0) || (spade(north) == 1 && respSupport1) || (spade(north) == 2 && respSupport2) || (spade(north) == 3 && respSupport3) || (spade(north) == 4 && respSupport4) || (spade(north) >= 5 && respSupport5Up)) 
+northResSupport = northResSupportH || northResSupportS
+northResBal = shape(north, any 4432 + any 4333) && respBal
+northResOtherH = southS && ((heart(north) == 4 && respOther4M) || (heart(north) == 5 && respOther5M) || (heart(north) == 6 && respOther6M)|| (heart(north) >= 7 && respOther7MUp))
+northResOtherS = southH && ((spade(north) == 4 && respOther4M) || (spade(north) == 5 && respOther5M) || (spade(north) == 6 && respOther6M)|| (spade(north) >= 7 && respOther7MUp))
+northResOtherM = northResOtherH || northResOtherS
+northResAnyC = (club(north) == 4 && respAny4m) || (club(north) == 5 && respAny5m) || (club(north) == 6 && respAny6m) || (club(north) >= 7 && respAny7mUp)
+northResAnyD = (diamond(north) == 4 && respAny4m) || (diamond(north) == 5 && respAny5m) || (diamond(north) == 6 && respAny6m) || (diamond(north) >= 7 && respAny7mUp)
+northResAnym = northResAnyC || northResAnyD
+northResVoid = hasAnyVoid == -1 || (hasAnyVoid == 0 && shape(north, xxxx - any 0xxx)) || (hasAnyVoid == 1 && shape(north, any 0xxx))
+northResSingleton = hasAnySingleton == -1 || (hasAnySingleton == 0 && shape(north, xxxx - any 1xxx - any 0xxx)) || (hasAnySingleton == 1 && shape(north, any 1xxx - any 0xxx))
+northResponses = southDist && northResHCP && (northResVoid || northResSingleton) && northResSupport && (northResBal || northResOtherM || northResAnym)
+
+eastResSupportH = westH && ( (heart(east) == 0 && respSupport0) || (heart(east) == 1 && respSupport1) || (heart(east) == 2 && respSupport2) || (heart(east) == 3 && respSupport3) || (heart(east) == 4 && respSupport4) || (heart(east) >= 5 && respSupport5Up)) 
+eastResSupportS = westS && ( (spade(east) == 0 && respSupport0) || (spade(east) == 1 && respSupport1) || (spade(east) == 2 && respSupport2) || (spade(east) == 3 && respSupport3) || (spade(east) == 4 && respSupport4) || (spade(east) >= 5 && respSupport5Up)) 
+eastResSupport = eastResSupportH || eastResSupportS
+eastResBal = shape(east, any 4432 + any 4333) && respBal
+eastResOtherH = westS && ((heart(east) == 4 && respOther4M) || (heart(east) == 5 && respOther5M) || (heart(east) == 6 && respOther6M)|| (heart(east) >= 7 && respOther7MUp))
+eastResOtherS = westH && ((spade(east) == 4 && respOther4M) || (spade(east) == 5 && respOther5M) || (spade(east) == 6 && respOther6M)|| (spade(east) >= 7 && respOther7MUp))
+eastResOtherM = eastResOtherH || eastResOtherS
+eastResAnyC = (club(east) == 4 && respAny4m) || (club(east) == 5 && respAny5m) || (club(east) == 6 && respAny6m) || (club(east) >= 7 && respAny7mUp)
+eastResAnyD = (diamond(east) == 4 && respAny4m) || (diamond(east) == 5 && respAny5m) || (diamond(east) == 6 && respAny6m) || (diamond(east) >= 7 && respAny7mUp)
+eastResAnym = eastResAnyC || eastResAnyD
+eastResVoid = hasAnyVoid == -1 || (hasAnyVoid == 0 && shape(east, xxxx - any 0xxx)) || (hasAnyVoid == 1 && shape(east, any 0xxx))
+eastResSingleton = hasAnySingleton == -1 || (hasAnySingleton == 0 && shape(east, xxxx - any 1xxx - any 0xxx)) || (hasAnySingleton == 1 && shape(east, any 1xxx - any 0xxx))
+eastResponses = westDist && eastResHCP && (eastResVoid || eastResSingleton) && eastResSupport && (eastResBal || eastResOtherM || eastResAnym)
+
+southResSupportH = northH && ( (heart(south) == 0 && respSupport0) || (heart(south) == 1 && respSupport1) || (heart(south) == 2 && respSupport2) || (heart(south) == 3 && respSupport3) || (heart(south) == 4 && respSupport4) || (heart(south) >= 5 && respSupport5Up)) 
+southResSupportS = northS && ( (spade(south) == 0 && respSupport0) || (spade(south) == 1 && respSupport1) || (spade(south) == 2 && respSupport2) || (spade(south) == 3 && respSupport3) || (spade(south) == 4 && respSupport4) || (spade(south) >= 5 && respSupport5Up)) 
+southResSupport = southResSupportH || southResSupportS
+southResBal = shape(south, any 4432 + any 4333) && respBal
+southResOtherH = northS && ((heart(south) == 4 && respOther4M) || (heart(south) == 5 && respOther5M) || (heart(south) == 6 && respOther6M)|| (heart(south) >= 7 && respOther7MUp))
+southResOtherS = northH && ((spade(south) == 4 && respOther4M) || (spade(south) == 5 && respOther5M) || (spade(south) == 6 && respOther6M)|| (spade(south) >= 7 && respOther7MUp))
+southResOtherM = southResOtherH || southResOtherS
+southResAnyC = (club(south) == 4 && respAny4m) || (club(south) == 5 && respAny5m) || (club(south) == 6 && respAny6m) || (club(south) >= 7 && respAny7mUp)
+southResAnyD = (diamond(south) == 4 && respAny4m) || (diamond(south) == 5 && respAny5m) || (diamond(south) == 6 && respAny6m) || (diamond(south) >= 7 && respAny7mUp)
+southResAnym = southResAnyC || southResAnyD
+southResVoid = hasAnyVoid == -1 || (hasAnyVoid == 0 && shape(south, xxxx - any 0xxx)) || (hasAnyVoid == 1 && shape(south, any 0xxx))
+southResSingleton = hasAnySingleton == -1 || (hasAnySingleton == 0 && shape(south, xxxx - any 1xxx - any 0xxx)) || (hasAnySingleton == 1 && shape(south, any 1xxx - any 0xxx))
+southResponses = northDist && southResHCP && (southResVoid || southResSingleton) && southResSupport && (southResBal || southResOtherM || southResAnym)
+
+westResSupportH = westH && ( (heart(west) == 0 && respSupport0) || (heart(west) == 1 && respSupport1) || (heart(west) == 2 && respSupport2) || (heart(west) == 3 && respSupport3) || (heart(west) == 4 && respSupport4) || (heart(west) >= 5 && respSupport5Up)) 
+westResSupportS = westS && ( (spade(west) == 0 && respSupport0) || (spade(west) == 1 && respSupport1) || (spade(west) == 2 && respSupport2) || (spade(west) == 3 && respSupport3) || (spade(west) == 4 && respSupport4) || (spade(west) >= 5 && respSupport5Up)) 
+westResSupport = westResSupportH || westResSupportS
+westResBal = shape(west, any 4432 + any 4333) && respBal
+westResOtherH = westS && ((heart(west) == 4 && respOther4M) || (heart(west) == 5 && respOther5M) || (heart(west) == 6 && respOther6M)|| (heart(west) >= 7 && respOther7MUp))
+westResOtherS = westH && ((spade(west) == 4 && respOther4M) || (spade(west) == 5 && respOther5M) || (spade(west) == 6 && respOther6M)|| (spade(west) >= 7 && respOther7MUp))
+westResOtherM = westResOtherH || westResOtherS
+westResAnyC = (club(west) == 4 && respAny4m) || (club(west) == 5 && respAny5m) || (club(west) == 6 && respAny6m) || (club(west) >= 7 && respAny7mUp)
+westResAnyD = (diamond(west) == 4 && respAny4m) || (diamond(west) == 5 && respAny5m) || (diamond(west) == 6 && respAny6m) || (diamond(west) >= 7 && respAny7mUp)
+westResAnym = westResAnyC || westResAnyD
+westResVoid = hasAnyVoid == -1 || (hasAnyVoid == 0 && shape(west, xxxx - any 0xxx)) || (hasAnyVoid == 1 && shape(west, any 0xxx))
+westResSingleton = 1
+westResponses = westDist && westResHCP && (westResVoid || westResSingleton) && westResSupport && (westResBal || westResOtherM || westResAnym)
+
+
+responderDist = northResponses || eastResponses || southResponses || westResponses
+
+//Balanced opponents
+balancedOpps_on = ( shape(east, any 4432 + any 4333) && shape(west, any 4432 + 4333) ) || 
+	( shape(north, any 4432 + any 4333) && shape(south, any 4432 + 4333) )
+balancedHCP = -1 <= (hcp(east) - hcp(west)) && (hcp(east) - hcp(west)) <= 1
+
+//Quality opponents
+cNorth = minQuality <= cccc(north) && cccc(north) <= maxQuality && !northDist && !southDist
+cEast = minQuality <= cccc(east) && cccc(east) <= maxQuality && !eastDist && !westDist
+cSouth = minQuality <= cccc(south) && cccc(south) <= maxQuality && !northDist && !southDist
+cWest = minQuality <= cccc(west) && cccc(west) <= maxQuality && !eastDist && !westDist
+
+//Wrap everything up
+conditionOpps = ( !balancedOpps || (balancedOpps_on && balancedHCP) ) && ( !quality_set || (cNorth || cSouth) || (cEast || cWest) )
+
+conditionOpener = ( (northDist || southDist) && hcpNS ) || ( (eastDist || westDist) && hcpEW )
+
+conditionResponder = responderHCP && responderDist
+
+condition conditionOpener && conditionOpps && conditionResponder
+
+//----- ..... -----//

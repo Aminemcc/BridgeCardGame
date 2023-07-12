@@ -159,6 +159,7 @@ conditionOpener = ( (northDist || southDist) && hcpNS ) || ( (eastDist || westDi
 
 conditionResponder = responderHCP && responderDist
 
+generate 100
 condition conditionOpener && conditionOpps && conditionResponder
 
 //----- ..... -----//

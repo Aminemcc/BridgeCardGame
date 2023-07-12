@@ -1085,10 +1085,10 @@ Note :
 
 ## 1NT-2C-2D
 [Back](#1nt-2c) <br>
-- 2H = 44M NF
+- 2H = 44M invite
 - 2S = 5S + 4H invite
 - 2NT= invite to 3NT
-- [3C = GF any](#1nt-2c-2d-3c)
+- [3C = Ask minor](#1nt-2c-2d-3c)
 - 3D = 55M invite / SI
 - 3H = 4H + 5S GF (Smolen)
 - 3S = 4S + 5H GF (Smolen)
@@ -1100,45 +1100,45 @@ Note :
 ## 1NT-2C-2D-3C
 [Back](#1nt-2c-2d) <br>
 - [3D = 5m](#1nt-2c-2d-3c-3d-3h)
-- 3H = 4C
-- 3S = 4D
-- 3NT= 44m
+- 3H = 4C / 3334
+- 3S = 4D / 3343
+- 3NT= 44m / (32)44
 
 ## 1NT-2C-2D-3C-3D-3H
 [Back](#1nt-2c-2d-3c)<br>
 3H = ask 5m
-- 3S = 5C
-- 3NT= 5D
+- 3S = 5 cards C
+- 3NT= 5 cards D
 
 ## 1NT-2C-2H
 [Back](#1nt-2c) <br>
 - 2S = 4S Invite
 - 2NT= Invite
-- 3C = re-stayman ask 5H GF
+- 3C = [re-stayman ask 5 cards H GF](#1nt-2c-2h-3c)
 - 3H = 4H Invite
 - 3NT= T/P
 - 4H = T/P
 
 ## 1NT-2C-2H-3C
 [Back](#1nt-2c-2h) <br>
-- 3D = 5H
-- 3H = 4C
-- 3S = 4D
+- 3D = 5 cards H
+- 3H = 4 cards C
+- 3S = 4 cards D
 - 3NT= 3433
 
 ## 1NT-2C-2S
 [Back](#1nt-2c)<br>
 - 2NT= Invite
-- 3C = re-stayman ask 5S GF
+- 3C = [re-stayman ask 5S GF](#1nt-2c-2s-3c)
 - 3S = 4S Invite
 - 3NT= T/P
 - 4S = T/P
 
 ## 1NT-2C-2S-3C
 [Back](#1nt-2c-2s)<br>
-- 3D = 5S
-- 3H = 4C
-- 3S = 4D
+- 3D = 5 cards S
+- 3H = 4 cards C
+- 3S = 4 cards D
 - 3NT= 4333
 
 ## 1NT-2D
