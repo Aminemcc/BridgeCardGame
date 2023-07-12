@@ -25,7 +25,10 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
 - [Overcall](#overcall)
     - [1C Precision](#overcall-1c-precision)
     - [1C Standard](#overcall-1c-standard)
-    - [1NT](#overcall)
+    - [1NT Strong](#overcall-1nt-strong)
+    - [2M](#overcall-2m)
+        - [2H](#overcall-2h)
+        - 2S
 - Tambahan Konvensi Bidding :
     - [Response to ask keycards](#response-to-ask-keycards)
     - [Exclusion](#exclusion)
