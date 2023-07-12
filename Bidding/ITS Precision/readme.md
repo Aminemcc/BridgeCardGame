@@ -515,7 +515,7 @@ Note :
 - [1NT= 12-14 HCP Balance](#1d-1h-1nt)
 - 2C = (5+4+) mm
 - 2D = 6+D
-- 2H = 4H
+- [2H = 4H](#1d-1h-2h)
     - Prioritas support 4 lembar H
 
 ## 1D-1H-1S
@@ -612,6 +612,19 @@ Note :
     - can be passed
 - 4C = 6+D + 4H Splinter C SI
 
+## 1D-1H-2H
+[Back](#1D-1H)<br>
+- 2S = SST
+    - Ask if the opener has shortness in a suit
+- 2NT = ?
+- 3C/D = 4+C/D Game Try
+    - Mempunyai honor yang kurang kuat: KJ,AQ,AJ,Kxxxx, etc yang kamu pikir perlu bantuan
+    - Jika opener mempunyai honor, maka game
+- 3H = Invite
+- 3S = Splinter S
+- 3NT = ?
+- 4C/D = Splinter C/D
+- 4H = T/P
 
 ## 1D-1S
 [Back](#Sequence-1D) <br>
@@ -698,6 +711,19 @@ Note :
     - can be passed
 - 4C = 6+D + 4S Splinter C SI
 
+## 1D-1S-2S
+[Back](#1d-1s)<br>
+- 2NT = SST
+    - Ask if opener has shortness in a suit
+- 3C/D/H = 4+C/D/H
+    - Mempunyai honor yang kurang kuat : AQ,KJ,AJ,KJ,Kxxxx, etc yang perlu bantuan
+    - Jika opener punya honor, maka game
+- 3S = Invite
+- 3NT = ?
+- 4C/D/H = Splinter C/D/H
+- 4S = T/P
+- 4NT = Ask keycard
+- 5C/D/H = Exclusion C/D/H
 ## 1D-1NT
 [Back](#Sequence-1D) <br>
 - 2C = (5+4+) mm
