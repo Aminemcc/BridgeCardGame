@@ -632,7 +632,7 @@ Note :
 - 2C = (5+4+) mm
 - 2D = (5)/6+ D
 - 2H = ?
-- 2S = 4S
+- [2S = 4S](#1d-1s-2s)
     - Prioritas support 4 lembar Spades
 
 ## 1D-1S-1NT
