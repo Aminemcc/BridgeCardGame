@@ -23,6 +23,9 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
     - [1H](#competitive-1h)
     - [1NT](#competitive-1nt)
 - [Overcall](#overcall)
+    - [1C Precision](#overcall-1c-precision)
+    - [1C Standard](#overcall-1c-standard)
+    - [1NT](#overcall)
 - Tambahan Konvensi Bidding :
     - [Response to ask keycards](#response-to-ask-keycards)
     - [Exclusion](#exclusion)
@@ -2203,7 +2206,7 @@ Versi Natural :<br>
 
 ## Overcall: 1C Standard
 1C = 12-21 HCP 2/3+C<br>
-- [(1C)-X = take-out dbl](#overcall-1cstandard-x)
+- [(1C)-X = Takeout dbl](#overcall-1cstandard-x)
     - X = 12-17 HCP 3+cards except C
     - X = 18+ any dist
 - (1C)-1D/H/S = 8-17 HCP 5+ D/H/S
@@ -2236,11 +2239,11 @@ Note :
 - Jika support = 15-17 HCP 4+Cards
 
 
-## 1NT Strong
+## Overcall: 1NT Strong
 [Back](#content)<br>
 - X = 16+ HCP
 - 2C = MM
-    - Karena tidak menganggu, maka 55MM good hand
+    - Karena tidak menganggu, maka good hand
 - 2D = One Suiter M
 - 2H = H + m
 - 2S = S + m
@@ -2248,6 +2251,65 @@ Note :
     - Sangat menganggu, maka bisa weak / bad hand
 - 3C/D/H/S = Preemptive C/D/H/S
 
+## Overcall: 2M
+[Back](#content)<br>
+Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid yaitu 2S<br>
+- [Overcall 2H](#overcall-2h)
+- [Overcall 2S](#)
+
+## Overcall: 2H
+[Back](#content)<br>
+2H = Weak 6+ Cards H (biasanya pasti 6 lbr)<br>
+- [(2H) - X = Takeout dbl](#overcall-2h-x)
+    - X = 12-17 HCP 3+ cards selain H
+    - X = 18+ any
+        - kartu 18+ dengan 5+ cards C kadang bid 3C langsung karena susah nunjukinnya nanti
+- (2H) - 2S = 12-17 HCP 5+S
+- (2H) - 2NT = 16-18 HCP Balance with stoopper H
+- (2H) - 3C/D/H = 12-17 HCP 5+ cards C/D/H
+- (2H) - 3S = - 
+    - (Biasanya kebaca weak)
+- (2H) - 3NT = T/P
+- (2H) - 4H/S = T/P
+
+## Overcall: (2H)-X
+[Back](#overcall-2h)<br>
+(2H)-X<br>
+- 2S = 0-7 HCP 4+S
+- [2NT = Lebensohl](#overcall-2h-x-2nt)
+    - Forcing, 0-7 HCP 4+C/D lewat sini
+    - Ingin mengecek strong partner
+- 3C/D = 8-11 HCP 4+C/D
+- 3H = ask stopper H
+- 3S = 8-11 HCP 4+S
+- 3NT = T/P with stopper H
+- 4C/D = -
+- 4H/S = T/P
+- 4NT = -
+- 5C/D = T/P
+
+## Overcall: (2H)-X-2NT
+[Back](#overcall-2h-x)<br>
+- [3C = Default bid forced](#overcall-2h-x-2nt-3c)
+- 3D = 18+ 5+ cards D
+- 3H = ??
+- 3S = 18+ 5+ cards S
+- 3NT = T/P
+- 4C = 18+ 5+ cards C
+    - Ketinggian
+- 4D = -
+- 4H/S = T/P
+- 4NT = -
+- 5C/D = T/P
+
+## Overcall: (2H)-X-2NT-3C
+[Back](#overcall-2h-x-2nt)
+- P = 0-7 HCP 4+ cards C T/P
+- 3D = 0-7 HCP 4+ cards D
+- 3H = -
+- 3S = ??
+- 3NT = T/P with stopper H
+    - Tadi ingin mencari Strong partner
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
