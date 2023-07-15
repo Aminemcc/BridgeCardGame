@@ -2311,7 +2311,8 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 - 3C/D = 8-11 HCP 4+C/D
 - 3H = 4S GF no stopper H
 - 3S = 8-11 HCP 5+S no stopper H
-- 3NT = T/P with stopper H
+- 3NT = T/P no stopper H
+    - Kartu 4+ minor GF
 - 4C/D = -
 - 4H/S = T/P
 - 4NT = -
@@ -2336,8 +2337,9 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 - P = 0-7 HCP 4+ cards C T/P
 - 3D = 0-7 HCP 4+ cards D
 - 3H = 4S GF with Stopper H
-- 3S = 5+S GF with Stopper H
+- 3S = 8-11 HCP 5+S with Stopper H
 - 3NT = T/P with stopper H
+    - Ingin menunjukkan stopper H
     - Tadi ingin mencari Strong partner
 
 ## Overcall: 2S
@@ -2360,9 +2362,10 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
     - Forcing, 0-7 HCP 4+C/D/H lewat sini
     - Ingin mengecek strong partner
 - 3C/D = 8-11 HCP 4+C/D
-- 3H = 5+H 8-11 HCP no stopper S
+- 3H = 8-11 HCP 5+H no stopper S
 - 3S = 4H GF no stopper S
-- 3NT = T/P with stopper S
+- 3NT = T/P no stopper S
+    - Kartu 4+ minor GF
 - 4C/D = -
 - 4H = T/P
 - 4S = -
@@ -2387,9 +2390,10 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 [Back](#overcall-2s-x-2nt)
 - P = 0-7 HCP 4+ cards C T/P
 - 3D = 0-7 HCP 4+ cards D
-- 3H = 5+H 8-11 HCP with stopper H
-- 3S = 4H GF with stopper H
-- 3NT = T/P with stopper H
+- 3H = 5+H 8-11 HCP with stopper S
+- 3S = 4H GF with stopper S
+- 3NT = T/P with stopper S
+    - Ingin Menunjukkan stopper S
     - Tadi ingin mencari Strong partner    
 
 # Another Convention
