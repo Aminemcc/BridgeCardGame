@@ -28,7 +28,7 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
     - [1NT Strong](#overcall-1nt-strong)
     - [2M](#overcall-2m)
         - [2H](#overcall-2h)
-        - 2S
+        - [2S](#overcall-2s)
 - Tambahan Konvensi Bidding :
     - [Response to ask keycards](#response-to-ask-keycards)
     - [Exclusion](#exclusion)
@@ -2309,9 +2309,9 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
     - Forcing, 0-7 HCP 4+C/D lewat sini
     - Ingin mengecek strong partner
 - 3C/D = 8-11 HCP 4+C/D
-- 3H = ask stopper H
-- 3S = 8-11 HCP 4+S
-- 3NT = T/P with stopper H
+- 3H = 4S GF no stopper H
+- 3S = 8-11 HCP 5+S no stopper H
+- 3NT = T/P no stopper H
 - 4C/D = -
 - 4H/S = T/P
 - 4NT = -
@@ -2335,9 +2335,10 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 [Back](#overcall-2h-x-2nt)
 - P = 0-7 HCP 4+ cards C T/P
 - 3D = 0-7 HCP 4+ cards D
-- 3H = -
-- 3S = ??
+- 3H = 4S GF with Stopper H
+- 3S = 5S GF with Stopper H
 - 3NT = T/P with stopper H
+    - Ingin Menunjukkan stopper H
     - Tadi ingin mencari Strong partner
 
 # Another Convention
