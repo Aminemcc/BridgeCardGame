@@ -2303,14 +2303,19 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 
 ## Overcall: (2H)-X
 [Back](#overcall-2h)<br>
+
+Lebensohl:<br>
+- Prinsipnya Fast Arrival Deny Stopper
+- Kalau punya stopper lewat Lebenoshl
+
 (2H)-X<br>
-- 2S = 0-7 HCP 4+S
+- 2S = 0-8 HCP 4+S
 - [2NT = Lebensohl](#overcall-2h-x-2nt)
     - Forcing, 0-7 HCP 4+C/D lewat sini
     - Ingin mengecek strong partner
-- 3C/D = 8-11 HCP 4+C/D
+- 3C/D = 9-11 HCP 4+C/D
 - 3H = 4S GF no stopper H
-- 3S = 8-11 HCP 5+S no stopper H
+- 3S = 9-11 HCP 5+S no stopper H
 - 3NT = T/P no stopper H
     - Kartu 4+ minor GF
 - 4C/D = -
@@ -2334,10 +2339,10 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 
 ## Overcall: (2H)-X-2NT-3C
 [Back](#overcall-2h-x-2nt)
-- P = 0-7 HCP 4+ cards C T/P
-- 3D = 0-7 HCP 4+ cards D
+- P = 0-8 HCP 4+ cards C T/P
+- 3D = 0-8 HCP 4+ cards D
 - 3H = 4S GF with Stopper H
-- 3S = 8-11 HCP 5+S with Stopper H
+- 3S = 9-11 HCP 5+S with Stopper H
 - 3NT = T/P with stopper H
     - Ingin menunjukkan stopper H
     - Tadi ingin mencari Strong partner
@@ -2357,12 +2362,17 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 
 ## Overcall: (2S)-X
 [Back](#overcall-2s)<br>
+
+Lebensohl:<br>
+- Prinsipnya Fast Arrival Deny Stopper
+- Kalau punya stopper lewat Lebenoshl
+
 (2S)-X<br>
 - [2NT = Lebensohl](#overcall-2s-x-2nt)
-    - Forcing, 0-7 HCP 4+C/D/H lewat sini
+    - Forcing, 0-8 HCP 4+C/D/H lewat sini
     - Ingin mengecek strong partner
-- 3C/D = 8-11 HCP 4+C/D
-- 3H = 8-11 HCP 5+H no stopper S
+- 3C/D = 9-11 HCP 4+C/D
+- 3H = 9-11 HCP 5+H no stopper S
 - 3S = 4H GF no stopper S
 - 3NT = T/P no stopper S
     - Kartu 4+ minor GF
@@ -2388,9 +2398,9 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 
 ## Overcall: (2S)-X-2NT-3C
 [Back](#overcall-2s-x-2nt)
-- P = 0-7 HCP 4+ cards C T/P
-- 3D = 0-7 HCP 4+ cards D
-- 3H = 5+H 8-11 HCP with stopper S
+- P = 0-8 HCP 4+ cards C T/P
+- 3D = 0-8 HCP 4+ cards D
+- 3H = 5+H 9-11 HCP with stopper S
 - 3S = 4H GF with stopper S
 - 3NT = T/P with stopper S
     - Ingin Menunjukkan stopper S
