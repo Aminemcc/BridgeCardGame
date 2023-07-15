@@ -2311,7 +2311,7 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 - 3C/D = 8-11 HCP 4+C/D
 - 3H = 4S GF no stopper H
 - 3S = 8-11 HCP 5+S no stopper H
-- 3NT = T/P no stopper H
+- 3NT = T/P with stopper H
 - 4C/D = -
 - 4H/S = T/P
 - 4NT = -
@@ -2336,10 +2336,61 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
 - P = 0-7 HCP 4+ cards C T/P
 - 3D = 0-7 HCP 4+ cards D
 - 3H = 4S GF with Stopper H
-- 3S = 5S GF with Stopper H
+- 3S = 5+S GF with Stopper H
 - 3NT = T/P with stopper H
-    - Ingin Menunjukkan stopper H
     - Tadi ingin mencari Strong partner
+
+## Overcall: 2S
+[Back](#content)<br>
+2S = Weak 6+ Cards S (biasanya pasti 6 lbr)<br>
+- [(2S) - X = Takeout dbl](#overcall-2s-x)
+    - X = 12-17 HCP 3+ cards selain S
+    - X = 18+ any
+        - kartu 18+ dengan 5+ cards C kadang bid 3C langsung karena susah nunjukinnya nanti
+- (2S) - 2NT = 16-18 HCP Balance with stoopper S
+- (2S) - 3C/D/H = 12-17 HCP 5+ cards C/D/H
+- (2S) - 3S = -
+- (2S) - 3NT = T/P
+- (2S) - 4H = T/P
+
+## Overcall: (2S)-X
+[Back](#overcall-2s)<br>
+(2S)-X<br>
+- [2NT = Lebensohl](#overcall-2s-x-2nt)
+    - Forcing, 0-7 HCP 4+C/D/H lewat sini
+    - Ingin mengecek strong partner
+- 3C/D = 8-11 HCP 4+C/D
+- 3H = 5+H 8-11 HCP no stopper S
+- 3S = 4H GF no stopper S
+- 3NT = T/P with stopper S
+- 4C/D = -
+- 4H = T/P
+- 4S = -
+- 4NT = -
+- 5C/D = T/P
+
+## Overcall: (2H)-X-2NT
+[Back](#overcall-2h-x)<br>
+- [3C = Default bid forced](#overcall-2s-x-2nt-3c)
+- 3D = 18+ 5+ cards D
+- 3H = 18+ 5+ cards H
+- 3S = -
+- 3NT = T/P
+- 4C = 18+ 5+ cards C
+    - Ketinggian
+- 4D = -
+- 4H/S = T/P
+- 4NT = -
+- 5C/D = T/P
+
+## Overcall: (2S)-X-2NT-3C
+[Back](#overcall-2s-x-2nt)
+- P = 0-7 HCP 4+ cards C T/P
+- 3D = 0-7 HCP 4+ cards D
+- 3H = 5+H 8-11 HCP with stopper H
+- 3S = 4H GF with stopper H
+- 3NT = T/P with stopper H
+    - Tadi ingin mencari Strong partner    
 
 # Another Convention
 Berikut merupakan konvensi-konvensi bridge yang dijelaskan secara terpisah, tidak melalui sequence <br>
