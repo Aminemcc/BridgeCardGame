@@ -363,6 +363,51 @@
 - A-20 : 6H  = Careful Play + Endplay
     - (1S)-X-1NT-3H-4H-6H
 - A-21 : 6S  = Strip Squeeze
+    - (2H)-P-X-3C-4S-5H-6S
+- A-22 : 4S  = Endplay
+    - (3H)-X-4S
+- A-23 : 3NT = Entry Squeeze
+    - (1S)-X-1NT-3NT
+- A-24 : 3C  = Trump Squeeze
+    - (P)-P-(1D)-(1S)-2C-2S-3C
+- A-25 : 4H  = Entry Shifting Squeeze
+    - 1S-(2NT)-4H
+- A-26 : 6H  = Avoidance Play
+    - 1H-(2NT)-4C-4S-5D-6H
+- A-27 : 6H  = Compound Squeeze
+    - 1C-1H-2H-4NT-5D-6H
+- A-28 : 7S  = Compound Squeeze
+    - 1NT-3S-4C-5S-7S
+- A-29 : 7NT = Compound Squeeze
+    - 1D-3C-(3D)-(4C)-4NT-5S-7NT
+- A-30 : 6NT = Compound Squeeze
+    - (3S)-3NT-6NT
+- A-31 : 3NT = Endplay + Avoidance Play
+    - 2D-3NT
+- A-32 : 4H  = Endplay
+    - (1D)-P-X-2D-2H-4H
+- A-33 : 6S  = Endplay
+    - 2D-2S-3S-6S
+- A-34 : 7D  = Guard Squeeze
+    - 2C-2NT-4NT-5H-7D
+- A-35 : 6S  = Guard Squeeze
+    - 1S-3S-(4H)-4NT-5D-6S
+- A-36 : 6C  = Double Guard Squeeze
+    - 1D-2C-3C-3H-4D-6C
+- B-01 : 6H  = Entry Management
+    - 2C-(2NT)-(3D)-3H-4H-6H
+- B-02 : 6H  = Safety Play + Counting + Endplay
+    - 2NT-3C-3H-5H-6H
+- B-03 : 7NT = Repeating Squeeze
+    - (2H)-3NT-4NT-5H-7NT
+- B-04 : 5C  = Safety Play
+    - 1C-1D-2S-3C-3D-3H-5C
+- B-05 : 3NT = Compound Suicide Squeeze
+    - 1C-3NT
+- B-06 : 6H  = Entry management
+    - 2C-(2NT)-(4C)-4H-5H-6H
+- B-07 : 6S  = Counting
+    - 1S-(2NT)-3C-3D-4S-6S
 
 ## Best Play for given condition
 

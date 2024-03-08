@@ -2,7 +2,9 @@
 - [1D](#1D)
 - [1H](#1H)
 - [1S](#1S)
+- [Overcall 2NT mm](#overcall-2nt-mm)
 - [OBAR : Opponent Bid And Raise](#OBAR)
+
 
 
 ## 1D
@@ -287,6 +289,23 @@ Notes:<br>
 - 4D = Splinter D fit H SI
 - 4H = ?
 - 4S = Preemptive
+
+## Overcall 2NT mm
+[Back](#content)<br>
+(2NT) : mm
+- P  = 
+    - Kalau memang HCP, distribusi biasa, mending biarkan pass dulu baru masuk
+- X  = 44MM / 54MM / Any ALL STRONG
+- 3C = 55MM STRONG Hand
+- 3D = 55MM Opening Hand
+- 3H = 5/6+ Opening Hand
+- 3S = 5/6+ Opening Hand
+- 3NT= 65MM Weak Hand
+    - Aku Kurang setuju ini si, mending taro di 4C, 3NT jadiin T/P
+- 4C = ?
+- 4D = ?
+- 4H = Strong Hand T/P
+- 4S = Strong Hand T/P
 
 ## OBAR
 [Back](#Content)<br>
