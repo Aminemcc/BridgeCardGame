@@ -1547,7 +1547,7 @@ Note :
 [Back](#sequence)<br>
 - 2H = T/P
 - 2S = T/P
-- 2NT= 10+ HCP Ask dist
+- 2NT= [12+ HCP Ask dist GF](#2D-2NT)
 - 3C = T/P
 - 3H = 10-11 HCP Invite
 - 3S = 10-11 HCP Invite
@@ -1558,6 +1558,7 @@ Note :
 - 4S = T/P
 - 4NT= ?
 - 5C = T/P
+
 
 ## 2D-2NT
 [Back](#sequence-2d)<br>
@@ -1581,6 +1582,8 @@ Note :
 - Lupa ini ka urutannya D:
 - Gampang buat set fit
 - 2NT = SI
+
+## 2D-2NT-3C
 
 ## Sequence 2H
 [Back to sequence](#sequence)<br>
@@ -2017,6 +2020,7 @@ Examples :
 ## Competitive: 1NT
 [Back to 1NT](#1nt)<br>
 - [1NT-(X)](#competitive-1nt-x)
+- [1NT-(P)-P-(X)](#competitive-1nt-p-p-x)
 - [1NT-(2C)](#competitive-1nt-2c)
 - [1NT-(2D)](#competitive-1nt-2d)
 - [1NT-(2H)](#competitive-1nt-2h)
@@ -2072,6 +2076,22 @@ XX = Forced<br>
 2C = Forced<br>
 - P = 5+C T/P
 - 2D/H/S = 5+D/H/S T/P
+
+## Competitive: 1NT-(P)-P-(X)
+[Back](#competitive-1nt)<br>
+Sama seperti sebelumnya, tetapi kurang 1 space yaitu saat<br>
+P = Force to XX<br>
+Pada umumnya opener tidak perlu melakukan escaping, tetapi dari partner yang melakukan<br>
+
+Konvensi DONT :<br>
+- P  = 5+ HCP T/P
+- XX = Force to 2C
+    - 5+any / (4333)any T/P
+- 2C = C + atas
+- 2D = D + M
+- 2H = H + S
+
+Cara menghafal kalau 5+ lewat XX, kalau 4+4+ langsung bid suit terendah<br>
 
 ## Competitive: 1NT-(2C)
 [Back](#competitive-1nt)<br>
@@ -2382,8 +2402,8 @@ Lebensohl:<br>
 - 4NT = -
 - 5C/D = T/P
 
-## Overcall: (2H)-X-2NT
-[Back](#overcall-2h-x)<br>
+## Overcall: (2S)-X-2NT
+[Back](#overcall-2s-x)<br>
 - [3C = Default bid forced](#overcall-2s-x-2nt-3c)
 - 3D = 18+ 5+ cards D
 - 3H = 18+ 5+ cards H
