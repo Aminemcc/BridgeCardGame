@@ -1,5 +1,8 @@
-
-
+# Content
+- [1D](#1D)
+- [1H](#1H)
+- [1S](#1S)
+- [OBAR : Opponent Bid And Raise](#OBAR)
 
 
 ## 1D
@@ -132,3 +135,164 @@ Notes :<br>
 - 3H = 6+S + 4H
 - 3S = 6+S + 4D
 
+## 1H
+[Back](#Content)<br>
+- [1H-(X)](#1h-x)
+- [1H-(2H)](#1h-ovc-2h)
+- [1H-(2S)](#1h-ovc-2s)
+
+## 1H-(X)
+[Back](#1H)<br>
+
+1H - (X)<br>
+- P  = Pass
+- XX = 10+ HCP 2-H Penalty Oriented
+- 1S = 4+S F1
+- 1NT= TRF-C
+- 2C = TRF-D
+- Versi Lama
+    - 2D = 6-9 HCP 3+H
+    - 2H = 5/6- HCP 3+H
+    - 2NT= Limit/Better 3+H
+- Versi Baru
+    - 2D = Weak / Strong 3+H
+    - 2H = 8-10 HCP 3+H Constuctive
+    - 2NT= 10-11 HCP 3+H Invite
+- 2S = 7-10 HCP 5+S + 4+H
+- 2NT= Penjelasan Di Atas
+- 3C = 7-10 HCP 5+C + 4+H
+- 3D = 7-10 HCP 5+D + 4+H
+- 3H = Preemptive 4+H
+- 3S = Splinter-S 4+H
+- 3NT= Splinter-D 4+H (Hati hati lupa)
+- 4C = Splinter-C 4+H
+- 4D = Splinter-D 4+H
+
+Notes:<br>
+- Fit Showing Jump, Inv Tunjukkan Support 4 dan natural 5
+- Double Jump : Splinter Fit
+- Saat sudah ada GF dan fit
+    - P  = SI
+    - X  = No SI
+    - 5H = antara SI atau T/P
+
+## 1H-(OVC 2H)
+[Back](#1H)<br>
+1H - (2H)<br>
+- P  = Pass
+    - Competitive Part Score disini
+- X  = 2-H 10+ HCP
+    - Penalty Oriented
+    - T/P 3NT
+- 2NT= Trf 5+C 10+ HCP
+- 3C = Trf 5+D 10+ HCP
+- 3D = Trf 3+H Inv
+- 3H = 7-9 HCP 3+H
+- 3S = Fit H GF
+- 3NT= Splinter S fit H SI
+- 4C = Splinter C fit H SI
+- 4D = Splinter D fit H SI
+- 4H = T/P
+
+## 1H-(OVC 2S)
+[Back](#1H)<br>
+1H - (2S)<br>
+- P  = Pass
+- X  = T/O
+    - Bisa cuma agar tidak 2S
+    - Bisa mau T/P 3NT
+- 2NT= Trf 5+C 10+ HCP
+- 3C = Trf 5+D 10+ HCP
+- 3D = Trf 3+H Inv
+- 3H = 7-9 HCP 3+H
+- 3S = Fit H GF
+- 3NT= Splinter S Fit H SI
+- 4C = Splinter C Fit H SI
+- 4D = Splinter D Fit H SI
+- 4H = T/P
+
+## 1S
+[Back](#content)<br>
+- [1S-(X)](#1s-x)
+- [1S-(2H)](#1s-ovc-2h)
+- [1S-(2S)](#1s-ovc-2s)
+
+## 1S-(X)
+[Back](#1S)<br>
+1S - (X)<br>
+- P  = Pass
+- XX = 10+ HCP 2-S Penalty Oriented
+- 1NT= TRF-C
+- 2C = TRF-D
+- 2D = TRF-H
+- Versi Lama
+    - 2H = 7-9 HCP 3+S
+    - 2S = 6- HCP 3+S
+    - 2NT= Limit/Better 3+S
+- Versi Baru
+    - 2H = Weak / Strong 3+S
+    - 2S = 8-10 HCP 3+S Constuctive
+    - 2NT= 10-11 HCP 3+S Invite
+- 3C = 7-10 HCP 5+C + 4+S
+- 3D = 7-10 HCP 5+D + 4+S
+- 3H = 7-10 HCP 5+H + 4+S
+- 3S = Preemptive 4+S
+- 3NT= Splinter-H 4+S (Hati hati lupa)
+- 4C = Splinter-C 4+S
+- 4D = Splinter-D 4+S
+- 4H = ?
+- 4S = Preemptive
+
+Notes:<br>
+- Fit Showing Jump, Inv Tunjukkan Support 4 dan natural 5
+- Double Jump : Splinter Fit
+- Saat sudah ada GF dan fit
+    - P  = SI
+    - X  = No SI
+    - 5H = antara SI atau T/P
+
+
+## 1S-(OVC 2H)
+[Back](#1S)<br>
+1S - (2H)<br>
+- P  = Pass
+- X  = Responsive Dbl
+- 2S = 9-HCP 3+S NF
+- 2NT= Trf 5+C 10+ HCP
+- 3C = Trf 5+D 10+ HCP
+- 3D = Trf 3+S Inv
+- 3H = Fit S GF
+- 3S = Premptive
+- 3NT= Splinter H Fit S SI
+- 4C = Splinter C Fit S SI
+- 4D = Splinter D Fit S SI
+- 4H = ?
+- 4S = Preemptive
+
+## 1S-(OVC 2S)
+[Back](#1S)<br>
+1S - (2S)<br>
+- P  = Pass
+    - Competitive Part Score disini
+- X  = 2-S 10+ HCP
+    - Penalty Oriented
+    - T/P 3NT
+- 2NT= Trf 5+C 10+ HCP
+- 3C = Trf 5+D 10+ HCP
+- 3D = Trf 3+S Inv
+- 3H = Fit S GF
+- 3S = 7-9 HCP 3+S
+- 3NT= Splinter H fit H SI
+- 4C = Splinter C fit H SI
+- 4D = Splinter D fit H SI
+- 4H = ?
+- 4S = Preemptive
+
+## OBAR
+[Back](#Content)<br>
+OBAR : Opponent Bid And Raise<br>
+Bidding ini bisa terjadi ketika HCP Musuh sudah pasti sekitar 20 saat dijumlahkan (Interval HCP tergantung kondisi)<br>
+Sehingga Bidding dalam kondisi seperti ini tidak harus memiliki minimal HCP tertentu.<br>
+Contoh:<br>
+- (1H)-(2H)-Bid
+- (1H)-(3C:Bergen)-Bid
