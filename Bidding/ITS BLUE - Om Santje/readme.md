@@ -2,6 +2,7 @@
 - [1D](#1D)
 - [1H](#1H)
 - [1S](#1S)
+- [1NT](#1NT)
 - [Overcall 2NT mm](#overcall-2nt-mm)
 - [OBAR : Opponent Bid And Raise](#OBAR)
 
@@ -289,6 +290,92 @@ Notes:<br>
 - 4D = Splinter D fit H SI
 - 4H = ?
 - 4S = Preemptive
+
+## 1NT
+[Back](#content)<br>
+
+- [2C = Stayman, Pasti ada 4M / MM / 3-Suiter](#1nt-2c)
+- 2D = 5+H Transfer any
+- 2H = 5+S Transfer any
+- 2S = Bal Inv+ / mm
+- 2NT= 6+C Transfer any
+- 3C = 6+D Transfer any
+- 3D = ask 5M GF
+- 3H = Splinter H (45+) mm
+- 3S = Splinter S (45+) mm
+- 3NT= T/P
+- 4C = (6+5+) MM Game Only
+- 4D = 6+H Transfer
+- 4H = 6+S Transfer
+- 4S = (6+5+) mm Game Only
+- 4NT= 6+C Transfer C Game Only
+- 5C = 6+D Transfer D Game Only
+
+## 1NT-2C
+[Back](#1nt)<br>
+1NT-2C<br>
+- [2D = No 4M](#1nt-2c-2d)
+- [2H = 4H, may have 4S](#1nt-2c-2h)
+- 2S = 4S, no 4H
+
+## 1NT-2C-2D
+[Back](#1nt-2c)<br>
+1NT-2C<br>
+2D<br>
+- P  = T/P D
+- 2H = 44M NF
+- [2S = 4M + 5+C / 4+C Showing Stopper GF](#1nt-2c-2d-2s)
+- 2NT= Inv
+- 3C = 4M + 5+D / 4+D Showing Stopper GF
+- 3D = 55MM Inv+
+- 3H = 4H + 5S Smolen GF
+- 3S = 4S + 5H Smolen GF
+- 3NT= T/P
+- 4C = (6+5+) MM SI
+- 4D = 6+H + 4S
+- 4H = 6+S + 4H
+
+## 1NT-2C-2D-2S
+[Back](#1nt-2c-2d)<br>
+1NT-2C<br>
+2D-2S<br>
+- [2NT= 2 lbr C, Pasti 5+D](#1nt-2c-2d-2s-2nt3c)
+- [3C = 3+C](#1nt-2c-2d-2s-2nt3c)
+
+## 1NT-2C-2D-2S-2NT/3C
+[Back](#1nt-2c-2d-2s)<br>
+1NT-2C<br>
+2D-2S<br>
+2NT/3C<br>
+- P/3C= T/P
+- 3D = Showing Stopper D
+- 3H = Showing Stopper H
+- 3S = Showing Stopper S
+- 3NT= T/P
+
+## 1NT-2C-2H
+[Back](#1nt-2c)<br>
+1NT-2C<br>
+2H<br>
+- P = T/P
+- 2S = 4S + 5+C / 4+C Showing Stopper GF
+- 2NT= Inv
+- 3C = 4S + 5+D / 4+D Showing Stopper GF
+- 3D = Transfer H No SPL SI
+- 3H = Fit H Invite
+- 3S = Splinter S Fit H SI
+- 3NT= T/P, Pasti ada 4S
+- 4C = Splinter C Fit H SI
+- 4D = Splinter D Fit H SI
+- 4H = T/P
+- 4S = RKCB-H
+- 4NT= Exclusion S
+- 5C = Exclusion C
+- 5D = Exclusion D
+
+
+Notes :<br>
+- Tidak Boleh dijawab selain 2D/H/S
 
 ## Overcall 2NT mm
 [Back](#content)<br>

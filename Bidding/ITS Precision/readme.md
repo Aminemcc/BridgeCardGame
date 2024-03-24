@@ -517,6 +517,12 @@ Note :
 - 2D = 6+D
 - [2H = 4H](#1d-1h-2h)
     - Prioritas support 4 lembar H
+- 2S = ?
+- 2NT= 6+D + 3H MAX HCP
+- 3C = (55+) mm MAX HCP No 3 lbr H
+- 3D = 6+D MAX HCP No 3 lbr H
+- 3H = 4H MAX HCP Inv to Game
+- 3S = 4H + 6+D Splinter S
 
 ## 1D-1H-1S
 [Back](#1d-1h)<br>
@@ -524,14 +530,16 @@ Note :
 - [2C = Puppet to 2D](#1d-1h-1s-2c-2d)
 - [2D = GF](#1d-1h-1s-2d)
 - 2H = 6+H T/P
-- 2S = 4+S Invite
+- 2S = 4+S 7-9
+    - Invite lewat 2C
+    - Bisa saja Opener Max HCP with short ingin game
 
 ## 1D-1H-1S-2C-2D
 [Back](#1d-1h-1s)<br>
 2D = Forced<br>
 - P = T/P
 - 2H = 5+H Invite
-- 2S = ?
+- 2S = 4+S Invite
 - 2NT= Invite to 3NT
 
 ## 1D-1H-1S-2D
@@ -550,11 +558,13 @@ Note :
 - [2D = GF](#1d-1h-1nt-2d)
     - Mencari fit 5-3 lewat sini
 - 2H = 5+H T/P
-- 2S = 6+H + any second suit
+- 2S = 6+H/m + 4+any GF
     - Kartu jarang & sering dilupakan bidnya
 - [2NT= Puppet to 3C](#1d-1h-1nt-2nt-3c)
     - T/P 3C atau 6+m GF
-- 3C/D/H = ?
+- 3C = 5H + 5C GF
+- 3D = 5H + 5D GF
+- 3H = 6+H Invite with 2 top honor
 - 3S = Splinter S 7+H SI
 - 3NT= T/P
 - 4C/D = Splinter C/D 7+H SI
@@ -634,6 +644,12 @@ Note :
 - 2H = ?
 - [2S = 4S](#1d-1s-2s)
     - Prioritas support 4 lembar Spades
+- 2NT= 6+D + 3S MAX HCP
+- 3C = (55+) mm MAX HCP no 3S
+- 3D = 6+D MAX HCP no 3S
+- 3H = 6+D + 4S Splinter H MAX HCP
+- 3S = 4S MAX HCP with short (invite to Game)
+- 
 
 ## 1D-1S-1NT
 [Back](#1d-1s)<br>
