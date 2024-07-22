@@ -544,12 +544,22 @@ Note :
 
 ## 1D-1H-1S-2D
 [Back](#1d-1h-1s)<br>
-- 2H = 3 lbr H (Secondary support)
+- [2H = 3 lbr H (Secondary support)](#1d-1h-1s-2d-2h)
 - 2S = 12-13 HCP Balance
     - Karena max punya 4 lenbar S, maka diisi balanced card
 - 2NT= 14 HCP Balance
 - 3C = 4+4+ minors
 - 3D = 5+D
+
+## 1D-1H-1S-2D-2H
+[Back](#1d-1h-1s-2d)<br>
+- 2S = Set fit SI
+- 2NT= Balance GF
+    - Bisa belum yakin stopper D
+    - Bisa mau SI
+- 3C = Ask stopper C
+- 3D = 4+D GF
+- 3H = Set fit SI
 
 ## 1D-1H-1NT
 [Back](#1d-1h)<br>
