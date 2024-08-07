@@ -19,7 +19,7 @@ unbalOpener = 1
 
 
 //Minimum HCP 1C Opener & Partner
-min_hcp = 21
+min_hcp = 16
 max_hcp = 40
 
 //--responder--//
