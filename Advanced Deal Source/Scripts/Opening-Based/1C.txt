@@ -43,12 +43,12 @@ resp2Suiter = 1
 
 
 //quality one of opponents card (0 : off, 1 : on)
-quality_set = 1
+quality_set = 0
 //interval is : [0-3000] quality of normal opening around 1200
 minQuality = 0
 maxQuality = 1100
 //balanced card and HCP between opps (0 : off, 1 : on)
-balancedOpps = 1
+balancedOpps = 0
 
 //---Setting Done---//
 
