@@ -336,7 +336,7 @@
     - (2S)-3NT-6NT
 - C-11 : 6S  = Safety Play
     - 2H-2S-3S-6S
-- C-12 : 4H  = Simple Squeeze (Transfer the Threat)
+- C-12 : 4H  = Simple Squeeze (Transfer Squeeze)
     - 1H-(1S)-2H-4H
 - C-13 : 4S  = Endplay
     - (4H)-4S
@@ -379,6 +379,64 @@
     - (2H)-3NT-4NT-6NT
 - D-2  : 6S  = Other
     - 2NT-4C-4NT-6S
+- D-3  : 4H  = Safety Play
+    - 1S-2H-2S-3C-3H-4H
+- D-4  : 3NT = Careful Play + Entry Management
+    - 1C-1NT-3NT
+- D-5  : 3NT = Other
+    - 2NT-3NT
+- D-6  : 3NT = Entry Management
+    - 2NT-3NT
+- D-7  : 2S  = Dummy Reversal
+    - 1S-2S
+- D-8  : 5C  = 
+    - 1D-2C-(2S)-3C-3H-4C-5C
+- D-9  : 6D  = Careful Play + Entry Management
+    - 1S-1NT-3C-3D-6D 
+- D-10 : 6H  = Loser on Loser
+    - 1C-1H-(1S)-3H-4NT-5H-6H
+- D-11 : 4S  = Endplay
+    - 1S-(X)-2S-4S
+    - Morton's Fork Coup
+- D-12 : 4H  = Careful Play
+    - 2C-2D-2H-4H
+- D-13 : 6H  = Endplay
+    - 1H-4NT-5H-5NT-6D-6H
+- D-14 : 6H  = Dummy Reversal
+    - (2D)-2NT-3D-3H-6H
+- D-15 : 4S  = Entry Management
+    - 2S-4S
+- D-16 : 4S  = Endplay
+    - 1S-(2H)-3S-4S
+- D-17 : 3NT = Safety Play
+    - 1D-1H-2C-3NT
+- D-18 : 4S  = Endplay
+    - 1S-2H-2S-2NT-3C-3S-4S
+- D-19 : 6C  = Loser on Loser / Endplay
+    - 2C-2D-3C-3D-3NT-5C-6C
+- D-20 : 4S  = Trump Management
+    - 1S-2C-(2H)-2S-4S
+- D-21 : 6S  = Strip Squeeze
+    - 1NT-3S-4C-6S
+- D-22 : 3NT = Gambit Play
+    - (3H)-3NT
+- D-23 : 4S  = Careful Play + Dummy Reversal
+    - (1H)-1S-2S-(3H)-4S
+- D-24 : 4S  = Trump Management
+    - (1H)-X-(3H)-P-X-3S-4C-4S
+- D-25 : 4S  = Endplay
+    - 1C-(1D)-1S-(2D)-4S
+- D-26 : 3NT = Careful Play
+    - 3NT
+- D-27 : 4S  = Simple Squeeze (Transfer Squeeze)
+    - 1D-1S-(X)-2S-4S
+- D-28 : 4S  = Endplay
+    - 1S-(2H)-3S-4S
+- D-29 : 6D  = Loser on Loser
+    - 1D-1H-1S-2C-2D-6D
+- D-30 : 6H  = Avoidance Play
+    - (P)-P-(5C)-6C-6D-6H
+
 
 ## Level 5
 - A-1  : 3NT = Careful Play
