@@ -439,16 +439,16 @@
 
 
 ## Level 5
-- A-1  : 3NT = Careful Play
+- A-1  : 3NT = Safety Play
     - 1D-1NT-2NT-3NT
 - A-2  : 5C  = Entry Management
     - (2S)-(3S)-5C
 - A-3  : 6H  = Strip Squeeze
     - 1H-(2NT)-3C-3S-4C-4NT-5H-6H
-- A-4  : 4H  = Ducking Play
+- A-4  : 4H  = Careful Play
     - 1H-2H-4H
-- A-5  : 3DX = Bidding + Avoidance Play + Cross Ruff
-    - (1NT)-2H-(X)-2S-(X)-3D-(P)-(X)]
+- A-5  : 3DX = Avoidance Play + Trump Management
+    - (1NT)-2H-(X)-2S-(X)-3D-(P)-(X)
 - A-6  : 4H  = Trump Management + Careful Play
     - 1C-(1S)-2H-(2S)-3H-4H
 - A-7  : 6C  = Careful Play
@@ -458,23 +458,23 @@
     - 1C-1S-2C-2D-3D-3NT
 - A-9  : 5H  = Smother Play
     - (4S)-X-5H
-- A-10 : 6NT = Checking Play + Simple Squeeze
+- A-10 : 6NT = Simple Squeeze
     - 1C-1H-2NT-6NT
-- A-11 : 4S  = Double Finesse + Careful Play + Cross Ruff
+- A-11 : 4S  = Safety Play
     - (1NT)-X-(2C)-X-(P)-(2H)-(P)-2S-3S-4S
 - A-12 : 6S  = Endplay
     - (3H)-6S
 - A-13 : 4S  = Avoidance Play + Strip Squeeze
     - (1NT)-(2H)-X-(3H)-(4H)-4S
-- A-14 : 6S  = Play Choice
+- A-14 : 6S  = Other
     - (P)-1C-(3D)-X-4D-5D-6S
-- A-15 : 4S  = Trump Management + Entry Management
+- A-15 : 4S  = Entry Management + Careful Play
     - 2C-2D-2S-3S-4H-4S
-- A-16 : 6D  = Trump Management + Entry Management + Trump Coup
+- A-16 : 6D  = Entry Management + Safety Play + Endplay
     - 1D-1H-3D-6D
 - A-17 : 6S  = Simple Squeeze
     - 1H-(2C)-3S-3NT-4C-4H-6S
-- A-18 : 6H  = Play Choice + Endplay
+- A-18 : 6H  = Endplay
     - 1H-3H-3S-4D-6H
 - A-19 : 5C  = Trump Squeeze
     - (4H)-X-5C
@@ -486,7 +486,7 @@
     - (3H)-X-4S
 - A-23 : 3NT = Entry Squeeze
     - (1S)-X-1NT-3NT
-- A-24 : 3C  = Trump Squeeze
+- A-24 : 3C  = Trump Squeeze / Simple Squeeze
     - (P)-P-(1D)-(1S)-2C-2S-3C
 - A-25 : 4H  = Entry Shifting Squeeze
     - 1S-(2NT)-4H
@@ -512,9 +512,9 @@
     - 1S-3S-(4H)-4NT-5D-6S
 - A-36 : 6C  = Double Guard Squeeze
     - 1D-2C-3C-3H-4D-6C
-- B-01 : 6H  = Entry Management
+- B-01 : 6H  = Endplay
     - 2C-(2NT)-(3D)-3H-4H-6H
-- B-02 : 6H  = Safety Play + Counting + Endplay
+- B-02 : 6H  = Safety Play + Endplay
     - 2NT-3C-3H-5H-6H
 - B-03 : 7NT = Repeating Squeeze
     - (2H)-3NT-4NT-5H-7NT
@@ -524,8 +524,57 @@
     - 1C-3NT
 - B-06 : 6H  = Entry management
     - 2C-(2NT)-(4C)-4H-5H-6H
-- B-07 : 6S  = Counting
+- B-07 : 6S  = Other
     - 1S-(2NT)-3C-3D-4S-6S
+- B-08 : 6S  = Safety Play + Trump Coup
+    - 1D-1S-2NT-3S-4C-6S
+- B-09 : 6S  = Other
+    - (1H)-X-(4H)-P-4S-(5H)-5S-6S
+- B-10 : 4S  = Trump Squeeze
+    - (2H)-2S-3H-3S-4S
+- B-11 : 6H  = Careful Play + Simple Squeeze
+    - 1H-(1S)-2H-3C-(4D)-4H-6H
+- B-12 : 7C  = Double Trump Squeeze
+    - (2S)-X-4D-4S-5C-5D-5H-7C
+- B-13 : 6S  = Endplay
+    - 1S-2D-3S-4S-6S
+- B-14 : 6SX = Entry Management + Loser on Loser
+    - (5D)-5S-6S-(X)
+- B-15 : 4S  = Entry Management + Endplay
+    - (1NT)-3S-4S
+- B-16 : 4S  = Endplay
+    - 1S-2C-2NT-4S
+- B-17 : 4S  = Endplay + Avoidance Play
+    - 1NT-2C-2S-4S
+- B-18 : 4S  = Loser on Loser
+    - (1H)-1S-2H-(3H)-P-3S-4S
+- B-19 : 6S  = Careful Play + Endplay / Loser on Loser
+    - 2C-(3C)-6S
+- B-20 : 7S  = Dummy Reversal + Double Squeeze
+    - 1C-1S-2S-4NT-5D-5NT-7S
+- B-21 : 3NT = Entry Management
+    - 2C-2D-3D-3NT
+- B-22 : 6NT = Winkle
+    - (3H)-P-3NT-6NT
+- B-23 : 6S  = Careful Play + Loser on Loser
+    - 1S-1NT-3H-3S-4C-4D-6S
+- B-24 : 3S  = Avoidance Play
+    - 1S-1NT-2S-(X)-3S
+- B-25 : 5H  = Strip Squeeze
+    - 1H-(2H)-3H-(4S)-5H
+- B-26 : Simple Squeeze
+    - (3H)-(4H)-4S-P-(5H)-5S-6S
+- B-27 : 7S  = Entry Management + Counting
+    - 1S-(3D)-4D-4NT-5H-5NT-7S
+- B-28 : 6NT = Double Guard Squeeze
+    - (3S)-4D-4NT-5D-6NT
+- B-29 : 6NT = Double Stepping Stone Squeeze
+    - 2C-2D-(3S)-6NT
+- B-30 : 3NT = Compound Suicide Squeeze
+    - 2C-2D-2NT-3NT
+- C-01 : 4S  = Avoidance Play + Entry Management
+    - (1C)-X-(2D)-2S-2NT-3S-4S
+
 
 ## Best Play for given condition
 
