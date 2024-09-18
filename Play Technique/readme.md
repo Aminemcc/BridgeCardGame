@@ -133,21 +133,21 @@
 - B-13 : 3NT = Entry Management
 - B-14 : 
 ## Level 3
-- A-1  : 6S  = Trump Management + Play Choice + Safety Play + Ducking Play
+- A-1  : 6S  = Safety Play
 - A-2  : 6NT = Safety Play
-- A-3  : 6H  = Safety Play + Entry Management - Ducking Play
+- A-3  : 6H  = Safety Play
 - A-4  : 4S  = Trump Management
-- A-5  : 4H  = Play Choice + Careful PLay
+- A-5  : 4H  = Careful PLay
 - A-6  : 6S  = Endplay
 - A-7  : 3S  = Endplay
-- A-8  : 3NT = Careful Play + Entry Management
+- A-8  : 3NT = Safety Play
 - A-9  : 6S  = Endplay
 - A-10 : 6S  = Safety Play
 - A-11 : 6NT = Careful Play + Avoidance Play
-- A-12 : 5S  = Lead
+- A-12 : 5S  = Careful Play
 - A-13 : 4H  = Loser on Loser
-- A-14 : 3NT = Maximum Lose + Finesse + Careful Play + Entry Management
-- A-15 : 6D  = Entry Management + Finesse
+- A-14 : 3NT = Entry Management
+- A-15 : 6D  = Entry Management
 - A-16 : 3NT = Entry Management
 - A-17 : 3NT = Careful Play + Entry Management
 - A-18 : 3NT = Lead + Ducking Play
