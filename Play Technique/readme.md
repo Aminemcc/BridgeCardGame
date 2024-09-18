@@ -574,7 +574,64 @@
     - 2C-2D-2NT-3NT
 - C-01 : 4S  = Avoidance Play + Entry Management
     - (1C)-X-(2D)-2S-2NT-3S-4S
-
+- C-02 : 4S  = Endplay
+    - 1S-2S-4S
+- C-03 : 6NT = Other
+    - 2NT-3C-3S-4NT-6NT
+- C-04 : 5S  = Avoidance Play
+    - (1H)-4S-(5H)-5S
+- C-05 : 2NT = Discovery Play
+    - 2NT
+- C-06 : 7S  = Devil Coup
+    - 1NT-3S-4C-4NT-5H-5NT-6H-7S
+- C-07 : 6NT = Entry Shifting Squeeze
+    - 3NT-6NT
+- C-08 : 6H  = Endplay + Simple Squeeze
+    - 1H-(1S)-2S-3C-6H
+- C-09 : 6H  = Special
+    - 1H-1S-2C-2D-2H-6H
+- C-10 : 3NT = Avoidance Play + Endplay
+    - (1S)-P-1NT-3NT
+- C-11 : 4H  = Endplay + Entry Management
+    - 2H-4H
+- C-12 : 7S  = Backwash Squeeze
+    - 1S-(2NT)-4NT-5H-7S
+- C-13 : 6H  = Double Squeeze
+    - (1S)-2H-2S-4H-6H
+- C-14 : 5D  = Endplay + Three Suit Squeeze
+    - 1D-(2D)-X-(2S)-3D-(4S)-5D
+- C-15 : 3S  = Endplay
+    - 1S-1NT-3S
+- C-16 : 6H  = Simple Squeeze
+    - 1H-(2NT)-3C-(5C)-6H
+- C-17 : 3NT = Entry Management
+    - 1D-(1H)-1NT-3NT
+- C-18 : 3NT = Avoidance Play + Simple Squeeze
+    - (2H)-X-3D-3NT
+- C-19 : 5D  = Simple Squeeze (Jettison Squeeze)
+    - 1D-1S-2C-2H-3C-3D-5D
+- C-20 : 4SX = Entry Management + Endplay
+    - (1D)-1S-2D-2S-4S-P-(X)
+- C-21 : 6D  = Squeeze
+    - 1H-2D-2NT-3C-3D-6D
+- C-22 : 7S  = Double Trump Squeeze
+    - (3C)-4S-(5C)-6S-7S
+- C-23 : 5H  = Entry Management + Simple Squeeze
+    - (3S)-(4S)-5H
+- C-24 : 4S  = Three Suit Squeeze
+    - 2S-4S
+- C-25 : 6NT = Three Suit Squeeze
+    - 1C-(3H)-4D-6NT
+- C-26 : 6S  = Special
+    - (4D)-P-X-4H-4S-5S-6S
+- C-27 : 6NT = Three Suit Squeeze
+    - (1S)-X-(3D)-X-4NT-5D-6NT
+- C-28 : 6S  = Discovery Play + Three Suit Squeeze
+    - (2H)-P-X-3S-6S
+- C-29 : 6NT = Entry Shifting Squeeze
+    - 1C-(2C)-2H-4NT-5H-5NT-6D-6NT
+- C-30 : 4H  = Three Suit Squeeze
+    - (1NT)-2H-(2S)-3H-4H
 
 ## Best Play for given condition
 
