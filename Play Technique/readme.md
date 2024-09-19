@@ -168,16 +168,17 @@
 - A-33 : 3NT = Discovery Play
 - A-34 : 3NT = Discovery Play
 - A-35 : 6NT = Other
-- A-36 : 6NT = Avoidance Play + Checking Play + Entry Management
+- A-36 : 6NT = Avoidance Play + Discovery Play + Entry Management
 - B-1  : 2S  = Endplay
-- B-2  : 4H  = Safety Play + Careful Play
-- B-3  : 6H  = Careful Play + Entry Management
-- B-4  : 6H  = Entry Management + Checking Play
-- B-5  : 4H  = Checking Play + Play Choice
+- B-2  : 4H  = Safety Play
+- B-3  : 6H  = Careful Play
+- B-4  : 6H  = Entry Management + Discovery Play
+- B-5  : 4H  = Other
     - [The Principle of Restricted Choice](https://en.wikipedia.org/wiki/Principle_of_restricted_choice)
 - B-6  : 5H  = Avoidance Play
-- B-7  : 4S  = Bidding + Lead + Ducking Play + Careful Play
-
+- B-7  : 4S  = Careful Play
+- B-8  : 4S  = Careful Play
+- B-9  : 2S  = Counting
 
 
 ## Level 4
