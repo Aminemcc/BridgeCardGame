@@ -232,6 +232,36 @@
 - C-29 : 3NT = Other
 - C-30 : 3NT = Careful Play
 - D-1  : 3NT = Entry Management
+- D-2  : 3NT = Careful Play
+- D-3  : 3NT = Other
+- D-4  : 6H  = Endplay
+- D-5  : 3NT = Careful Play
+- D-6  : 3NT = Entry Management
+- D-7  : 4H  = Careful Play
+- D-8  : 7S  = Entry Management
+- D-9  : 6H  = Careful Play
+- D-10 : 3NT = Entry Management
+- D-11 : 3NT = Careful Play + Safety Play
+- D-12 : 4H  = Careful Play
+- D-13 : 6H  = Safety Play
+- D-14 : 3NT = Avoidance Play + Careful Play
+- D-15 : 3NT = Entry Management + Safety Play
+- D-16 : 3NT = Other
+- D-17 : 3NT = Careful Play
+- D-18 : 6H  = Endplay
+- D-19 : 4H  = Careful Play + Entry Management
+- D-20 : 5H  = Discovery Play
+- D-21 : 6S  = Careful Play
+- D-22 : 4S  = Careful Play + Trump Management
+- D-23 : 4S  = Endplay
+- D-24 : 5C  = Endplay + Loser on Loser
+- D-25 : 3NT = Careful Play
+- D-26 : 6C  = Endplay
+    - Morton's Fork Coup
+- D-27 : 4S  = Entry Management
+- D-28 : 4S  = Entry Management
+- D-29 : 4S  = Loser on Loser + Endplay
+- D-30 : 6NT = Simple Squeeze
 
 
 ## Level 4
