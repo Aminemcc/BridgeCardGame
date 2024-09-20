@@ -295,8 +295,8 @@ Notes:<br>
 [Back](#content)<br>
 
 - [2C = Stayman, Pasti ada 4M / MM / 3-Suiter](#1nt-2c)
-- 2D = 5+H Transfer any
-- 2H = 5+S Transfer any
+- [2D = 5+H Transfer](#1nt-2d)
+- 2H = 5+S Transfer
 - 2S = Bal Inv+ / mm
 - 2NT= 6+C Transfer any
 - 3C = 6+D Transfer any
@@ -324,9 +324,9 @@ Notes:<br>
 2D<br>
 - P  = T/P D
 - 2H = 44M NF
-- [2S = 4M + 5+C / 4+C Showing Stopper GF](#1nt-2c-2d-2s)
+- [2S = 4M + 5+C GF / 4+C Showing Stopper GF / 3 Suiter Splinter D GF](#1nt-2c-2d-2s)
 - 2NT= Inv
-- 3C = 4M + 5+D / 4+D Showing Stopper GF
+- 3C = 4M + 5+D / 4+D Showing Stopper GF / 3 Suiter Splinter C GF
 - 3D = 55MM Inv+
 - 3H = 4H + 5S Smolen GF
 - 3S = 4S + 5H Smolen GF
@@ -347,7 +347,7 @@ Notes:<br>
 1NT-2C<br>
 2D-2S<br>
 2NT/3C<br>
-- P/3C= T/P
+- P/3C= 6+C NF T/P
 - 3D = Showing Stopper D
 - 3H = Showing Stopper H
 - 3S = Showing Stopper S
@@ -376,6 +376,108 @@ Notes:<br>
 
 Notes :<br>
 - Tidak Boleh dijawab selain 2D/H/S
+
+## 1NT-2D
+[Back](#1NT)<br>
+1NT-2D<br>
+- [2H = Default bid](#1NT-2D-2H)
+- [2S = Max HCP 4+H good hand](#1NT-2D-2S)
+
+## 1NT-2D-2H
+[Back](#1NT-2D)<br>
+1NT-2D<br>
+2H = Default bid<br>
+- P = T/P
+- [2S = GF Second suit C](#1NT-2D-2H-2S)
+- 2NT= Inv bisa 54M
+- 3C = GF Second Suit D
+- 3D = TF 6+H SI
+- 3H = Inv 6+H
+- 3S = Splinter S 7+H SI
+- 3NT = T/P (Opener pilih 3NT/4H)
+- 4C = Splinter C 7+H SI
+- 4D = Splinter D 7+H SI
+- 4H = Kuantitatif 5332
+    - P/4NT = T/P
+    - 4S = RKCB-H
+- 4S = RKCB-H 7+H
+
+## 1NT-2D-2H-2S
+[Back](#1NT-2D-2H)<br>
+1NT-2D<br>
+2H-2S=GF Second Suit C<br>
+- 2NT= No Fit H/C
+    - Stopper S & D
+- 3C = 4+C Fit
+- 3D = 5 lbr D / tidak bisa 2NT
+- 3H = Fit H
+- 3S = 5 lbr S / tidak bisa 2NT
+- 3NT= Jump dbl Fit H+C
+    - 4C = Set fit C
+    - 4D = Cue D Set fit H
+    - 4H = Set fit H no Cue D
+
+## 1NT-2D-2S
+[Back](#1NT-2D)<br>
+1NT-2D<br>
+2S=Max HCP 4+H<br>
+- 2NT = Second Suit C GF
+- 3C = Second Suit D GF
+- 3D = Retransfer H
+- 3H = No Splinter SI
+- 3S = 6+H Splinter S SI
+- 3NT= 6+H Splinter D SI
+- 4C = 6+H Splinter C SI
+- 4D = ? (Transfer H T/P)
+- 4H = T/P
+- 4S = RKCB-H
+- 4NT= Exclusion S
+
+## 1NT-2H
+[Back](#1NT)<br>
+1NT-2H<br>
+- 2S = Default bid
+- 2NT= Max HCP Support 4+S
+
+## 1NT-2H-2S
+[Back](#1NT-2H)<br>
+1NT-2H<br>
+2S<br>
+- P = T/P
+- 2NT= Inv
+- 3C = Transfer Second Suit D
+- 3D = Reverse Transfer Second suit C
+- 3H = Retransfer to 3S
+- 3S = Inv 6+S
+- 3NT= 5-S (Opener pilih 3NT/4S)
+- 4C = 7+S Splinter C SI
+- 4D = 7+S Splinter D SI
+- 4H = 7+S Splinter H SI
+- 4S = 5332 Kuantitatif
+- 4NT= 6+S RKCB-S
+- 5C = Exclusion C
+- 5D = Exclusion D
+- 5H = Exclusion H
+
+## 1NT-2H-2S-2NT
+[Back](#1NT-2H-2S)<br>
+1NT-2H<br>
+2S-2NT<br>
+- P = T/P Min
+- 3C = 5-C Max GF
+- 3D = 5-D Max GF
+- 3H = 5-H Max GF
+- 3S = Min T/P
+- 3NT= Max T/P
+- 4S = Max T/P
+
+
+
+
+
+
+
+
 
 ## Overcall 2NT mm
 [Back](#content)<br>
