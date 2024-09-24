@@ -329,6 +329,7 @@
 
 # Overcall
 [Back](#content)<br>
+[Go To Ovc Extend](#Overcall-Extend)<br>
 
 - Versus 1C Strong
     - X = MM
@@ -355,6 +356,16 @@
     - 2x = 12-15 natural
     - 2NT= mm
     - 3X = preemptive
+
+# Overcall-Extend
+[Back](#overcall)<br>
+- (1D!)-1H-2D! = limit or better fit H
+- (1D!)-2C-2D! = limit or better ask stopper
+- (1C/D std)-(1NT)
+    - 2C = MM Better H 5+4+
+    - 2D = MM Better S 5+4+
+    - 2H/S = 5+
+
 
 # Defense
 [Back](#content)<br>
