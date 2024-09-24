@@ -1,6 +1,7 @@
 
 # Content
 - [Opening](#opening)
+- [Overcall](#overcall)
 - [Defense](#defense)
 
 # Opening
@@ -11,6 +12,10 @@
 - [1S](#1s)
 - 1NT
 - [2C](#2C)
+
+## 1C
+[Back]()
+
 
 ## 1H
 [Back](#opening)<br>
@@ -321,6 +326,35 @@
 - 3S = Showing Stopper / Cue
 - 3NT= T/P Max
 
+
+# Overcall
+[Back](#content)<br>
+
+- Versus 1C Strong
+    - X = MM
+    - Suit = Natural
+    - NT = mm
+- Versus 1D std
+    - X = Takeout
+    - 1X = 8/9+
+    - 1NT = 15-17
+    - 2D = Michael MM
+- Versus 1D prec
+    - 2D = Diamond
+- Versus 1NT Strong
+    - X = 16+ HCP Penalty
+    - 2C = MM
+    - 2D = One Suiter M
+    - 2H = H + m
+    - 2S = S + m
+    - 2NT= mm
+    - 3X = Preemptive
+- Versus 1NT Weak
+    - X = 15+ Strong
+    - X third hand = Balancing X
+    - 2x = 12-15 natural
+    - 2NT= mm
+    - 3X = preemptive
 
 # Defense
 [Back](#content)<br>
