@@ -361,7 +361,7 @@
 [Back](#overcall)<br>
 - (1D!)-1H-2D! = limit or better fit H
 - (1D!)-2C-2D! = limit or better ask stopper
-- (1C/D std)-(1NT)
+- (1C std / 1D)-(1NT)
     - 2C = MM Better H 5+4+
     - 2D = MM Better S 5+4+
     - 2H/S = 5+
