@@ -29,8 +29,8 @@
 - 2H = 8-10 Fit H
 - 2S = GF 5+S, no 5-m
 - 2NT= 4+H 12-14 HCP
-- 3C = 4+H 8-11 HCP
-- 3D = Inv 3-H Balance
+- 3C = 4+H 6-9 HCP Unbalance
+- 3D = 4+H Inv Balance
 - 3H = Blocking
 - 3S = 4+H 12-14 HCP Splinter any
 - 3NT= T/P 4-H
@@ -131,8 +131,8 @@
 - 2H = GF 5+H
 - 2S = 8-10 HCP Fit S
 - 2NT= 4+S 12-14 HCP
-- 3C = 4+S 8-11 HCP
-- 3D = 3-S Inv
+- 3C = 4+S 6-9 HCP Unbalance
+- 3D = 4+S Inv Balance
 - 3H = 4+S 12-14 HCP Splinter any
 - 3S = Blocking
 - 3NT = T/P 3NT or 4S
@@ -362,8 +362,9 @@
 - (1D!)-1H-2D! = limit or better fit H
 - (1D!)-2C-2D! = limit or better ask stopper
 - (1C std / 1D)-(1NT)
-    - 2C = MM Better H 5+4+
-    - 2D = MM Better S 5+4+
+    - X = 44 / 55
+    - 2C = MM Better H 54
+    - 2D = MM Better S 54
     - 2H/S = 5+
 
 
