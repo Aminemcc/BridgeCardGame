@@ -1,6 +1,10 @@
 
+# Content
+- [Opening](#opening)
+- [Defense](#defense)
 
 # Opening
+[Back](#content)<br>
 - 1C
 - 1D
 - [1H](#1h)
@@ -316,3 +320,9 @@
 - 3H = Showing Stopper / Cue
 - 3S = Showing Stopper / Cue
 - 3NT= T/P Max
+
+
+# Defense
+[Back](#content)<br>
+- Besar-Kecil Selalu Ganjil
+- Discarding Roman lavinthal, Lavinthal tapi ganjil kecil minta suit itu
