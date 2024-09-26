@@ -6,15 +6,252 @@
 
 # Opening
 [Back](#content)<br>
-- 1C
-- 1D
+- [1C](#1C)
+- [1D](#1D)
 - [1H](#1h)
 - [1S](#1s)
 - 1NT
 - [2C](#2C)
 
 ## 1C
-[Back]()
+[Back](#opening)<br>
+Pake Bid keempat one step artifisial 12+. batas di 1C-2X-2S-2NT!<br>
+
+- 1D = 0-7 any
+- [1H = 8+ Balance](#1c-1h)
+- 1S = 8+ 5+S
+- 1NT= 8+ 5+H
+- 2C = 8+ 5+C
+- 2D = 8+ 5+D
+
+## 1C-1H
+[Back](#1c)<br>
+- 1S = 5+S
+- [1NT= Balance](#1c-1h-1nt)
+- 2C = 5+C
+- 2D = 5+D
+- 2H = 5+H
+
+## 1C-1H-1NT
+[Back](#1C-1H)<br>
+- [2C = 11+ HCP](#1c-1h-1nt-2c-2d)
+- 2D = 4-H + 4-m
+- 2H = 4-S + 4-m
+- 2S = 2344
+- [2NT= any 4333](#1c-1h-1NT-2NT-3C)
+- 3C = 4432
+- 3D = 4423
+- 3H = 3244 
+
+## 1C-1H-1NT-2C-2D
+[Back](#1c-1h-1nt)<br>
+- 2H = 4-S + 4-m
+- 2S = 4-H + 4-m
+- 2NT= any 4333
+- 3C = 4432
+- 3D = 4423
+- 3H = 3244
+- 3S = 2344
+
+Notes : <br>
+- Bid the dblton when 44 ranks
+
+## 1C-1H-1NT-2NT-3C
+[Back](#1c-1h-1nt)<br>
+- 3D = 4-H
+- 3H = 4-S
+- 3S = 4-C
+- 3NT= 4-D
+
+## 1D
+[Back](#opening)<br>
+- P = T/P
+- [1H = 4+H 6+HCP](#1D-1H)
+- 1S = 4+S 6+HCP
+    - 1D-1M-1NT may support 4-M / have 4-OM
+- 1NT= 8-HCP
+- [2C = 5(4+)C 9+ F1 no 4+M](#1D-2C)
+    - GF terhadap Balance 15-16
+- [2D = 5(4+)D 9+ F1 no 4+M](#1D-2D)
+
+## 1D-1H
+[Back](#1D)<br>
+- 1S = 4-S Unbalance
+- [1NT= 15-16 Balance](#1D-1H-1NT)
+- 2C = mm
+- 2D = 6+D
+- 2H = 4-H Unbalance
+- 3C = Max mm
+- 3D = Max 6+D
+
+## 1D-1H-1NT
+[Back](#1D-1H)<br>
+- P = T/P
+- 2C = Puppet to 2D
+- 2D = GF
+- 2H = NF
+- 2S = GF 64 dist
+- 2NT= Trf C, GF 55
+- 3C = Trf D, GF 55
+- 3H = Inv 6+H
+- 3S = 7+H Splinter S
+- 3NT= T/P
+- 4C = 7+H Splinter C
+- 4D = 7+H Splinter D
+- 4H = T/P
+- 4S = RKCB-H ?!? keknya ini bakal lupa
+
+## 1D-1H-2S-2NT
+[Back](#1D-1H)<br>
+- 3C = TF 6+D
+- 3D = TF 6+C
+- 3H = TF 6+H + 4-S
+- 3S = 6+H + 4-C SI
+- 3NT= 6+H + 4-D SI Forcing
+
+
+## 1D-2C
+[Back](#1D)<br>
+- [2D = Unbalance 5+D](#1d-2c-2d)
+    - 4441
+    - bisa ada 4-M
+- [2H = 15-16 Balance support 4+C](#1d-2c-2h)
+- [2S = 14-15 Unbalance support 4+C](#1d-2c-2s)
+    - no 4-M
+- [2NT= 15-16 Balance no 4+C](#1d-2c-2nt)
+- [3C = Unbalance min support 4+C](#1D-2C-3C)
+- [3D = Max 6+D](#1D-2C-3D)
+- [3H = Splinter H 5C + 4+D Max](#1D-2C-3M)
+- [3S = Splinter S 5C + 4+D Max](#1D-2C-3M)
+
+## 1D-2C-2D
+[Back](#1D-2C)<br>
+- 2H = GF Showing Stopper
+- 2S = GF Showing Stopper
+- 2NT= 10-11 Invite
+- 3C = 6+C Inv
+- 3D = 3+D Inv
+
+## 1D-2C-2H
+[Back](#1d-2c)<br>
+- [2S = Puppet to 2NT](#1d-2c-2h-2s-2nt)
+    - T/P opener or GF Splinter
+- 2NT= Showing Stopper-S
+- 3C = 4-D + 5+C GF
+- 3D = Showing stopper-D
+- 3H = Showing stopper-H
+- 3S = -
+- 3NT= T/P
+
+## 1D-2C-2H-2S-2NT
+[Back](#1d-2c-2h)<br>
+- 3C = 6+C NO Splinter
+- 3D = 6+C Splinter D
+- 3H = 6+C Splinter H
+- 3S = 6+C Splinter S
+- 3NT= T/P tangan opener
+
+## 1D-2C-2S
+[Back](#1D-2C-2S)<br>
+- [2NT= GF ask dist](#1d-2c-2s-2nt)
+- 3C = NF 9-10
+
+## 1D-2C-2S-2NT
+[Back](#1D-2C-2S)<br>
+- [3C = 4C 5D](#1d-2c-2s-2nt-3c-3d)
+- 3D = 4D 5C No Splinter
+- 3H = 4D 5C Splinter H
+- 3S = 4D 5C Splinter S
+
+## 1D-2C-2S-2NT-3C-3D
+[Back](#1D-2C-2S-2NT)<br>
+- 3H = Splinter H
+- 3S = Splinter S
+- 3NT= No Splinter
+
+## 1D-2C-2NT
+[Back](#1D-2C)<br>
+- 3C = 44mm
+    - bisa Slam Try D
+- 3D = 5+C Showing stopper D
+- 3H = 5+C Showing stopper H
+- 3S = 5+C Showing stopper S
+- 3NT= T/P
+- 4C = Set fit C
+- 4D = RKCB-C
+
+## 1D-2C-3C
+[Back](#1D-2C)<br>
+- P = T/P
+- 3X = Showing Stopper or Cue
+- 3NT= T/P
+- 4C = Set fit C
+- 4D = RKCB-C
+
+## 1D-2C-3D
+[Back](#1D-2C)<br>
+- 3M = Showing Stopper M
+- 3NT= T/P
+- 4C = GF good C
+- 4D = Set fit D, SI
+- 4H = RKCB-D
+
+## 1D-2C-3M
+[Back](#1D-2C)<br>
+- 3NT= T/P
+- 4C = NF
+- 5C = T/P
+- Other = show / cue
+
+## 1D-2D
+[Back](#1D)<br>
+- [2H = 15-16 Balance Support 4+D](#1d-2d-2h)
+- 2S = Max Unbalance
+    - 5+D
+    - 4441
+    - mm
+    - 6+D no SPL
+- [2NT= 15-16 Balance no 4-D](#1d-2d-2nt)
+- 3C = Max 6+D Splinter C
+- 3D = 12-13 minimum 4+D
+- 3H = Max 6+D Splinter H
+- 3S = Max 6+D Splinter S
+
+## 1D-2D-2H
+[Back](#1d-2d)<br>
+- [2S = Puppet to 2NT](#1d-2d-2s)
+- 2NT= Showing Stopper-S
+- 3C = Showing Stopper-C (bisa Nat 4-C tapi tidak Slam Try)
+- 3D = 5+D + 4+C Slam Try
+- 3H = Showing Stopper-H
+- 3NT= T/P
+
+## 1D-2D-2S
+[Back](#1d-2d-2s)<br>
+- [2NT= Ask Dist](#1d-2d-2s-2nt)
+- 3D = NF hanya 9-10
+    - Dilanjut Splinter 3M/4C
+
+## 1D-2D-2S-2NT
+[Back](#1d-2d-2s)<br>
+- 3C = Second Suit
+- 3D = 6+D no SPL
+- 3H = 4-H
+- 3S = 4-S
+
+## 1D-2D-2NT
+[BAck](#1d-2d)<br>
+- 3C = Showing Stopper C
+- 3D = 5+D + 4+C Slam Try
+- 3H = Showing-H Stopper
+- 3S = Showing-S Stopper
+
+## 1D-2D-3D
+[Back](#1D-2D)<br>
+- P = T/P
+- 3H = Showing / Cue
+- 3S = Showing / Cue
+- 3NT= T/P
 
 
 ## 1H
