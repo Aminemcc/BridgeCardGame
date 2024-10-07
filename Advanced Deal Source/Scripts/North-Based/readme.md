@@ -40,8 +40,10 @@ semiBal = 0
 ```
 Minimum dan maximum HCP opener bisa di-set. Selain itu, bentuk tangan dari opener juga bisa di-set dengan detail sebagai berikut : <br>
 
-| Condition | Description                         |
+| Setting   | Description                         |
 |-----------|-------------------------------------|
+| minHcpOpen| Minimum HCP Opener 1NT              |
+| maxHcpOpen| Maximum HCP Opener 1NT             |
 | openNo5   | any 4432, any 4333                 |
 | open5M    | any 5332 with 5M                   |
 | open5m    | any 5332 with 5m                   |
@@ -67,8 +69,7 @@ resMm = 1
 alwaysVoid = 0
 //--Responder Setting End--//
 ```
-Minimum dan maximum HCP responder bisa di-set. bentuk tangan dari responder dengan detail sebagai berikut : <br>
-| Condition   | Description                            |
+| Setting     | Description                            |
 |-------------|----------------------------------------|
 | resBalNo5   | any 4432, any 4333                    |
 | res3suiter  | any 4441                              |
