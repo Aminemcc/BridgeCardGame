@@ -1,0 +1,82 @@
+//-1NT Opening-//
+
+//--Opener Setting Start--//
+minHcpOpen = 15
+maxHcpOpen = 17
+
+openNo5 = 0
+open5M = 1
+open5m = 1
+semiBal = 0
+//--Opener Setting End--//
+
+//--Responder Setting Start--//
+minHcpRes = 0
+maxHcpRes = 20
+
+resBalNo5 = 0
+res3suiter = 0
+res5M = 1
+res54M = 0
+res6Mup = 0
+res5m = 0
+res54m = 0
+res6mup = 0
+resMM = 0
+resmm = 0
+resMm = 0
+
+alwaysVoid = 0
+//--Responder Setting End--//
+
+//--Overcall Setting Start--//
+
+
+
+//--Script Start--//
+
+//---North Start---//
+na = minHcpOpen <= hcp(north) && hcp(north) <= maxHcpOpen
+nb = shape(north, any 5332 + any 4432 + any 4333 + any 5422)
+nc = !shape(north, any 4432 + any 4333) || openNo5
+nd = !shape(north, 5xxx + x5xx - any 5422) || open5M
+ne = !shape(north, xx5x + xxx5 - any 5422) || open5m
+nf = !shape(north, any 5422) || semiBal
+
+nz = na && nb && nc && nd && ne && nf
+//---North End---//
+
+//---South Start---//
+s5M = shape(south, 5xxx + x5xx)
+s5m = shape(south, xx5x + xxx5)
+s54M = shape(south, 54xx + 45xx)
+s54m = shape(south, xx54 + xx45)
+s6Mup = spades(south) >= 6 || hearts(south) >= 6
+s6mup = diamonds(south) >= 6 || clubs(south) >= 6
+s2suiter = shape(south, any 55xx + any 65xx + any 6610 + any 7510 + any 7600)
+sMM = shape(south, 55xx + 65xx + 56xx + 66xx + 75xx + 57xx + 7600 + 6700)
+smm = shape(south, xx55 + xx65 + xx56 + xx66 + xx75 + xx57 + 0076 + 0067)
+sVoid = shape(south, any 0xxx)
+
+sa = minHcpRes <= hcp(south) && hcp(south) <= maxHcpRes
+sb = !shape(south, any 4432 + any 4333) || resBalNo5
+sc = !shape(south, any 4441) || res3suiter
+sd = !(s5M && !s54M && !s2suiter) || res5M
+se = !s54M || res54M
+sf = !(s6Mup && !s2suiter) || res6Mup
+sg = !(s5m && !s54m && !s2suiter) || res5m
+sh = !s54m || res54m
+si = !(s6mup && !s2suiter) || res6mup
+sj = !sMM || resMM
+sk = !smm || resmm
+sl = !(s2suiter && !sMM && !smm) || resMm
+sm = !alwaysVoid || (alwaysVoid && sVoid)
+
+sz = sa && sb && sc && sd && se && sf && sg && sh && si && sj && sk && sl && sm
+//---South End---//
+
+//---East Start---//
+
+//---East End---//
+
+condition nz && sz
