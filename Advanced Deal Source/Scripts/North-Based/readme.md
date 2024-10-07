@@ -80,4 +80,4 @@ alwaysVoid = 0
 | resMM | any 5+5+MM |
 | resmm | any 5+5+mm |
 | resMm | any 5+M + 5+m |
-| alwaysVoid | *Must* have a void |
+| alwaysVoid | **Must** have a void |
