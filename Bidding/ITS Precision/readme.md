@@ -2356,6 +2356,11 @@ Kelanjutan: <br>
     - 4X = T/P
     - 4Other = Auto Splinter
     - 5X = T/P
+- (1NT)-2C
+    - 2D/H/S = 10+ Forcing
+        - kalau minimum pelaku overcall 2C jangan melewati bid 2NT
+        - Support 3X konstruktif fit
+        - Mirip seperti 2C-2M opening sequence, janjian HCP 8+/10+
 
 - (1NT)-P-(P)-X
     - Saat musuh ingin kontrak 1NT, dengan opening weak seharusnya HCP mendekati 20
