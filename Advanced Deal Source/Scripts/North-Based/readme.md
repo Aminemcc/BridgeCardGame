@@ -49,6 +49,39 @@ Minimum dan maximum HCP opener bisa di-set. Selain itu, bentuk tangan dari opene
 | open5m    | any 5332 with 5m                   |
 | semiBal   | any 5422                           |
 
+<h2 style="text-align: center;">Opener Settings</h2>
+
+<table style="margin: auto;">
+    <tr>
+        <th>Setting</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>minHcpOpen</td>
+        <td>Minimum HCP Opener 1NT</td>
+    </tr>
+    <tr>
+        <td>maxHcpOpen</td>
+        <td>Maximum HCP Opener 1NT</td>
+    </tr>
+    <tr>
+        <td>openNo5</td>
+        <td>any 4432, any 4333</td>
+    </tr>
+    <tr>
+        <td>open5M</td>
+        <td>any 5332 with 5M</td>
+    </tr>
+    <tr>
+        <td>open5m</td>
+        <td>any 5332 with 5m</td>
+    </tr>
+    <tr>
+        <td>semiBal</td>
+        <td>any 5422</td>
+    </tr>
+</table>
+
 ```
 //--Responder Setting Start--//
 minHcpRes = 0
