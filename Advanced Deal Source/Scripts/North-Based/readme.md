@@ -38,8 +38,6 @@ open5m = 1
 semiBal = 0
 //--Opener Setting End--//
 ```
-Minimum dan maximum HCP opener bisa di-set. Selain itu, bentuk tangan dari opener juga bisa di-set dengan detail sebagai berikut : <br>
-
 | Setting   | Description                         |
 |-----------|-------------------------------------|
 | minHcpOpen| Minimum HCP Opener 1NT              |
@@ -48,39 +46,6 @@ Minimum dan maximum HCP opener bisa di-set. Selain itu, bentuk tangan dari opene
 | open5M    | any 5332 with 5M                   |
 | open5m    | any 5332 with 5m                   |
 | semiBal   | any 5422                           |
-
-<h2 style="text-align: center;">Opener Settings</h2>
-
-<table style="margin: auto;">
-    <tr>
-        <th>Setting</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>minHcpOpen</td>
-        <td>Minimum HCP Opener 1NT</td>
-    </tr>
-    <tr>
-        <td>maxHcpOpen</td>
-        <td>Maximum HCP Opener 1NT</td>
-    </tr>
-    <tr>
-        <td>openNo5</td>
-        <td>any 4432, any 4333</td>
-    </tr>
-    <tr>
-        <td>open5M</td>
-        <td>any 5332 with 5M</td>
-    </tr>
-    <tr>
-        <td>open5m</td>
-        <td>any 5332 with 5m</td>
-    </tr>
-    <tr>
-        <td>semiBal</td>
-        <td>any 5422</td>
-    </tr>
-</table>
 
 ```
 //--Responder Setting Start--//
@@ -107,3 +72,11 @@ alwaysVoid = 0
 | resBalNo5   | any 4432, any 4333                    |
 | res3suiter  | any 4441                              |
 | res5M       | any 5M with no 4OM and no 5+ other Suit |
+| res54M | any 54MM |
+| res6Mup | any 6+M with no 5+ other suit |
+| res5m | any 5m with no 4Om and no 5+ other Suit |
+| res54m | any 54m |
+| res 6mup | any 6+m with no 5+ other suit |
+| resMM | any 5+5+MM |
+| resmm | any 5+5+mm |
+| resMm | any 5+M + 5+m |
