@@ -26,6 +26,7 @@ Email me at [aminemc236@gmail.com](mailto:aminemc236@gmail.com)<br>
     - [1C Precision](#overcall-1c-precision)
     - [1C Standard](#overcall-1c-standard)
     - [1NT Strong](#overcall-1nt-strong)
+    - [1NT Weak](#overcall-1nt-weak)
     - [2M](#overcall-2m)
         - [2H](#overcall-2h)
         - [2S](#overcall-2s)
@@ -2326,6 +2327,46 @@ Note :
     - Sangat menganggu, maka bisa weak / bad hand
 - 3C/D/H/S = Preemptive C/D/H/S
 
+## Overcall: 1NT Weak
+[Back](#content)<br>
+
+Ini adalah overcall 1NT weak versi buatan Aminemc.<br>
+Silahkan digunakan jika cocok.<br>
+Pada Tangan Kedua:<br>
+- X = 16+ Strong any hand
+- 2C = 12-15 5+C
+- 2D = 12-15 5+D
+- 2H = 12-15 5+H
+- 2S = 12-15 5+S
+- 2NT = mm weak
+- 3X = Preemptive
+
+Pada Tangan Keempat: <br>
+- X = 12+ any hand
+- 2X = 12-15 5+
+
+Kelanjutan: <br>
+- (1NT)-2X
+    - 2NT = Invite any
+        - Walau fit M, 2NT pass tidak masalah dengan HCP mencukupi
+        - Kelanjutan natural
+    - 3X = Konstruktif Support good fit / hand
+    - 3Other = GF 5+ Natural
+    - 3NT = T/P
+    - 4X = T/P
+    - 4Other = Auto Splinter
+    - 5X = T/P
+
+- (1NT)-P-(P)-X
+    - Saat musuh ingin kontrak 1NT, dengan opening weak seharusnya HCP mendekati 20
+    - Sehingga walaupun musuh saat di-X opener 1NT melakukan bid, responder bid NF
+
+Notes:<br>
+- Pada tangan kedua, kartu balance 12-15 Pass tidak bisa bid
+- Saat tangan keempat X 12+, responder tentukan apakah penalty atau bid 2X NF
+- Response Jump GF, Tetep bisa 3NT T/P, biasanya 1NTX dipass terlebih dahulu
+
+
 ## Overcall: 2M
 [Back](#content)<br>
 Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid yaitu 2S<br>
@@ -2340,12 +2381,14 @@ Pada dasarnya overcall pada bid musuh 2H/2S hampir mirip, hanya beda 1 ruang bid
     - X = 18+ any
         - kartu 18+ dengan 5+ cards C kadang bid 3C langsung karena susah nunjukinnya nanti
 - (2H) - 2S = 12-17 HCP 5+S
-- (2H) - 2NT = 16-18 HCP Balance with stoopper H
-- (2H) - 3C/D/H = 12-17 HCP 5+ cards C/D/H
+- (2H) - 2NT = 16-18 HCP Balance with stopper H
+- (2H) - 3C/D/ = 12-17 HCP 5+ cards C/D
+- (2H) - 3H = mm Strong
 - (2H) - 3S = - 
     - (Biasanya kebaca weak)
 - (2H) - 3NT = T/P
-- (2H) - 4H/S = T/P
+- (2H) - 4m = 5+m + 5+Other Major (Strong Michael)
+- (2H) - 4S = T/P
 
 ## Overcall: (2H)-X
 [Back](#overcall-2h)<br>
@@ -2365,7 +2408,7 @@ Lebensohl:<br>
 - 3NT = T/P no stopper H
     - Kartu 4+ minor GF
 - 4C/D = -
-- 4H/S = T/P
+- 4S = T/P
 - 4NT = -
 - 5C/D = T/P
 
