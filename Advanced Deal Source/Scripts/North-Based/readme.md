@@ -52,17 +52,19 @@ semiBal = 0
 minHcpRes = 0
 maxHcpRes = 20
 
-resBalNo5 = 1
-res3suiter = 1
+resBalNo5 = 0
+res3suiter = 0
 res5M = 1
-res54M = 1
-res6Mup = 1
-res5m = 1
-res54m = 1
-res6mup = 1
-resMM = 1
-resmm = 1
-resMm = 1
+res54M = 0
+res6M = 0
+res7Mup = 0
+res5m = 0
+res54m = 0
+res6m = 0
+res7mup = 0
+resMM = 0
+resmm = 0
+resMm = 0
 
 alwaysVoid = 0
 //--Responder Setting End--//
@@ -73,10 +75,12 @@ alwaysVoid = 0
 | res3suiter  | any 4441                              |
 | res5M       | any 5M with no 4OM and no 5+ other Suit |
 | res54M | any 54MM |
-| res6Mup | any 6+M with no 5+ other suit |
+| res6M | any 6M with no 5+ other suit |
+| res7Mup | any 7+M with no 5+ other suit|
 | res5m | any 5m with no 4Om and no 5+ other Suit |
 | res54m | any 54m |
-| res 6mup | any 6+m with no 5+ other suit |
+| res6m | any 6m with no 5+ other suit |
+| res7mup | any 7+m with no 5+ other suit |
 | resMM | any 5+5+MM |
 | resmm | any 5+5+mm |
 | resMm | any 5+M + 5+m |
