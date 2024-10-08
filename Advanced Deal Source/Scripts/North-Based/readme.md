@@ -271,6 +271,127 @@ ovc8xup = 1
 ---
 
 ## 2C
+[Back](#script-list)<br>
+
+```
+//--Opener Setting Start--//
+minHcpOpen = 12
+maxHcpOpen = 15
+
+alwaysVoidOpen = 0
+hasM = 1
+hasD = 1
+open5c = 1
+open6c = 1
+open7c = 1
+open8c = 1
+open9cup = 1
+//--Opener Setting End--//
+```
+| Setting   | Description                         | Value |
+|-----------|-------------------------------------|-------|
+| minHcpOpen| Minimum HCP Opener 1NT              | HCP |
+| maxHcpOpen| Maximum HCP Opener 1NT             | HCP |
+| alwaysVoidOpen | Opener (North) selalu ada void | 0/1 |
+| hasM | Opener (North) selalu ada 4M | 0/1 |
+| hasD | Opener (North) selalu ada 4D, Salah satu jika aktif keduanya | 0/1 |
+| open5c | 5-C + 4-M | 0/1 |
+| open6c | 6-C | 0/1 |
+| open7c | 7-C | 0/1 |
+| open8c | 8-C | 0/1 |
+| open9cup | 9+C | 0/1 |
+---
+```
+//--North South Setting Start--//
+minTotalHcp = 16
+maxTotalHcp = 35
+minFitM = 0
+minFitm = 0
+//--North South Setting End--//
+```
+| Setting | Description | Value |
+|---------|-------------|-------|
+| minTotalHcp | Minimum Total HCP North-South | HCP |
+| MaxTotalHcp | Maximum Total HCP North-South | HCP |
+| minFitM | Minimum fit Major north-South | 0-13 |
+| minFitm | Minimum fit minor north-South | 0-13 |
+---
+```
+//--Responder Setting Start--//
+minHcpRes = 0
+maxHcpRes = 20
+
+alwaysVoidRes = 0
+resBalNo5 = 1
+res3suiter = 1
+res5M = 1
+res54M = 1
+res6M = 1
+res7Mup = 1
+res5m = 1
+res54m = 1
+res6m = 1
+res7mup = 1
+resMM = 1
+resmm = 1
+resMm = 1
+//-Responder Setting Start--//
+```
+| Setting     | Description                            | Value |
+|-------------|----------------------------------------|-------|
+| minHcpRes | Minimum HCP Responder (South) | HCP |
+| maxHcpRes | Maximum HCP Responder (South) | HCP |
+| alwaysVoid | **Must** have a void | 0/1 |
+| resBalNo5   | any 4432, any 4333                    | 0/1 |
+| res3suiter  | any 4441                              | 0/1 |
+| res5M       | any 5M with no 4OM and no 5+ other Suit | 0/1 |
+| res54M | any 54MM | 0/1 |
+| res6M | any 6M with no 5+ other suit | 0/1 |
+| res7Mup | any 7+M with no 5+ other suit| 0/1 |
+| res5m | any 5m with no 4Om and no 5+ other Suit | 0/1 |
+| res54m | any 54m | 0/1 |
+| res6m | any 6m with no 5+ other suit | 0/1 |
+| res7mup | any 7+m with no 5+ other suit | 0/1 |
+| resMM | any 5+5+MM | 0/1 |
+| resmm | any 5+5+mm | 0/1 |
+| resMm | any 5+M + 5+m | 0/1 |
+---
+```
+//--Overcall Setting Start--//
+ovcSet = 1
+minHcpOvc = 8
+maxHcpOvc = 11
+minFitOvc = 9
+
+ovcElse = 0
+ovc5M = 1
+ovc5m = 1
+ovc6M = 1
+ovc6m = 1
+ovcMM = 1
+ovcmm = 1
+ovcMm = 1
+ovc7x = 1
+ovc8xup = 1
+//--Overcall Setting End--//
+```
+| Setting | Description | Value |
+|---------|-------------|-------|
+| ovcSet | Apakah Kartu pelaku overcall (East) diatur / tidak | 0/1 |
+| minHcpOvc | Minimum HCP Overcall (East) | HCP |
+| maxHcpOvc | Maximum HCP Overcall (East) | HCP |
+| minFitOvc | Minimum fit East-West di salah satu suit | 0-11 |
+| ovcElse | Kartu selain distribusi yang disebutkan di bawah | 0/1 |
+| ovc5M | 5M with no 5+ other Suit | 0/1 |
+| ovc5m | 5m with no 5+ other suit | 0/1 |
+| ovc6M | 6M with no 5+ Other Suit | 0/1 |
+| ovc6m | 6m with no 5+ other suit | 0/1 |
+| ovcMM | 5+5+MM | 0/1 |
+| ovcmm | 5+5+mm | 0/1 |
+| ovcMm | 5+M + 5+m | 0/1 |
+| ovc7x | any 7 cards | 0/1 |
+| ovc8xup | any 8+cards | 0/1 |
+---
 
 ## 2D
 

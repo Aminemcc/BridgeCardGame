@@ -1,0 +1,164 @@
+//-Opening 2C Precision-//
+
+//--Opener Setting Start--//
+minHcpOpen = 12
+maxHcpOpen = 15
+
+alwaysVoidOpen = 0
+hasM = 1
+hasD = 1
+open5c = 1
+open6c = 1
+open7c = 1
+open8c = 1
+open9cup = 1
+//--Opener Setting End--//
+
+//--North South Setting Start--//
+minTotalHcp = 16
+maxTotalHcp = 35
+minFitM = 0
+minFitm = 0
+//--North South Setting End--//
+
+//--Responder Setting Start--//
+minHcpRes = 0
+maxHcpRes = 20
+
+alwaysVoidRes = 0
+resBalNo5 = 1
+res3suiter = 1
+res5M = 1
+res54M = 1
+res6M = 1
+res7Mup = 1
+res5m = 1
+res54m = 1
+res6m = 1
+res7mup = 1
+resMM = 1
+resmm = 1
+resMm = 1
+//-Responder Setting Start--//
+
+//--Overcall Setting Start--//
+ovcSet = 1
+minHcpOvc = 8
+maxHcpOvc = 11
+minFitOvc = 9
+
+ovcElse = 0
+ovc5M = 1
+ovc5m = 1
+ovc6M = 1
+ovc6m = 1
+ovcMM = 1
+ovcmm = 1
+ovcMm = 1
+ovc7x = 1
+ovc8xup = 1
+//--Overcall Setting End--//
+
+//--Script Start--//
+
+//---North Start---//
+n5440 = shape(north, any 5440) && clubs(north) == 5
+n4M = hearts(north) == 4 || spades(north) == 4
+n4dup = (clubs(north) - diamonds(north) >= 2) && clubs(north) >= 6 && diamonds(north) >= 4
+n5c = clubs(north) == 5
+n6c = clubs(north) == 6
+n7c = clubs(north) == 7
+n8c = clubs(north) == 8
+n9cup = clubs(north) >= 9
+
+na = minHcpOpen <= hcp(north) && hcp(north) <= maxHcpOpen
+nb = (n5c && n4M)  || n6c || n7c || n8c || n9cup
+nc = open5c || !(n5c && n4M)
+nd = open6c || !(n6c)
+ne = open7c || !(n7c)
+nf = open8c || !(n8c)
+ng = open9cup || !(n9cup)
+
+
+
+nnM = !hasM || (n4M && !n5440)
+nnD = !hasD || (n4dup && !n5440)
+nnV = !alwaysVoidOpen || (shape(north, any 0xxx))
+
+nnz = (nnM || nnD) && nnV
+nz = na && nb && nc && nd && ne && nf && ng && nnz
+
+//---North End---//
+
+//---North South Start---//
+nsHcp = hcp(north) + hcp(south)
+nsM = (hearts(north) + hearts(south) >= minFitM) || (spades(north) + spades(south) >= minFitM)
+nsm = (diamonds(north) + diamonds(south) >= minFitm) || (clubs(north) + clubs(south) >= minFitm)
+nsa = minTotalHcp <= nsHcp && nsHcp <= maxTotalHcp
+
+nsz = nsa && nsM && nsm
+//---North South End---//
+
+//---South Start---//
+s5M = shape(south, 5xxx + x5xx)
+s5m = shape(south, xx5x + xxx5)
+s54M = shape(south, 54xx + 45xx)
+s54m = shape(south, xx54 + xx45)
+s6M = shape(south, 6xxx + x6xx)
+s6m = shape(south, xx6x + xxx6)
+s7Mup = spades(south) >= 7 || hearts(south) >= 7
+s7mup = diamonds(south) >= 7 || clubs(south) >= 7
+s2suiter = shape(south, any 55xx + any 65xx + any 6610 + any 7510 + any 7600)
+sMM = shape(south, 55xx + 65xx + 56xx + 66xx + 75xx + 57xx + 7600 + 6700)
+smm = shape(south, xx55 + xx65 + xx56 + xx66 + xx75 + xx57 + 0076 + 0067)
+sVoid = shape(south, any 0xxx)
+
+sa = minHcpRes <= hcp(south) && hcp(south) <= maxHcpRes
+sb = resBalNo5 || !shape(south, any 4432 + any 4333)
+sc = res3suiter || !shape(south, any 4441)
+sd = res5M || !(s5M && !s54M && !s2suiter)
+se = res54M || !s54M
+sf = res6M || !(s6M && !s2suiter)
+sg = res5m || !(s5m && !s54m && !s2suiter)
+sh = res54m || !s54m
+si = res6m || !(s6m && !s2suiter)
+sj = resMM || !sMM
+sk = resmm || !smm
+sl = resMm || !(s2suiter && !sMM && !smm)
+sm = res7Mup || !(s7Mup && !s2suiter)
+sn = res7mup || !(s7mup && !s2suiter)
+so = !alwaysVoidRes || (alwaysVoidRes && sVoid)
+
+sz = sa && sb && sc && sd && se && sf && sg && sh && si && sj && sk && sl && sm && sn && so
+//---South End---//
+
+//---East Start---//
+e5M = shape(east, 5xxx + x5xx)
+e5m = shape(east, xx5x + xxx5)
+e6M = shape(east, 6xxx + x6xx)
+e6m = shape(east, xx6x + xxx6)
+e7x = shape(east, any 7xxx - any 7600)
+e8xup = spades(east) >= 8 || hearts(east) >= 8 || diamonds(east) >= 8 || clubs(east) >= 8
+eMM = shape(east, 55xx + 65xx + 56xx + 66xx + 76xx + 67xx)
+emm = shape(east, xx55 + xx65 + xx56 + xx66 + xx76 + xx67)
+eMm = shape(east, any 55xx + any 65xx + any 6610 + any 7600) && !ovcMM && !ovcmm
+
+ea = minHcpOvc <= hcp(east) && hcp(east) <= maxHcpOvc
+eb = ovc5M || !(e5M && !eMM && !eMm)
+ec = ovc5m || !(e5m && !emm && !eMm)
+ed = ovc6M || !(e6M && !eMM && !eMm)
+ee = ovc6m || !(e6m && !emm && !eMm)
+ef = ovcMM || !eMM
+eg = ovcmm || !emm
+eh = ovcMm || !eMm
+ei = ovc7x || !e7x
+ej = ovc8xup || !e8xup
+ek = ovcElse || !(!e5M && !e5m && !e6M && !e6m && !e7x && !e8xup && !eMM && !emm && !eMm)
+
+ewM = (spades(east) + spades(west) >= minFitOvc) || (hearts(east) + hearts(west) >= minFitOvc)
+ewm = (diamonds(east) + diamonds(west) >= minFitOvc) || (clubs(east) + clubs(west) >= minFitOvc)
+ez = !ovcSet || ((ea && eb && ec && ed && ee && ef && eg && eh && ei && ej && ek) && (ewM || ewm))
+
+//---East End---//
+
+condition nz && nsz && sz && ez
