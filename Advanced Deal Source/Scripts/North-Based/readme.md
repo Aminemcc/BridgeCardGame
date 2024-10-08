@@ -183,7 +183,7 @@ semiBal = 0
 | open5M    | any 5332 with 5M                   | 0/1 |
 | open5m    | any 5332 with 5m                   | 0/1 |
 | semiBal   | any 5422                           | 0/1 |
-
+---
 ```
 //--North South Setting Start--//
 minTotalHcp = 15
@@ -198,7 +198,7 @@ minFitm = 0
 | MaxTotalHcp | Maximum Total HCP North-South | HCP |
 | minFitM | Minimum fit Major north-South | 0-13 |
 | minFitm | Minimum fit minor north-South | 0-13 |
-
+---
 ```
 //--Responder Setting Start--//
 minHcpRes = 0
@@ -238,7 +238,7 @@ resMm = 1
 | resMM | any 5+5+MM | 0/1 |
 | resmm | any 5+5+mm | 0/1 |
 | resMm | any 5+M + 5+m | 0/1 |
-
+---
 ```
 //--Overcall Setting Start--//
 ovcSet = 1
@@ -268,6 +268,7 @@ ovc8xup = 1
 | ovcMm | 5+M + 5+m | 0/1 |
 | ovc7x | any 7 cards | 0/1 |
 | ovc8xup | any 8+cards | 0/1 |
+---
 
 ## 2C
 
