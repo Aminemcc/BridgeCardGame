@@ -148,7 +148,7 @@ ovc8xup = 1
 | ovcSet | Apakah Kartu pelaku overcall (East) diatur / tidak | 0/1 |
 | minHcpOvc | Minimum HCP Overcall (East) | HCP |
 | maxHcpOvc | Maximum HCP Overcall (East) | HCP |
-| minFitOvc | Minimum fit East-West di salah satu suit | 0-11 |
+| minFitOvc | Minimum fit East-West di salah satu suit | Lembaran |
 | ovcElse | Kartu selain distribusi yang disebutkan di bawah | 0/1 |
 | ovc5M | 5M with no 5+ other Suit | 0/1 |
 | ovc5m | 5m with no 5+ other suit | 0/1 |
@@ -381,7 +381,7 @@ ovc8xup = 1
 | ovcSet | Apakah Kartu pelaku overcall (East) diatur / tidak | 0/1 |
 | minHcpOvc | Minimum HCP Overcall (East) | HCP |
 | maxHcpOvc | Maximum HCP Overcall (East) | HCP |
-| minFitOvc | Minimum fit East-West di salah satu suit | 0-11 |
+| minFitOvc | Minimum fit East-West di salah satu suit | Lembaran |
 | ovcElse | Kartu selain distribusi yang disebutkan di bawah | 0/1 |
 | ovc5M | 5M with no 5+ other Suit | 0/1 |
 | ovc5m | 5m with no 5+ other suit | 0/1 |
