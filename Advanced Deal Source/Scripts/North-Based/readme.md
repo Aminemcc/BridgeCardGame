@@ -101,3 +101,33 @@ resMm = 1
 | resMM | any 5+5+MM | 0/1 |
 | resmm | any 5+5+mm | 0/1 |
 | resMm | any 5+M + 5+m | 0/1 |
+
+```
+//--Overcall Setting Start--//
+ovcSet = 1
+minHcpOvc = 8
+maxHcpOvc = 11
+minFitOvc = 9
+
+ovcElse = 0
+ovc6M = 1
+ovcMM = 1
+ovcmm = 1
+ovcMm = 1
+ovc7x = 1
+ovc8xup = 1
+//--Overcall Setting End--//
+```
+| Setting | Description | Value |
+|---------|-------------|-------|
+| ovcSet | Apakah Kartu pelaku overcall (East) diatur / tidak | 0/1 |
+| minHcpOvc | Minimum HCP Overcall (East) | HCP |
+| maxHcpOvc | Maximum HCP Overcall (East) | HCP |
+| minFitOvc | Minimum fit East-West di salah satu suit | 0-11 |
+| ovcElse | Kartu selain distribusi yang disebutkan di bawah | 0/1 |
+| ovc6M | 6M with no 5+ Other Suit | 0/1 |
+| ovcMM | 5+5+MM | 0/1 |
+| ovcmm | 5+5+mm | 0/1 |
+| ovcMm | 5+M + 5+m | 0/1 |
+| ovc7x | any 7 cards | 0/1 |
+| ovc8xup | any 8+cards | 0/1 |
