@@ -27,7 +27,6 @@ Script akan terdapat beberapa jenis setting yang bisa diubah seperti:<br>
 [Back](#script-list)<br>
 Script 1C mempunyai beberapa setting yang bisa diubah.<br>
 
-### Opener (North)
 ```
 //--Opener Setting Start--//
 minHcpOpen = 16
@@ -68,8 +67,7 @@ open66 = 1
 | open55 | any 55xx | 0/1 |
 | open65 | any 65xx | 0/1 |
 | open66 | any 6610 | 0/1 |
-
-### North-South
+---
 ```
 //--North South Setting Start--//
 minTotalHcp = 16
@@ -84,8 +82,7 @@ minFitm = 0
 | MaxTotalHcp | Maximum Total HCP North-South | HCP |
 | minFitM | Minimum fit Major north-South | 0-13 |
 | minFitm | Minimum fit minor north-South | 0-13 |
-
-### Responder (South)
+---
 ```
 //--Responder Setting Start--//
 minHcpRes = 0
@@ -125,8 +122,7 @@ resMm = 1
 | resMM | any 5+5+MM | 0/1 |
 | resmm | any 5+5+mm | 0/1 |
 | resMm | any 5+M + 5+m | 0/1 |
-
-### Overcaller (East)
+---
 ```
 //--Overcall Setting Start--//
 ovcSet = 1
@@ -162,6 +158,7 @@ ovc8xup = 1
 | ovcMm | 5+M + 5+m | 0/1 |
 | ovc7x | any 7 cards | 0/1 |
 | ovc8xup | any 8+cards | 0/1 |
+---
 
 ## 1NT
 [Back](#script-list)<br>
