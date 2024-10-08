@@ -38,50 +38,66 @@ open5m = 1
 semiBal = 0
 //--Opener Setting End--//
 ```
-| Setting   | Description                         |
-|-----------|-------------------------------------|
-| minHcpOpen| Minimum HCP Opener 1NT              |
-| maxHcpOpen| Maximum HCP Opener 1NT             |
-| openNo5   | any 4432, any 4333                 |
-| open5M    | any 5332 with 5M                   |
-| open5m    | any 5332 with 5m                   |
-| semiBal   | any 5422                           |
+| Setting   | Description                         | Value |
+|-----------|-------------------------------------|-------|
+| minHcpOpen| Minimum HCP Opener 1NT              | HCP |
+| maxHcpOpen| Maximum HCP Opener 1NT             | HCP |
+| openNo5   | any 4432, any 4333                 | 0/1 |
+| open5M    | any 5332 with 5M                   | 0/1 |
+| open5m    | any 5332 with 5m                   | 0/1 |
+| semiBal   | any 5422                           | 0/1 |
+
+```
+//--North South Setting Start--//
+minTotalHcp = 15
+maxTotalHcp = 40
+minFitM = 0
+minFitm = 0
+//--North South Setting End--//
+```
+| Setting | Description | Value |
+|---------|-------------|-------|
+| minTotalHcp | Minimum Total HCP North-South | HCP |
+| MaxTotalHcp | Maximum Total HCP North-South | HCP |
+| minFitM | Minimum fit Major north-South | 0-13 |
+| minFitm | Minimum fit minor north-South | 0-13 |
 
 ```
 //--Responder Setting Start--//
 minHcpRes = 0
-maxHcpRes = 20
-
-resBalNo5 = 0
-res3suiter = 0
-res5M = 1
-res54M = 0
-res6M = 0
-res7Mup = 0
-res5m = 0
-res54m = 0
-res6m = 0
-res7mup = 0
-resMM = 0
-resmm = 0
-resMm = 0
+maxHcpRes = 40
 
 alwaysVoid = 0
+resBalNo5 = 1
+res3suiter = 1
+res5M = 1
+res54M = 1
+res6M = 1
+res7Mup = 1
+res5m = 1
+res54m = 1
+res6m = 1
+res7mup = 1
+resMM = 1
+resmm = 1
+resMm = 1
 //--Responder Setting End--//
 ```
-| Setting     | Description                            |
-|-------------|----------------------------------------|
-| resBalNo5   | any 4432, any 4333                    |
-| res3suiter  | any 4441                              |
-| res5M       | any 5M with no 4OM and no 5+ other Suit |
-| res54M | any 54MM |
-| res6M | any 6M with no 5+ other suit |
-| res7Mup | any 7+M with no 5+ other suit|
-| res5m | any 5m with no 4Om and no 5+ other Suit |
-| res54m | any 54m |
-| res6m | any 6m with no 5+ other suit |
-| res7mup | any 7+m with no 5+ other suit |
-| resMM | any 5+5+MM |
-| resmm | any 5+5+mm |
-| resMm | any 5+M + 5+m |
-| alwaysVoid | **Must** have a void |
+| Setting     | Description                            | Value |
+|-------------|----------------------------------------|-------|
+| minHcpRes | Minimum HCP Responder (South) | HCP |
+| maxHcpRes | Maximum HCP Responder (South) | HCP |
+| alwaysVoid | **Must** have a void | 0/1 |
+| resBalNo5   | any 4432, any 4333                    | 0/1 |
+| res3suiter  | any 4441                              | 0/1 |
+| res5M       | any 5M with no 4OM and no 5+ other Suit | 0/1 |
+| res54M | any 54MM | 0/1 |
+| res6M | any 6M with no 5+ other suit | 0/1 |
+| res7Mup | any 7+M with no 5+ other suit| 0/1 |
+| res5m | any 5m with no 4Om and no 5+ other Suit | 0/1 |
+| res54m | any 54m | 0/1 |
+| res6m | any 6m with no 5+ other suit | 0/1 |
+| res7mup | any 7+m with no 5+ other suit | 0/1 |
+| resMM | any 5+5+MM | 0/1 |
+| resmm | any 5+5+mm | 0/1 |
+| resMm | any 5+M + 5+m | 0/1 |
