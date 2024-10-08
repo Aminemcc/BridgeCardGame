@@ -19,9 +19,10 @@ Script akan terdapat beberapa jenis setting yang bisa diubah seperti:<br>
     - untuk opening 1C/D/H/S Standard, biasanya kualitas kartu 1200-1500, bisa diluar rentang yang disebutkan
     - Maximum Quality : 3000
 
-## Script List
+# Script List
 - [1C](#1C)
 - [1NT](#1NT)
+- [2C](#2C)
 
 ## 1C
 [Back](#script-list)<br>
