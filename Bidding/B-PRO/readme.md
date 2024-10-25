@@ -96,7 +96,9 @@ Notes : <br>
 ## 1D-1H-1NT
 [Back](#1D-1H)<br>
 - P = T/P
-- 2C = Puppet to 2D
+- [2C = Puppet to 2D](#1D-1H-1NT-2C-2D)
+    - Invite any
+    - GF 4441 any or 44MM
 - 2D = GF
 - 2H = NF
 - [2S = GF 64 dist](#1D-1H-2S-2NT)
@@ -109,6 +111,26 @@ Notes : <br>
 - 4D = 7+H Splinter D
 - 4H = T/P
 - 4S = RKCB-H ?!? keknya ini bakal lupa
+
+## 1D-1H-1NT-2C-2D
+[Back](#1D-1H-1NT)<br>
+2D = Forced<br>
+- 2H = 5+H Invite
+    - bisa punya 4-S
+- [2S = GF 4441 any / 3-S 4-H (51)mm](#1D-1H-1NT-2C-2D-2S-2NT)
+- 2NT = Invite
+    - bisa punya 4-S
+- 3C = 5-H + 5+C Invite
+- 3D = 5-H + 5+D Invite
+- 3H = GF 44MM Balance
+    - Distribusi 44(14) bisa lewat 1NT-2S
+
+## 1D-1H-1NT-2C-2D-2S-2NT
+[Back](#1d-1h-1nt-2c-2d)<br>
+2NT = ask dist <br>
+- 3C = Splinter C, 4441 / 3451
+- 3D = Splinter D, 4414 / 3415
+- 3H = Splinter S, 1444 / 14(53)
 
 ## 1D-1H-2C
 [Back](#1D-1H)<br>
@@ -163,10 +185,52 @@ Notes : <br>
 
 ## 1D-1S
 [Back](#1D)<br>
-- 1NT= 15-16 Balance
+- [1NT= 15-16 Balance](#1D-1S-1NT)
 - [2C = mm, may 4441](#1D-1S-2C)
 - [2D = 6+D, may 5D4H](#1D-1S-2D)
 - [2H = 3-S + 4-H + 5+D, bisa lupa](#1D-1S-2H)
+
+## 1D-1S-1NT
+[Back](#1D-1S)<br>
+- P = T/P
+- [2C = Puppet to 2D](#1D-1S-1NT-2C-2D)
+- 2D = GF any
+- [2H = GF any 64](#1d-1s-1nt-2h-2s)
+- 2S = NF
+- 2NT= Puppet to 3C
+    - T/P or 55 GF
+
+## 1D-1S-1NT-2C-2D
+[Back](#1D-1S-1NT)<br>
+2D = Forced<br>
+- P = T/P D
+- [2H = GF 4144 / 4(135)](#1d-1s-1nt-2c-2d-2h-2nt)
+    - dijawab bakalan 2NT, masih bisa fit S, bid 2S pun juga gpp gada spesifik bid di sistem mengharuskan 2S jika fit
+- 2S = Invite 5+S, bisa 4-H
+- 2NT= Invite
+- 3C = Invite 5-S + 5+C
+- 3D = Invite 5-S + 5+D
+
+## 1D-1S-1NT-2C-2D-2H-2NT
+[Back](#1D-1S-1NT-2C-2D)<br>
+2NT = ask<br>
+gada spesifik sistem 2NT gk support S, <br>
+- 3C = 4351
+- 3D = 4315
+- 3H = 4144 / 41(53)
+
+
+## 1D-1S-1NT-2H-2S
+[Back](#1D-1S-1NT)<br>
+2S = ask dist<br>
+- 2NT = 6+C + 4-S
+- 3C = 6+D + 4-S
+- 3D = 6+S + 4-H
+- 3H = 6+S + 4-C
+- 3S = 6+S + 4-D
+
+Notes :<br>
+- Jawabannya step, polanya sama untuk 1H, 6C,6D,4H,4C,4D
 
 ## 1D-1S-2C
 [Back](#1D-1S)<br>
