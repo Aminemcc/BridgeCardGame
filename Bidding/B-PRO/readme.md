@@ -73,11 +73,15 @@ Notes : <br>
 - [2C = 5(4+)C 9+ F1 no 4+M](#1D-2C)
     - GF terhadap Balance 15-16
 - [2D = 5(4+)D 9+ F1 no 4+M](#1D-2D)
-- 2H = 4-H + 5-S 6-9 HCP
-- 2S = 
-- 2NT= 
-- 3C = 
-- 3D = MM Invite
+- [2H = 4+H + 5+S 6-9 HCP](#1D-2H)
+    - bisa 55MM under invite
+    - bisa 4-H + 6+S bad S
+- [2S = 5+S + 5+C invite](#1D-2S)
+- [2NT= 5+H + 5+C invite](#1D-2NT)
+- 3C = minors under invite
+    - tidak boleh tutup 3NT
+- [3D = MM Invite](#1D-3D)
+- [3H = mm Invite](#1D-3H)
 
 ## 1D-1H
 [Back](#1D)<br>
@@ -372,6 +376,73 @@ Notes : <br>
 - 3S = Showing / Cue
 - 3NT= T/P
 
+## 1D-2H
+[Back](#1D)<br>
+- P = T/P H
+- 2S = T/P S
+- 2NT= Balance no fit
+- [3C = Puppet to 3D fit H/S SI](#1D-2H-3C-3D)
+    - Kartu spesial, fit, solid D, ada pendek, loser dikit pokoknya dari tangan opener
+- 3D = 6+D NF
+- 3H = Invite 4-H
+- 3S = Invite
+    - ingat 2H 6-9 HCP
+- 3NT= T/P
+    - Solid D + Stopper C
+- 4H = T/P
+- 4S = T/P
+
+## 1D-2H-3C-3D
+[Back](#1D-2H)<br>
+- 3H = Fit-H Slam Interest
+- 3S = Fit-S Slam Interest
+    - kartu spesial, response cue pendek 4m
+
+## 1D-2S
+[Back](#1D)<br>
+- P = T/P S
+- 2NT= NF
+- 3C = T/P C
+- 3D = 6+D NF
+- 3H = Set Fit S SI
+- 3S = Fit S Invite
+- 3NT= T/P
+- 4C = Set fit C SI
+- 4D = 6+D GF
+- 4S = T/P
+
+## 1D-2NT
+[Back](#1D)<br>
+- P = T/P
+- 3C = T/P
+- 3D = 6+D NF
+- 3H = T/P
+- 3S = Set fit H SI
+- 3NT= T/P
+- 4C = Set fit C SI
+- 4D = 6+D GF
+- 4H = T/P
+
+## 1D-3D
+[Back](#1D)<br>
+- P = T/P D
+- 3H = T/P H
+- 3S = T/P S
+- 3NT= T/P
+- 4C = Puppet to 4D, Slam Interest fit M
+- 4D = -
+- 4H = T/P
+- 4S = T/P
+
+## 1D-3H
+[Back](#1D)<br>
+- 3S = Puppet to 3NT
+    - untuk sign off 4C/D
+- 3NT= T/P
+- 4C = Set fit C SI
+- 4D = Set fit D SI
+- 5C = T/P
+- 5D = T/P
 
 ## 1H
 [Back](#opening)<br>
