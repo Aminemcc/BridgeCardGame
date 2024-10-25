@@ -67,19 +67,24 @@ Notes : <br>
 [Back](#opening)<br>
 - P = T/P
 - [1H = 4+H 6+HCP](#1D-1H)
-- 1S = 4+S 6+HCP
+- [1S = 4+S 6+HCP](#1d-1s)
     - 1D-1M-1NT may support 4-M / have 4-OM
 - 1NT= 8-HCP
 - [2C = 5(4+)C 9+ F1 no 4+M](#1D-2C)
     - GF terhadap Balance 15-16
 - [2D = 5(4+)D 9+ F1 no 4+M](#1D-2D)
+- 2H = 4-H + 5-S 6-9 HCP
+- 2S = 
+- 2NT= 
+- 3C = 
+- 3D = MM Invite
 
 ## 1D-1H
 [Back](#1D)<br>
 - 1S = 4-S Unbalance
 - [1NT= 15-16 Balance](#1D-1H-1NT)
-- 2C = mm
-- 2D = 6+D
+- [2C = mm](#1D-1H-2C)
+- [2D = 6+D](#1D-1H-2D)
 - 2H = 4-H Unbalance
 - 3C = Max mm
 - 3D = Max 6+D
@@ -90,7 +95,7 @@ Notes : <br>
 - 2C = Puppet to 2D
 - 2D = GF
 - 2H = NF
-- 2S = GF 64 dist
+- [2S = GF 64 dist](#1D-1H-2S-2NT)
 - 2NT= Trf C, GF 55
 - 3C = Trf D, GF 55
 - 3H = Inv 6+H
@@ -101,6 +106,49 @@ Notes : <br>
 - 4H = T/P
 - 4S = RKCB-H ?!? keknya ini bakal lupa
 
+## 1D-1H-2C
+[Back](#1D-1H)<br>
+- P = T/P C
+- 2D = T/P D
+- 2H = NF 6+H
+- [2S = 4th Suit GF](#1D-1H-2C-2S)
+- 2NT= Invite
+- 3C = 4+C Invite
+- 3D = 4+D Invite
+- 3H = 6+H Invite
+
+## 1D-1H-2C-2S
+[Back](#1D-1H-2C)<br>
+- [2NT= Stopper S](#1d-1h-2c-2s-2nt-3c)
+- 3C = 5+C + 4+D
+- 3D = TF 3-H
+- 3H = 4-C + 5-D
+
+## 1D-1H-2C-2S-2NT-3C
+[Back](#1D-1H-2C-2S)<br>
+3C = Ask dist <br>
+- 3D = 5-D + 4-C
+- 3H = 5-C + 4-D
+- 3S = 5-C + 5-D
+
+## 1D-1H-2D
+[Back](#1D-1H)<br>
+- P = T/P
+- 2H = 5+H F1
+- [2S = 3rd suit GF any](#1D-1H-2D-2S)
+- 2NT = Inv
+- 3C = 5+C GF
+- 3D = Invite
+- 3H = 6+H Good Invite
+
+## 1D-1H-2D-2S
+[Back](#1D-1H-2D)<br>
+- 2NT= Stopper C
+- 3C = 6+D + 4-C
+- 3D = 3-H transfer
+- 3H = 6+D default bid
+    - Response 3S set fit H sendiri
+
 ## 1D-1H-2S-2NT
 [Back](#1D-1H)<br>
 - 3C = TF 6+D
@@ -109,6 +157,77 @@ Notes : <br>
 - 3S = 6+H + 4-C SI
 - 3NT= 6+H + 4-D SI Forcing
 
+## 1D-1S
+[Back](#1D)<br>
+- 1NT= 15-16 Balance
+- [2C = mm, may 4441](#1D-1S-2C)
+- [2D = 6+D, may 5D4H](#1D-1S-2D)
+- [2H = 3-S + 4-H + 5+D, bisa lupa](#1D-1S-2H)
+
+## 1D-1S-2C
+[Back](#1D-1S)<br>
+- P = T/P C
+- 2D = T/P D
+- [2H = 4th Suit GF](#1D-1S-2C-2H)
+- 2S = 6+S NF
+- 2NT= Invite
+- 3C = 4+C Invite
+- 3D = 4+D Invite
+
+## 1D-1S-2C-2H
+[Back](#1D-1S-2C)<br>
+- 2S = 3-S
+- 2NT = Stopper-H
+- 3C = 5-C + 4+D
+- 3D = 4-H (1444 / 04(45))
+- 3H = 5-D + 4-C
+
+## 1D-1S-2D
+[Back](#1D-1S)<br>
+- [2H = GF any](#1D-1S-2D-2H)
+- 2S = 5+S F1
+- 2NT= Invite
+- 3C = 5+C GF
+- 3D = Invite
+- 3H = 5+H + 5+S GF
+- 3S = 6+S Good Invite
+- 3NT= T/P
+
+## 1D-1S-2D-2H
+[Back](#1D-1S-2D)<br>
+- 2S = 3-S
+- 2NT= Stopper-C
+- 3C = 6+D + 4-C
+- 3D = 4-H trf
+- 3H = 6+D Default bid
+    - Response 3S set fit S sendiri
+
+
+## 1D-1S-2H
+[Back](#1D-1S)<br>
+- P = T/P H
+- 2S = T/P S
+- 2NT= Invite
+- [3C = Puppet to 3D](#1D-1S-2H-3C-3D)
+    - T/P D or any invite
+- 3D = Set-D GF
+- 3H = Set-H GF
+- 3S = Set-S GF
+- 3NT= T/P
+- 4C = -
+- 4D = -
+- 4H = T/P
+- 4S = T/P
+
+## 1D-1S-2H-3C-3D
+[Back](#1D-1S-2H)<br>
+3D = Forced<br>
+- 3H = Invite H
+- 3S = Invite S
+- 3NT= -
+- 4C = -
+- 4D = Invite D
+    - Ini lewat 3NT, hati hati mending lewat 2NT kalau pengen NT
 
 ## 1D-2C
 [Back](#1D)<br>
