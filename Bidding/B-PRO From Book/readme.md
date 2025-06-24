@@ -66,4 +66,22 @@ _<br>
 _<br>
 - 1NT = 19-21 Balance
     - May have 5C(431)
-- 2C 
+- 2C = 22+ Any / 19-21 5+C (no 5332)
+- 2D = 19-21 5+D
+- 2M = 19-21 5+M
+- 2NT = 19-21 5+S + 5+m
+- 3C = 19-21 5+C + 5+M
+- 3D = 19-21 5+H + 5+S
+- 3H = 19-21 5+D + 5+S
+- 3S = 19-21 5+D + 5+H
+
+## 1C-1D-1H-1S-2C
+[Back](#1C-1D-1H-1S)<br>
+1C - 1D<br>
+1H - 1S<br>
+2C - _<br>
+- 2D = 0-3 Any / 4-5 Bal / Bad / 5+m
+- 2M = 4-5 5+M
+- 2NT = 6-7 Bal no 5 any
+- 3m = 4-5 6+C good (with honor)
+
