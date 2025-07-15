@@ -66,7 +66,8 @@ _<br>
 _<br>
 - 1NT = 19-21 Balance
     - May have 5C(431)
-- 2C = 22+ Any / 19-21 5+C (no 5332)
+    - Same as opening
+- [2C = 22+ Any / 19-21 5+C (no 5332)](#1c-1d-1h-1s-2c)
 - 2D = 19-21 5+D
 - 2M = 19-21 5+M
 - 2NT = 19-21 5+S + 5+m
@@ -80,8 +81,50 @@ _<br>
 1C - 1D<br>
 1H - 1S<br>
 2C - _<br>
-- 2D = 0-3 Any / 4-5 Bal / Bad / 5+m
+- [2D = 0-3 Any / 4-5 Bal / Bad / 5+m](#1c-1d-1h-1s-2c-2d)
 - 2M = 4-5 5+M
-- 2NT = 6-7 Bal no 5 any
+- [2NT = 6-7 Bal no 5 any](#1c-1d-1h-1s-2c-2nt)
 - 3m = 4-5 6+C good (with honor)
+
+
+## 1C-1D-1H-1S-2C-2D
+[Back](#1c-1d-1h-1s-2c)<br>
+
+- [2H = 25+ Puppet to 2S](#1c-1d-1h-1s-2c-2d-2h-2s)
+- 2S = ?
+- [2NT = 22-24 Balance](#1c-1d-1h-1s-2c-2d-2nt)
+    - may have 5M?
+- 3m = 5+m
+
+## 1C-1D-1H-1S-2C-2D-2H-2S
+[Back](#1c-1d-1h-1s-2c-2d)<br>
+1C - 1D<br>
+1H - 1S<br>
+2C - 2D<br>
+2H - 2S<br>
+_ <br>
+- 2NT = 24+ GF Balance
+- 3X = 5+H + 5+X GF??
+
+## 1C-1D-1H-1S-2C-2D-2NT
+[Back](#1c-1d-1h-1s-2c-2d)<br>
+1C - 1D<br>
+1H - 1S<br>
+2C - 2D<br>
+2NT - _<br>
+- 3C = ask M
+- 
+
+## 1C-1D-1H-1S-2C-2NT
+[Back](#1c-1d-1h-1s-2c)<br>
+1C - 1D<br>
+1H - 1S<br>
+2C - 2NT<br>
+- 3C = Stayman ask 4M
+- 3D = 5+H Transfer
+- 3H = 5+S Transfer
+- 3S = 6+D
+- 3NT = T/P
+
+
 
