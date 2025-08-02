@@ -301,8 +301,8 @@ Notes:<br>
 - 2NT= 6+C Transfer any
 - 3C = 6+D Transfer any
 - 3D = ask 5M GF
-- 3H = Splinter H (45+) mm
-- 3S = Splinter S (45+) mm
+- 3H = 31(45) mm GF
+- 3S = 13(45) mm GF
 - 3NT= T/P
 - 4C = (6+5+) MM Game Only
 - 4D = 6+H Transfer
