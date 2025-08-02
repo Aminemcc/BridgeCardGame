@@ -298,8 +298,8 @@ Notes:<br>
 - [2D = 5+H Transfer](#1nt-2d)
 - [2H = 5+S Transfer](#1NT-2H)
 - [2S = Bal Inv+ / mm](#1NT-2S)
-- 2NT= 6+C Transfer any
-- 3C = 6+D Transfer any
+- 2NT= 6+C Transfer any HCP
+- 3C = 6+D Transfer any HCP
 - 3D = ask 5M GF
 - 3H = 31(45) mm GF
 - 3S = 13(45) mm GF
