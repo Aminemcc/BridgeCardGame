@@ -296,8 +296,8 @@ Notes:<br>
 
 - [2C = Stayman, Pasti ada 4M / MM / 3-Suiter](#1nt-2c)
 - [2D = 5+H Transfer](#1nt-2d)
-- 2H = 5+S Transfer
-- 2S = Bal Inv+ / mm
+- [2H = 5+S Transfer](#1NT-2H)
+- [2S = Bal Inv+ / mm](#1NT-2S)
 - 2NT= 6+C Transfer any
 - 3C = 6+D Transfer any
 - 3D = ask 5M GF
@@ -315,15 +315,15 @@ Notes:<br>
 [Back](#1nt)<br>
 1NT-2C<br>
 - [2D = No 4M](#1nt-2c-2d)
-- [2H = 4H, may have 4S](#1nt-2c-2h)
-- 2S = 4S, no 4H
+- [2H = 4H, may have 4S max HCP](#1nt-2c-2h)
+- [2S = 4S, may have 4H min HCP](#1NT-2C-2S)
 
 ## 1NT-2C-2D
 [Back](#1nt-2c)<br>
 1NT-2C<br>
 2D<br>
 - P  = T/P D
-- 2H = 44M NF
+- 2H = 4+4+MM NF
 - [2S = 4M + 5+C GF / 4+C Showing Stopper GF / 3 Suiter Splinter D GF](#1nt-2c-2d-2s)
 - 2NT= Inv
 - 3C = 4M + 5+D / 4+D Showing Stopper GF / 3 Suiter Splinter C GF
@@ -339,15 +339,25 @@ Notes:<br>
 [Back](#1nt-2c-2d)<br>
 1NT-2C<br>
 2D-2S<br>
-- [2NT= 2 lbr C, Pasti 5+D](#1nt-2c-2d-2s-2nt3c)
-- [3C = 3+C](#1nt-2c-2d-2s-2nt3c)
+- [2NT= 2 lbr C, Pasti 5+D](#1nt-2c-2d-2s-2nt)
+- [3C = 3+C](#1nt-2c-2d-2s-3c)
 
-## 1NT-2C-2D-2S-2NT/3C
+## 1NT-2C-2D-2S-2NT
 [Back](#1nt-2c-2d-2s)<br>
 1NT-2C<br>
 2D-2S<br>
 2NT/3C<br>
-- P/3C= 6+C NF T/P
+- 3C= 6+C GF
+- 3D = 3+D Fit D GF
+- 3H = Showing Stopper H
+- 3S = Showing Stopper S
+- 3NT= T/P
+
+## 1NT-2C-2D-2S-3C
+[Back](#1nt-2c-2d-2s)<br>
+1NT-2C<br>
+2D-2S<br>
+2NT/3C<br>
 - 3D = Showing Stopper D
 - 3H = Showing Stopper H
 - 3S = Showing Stopper S
@@ -358,9 +368,9 @@ Notes:<br>
 1NT-2C<br>
 2H<br>
 - P = T/P
-- 2S = 4S + 5+C / 4+C Showing Stopper GF
+- [2S = 4S + 5+C / 4+C Showing Stopper GF](#1NT-2C-2H-2S)
 - 2NT= Inv
-- 3C = 4S + 5+D / 4+D Showing Stopper GF
+- [3C = 4S + 5+D / 4+D Showing Stopper GF](#1NT-2C-2H-3C)
 - 3D = Transfer H No SPL SI
 - 3H = Fit H Invite
 - 3S = Splinter S Fit H SI
@@ -368,7 +378,7 @@ Notes:<br>
 - 4C = Splinter C Fit H SI
 - 4D = Splinter D Fit H SI
 - 4H = T/P
-- 4S = RKCB-H
+- 4S = RKCB-H (Janjian)
 - 4NT= Exclusion S
 - 5C = Exclusion C
 - 5D = Exclusion D
@@ -376,6 +386,69 @@ Notes:<br>
 
 Notes :<br>
 - Tidak Boleh dijawab selain 2D/H/S
+
+## 1NT-2C-2H-2S
+[Back](#1NT-2C-2H)<br>
+1N-2C<br>
+2H-2S<br>
+- 2NT = 2-C
+- 3C = 3+C
+- 3D = -
+- 3H = 5-H, no 3-C
+- [3S = 4-S Max HCP](#1NT-2C-2H-2S-3S)
+
+## 1NT-2C-2H-2S-3S
+[Back](#1NT-2C-2H-2S)<br>
+- 3NT = SI No Cue
+- 4C = SI Good C no Splinter
+- 4D = SI Splinter D
+- 4H = SI Splinter H
+- 4S = T/P
+
+## 1NT-2C-2H-3C
+[Back](#1NT-2C-2H)<br>
+- 3D = 3+D
+- 3H = 5-H
+- [3S = 4-S MM Max HCP](#1nt-2c-2h-3c-3s)
+- 3NT = Other Hand
+
+## 1NT-2C-2H-3C-3S
+[Back](#1NT-2C-2H-3C)<br>
+- 3NT = SI No SPL
+- 4C = SI Splinter C
+- 4D = SI Good D no Splinter
+- 4H = SI Splinter H
+- 4S = T/P
+
+## 1NT-2C-2S
+[Back](#1NT-2C)<br>
+- P = T/P
+- 2NT = Invite
+- [3C = Transfer 5+D / 4+D Showing Stopper GF](#1NT-2C-2S-3C)
+- 3D = Transfer 5+C / 4+C Showing Stopper GF
+- 3H = Transfer Fit S SI no Splinter
+- 3S = Invite Fit S
+- 3NT = T/P
+- 4C = Splinter C Fit S
+- 4D = Splinter D Fit S
+- 4H = Splinter H Fit S
+- 4S = T/P
+- 4NT = Keycard-S
+
+## 1NT-2C-2S-3C
+[Back](#1Nt-2C-2S)<br>
+- 3D = 3+D
+- [3H = MM Min HCP](#1NT-2C-2S-3C-3H)
+- 3S = 5-S
+- 3NT = 2-D
+
+## 1NT-2C-2S-3C-3H
+[Back](#1NT-2C-2S-3C)<br>
+- 3S = SI Splinter S Fit H
+- 3NT = SI No Splinter Fit H
+- 4C = SI Splinter C Fit H
+- 4D = SI Good D Fit H
+- 4H = T/P
 
 ## 1NT-2D
 [Back](#1NT)<br>
@@ -389,7 +462,7 @@ Notes :<br>
 2H = Default bid<br>
 - P = T/P
 - [2S = GF Second suit C](#1NT-2D-2H-2S)
-- 2NT= Inv bisa 54M
+- [2NT= Inv bisa 54M](#1NT-2D-2H-2NT)
 - 3C = GF Second Suit D
 - 3D = TF 6+H SI
 - 3H = Inv 6+H
@@ -417,6 +490,16 @@ Notes :<br>
     - 4D = Cue D Set fit H
     - 4H = Set fit H no Cue D
 
+## 1NT-2D-2H-2NT
+[Back](#1NT-2D-2H)<br>
+- P = T/P
+- 3C = 5-C Max
+- 3D = 5-D Max
+- 3H = 3+H Min
+- 3S = 5-S Max
+- 3NT = T/P
+- 4H = T/P
+
 ## 1NT-2D-2S
 [Back](#1NT-2D)<br>
 1NT-2D<br>
@@ -425,9 +508,9 @@ Notes :<br>
 - 3C = Second Suit D GF
 - 3D = Retransfer H
 - 3H = No Splinter SI
-- 3S = 6+H Splinter S SI
-- 3NT= 6+H Splinter D SI
-- 4C = 6+H Splinter C SI
+- 3S = 5+H Splinter S SI
+- 3NT= 5+H Splinter D SI
+- 4C = 5+H Splinter C SI
 - 4D = ? (Transfer H T/P)
 - 4H = T/P
 - 4S = RKCB-H
@@ -436,18 +519,18 @@ Notes :<br>
 ## 1NT-2H
 [Back](#1NT)<br>
 1NT-2H<br>
-- 2S = Default bid
-- 2NT= Max HCP Support 4+S
+- [2S = Default bid](#1NT-2H-2S)
+- [2NT= Max HCP Support 4+S](#1NT-2H-2NT)
 
 ## 1NT-2H-2S
 [Back](#1NT-2H)<br>
 1NT-2H<br>
 2S<br>
 - P = T/P
-- 2NT= Inv
-- 3C = Transfer Second Suit D
-- 3D = Reverse Transfer Second suit C
-- 3H = Retransfer to 3S
+- [2NT= Inv](#1NT-2H-2S-2NT)
+- [3C = Transfer Second Suit D](#1NT-2H-2S-3C)
+- [3D = Reverse Transfer Second suit C](#1NT-2H-2S-3D)
+- 3H = Retransfer 6+S SI
 - 3S = Inv 6+S
 - 3NT= 5-S (Opener pilih 3NT/4S)
 - 4C = 7+S Splinter C SI
@@ -471,12 +554,79 @@ Notes :<br>
 - 3NT= Max T/P
 - 4S = Max T/P
 
+## 1NT-2H-2S-3C
+[Back](#1NT-2H-2S)<br>
+- 3D = Default bid 2+D
+- 3H = 5-H
+- 3S = 3+S Fit S
+- 3NT = Stopper H + C, no Fit S & D
 
+## 1NT-2H-2S-3C-3S
+[Back](#1NT-2H-2S-3C)<br>
+- 3NT = SI NO Splinter
+- 4C = SI Splinter C
+- 4D = SI Splinter D
+- 4H = SI Splinter H
 
+## 1NT-2H-2S-3D
+[Back](#1NT-2H-2S)<br>
+- 3H = 5-H
+- 3S = 3+S
+- 3NT = No Fit
+- 4C = 4+C minimal main 5C
 
+## 1NT-2H-2NT
+[Back](#1NT-2H)<br>
+- 3C = Second Suit D SI
+- 3D = Second Suit C SI
+    - Yah bisa lupa si, cuma sistemnya selalu transfer saat menunjukkan second suit
+- 3H = Retransfer to 3S
+    - T/P tangan opener
+- 3S = SI
+- 4S = T/P tangan responder
 
+## 1NT-2S
+[Back](#1NT)<br>
+- [2NT = Minimum](#1NT-2S-2NT)
+- [3C = Maximum Better C](#1NT-2S-3C)
+- [3D = Maximum Better D](#1NT-2S-3D)
 
+## 1NT-2S-2NT
+[Back](#1NT-2S)<br>
+- P = T/P
+    - tangan invite ketemu minimum opener
+- 3C = 55mm Pass or Correct
+- 3D = Balance Strong Slam Interest
+    - Logicnya, kalau 55mm bid terendah dulu, karena opener jawab bukan better D
+- 3H = 55mm Splinter H
+- 3S = 55mm Splinter D
+- 3NT = T/P
+    - Tadinya mau slam jika opener max
+- 4C = 5-C SI
+- 4D = 5-D SI
 
+## 1NT-2S-3C
+[Back](#1NT-2S)<br>
+- P = 55mm NF
+- 3D = Balance SI
+- 3H = 55mm Splinter H Fit C
+- 3S = 55mm Splinter S Fit C
+- 3NT = T/P
+    - tangan invite
+
+## 1Nt-2S-3C-3D
+[Back](#1NT-2S-3C)<br>
+- 3H = 4+H
+- 3S = 4+S
+- 3NT = No 4+M
+
+## 1NT-2S-3D
+[Back](#1NT-2S)<br>
+- P = 55mm NF
+- 3H = 55mm Splinter H Fit D
+- 3S = 55mm Splinter S Fit D
+- 3NT = T/P
+    - tangan invite
 
 
 ## Overcall 2NT mm

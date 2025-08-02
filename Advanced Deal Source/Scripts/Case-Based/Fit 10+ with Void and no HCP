@@ -1,0 +1,54 @@
+//----- Good Fit + Void-----//
+// {0 : off, 1 : on}
+//---Setting Start---//
+north_south = 1
+east_west = 0
+
+minTotalHCP = 22
+maxTotalHCP = 25
+minVoidHCP = 0
+maxVoidHCP = 0
+minFit = 9
+maxFit = 13
+minCards = 3
+//Ex : If 3 : 5-3, 6-3 is possible. 6-2, 7-2 is not possible
+
+//---Setting Done---//
+
+//Total HCP NS & EW
+NS_HCP = minTotalHCP <= ( hcp(north) + hcp(south) ) && ( hcp(north) + hcp(south) ) <= maxTotalHCP
+EW_HCP = minTotalHCP <= ( hcp(east) + hcp(west) ) && ( hcp(east) + hcp(west) ) <= maxTotalHCP
+
+//Void HCP
+N_Void_HCP = (spade(south) == 0 && minVoidHCP <= hcp(north, spade) && hcp(north, spade) <= maxVoidHCP)
+    || (heart(south) == 0 && minVoidHCP <= hcp(north, heart) && hcp(north, heart) <= maxVoidHCP)
+    || (diamond(south) == 0 && minVoidHCP <= hcp(north, diamond) && hcp(north, diamond) <= maxVoidHCP)
+    || (club(south) == 0 && minVoidHCP <= hcp(north, club) && hcp(north, club) <= maxVoidHCP)
+
+S_Void_HCP = (spade(north) == 0 && minVoidHCP <= hcp(south, spade) && hcp(south, spade) <= maxVoidHCP)
+    || (heart(north) == 0 && minVoidHCP <= hcp(south, heart) && hcp(south, heart) <= maxVoidHCP)
+    || (diamond(north) == 0 && minVoidHCP <= hcp(south, diamond) && hcp(south, diamond) <= maxVoidHCP)
+    || (club(north) == 0 && minVoidHCP <= hcp(south, club) && hcp(south, club) <= maxVoidHCP)
+
+E_Void_HCP = (spade(west) == 0 && minVoidHCP <= hcp(east, spade) && hcp(east, spade) <= maxVoidHCP)
+    || (heart(west) == 0 && minVoidHCP <= hcp(east, heart) && hcp(east, heart) <= maxVoidHCP)
+    || (diamond(west) == 0 && minVoidHCP <= hcp(east, diamond) && hcp(east, diamond) <= maxVoidHCP)
+    || (club(west) == 0 && minVoidHCP <= hcp(east, club) && hcp(east, club) <= maxVoidHCP)
+
+W_Void_HCP = (spade(east) == 0 && minVoidHCP <= hcp(west, spade) && hcp(west, spade) <= maxVoidHCP)
+    || (heart(east) == 0 && minVoidHCP <= hcp(west, heart) && hcp(west, heart) <= maxVoidHCP)
+    || (diamond(east) == 0 && minVoidHCP <= hcp(west, diamond) && hcp(west, diamond) <= maxVoidHCP)
+    || (club(east) == 0 && minVoidHCP <= hcp(west, club) && hcp(west, club) <= maxVoidHCP)
+
+NS_spade = (spade(north) >= minCards && spade(south) >= minCards) && minFit <= (spade(north) + spade(south)) && (spade(north) + spade(south)) <= maxFit
+NS_heart = (heart(north) >= minCards && heart(south) >= minCards) && minFit <= (heart(north) + heart(south)) && (heart(north) + heart(south)) <= maxFit
+NS_diamond = (diamond(north) >= minCards && diamond(south) >= minCards) && minFit <= (diamond(north) + diamond(south)) && (diamond(north) + diamond(south)) <= maxFit
+NS_club = (club(north) >= minCards && club(south) >= minCards) && minFit <= (club(north) + club(south)) && (club(north) + club(south)) <= maxFit
+
+NS_suit = NS_spade || NS_heart || NS_diamond || NS_club
+
+condition_NS = north_south && NS_HCP && (N_Void_HCP || S_Void_HCP) && NS_suit
+condition_EW = east_west && EW_HCP && (E_Void_HCP || W_Void_HCP)
+
+condition condition_NS || condition_EW
+
