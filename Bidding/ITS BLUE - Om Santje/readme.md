@@ -604,6 +604,7 @@ Notes :<br>
     - Tadinya mau slam jika opener max
 - 4C = 5-C SI
 - 4D = 5-D SI
+- 4NT = Ask Keycard
 
 ## 1NT-2S-3C
 [Back](#1NT-2S)<br>
