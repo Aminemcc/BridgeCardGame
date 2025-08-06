@@ -38,6 +38,7 @@ resMaxHCP = 20
 //0 : Never, 1 : Must, 2 : May
 resVoid = 2
 resSingleton = 2
+resBal = 2
 
 //Minimum & Maximum of holding the suit
 resMinM = 0
@@ -154,23 +155,25 @@ conditionOpener = (northDist || southDist) && hcpNS
 //----Responder Part----//
 northResVoid = (resVoid == 0 && !north_void) || (resVoid == 1 && north_void) || resVoid == 2
 northResSingleton = (resSingleton == 0 && !north_singleton) || (resSingleton == 1 && north_singleton) || resSingleton == 2
+northResBal = (resBal == 0 && !north_bal) || (resBal == 1 && north_bal) || resBal == 2
 northResM = (resMinM <= north_heart && north_heart <= resMaxM) || (resMinM <= north_spade && north_spade <= resMaxM)
 northResm = (resMinm <= north_club && north_club <= resMaxm) || (resMinm <= north_diamond && north_diamond <= resMaxm)
 northResC = resMinC <= north_club && north_club <= resMaxC
 northResD = resMinD <= north_diamond && north_diamond <= resMaxD
 northResH = resMinH <= north_heart && north_heart <= resMaxH
 northResS = resMinS <= north_spade && north_spade <= resMaxS
-northResDist = northResHCP && northResVoid && northResSingleton && northResM && northResm && northResC && northResD && northResH && northResS
+northResDist = northResHCP && northResVoid && northResSingleton && northResBal && northResM && northResm && northResC && northResD && northResH && northResS
 
 southResVoid = southDist || (resVoid == 0 && !south_void) || (resVoid == 1 && south_void) || resVoid == 2
 southResSingleton = southDist || (resSingleton == 0 && !shape(south, any 1xxx)) || (resSingleton == 1 && shape(south, any 1xxx)) || resSingleton == 2
+southResBal = (resBal == 0 && !south_bal) || (resBal == 1 && south_bal) || resBal == 2
 southResM = (resMinM <= heart(south) && heart(south) <= resMaxM) || (resMinM <= spade(south) && spade(south) <= resMaxM)
 southResm = (resMinm <= club(south) && club(south) <= resMaxm) || (resMinm <= diamond(south) && diamond(south) <= resMaxm)
 southResC = resMinC <= club(south) && club(south) <= resMaxC
 southResD = resMinD <= diamond(south) && diamond(south) <= resMaxD
 southResH = resMinH <= heart(south) && heart(south) <= resMaxH
 southResS = resMinS <= spade(south) && spade(south) <= resMaxS
-southResDist = southResHCP && southResVoid && southResSingleton && southResM && southResm && southResC && southResD && southResH && southResS
+southResDist = southResHCP && southResVoid && southResSingleton && southResBal && southResM && southResm && southResC && southResD && southResH && southResS
 
 conditionResponder = (fitMajorNS && fitminorNS) && ((northDist && southResDist) || (southDist && northResDist))
 
