@@ -6,11 +6,11 @@
 
 //Player who can receive opening card
 northOpen = 1
-southOpen = 0
+southOpen = 1
 
 //--Opener setting--//
-lowerBoundHCP = 15
-upperBoundHCP = 17
+minOpeHCP = 15
+maxOpeHCP = 17
 
 //0 : Never, 1 : Must, 2 : May
 ope5M = 2
@@ -57,7 +57,7 @@ resMaxS = 13
 
 //--Overcalls Setting--//
 //0 : Never, 1 : Must, 2 : May
-overcall = 1
+overcall = 2
 
 min_ovc_hcp = 10
 max_ovc_hcp = 20
@@ -78,6 +78,8 @@ ovcMaxD = 13
 ovcMaxH = 13
 ovcMaxS = 13
 
+ovcMinFitM = 0
+ovcMinFitm = 0
 ovcMinFitC = 0
 ovcMinFitD = 0
 ovcMinFitH = 0
@@ -91,8 +93,8 @@ ovcMinFitS = 0
 //----HCP Part----//
 hcp_north = hcp(north)
 hcp_south = hcp(south)
-northHCP = lowerBoundHCP <= hcp_north && hcp_north <= upperBoundHCP
-southHCP = lowerBoundHCP <= hcp_south && hcp_south <= upperBoundHCP
+northHCP = minOpeHCP <= hcp_north && hcp_north <= maxOpeHCP
+southHCP = minOpeHCP <= hcp_south && hcp_south <= maxOpeHCP
 hcpNS = min_hcp <= ( hcp_north + hcp_south ) && ( hcp_north + hcp_south ) <= max_hcp
 northResHCP = resMinHCP <= hcp_north && hcp_north <= resMaxHCP
 southResHCP = resMinHCP <= hcp_south && hcp_south <= resMaxHCP
@@ -200,7 +202,9 @@ ew_club = ovcMinFitC <= (east_club + west_club)
 ew_diamond = ovcMinFitD <= (east_diamond + west_diamond)
 ew_heart = ovcMinFitH <= (east_heart + west_heart)
 ew_spade = ovcMinFitS <= (east_spade + west_spade)
-ew_fit = ew_club && ew_diamond && ew_heart && ew_spade
+ew_Major = ovcMinFitM <= (((east_heart + west_heart) > (east_spade + west_spade)) ? (east_heart + west_heart) : (east_spade + west_spade))
+ew_minor = ovcMinFitm <= (((east_club + west_club) > (east_diamond + west_diamond)) ? (east_club + west_club) : (east_diamond + west_diamond))
+ew_fit = ew_club && ew_diamond && ew_heart && ew_spade && ew_Major && ew_minor
 
 eastOvchcp = min_ovc_hcp <= east_hcp && east_hcp <= max_ovc_hcp
 eastOvccccc = min_ovc_quality <= east_cccc && east_cccc <= max_ovc_quality

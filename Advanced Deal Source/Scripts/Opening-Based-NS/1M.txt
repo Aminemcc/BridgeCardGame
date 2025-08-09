@@ -1,0 +1,304 @@
+//----- Open 1NT -----//
+//1M 5+M 12-15 HCP
+//1M 5332 12-14 HCP
+//---Setting---//
+
+//Player who can receive opening card
+northOpen = 1
+southOpen = 0
+
+//--Opener setting--//
+minOpeHCP = 12
+maxOpeHCP = 15
+minBalHCP = 12
+maxBalHCP = 14
+
+//0 : Never, 1 : Must, 2 : May
+ope1H = 2
+ope1S = 2
+opeBal = 2
+opeShort = 1
+opeVoid = 2
+opeSingleton = 2
+
+//Has how many cards
+opeMinM = 5
+opeMinOM = 0
+opeMinC = 0
+opeMinD = 0
+
+opeMaxM = 13
+opeMaxOM = 8
+opeMaxC = 8
+opeMaxD = 8
+
+//on responder short, opener has how many HCP
+minOpeShortHCP = 0
+maxOpeShortHCP = 10
+
+//--Ope + Res Setting--//
+min_hcp = 21
+max_hcp = 40
+
+min_fit_M = 0
+min_fit_OM = 0
+min_fit_m = 0
+
+max_fit_M = 13
+max_fit_OM = 13
+max_fit_m = 13
+
+//--Responder Setting--//
+resMinHCP = 0
+resMaxHCP = 20
+
+//0 : Never, 1 : Must, 2 : May
+resShort = 1
+resVoid = 2
+resSingleton = 2
+resBal = 2
+
+//on opener short, responder has how many HCP
+minResShortHCP = 0
+maxResShortHCP = 10
+
+//Minimum & Maximum of holding the suit
+resMinM = 0
+resMinm = 0
+resMinC = 0
+resMinD = 0
+resMinH = 0
+resMinS = 0
+
+resMaxM = 13
+resMaxm = 13
+resMaxC = 13
+resMaxD = 13
+resMaxH = 13
+resMaxS = 13
+
+//--Overcalls Setting--//
+//0 : Never, 1 : Must, 2 : May
+overcall = 1
+
+min_ovc_hcp = 10
+max_ovc_hcp = 20
+min_ovc_quality = 1400
+max_ovc_quality = 2000
+
+ovcShort = 2
+ovcVoid = 2
+ovcSingleton = 2
+
+ovcMinM = 0
+ovcMinOM = 0
+ovcMinm = 0
+ovcMinC = 0
+ovcMinD = 0
+
+ovcMaxM = 13
+ovcMaxOM = 13
+ovcMaxm = 13
+ovcMaxC = 13
+ovcMaxD = 13
+
+ovcMinFit = 8
+ovcMinFitM = 0
+ovcMinFitOM = 0
+ovcMinFitm = 0
+ovcMinFitC = 0
+ovcMinFitD = 0
+
+ovcMaxFit = 13
+ovcMaxFitM = 8
+ovcMaxFitOM = 13
+ovcMaxFitm = 13
+ovcMaxFitC = 13
+ovcMaxFitD = 13
+
+//---Setting Done---//
+
+
+
+//---Scripting---//
+
+//----HCP Part----//
+hcp_north = hcp(north)
+hcp_south = hcp(south)
+north_bal = shape(north, any 5332)
+south_bal = shape(south, any 5332)
+northHCP = (!north_bal && minOpeHCP <= hcp_north && hcp_north <= maxOpeHCP) 
+    || (north_bal && minBalHCP <= hcp_north && hcp_north <= maxBalHCP)
+southHCP = (!south_bal && minOpeHCP <= hcp_south && hcp_south <= maxOpeHCP) 
+    || (south_bal && minBalHCP <= hcp_south && hcp_south <= maxBalHCP)
+hcpNS = min_hcp <= ( hcp_north + hcp_south ) && ( hcp_north + hcp_south ) <= max_hcp
+northResHCP = resMinHCP <= hcp_north && hcp_north <= resMaxHCP
+southResHCP = resMinHCP <= hcp_south && hcp_south <= resMaxHCP
+
+//----Fit Part----//
+clubNS = club(north) + club(south)
+diamondNS = diamond(north) + diamond(south)
+heartNS = heart(north) + heart(south)
+spadeNS = spade(north) + spade(south)
+MajorNS = heartNS > spadeNS ? heartNS : spadeNS
+OMajorNS = heartNS > spadeNS ? spadeNS : heartNS
+minorNS = clubNS > diamondNS ? clubNS : diamondNS
+fitMajorNS = min_fit_M <= MajorNS && MajorNS <= max_fit_M
+fitOMajorNS = min_fit_OM <= OMajorNS && OMajorNS <= max_fit_OM
+fitminorNS = min_fit_m <= minorNS && minorNS <= max_fit_m
+
+//----Opener Part----//
+north_club = club(north)
+north_diamond = diamond(north)
+north_heart = heart(north)
+north_spade = spade(north)
+north_void = shape(north, any 0xxx)
+north_singleton = shape(north, any 1xxx)
+north_M = (north_heart > north_spade) ? north_heart : north_spade
+north_OM = (north_heart > north_spade) ? north_spade : north_heart
+north_betterH = (north_heart > north_spade)
+
+south_club = club(south)
+south_diamond = diamond(south)
+south_heart = heart(south)
+south_spade = spade(south)
+south_void = shape(south, any 0xxx)
+south_singleton = shape(south, any 1xxx)
+south_M = (south_heart > south_spade) ? south_heart : south_spade
+south_OM = (south_heart > south_spade) ? south_spade : south_heart
+south_betterH = (south_heart > south_spade)
+
+northOpe1H = (ope1H == 0 && !north_betterH) || (ope1H == 1 && north_betterH) || ope1H == 2
+northOpe1S = (ope1S == 0 && north_betterH) || (ope1S == 1 && !north_betterH) || ope1S == 2
+northOpeBal = (opeBal == 0 && !north_bal) || (opeBal == 1 && north_bal) || opeBal == 2
+northOpeShort = (opeShort == 0 && !north_void && !north_singleton) || (opeShort == 1 && (north_void || north_singleton)) || opeShort == 2
+northOpeVoid = (opeVoid == 0 && !north_void) || (opeVoid == 1 && north_void) || opeVoid == 2
+northOpeSingleton = (opeSingleton == 0 && !north_singleton) || (opeSingleton == 1 && north_singleton) || opeSingleton == 2
+northOpeM = (opeMinM <= north_M && north_M <= opeMaxM)
+northOpeOM = (opeMinOM <= north_OM && north_OM <= opeMaxOM)
+northOpeC = (opeMinC <= north_club && north_club <= opeMaxC)
+northOpeD = (opeMinD <= north_diamond && north_diamond <= opeMaxD)
+northShortC = south_club > 1 || (minOpeShortHCP <= hcp(north, club) && hcp(north, club) <= maxOpeShortHCP)
+northShortD = south_diamond > 1 || (minOpeShortHCP <= hcp(north, diamond) && hcp(north, diamond) <= maxOpeShortHCP)
+northShortH = south_heart > 1 || (minOpeShortHCP <= hcp(north, heart) && hcp(north, club) <= maxOpeShortHCP)
+northShortS = south_spade > 1 || (minOpeShortHCP <= hcp(north, spade) && hcp(north, spade) <= maxOpeShortHCP)
+northShortHCP = northShortC && northShortD && northShortH && northShortS
+northDist = northOpen && northHCP && northShortHCP && northOpe1H && northOpe1S && northOpeBal && northOpeShort && northOpeVoid && northOpeSingleton && northOpeM && northOpeOM && northOpeC && northOpeD
+
+southOpe1H = (ope1H == 0 && !south_betterH) || (ope1H == 1 && south_betterH) || ope1H == 2
+southOpe1S = (ope1S == 0 && south_betterH) || (ope1S == 1 && !south_betterH) || ope1S == 2
+southOpeBal = (opeBal == 0 && !south_bal) || (opeBal == 1 && south_bal) || opeBal == 2
+southOpeShort = (opeShort == 0 && !south_void && !south_singleton) || (opeShort == 1 && (south_void || south_singleton)) || opeShort == 2
+southOpeVoid = (opeVoid == 0 && !south_void) || (opeVoid == 1 && south_void) || opeVoid == 2
+southOpeSingleton = (opeSingleton == 0 && !south_singleton) || (opeSingleton == 1 && south_singleton) || opeSingleton == 2
+southOpeM = (opeMinM <= south_M && south_M <= opeMaxM)
+southOpeOM = (opeMinOM <= south_OM && south_OM <= opeMaxOM)
+southOpeC = (opeMinC <= south_club && south_club <= opeMaxC)
+southOpeD = (opeMinD <= south_diamond && south_diamond <= opeMaxD)
+southShortC = north_club > 1 || (minOpeShortHCP <= hcp(south, club) && hcp(south, club) <= maxOpeShortHCP)
+southShortD = north_diamond > 1 || (minOpeShortHCP <= hcp(south, diamond) && hcp(south, diamond) <= maxOpeShortHCP)
+southShortH = north_heart > 1 || (minOpeShortHCP <= hcp(south, heart) && hcp(south, club) <= maxOpeShortHCP)
+southShortS = north_spade > 1 || (minOpeShortHCP <= hcp(south, spade) && hcp(south, spade) <= maxOpeShortHCP)
+southShortHCP = southShortC && southShortD && southShortH && southShortS
+southDist = southOpen && southHCP && southShortHCP && southOpe1H && southOpe1S && southOpeBal && southOpeShort && southOpeVoid && southOpeSingleton && southOpeM && southOpeOM && southOpeC && southOpeD
+
+conditionOpener = (northDist || southDist) && hcpNS
+
+//----Responder Part----//
+northResShort = (resShort == 0 && !north_void && !north_singleton) || (resShort == 1 && (north_void || north_singleton)) || resShort == 2
+northResVoid = (resVoid == 0 && !north_void) || (resVoid == 1 && north_void) || resVoid == 2
+northResSingleton = (resSingleton == 0 && !north_singleton) || (resSingleton == 1 && north_singleton) || resSingleton == 2
+northResBal = (resBal == 0 && !north_bal) || (resBal == 1 && north_bal) || resBal == 2
+northResM = (resMinM <= north_heart && north_heart <= resMaxM) || (resMinM <= north_spade && north_spade <= resMaxM)
+northResm = (resMinm <= north_club && north_club <= resMaxm) || (resMinm <= north_diamond && north_diamond <= resMaxm)
+northResC = resMinC <= north_club && north_club <= resMaxC
+northResD = resMinD <= north_diamond && north_diamond <= resMaxD
+northResH = resMinH <= north_heart && north_heart <= resMaxH
+northResS = resMinS <= north_spade && north_spade <= resMaxS
+northResShortC = south_club > 1 || (minResShortHCP <= hcp(north, club) && hcp(north, club) <= maxResShortHCP)
+northResShortD = south_diamond > 1 || (minResShortHCP <= hcp(north, diamond) && hcp(north, diamond) <= maxResShortHCP)
+northResShortH = south_heart > 1 || (minResShortHCP <= hcp(north, heart) && hcp(north, club) <= maxResShortHCP)
+northResShortS = south_spade > 1 || (minResShortHCP <= hcp(north, spade) && hcp(north, spade) <= maxResShortHCP)
+northResShortHCP = northResShortC && northResShortD && northResShortH && northResShortS
+northResDist = northResHCP && northResShortHCP && northResShort && northResVoid && northResSingleton && northResBal && northResM && northResm && northResC && northResD && northResH && northResS
+
+southResShort = (resShort == 0 && !south_void && !south_singleton) || (resShort == 1 && (south_void || south_singleton)) || resShort == 2
+southResVoid = (resVoid == 0 && !south_void) || (resVoid == 1 && south_void) || resVoid == 2
+southResSingleton = southDist || (resSingleton == 0 && !shape(south, any 1xxx)) || (resSingleton == 1 && shape(south, any 1xxx)) || resSingleton == 2
+southResBal = (resBal == 0 && !south_bal) || (resBal == 1 && south_bal) || resBal == 2
+southResM = (resMinM <= heart(south) && heart(south) <= resMaxM) || (resMinM <= spade(south) && spade(south) <= resMaxM)
+southResm = (resMinm <= club(south) && club(south) <= resMaxm) || (resMinm <= diamond(south) && diamond(south) <= resMaxm)
+southResC = resMinC <= club(south) && club(south) <= resMaxC
+southResD = resMinD <= diamond(south) && diamond(south) <= resMaxD
+southResH = resMinH <= heart(south) && heart(south) <= resMaxH
+southResS = resMinS <= spade(south) && spade(south) <= resMaxS
+southResShortC = north_club > 1 || (minResShortHCP <= hcp(south, club) && hcp(south, club) <= maxResShortHCP)
+southResShortD = north_diamond > 1 || (minResShortHCP <= hcp(south, diamond) && hcp(south, diamond) <= maxResShortHCP)
+southResShortH = north_heart > 1 || (minResShortHCP <= hcp(south, heart) && hcp(south, club) <= maxResShortHCP)
+southResShortS = north_spade > 1 || (minResShortHCP <= hcp(south, spade) && hcp(south, spade) <= maxResShortHCP)
+southResShortHCP = southResShortC && southResShortD && southResShortH && southResShortS
+southResDist = southResHCP && southResShortHCP && southResShort && southResVoid && southResSingleton && southResBal && southResM && southResm && southResC && southResD && southResH && southResS
+
+conditionResponder = (fitMajorNS && fitOMajorNS && fitminorNS) && ((northDist && southResDist) || (southDist && northResDist))
+
+//----Overcall Part----//
+east_hcp = hcp(east)
+east_cccc = cccc(east)
+east_club = club(east)
+east_diamond = diamond(east)
+east_heart = heart(east)
+east_spade = spade(east)
+east_Major = ((northDist && (north_heart > north_spade)) || (southDist && (south_heart > south_spade))) ? east_heart : east_spade
+east_OMajor = ((northDist && (north_heart > north_spade)) || (southDist && (south_heart > south_spade))) ? east_spade : east_heart
+east_minor = (east_club > east_diamond) ? east_club : east_diamond
+east_void = east_club == 0 || east_diamond == 0 || east_heart == 0 || east_spade == 0
+east_singleton = east_club == 1 || east_diamond == 1 || east_heart == 1 || east_spade == 1
+
+west_hcp = hcp(west)
+west_cccc = cccc(west)
+west_club = club(west)
+west_diamond = diamond(west)
+west_heart = heart(west)
+west_spade = spade(west)
+west_Major = ((northDist && (north_heart > north_spade)) || (southDist && (south_heart > south_spade))) ? west_heart : west_spade
+west_OMajor = ((northDist && (north_heart > north_spade)) || (southDist && (south_heart > south_spade))) ? west_spade : west_heart
+west_minor = (west_club > west_diamond) ? west_club : west_diamond
+west_void = west_club == 0 || west_diamond == 0 || west_heart == 0 || west_spade == 0
+west_singleton = west_club == 1 || west_diamond == 1 || west_heart == 1 || west_spade == 1
+
+ew_club = ovcMinFitC <= (east_club + west_club) && (east_club + west_club) <= ovcMaxFitC
+ew_diamond = ovcMinFitD <= (east_diamond + west_diamond) && (east_diamond + west_diamond) <= ovcMaxFitD
+ew_Major = ovcMinFitM <= (east_Major + west_Major) && (east_Major + west_Major) <= ovcMaxFitM
+ew_OMajor = ovcMinFitOM <= (east_OMajor + west_OMajor) && (east_OMajor + west_OMajor) <= ovcMaxFitOM
+ew_minor_temp = ((east_club + west_club) > (east_diamond + west_diamond)) ? (east_club + west_club) : (east_diamond + west_diamond)
+ew_minor = ovcMinFitm <= ew_minor_temp && ew_minor_temp <= ovcMaxFitm
+ew_minFit = ovcMinFit <= ew_minor_temp || ovcMinFit <= (east_Major + west_Major) || ovcMinFit <= (east_OMajor + west_OMajor)
+ew_maxFit = ovcMaxFit >= ew_minor_temp && ovcMaxFit >= (east_Major + west_Major) && ovcMaxFit >= (east_OMajor + west_OMajor)
+ew_fit = ew_club && ew_diamond && ew_Major && ew_OMajor && ew_minor && ew_minFit && ew_maxFit
+
+eastOvchcp = min_ovc_hcp <= east_hcp && east_hcp <= max_ovc_hcp
+eastOvccccc = min_ovc_quality <= east_cccc && east_cccc <= max_ovc_quality
+eastOvcclub = ovcMinC <= east_club && east_club <= ovcMaxC
+eastOvcdiamond = ovcMinD <= east_diamond && east_diamond <= ovcMaxD
+eastOvcMajor = ovcMinM <= east_Major && east_Major <= ovcMaxM
+eastOvcOMajor = ovcMinOM <= east_OMajor && east_OMajor <= ovcMaxOM
+eastOvcminor = ovcMinm <= east_minor && east_minor <= ovcMaxm
+eastOvcVoid = (ovcVoid == 0 && !east_void) || (ovcVoid == 1 && east_void) || ovcVoid == 2
+eastOvcSingleton = (ovcSingleton == 0 && !east_singleton) || (ovcSingleton == 1 && east_singleton) || ovcSingleton == 2
+eastOvcDist = eastOvchcp && eastOvccccc && eastOvcclub && eastOvcdiamond && eastOvcMajor && eastOvcOMajor && eastOvcminor && eastOvcVoid && eastOvcSingleton
+
+westOvchcp = min_ovc_hcp <= west_hcp && west_hcp <= max_ovc_hcp
+westOvccccc = min_ovc_quality <= west_cccc && west_cccc <= max_ovc_quality
+westOvcclub = ovcMinC <= west_club && west_club <= ovcMaxC
+westOvcdiamond = ovcMinD <= west_diamond && west_diamond <= ovcMaxD
+westOvcMajor = ovcMinM <= west_Major && west_Major <= ovcMaxM
+westOvcOMajor = ovcMinOM <= west_OMajor && west_OMajor <= ovcMaxOM
+westOvcminor = ovcMinm <= west_minor && west_minor <= ovcMaxm
+westOvcVoid = (ovcVoid == 0 && !west_void) || (ovcVoid == 1 && west_void) || ovcVoid == 2
+westOvcSingleton = (ovcSingleton == 0 && !west_singleton) || (ovcSingleton == 1 && west_singleton) || ovcSingleton == 2
+westOvcDist = westOvchcp && westOvccccc && westOvcclub && westOvcdiamond && westOvcMajor && westOvcOMajor && westOvcminor && westOvcVoid && westOvcSingleton
+
+ovc_final = ((northDist && eastOvcDist) || (southDist && westOvcDist)) && ew_fit
+conditionOvercall = (overcall == 0 && !ovc_final) || (overcall == 1 && ovc_final) || overcall == 2
+
+condition  conditionOpener && conditionResponder && conditionOvercall
